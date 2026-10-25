@@ -1,0 +1,3357 @@
+{
+  "datasets": {
+    "training": {
+      "canonical": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "training",
+        "seed": "f72ef4103be2a68f09ee479ad0add68cd93890d96c48cd73f9df1611c60a2f4d",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 4608,
+        "samples": 45592,
+        "actions": 137502,
+        "correctedLabels": 4648,
+        "label": "canonical",
+        "sha256": "a56fd8177084ca9ff258016ff7598d1d23c6bf79284ad752134a5c142004680f",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-0\\canonical",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-1\\canonical",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-2\\canonical",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-3\\canonical"
+        ]
+      },
+      "corrected": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "training",
+        "seed": "f72ef4103be2a68f09ee479ad0add68cd93890d96c48cd73f9df1611c60a2f4d",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 4608,
+        "samples": 45592,
+        "actions": 137502,
+        "correctedLabels": 4648,
+        "label": "corrected",
+        "sha256": "cd1e0440f28b04d9b9ca6a31f5fb59a5ba363ab88956c3797dae0bb1000f80e6",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-0\\corrected",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-1\\corrected",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-2\\corrected",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-3\\corrected"
+        ]
+      },
+      "self": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "training",
+        "seed": "f72ef4103be2a68f09ee479ad0add68cd93890d96c48cd73f9df1611c60a2f4d",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 4608,
+        "samples": 45592,
+        "actions": 137502,
+        "correctedLabels": 4648,
+        "label": "self",
+        "sha256": "11f993741b75e5bdbcaba6588c6211b56dfba4aa5d7aafbc99924c3388bc1693",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-0\\self",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-1\\self",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-2\\self",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\training-3\\self"
+        ]
+      }
+    },
+    "validation": {
+      "canonical": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "validation",
+        "seed": "fa4d0e4bc930a4aab264e3e22d8619a499bf7c649031c6969fefc0a8f621ef25",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 576,
+        "samples": 5824,
+        "actions": 17725,
+        "correctedLabels": 578,
+        "label": "canonical",
+        "sha256": "c352d9932f9fcf9664d453f652e6ac5b0a8a69e0f5fc5ec4fee7a84cfc557f4e",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\validation-0\\canonical"
+        ]
+      },
+      "corrected": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "validation",
+        "seed": "fa4d0e4bc930a4aab264e3e22d8619a499bf7c649031c6969fefc0a8f621ef25",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 576,
+        "samples": 5824,
+        "actions": 17725,
+        "correctedLabels": 578,
+        "label": "corrected",
+        "sha256": "c62ad6f98dad04ccdb9dcff42dddb0c693a27253dbfe6803ff605b587955f8c5",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\validation-0\\corrected"
+        ]
+      },
+      "self": {
+        "version": "kwx-tile-q-episodes-1",
+        "behaviorVersion": "kwx-outs-distill-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "validation",
+        "seed": "fa4d0e4bc930a4aab264e3e22d8619a499bf7c649031c6969fefc0a8f621ef25",
+        "startHand": 0,
+        "sessionHands": 16,
+        "epsilon": 0.05,
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "driverSources": {
+          "previous": {
+            "previous": {
+              "previous": {
+                "core": {
+                  "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+                  "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+                  "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+                  "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+                  "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+                  "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+                  "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+                  "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+                  "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+                  "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+                  "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+                  "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+                  "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+                  "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+                  "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+                  "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+                  "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+                  "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+                  "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+                  "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+                  "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+                  "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+                  "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+                  "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+                  "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+                  "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+                },
+                "drivers": {
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+                  "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+                }
+              },
+              "driver": {
+                "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+                "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+              }
+            },
+            "driver": {
+              "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+              "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+              "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+              "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+            }
+          },
+          "drivers": {
+            "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+            "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+            "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+            "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+            "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+            "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+            "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+          }
+        },
+        "modelHashes": {
+          "raw": {
+            "epoch": 8,
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+            "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+            "validationLoss": 0.337738166235371,
+            "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+          }
+        },
+        "hands": 576,
+        "samples": 5824,
+        "actions": 17725,
+        "correctedLabels": 578,
+        "label": "self",
+        "sha256": "9686387443f67e9e07902b5d95d7e7c43311c5846fbef70999f29552cdf47fcb",
+        "parts": [
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\.collect\\validation-0\\self"
+        ]
+      }
+    }
+  },
+  "fitted": {
+    "anchor": {
+      "selected": {
+        "epoch": 8,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-anchor\\epoch-008.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-anchor\\epoch-008.pt",
+        "validationLoss": 0.7269935503110782
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "objective": 1.4794499924735536,
+            "bc": 1.4794499924735536,
+            "anchor": 0,
+            "teacherAgreement": 0.8980522898649579
+          },
+          "validation": {
+            "objective": 1.4650991198780772,
+            "bc": 1.4650991198780772,
+            "anchor": 0,
+            "teacherAgreement": 0.9007554945054944
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "objective": 1.06858985048362,
+            "bc": 0.877078183022774,
+            "anchor": 0.19151166612212125,
+            "teacherAgreement": 0.8340717669766626
+          },
+          "validation": {
+            "objective": 1.0573780038854577,
+            "bc": 0.8670339486101172,
+            "anchor": 0.1903440493803758,
+            "teacherAgreement": 0.8279532960483006
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "objective": 1.0084334866878,
+            "bc": 0.7734099691071871,
+            "anchor": 0.23502351286369863,
+            "teacherAgreement": 0.8634628882155458
+          },
+          "validation": {
+            "objective": 1.0005350610712072,
+            "bc": 0.7631374852997915,
+            "anchor": 0.2373975613615015,
+            "teacherAgreement": 0.8614354395604393
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "objective": 0.996362943966403,
+            "bc": 0.7820883519002313,
+            "anchor": 0.21427459288718584,
+            "teacherAgreement": 0.8680031584593099
+          },
+          "validation": {
+            "objective": 0.9907588441293318,
+            "bc": 0.7732594432411612,
+            "anchor": 0.21749940694688444,
+            "teacherAgreement": 0.8645260982461028
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "objective": 0.9809946974948283,
+            "bc": 0.7413740246876181,
+            "anchor": 0.23962067315757932,
+            "teacherAgreement": 0.8730479031304432
+          },
+          "validation": {
+            "objective": 0.9788282284369836,
+            "bc": 0.7358158053932611,
+            "anchor": 0.24301241780375385,
+            "teacherAgreement": 0.8662431325231279
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "objective": 0.9746257871321409,
+            "bc": 0.7533069939273643,
+            "anchor": 0.22131879303743593,
+            "teacherAgreement": 0.8736181786382887
+          },
+          "validation": {
+            "objective": 0.9741382756076015,
+            "bc": 0.750319473691039,
+            "anchor": 0.2238188102677628,
+            "teacherAgreement": 0.8681318687868642
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "objective": 0.9691638935237711,
+            "bc": 0.7340262053430783,
+            "anchor": 0.23513768801335233,
+            "teacherAgreement": 0.8775662396807155
+          },
+          "validation": {
+            "objective": 0.9687522525315755,
+            "bc": 0.732074920292739,
+            "anchor": 0.23667731864766758,
+            "teacherAgreement": 0.870364010334015
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "objective": 0.9666777897516998,
+            "bc": 0.7659159741353144,
+            "anchor": 0.2007618149313347,
+            "teacherAgreement": 0.8855500964977006
+          },
+          "validation": {
+            "objective": 0.9677325729485395,
+            "bc": 0.7667749373467414,
+            "anchor": 0.20095761906314685,
+            "teacherAgreement": 0.874999999345004
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "objective": 0.9566460424691968,
+            "bc": 0.7269256140897514,
+            "anchor": 0.2297204290644959,
+            "teacherAgreement": 0.8853746271380247
+          },
+          "validation": {
+            "objective": 0.9580455874348736,
+            "bc": 0.7269935503110782,
+            "anchor": 0.23105203270257174,
+            "teacherAgreement": 0.8770604402154356
+          }
+        }
+      ],
+      "trainingSamples": 45592,
+      "validationSamples": 5824,
+      "trainingHash": "cd1e0440f28b04d9b9ca6a31f5fb59a5ba363ab88956c3797dae0bb1000f80e6",
+      "validationHash": "c62ad6f98dad04ccdb9dcff42dddb0c693a27253dbfe6803ff605b587955f8c5",
+      "trainingCanonicalHash": "a56fd8177084ca9ff258016ff7598d1d23c6bf79284ad752134a5c142004680f",
+      "validationCanonicalHash": "c352d9932f9fcf9664d453f652e6ac5b0a8a69e0f5fc5ec4fee7a84cfc557f4e",
+      "teacherBackendAudit": {
+        "training": {
+          "argmaxDifferences": 0,
+          "maxScoreGap": 0,
+          "tolerance": 0.00001
+        },
+        "validation": {
+          "argmaxDifferences": 0,
+          "maxScoreGap": 0,
+          "tolerance": 0.00001
+        }
+      },
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0,
+        "bcWeight": 0,
+        "auxWeight": 0,
+        "anchorWeight": 1,
+        "temperature": 1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "anchor",
+      "seed": "11d0fb29e1ef55706d2b8f9fe627ad3e6d5a507e1888bac2195e0f8be9afdb34",
+      "experimentSources": {
+        "src\\engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src\\wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai\\environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai\\random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai\\runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai\\statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai\\policies\\h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai\\policies\\H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai\\policies\\index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai\\provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai\\evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai\\training\\encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai\\training\\network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai\\training\\policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai\\training\\checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai\\action-scorer\\features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai\\tile-q\\encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai\\tile-q\\sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai\\tile-q\\model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai\\tile-q\\collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai\\tile-q\\evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai\\tile-q\\study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai\\tile-q\\verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai\\tile-q\\network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai\\tile-q\\train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93",
+        "ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+        "ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+        "ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+        "ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+        "ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+        "ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+        "ai\\strong-confirm\\study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+        "ai\\strong-confirm\\verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047",
+        "ai\\outs-guard\\policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+        "ai\\outs-guard\\study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+        "ai\\outs-guard\\groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+        "ai\\outs-guard\\verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b",
+        "ai\\outs-distill\\config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+        "ai\\outs-distill\\collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+        "ai\\outs-distill\\groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+        "ai\\outs-distill\\study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+        "ai\\outs-distill\\verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+        "ai\\strong-pool\\stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+        "ai\\outs-anchor\\config.mjs": "0677c9810d4ad7969a0357ed029574b83d8954fb5a362de20db66d79e747db67",
+        "ai\\outs-anchor\\groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+        "ai\\outs-anchor\\study.mjs": "57bd41fe268ecd2238e5b9ddce7e3530ca456c6d247f66b032d60428b8604b10",
+        "ai\\outs-anchor\\verify.mjs": "aea1d42560d8997a8ba0fa361cec186d812d2b15d233d3d07b9ae1d52243242f",
+        "ai\\outs-anchor\\train.py": "2fc67d02c04583af7c170c30ed1ea04b1cf6a9d4abadbfb46654248a418b4638"
+      },
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    },
+    "plain": {
+      "selected": {
+        "epoch": 8,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.pt",
+        "validationLoss": 0.2735998296475672
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "objective": 1.4794499924735536,
+            "bc": 1.4794499924735536,
+            "anchor": 0,
+            "teacherAgreement": 0.8980522898649579
+          },
+          "validation": {
+            "objective": 1.4650991198780772,
+            "bc": 1.4650991198780772,
+            "anchor": 0,
+            "teacherAgreement": 0.9007554945054944
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "objective": 0.6306435909474557,
+            "bc": 0.6306435909474557,
+            "anchor": 1.3330876215400769,
+            "teacherAgreement": 0.8111510791366906
+          },
+          "validation": {
+            "objective": 0.6298491830354208,
+            "bc": 0.6298491830354208,
+            "anchor": 1.3174884188306202,
+            "teacherAgreement": 0.8054601641801689
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "objective": 0.5491297022933224,
+            "bc": 0.5491297022933224,
+            "anchor": 1.748323578565952,
+            "teacherAgreement": 0.8245525530899461
+          },
+          "validation": {
+            "objective": 0.5534504927121676,
+            "bc": 0.5534504927121676,
+            "anchor": 1.7292921006024538,
+            "teacherAgreement": 0.8174793956043954
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "objective": 0.5094773968147966,
+            "bc": 0.5094773968147966,
+            "anchor": 1.911253926000547,
+            "teacherAgreement": 0.8312861905597474
+          },
+          "validation": {
+            "objective": 0.5124409798082414,
+            "bc": 0.5124409798082414,
+            "anchor": 1.9000908123267874,
+            "teacherAgreement": 0.8272664835164835
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "objective": 0.4773626976325692,
+            "bc": 0.4773626976325692,
+            "anchor": 1.9544895959958886,
+            "teacherAgreement": 0.8421433584839445
+          },
+          "validation": {
+            "objective": 0.48313850000664427,
+            "bc": 0.48313850000664427,
+            "anchor": 1.9491981176229625,
+            "teacherAgreement": 0.8343063193363148
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "objective": 0.455211319433302,
+            "bc": 0.455211319433302,
+            "anchor": 2.2148916175813507,
+            "teacherAgreement": 0.8470126337954026
+          },
+          "validation": {
+            "objective": 0.4645229823641725,
+            "bc": 0.4645229823641725,
+            "anchor": 2.2090457533742045,
+            "teacherAgreement": 0.8373969786769742
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "objective": 0.3288966793227686,
+            "bc": 0.3288966793227686,
+            "anchor": 3.692954420436787,
+            "teacherAgreement": 0.8921082645973666
+          },
+          "validation": {
+            "objective": 0.33371578861068896,
+            "bc": 0.33371578861068896,
+            "anchor": 3.757648462777609,
+            "teacherAgreement": 0.8844436813186813
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "objective": 0.29406142852916733,
+            "bc": 0.29406142852916733,
+            "anchor": 4.47070123396708,
+            "teacherAgreement": 0.9050271977644506
+          },
+          "validation": {
+            "objective": 0.30179570435167674,
+            "bc": 0.30179570435167674,
+            "anchor": 4.553281013782208,
+            "teacherAgreement": 0.8935439553889599
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "objective": 0.2629368785683117,
+            "bc": 0.2629368785683117,
+            "anchor": 5.832248989626659,
+            "teacherAgreement": 0.9136471310860858
+          },
+          "validation": {
+            "objective": 0.2735998296475672,
+            "bc": 0.2735998296475672,
+            "anchor": 5.936076976440765,
+            "teacherAgreement": 0.9024725274725273
+          }
+        }
+      ],
+      "trainingSamples": 45592,
+      "validationSamples": 5824,
+      "trainingHash": "cd1e0440f28b04d9b9ca6a31f5fb59a5ba363ab88956c3797dae0bb1000f80e6",
+      "validationHash": "c62ad6f98dad04ccdb9dcff42dddb0c693a27253dbfe6803ff605b587955f8c5",
+      "trainingCanonicalHash": "a56fd8177084ca9ff258016ff7598d1d23c6bf79284ad752134a5c142004680f",
+      "validationCanonicalHash": "c352d9932f9fcf9664d453f652e6ac5b0a8a69e0f5fc5ec4fee7a84cfc557f4e",
+      "teacherBackendAudit": {
+        "training": {
+          "argmaxDifferences": 0,
+          "maxScoreGap": 0,
+          "tolerance": 0.00001
+        },
+        "validation": {
+          "argmaxDifferences": 0,
+          "maxScoreGap": 0,
+          "tolerance": 0.00001
+        }
+      },
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0,
+        "bcWeight": 0,
+        "auxWeight": 0,
+        "anchorWeight": 0,
+        "temperature": 1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "plain",
+      "seed": "11d0fb29e1ef55706d2b8f9fe627ad3e6d5a507e1888bac2195e0f8be9afdb34",
+      "experimentSources": {
+        "src\\engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src\\wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai\\environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai\\random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai\\runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai\\statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai\\policies\\h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai\\policies\\H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai\\policies\\index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai\\provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai\\evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai\\training\\encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai\\training\\network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai\\training\\policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai\\training\\checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai\\action-scorer\\features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai\\tile-q\\encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai\\tile-q\\sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai\\tile-q\\model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai\\tile-q\\collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai\\tile-q\\evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai\\tile-q\\study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai\\tile-q\\verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai\\tile-q\\network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai\\tile-q\\train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93",
+        "ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+        "ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+        "ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+        "ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+        "ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+        "ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+        "ai\\strong-confirm\\study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+        "ai\\strong-confirm\\verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047",
+        "ai\\outs-guard\\policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+        "ai\\outs-guard\\study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+        "ai\\outs-guard\\groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+        "ai\\outs-guard\\verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b",
+        "ai\\outs-distill\\config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+        "ai\\outs-distill\\collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+        "ai\\outs-distill\\groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+        "ai\\outs-distill\\study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+        "ai\\outs-distill\\verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+        "ai\\strong-pool\\stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+        "ai\\outs-anchor\\config.mjs": "0677c9810d4ad7969a0357ed029574b83d8954fb5a362de20db66d79e747db67",
+        "ai\\outs-anchor\\groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+        "ai\\outs-anchor\\study.mjs": "57bd41fe268ecd2238e5b9ddce7e3530ca456c6d247f66b032d60428b8604b10",
+        "ai\\outs-anchor\\verify.mjs": "aea1d42560d8997a8ba0fa361cec186d812d2b15d233d3d07b9ae1d52243242f",
+        "ai\\outs-anchor\\train.py": "2fc67d02c04583af7c170c30ed1ea04b1cf6a9d4abadbfb46654248a418b4638"
+      },
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    }
+  }
+}

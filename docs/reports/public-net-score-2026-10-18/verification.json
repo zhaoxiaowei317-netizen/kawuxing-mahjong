@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-18T13:20:22.177Z",
+  "games": 9792,
+  "traces": 1334,
+  "tracesFullyRecomputed": 32,
+  "hypotheticalGames": 28448,
+  "stages": [
+    {
+      "stage": "development-proposal-once",
+      "games": 960,
+      "traces": 94,
+      "tracesFullyRecomputed": 0,
+      "hypotheticalGames": 0,
+      "replaySha256": "8f0d608eb5cbfffa188f9899c031bb8a69d3c0d7f25ec572f13345e2b16b427d",
+      "searchesSha256": "44e1b9e505c642cbc11e9488edb3c22bfdc0cfccfd2c9d0f69e67c778225d6de"
+    },
+    {
+      "stage": "development-ev-H0",
+      "games": 960,
+      "traces": 93,
+      "tracesFullyRecomputed": 8,
+      "hypotheticalGames": 2976,
+      "replaySha256": "e964c072337d239dc6f9b54777031e8978fc924459a336060ebdbc22cef68551",
+      "searchesSha256": "a6d98ab9c9f7e980aa9b851f6fbd8ed69ecb2e30696e1125ccc3d571634cdfc4"
+    },
+    {
+      "stage": "development-ev-mixed",
+      "games": 960,
+      "traces": 95,
+      "tracesFullyRecomputed": 8,
+      "hypotheticalGames": 3040,
+      "replaySha256": "afdce8194d06b460f100239af22c0308fb39b1fe4bfab12c6b9803c6c5b7f496",
+      "searchesSha256": "ab997860748977820738fa87a998dad6701be1aad22bf3c4c6e99bd5e7213bb5"
+    },
+    {
+      "stage": "sealed-vs-H0",
+      "games": 3456,
+      "traces": 347,
+      "tracesFullyRecomputed": 8,
+      "hypotheticalGames": 11104,
+      "replaySha256": "4414b74394e2a1bbd20dae9279bce1ba34cf84410510913c7d898c12c62c779f",
+      "searchesSha256": "7679576ff8d62435775cb558564ab26ab519cda1954564ffbccc06e097e197c9"
+    },
+    {
+      "stage": "sealed-vs-proposal-once",
+      "games": 3456,
+      "traces": 705,
+      "tracesFullyRecomputed": 8,
+      "hypotheticalGames": 11328,
+      "replaySha256": "d58b65d92f9355f0047abf7953f11e613e09438bde8d3c7820f22d78294ae368",
+      "searchesSha256": "e8166d5fe1ae7860d24ada18f7b70f51b7d1ee65976692c9681a907d4915d417"
+    }
+  ],
+  "checks": [
+    "All actual games redealt from seeds and continued from actual previous winners",
+    "All actual actions, conservation and settlement replayed",
+    "All search inputs matched to actual public observations",
+    "All score aggregates and paired bootstrap recomputed",
+    "Stratified subset of full hypothetical rollouts recomputed"
+  ],
+  "verifierSha256": "61a9d83385a6f571544c871d31e52293ab4cc2a8a51a6c0c65063f5d0dcb5d87"
+}

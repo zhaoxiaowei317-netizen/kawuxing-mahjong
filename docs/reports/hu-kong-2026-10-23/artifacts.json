@@ -1,0 +1,822 @@
+[
+  {
+    "path": "ai-runs\\hu-kong-20261023\\plan.json",
+    "sha256": "f9bcae97d1eb46050c8d8125ce7429dd15b9dc397f202e5174ab28038b7593ff"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\summary.json",
+    "sha256": "01fbdaca7d494e39706c146903985085b9a5ab74d548eb001cccd7b70365bab7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\verification.json",
+    "sha256": "72a1d2552a2e771d0d8f5f0964c5643675d470655d8740d5d656113f14452325"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\models.json",
+    "sha256": "35004939bd11e200bef96a1955abdf19a2150307f63ea4e139ff23d3f054b5be"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\runtime.json",
+    "sha256": "6a5c3b16e47e12a27dace6e58dd344b8dcea1e369eeec9b25ced1eb21075b85f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\frozen-sources.tar.gz",
+    "sha256": "4667f53921aea23d1dba1596f15248b70171d99e112bcd62a0a56560b565fc3a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\execution.log",
+    "sha256": "02f0dc9bd5bd3a8d6aabec66e6152e64d0e36a52de54dd267b5a9fd2b2dc5978"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\audit.log",
+    "sha256": "844744ba2aca8e9d869052b3b6a95a61f0bf6f1adb415684ce693f370a2ef37d"
+  },
+  {
+    "path": ".tmp\\hu-kong-full-tests.log",
+    "sha256": "79f31e915031b82134b907a83ce9e9691a28cee748f6aa2226fd19b488536652"
+  },
+  {
+    "path": "ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.json",
+    "sha256": "6d055fcc502ed10528ac5b7e38a089d1337ab148b862c61e06c6d3bf49d9f488"
+  },
+  {
+    "path": "ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.pt",
+    "sha256": "bf33b7024e8b202f0b29cbb2ecaaab8b7be66d16c1be3f74fe59559304b9ab36"
+  },
+  {
+    "path": "ai-runs\\outs-duration-20261022\\model-long\\epoch-026.json",
+    "sha256": "e6f39a1abafd47f2cdd90c2c3d12ec2ca30643c91d1b69985e378de33cc48898"
+  },
+  {
+    "path": "ai-runs\\outs-duration-20261022\\model-long\\epoch-026.pt",
+    "sha256": "65e7598dd5e58af2384958a84d031a036d8040c8667d5d2fed363232664d4b78"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-000\\group.json",
+    "sha256": "f6dda5919931ede41554aa719c38286a5e9b16648c7fe6f6c1264dcae5f64824"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-000\\replays.jsonl.gz",
+    "sha256": "4194edabb48368aa6dc139bd2532e03e7590ec18bf7ab86035dfc324808c96ba"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-001\\group.json",
+    "sha256": "b28168f3094cd1a8647fcbbdb8523b914e507fe77ba095497266e48a8aa819ad"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-001\\replays.jsonl.gz",
+    "sha256": "2674ced8f46fec94a06bb57dd431ee7a876ea7d66ddcbc2fa7f7d534efad3eb8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-002\\group.json",
+    "sha256": "ddd4c6339f15d7fe22f94317e594790dbf1c3f09923e307ea94f4bad00c7eca8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-002\\replays.jsonl.gz",
+    "sha256": "bb80f228e2e10318ef91d8b3e89050489420867f2fc70e61fd216c22028d8c7d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-003\\group.json",
+    "sha256": "bed4b9c46465f6686f078be36ec3caf7192c55f67d210a29652ef6fdcc3372f4"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-003\\replays.jsonl.gz",
+    "sha256": "5f73af895b12dc4ceb8828d21e232a0fde1b5a48e815fb81e2cfc8d8c48e8b9c"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-004\\group.json",
+    "sha256": "8b7cb73774931520eeb5bf9a58757e60abccfe1fedf31dbd692e1eabaa64c801"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-004\\replays.jsonl.gz",
+    "sha256": "c68a0f4bfcf5d1acf3eeaf40972756f5dee2df2baa4b9065242ac279b8c3df78"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-005\\group.json",
+    "sha256": "208afef8bd1c26e7de52fe08362415a86ff18411b82b79c49313dca4a56e0451"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-005\\replays.jsonl.gz",
+    "sha256": "ba6d77786dee3f39fdec9579f05f91d1df108514248f3550600f10cf64c517de"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-006\\group.json",
+    "sha256": "42f6befb4b136618c3fb775bd63f39d638837ee34d9e1812537f25aa99b450d3"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-006\\replays.jsonl.gz",
+    "sha256": "a120a0e20c5301a027b8d64026dc64ac0538a2aa9157afb812b55fd4121711d4"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-007\\group.json",
+    "sha256": "e666b7791d103f373da598f13e5be43947255ab521c3986a6689996b4293ec03"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-007\\replays.jsonl.gz",
+    "sha256": "d7b952722259e1db979510f98b512f74656ed9d21e9cf3f843ada2488bc555c9"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-008\\group.json",
+    "sha256": "7308b1d66e0996a698c4ba23ec9f656f396bc14bfcdef6dbd16c1c9199ab5847"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-008\\replays.jsonl.gz",
+    "sha256": "33ea14c9c6e14e15a532828fb522f8b696379fbc8a3134776974162e2193e0f0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-009\\group.json",
+    "sha256": "289f6094c128e4041fbba8509a3e2e571a77db3bdd73e0dbcd1d5eaf9f6ca000"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-009\\replays.jsonl.gz",
+    "sha256": "3064689c9712c199f77dc4b221d78649e94dd4eae80531abe7efd7aa8c0d5fc1"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-010\\group.json",
+    "sha256": "3de390e61533c13e1172f8fe0b8693d852a6cd2adb65b73dcb8f94ce27422e73"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-010\\replays.jsonl.gz",
+    "sha256": "1217fb46e0e4a3bcbfad50ba11a8ee9538c4245fc66958c13d149c2cb5247449"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-011\\group.json",
+    "sha256": "3a2cea1f6bdb107cebdb96345c53f02ebdeefc1c3bc91ba74082b6549e5610e0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-011\\replays.jsonl.gz",
+    "sha256": "f9c0c8b6e4f95f127e5b2e2201b9d88be8303adf88218685a2a67966db2b4a0f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-012\\group.json",
+    "sha256": "673b9678053d35e327ae263edadce4d9c2c993ca32586a2024cb3cda0335f658"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-012\\replays.jsonl.gz",
+    "sha256": "d70fb93fb36b2cacee334edf7c93fbbbddd46fbf15e164e06f559dbbfac8e646"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-013\\group.json",
+    "sha256": "88cdc4a4127137e121fa580b0b0025ab3e75cf5844725fa98c73919e641569d8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-013\\replays.jsonl.gz",
+    "sha256": "dc73da52938f26699faa04f74ecc44768c30c43fdb6ae8c3c86f952a4f1f2560"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-014\\group.json",
+    "sha256": "cae800bf4569389cee1e3cbc26c5ea75864b7d3383b8e1c176a7a68ca1faf122"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-014\\replays.jsonl.gz",
+    "sha256": "6059ec48fc444a9e46a11b6eea2700095d27cf84022a647bdd5c0152ce68c4bf"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-015\\group.json",
+    "sha256": "69a8baf678185f66ad06c003759355dbc65be9060759ba2e16c15239dac1bc5e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-015\\replays.jsonl.gz",
+    "sha256": "a5b712f71d5a29a5b5c9152d4979bc4a3dd7b7fee1419fd031af9e3eec2121b6"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-016\\group.json",
+    "sha256": "27e2431311387cd6fe67a6cac69ca18e5a13c8aba1f5ea481f70683935c6345a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-016\\replays.jsonl.gz",
+    "sha256": "eef91f30db6f3958560af3e4ba9c7fa2f45236b0d3b1bfae6f593633a1643357"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-017\\group.json",
+    "sha256": "4b7077c325f62b04f6217405a8d4836dbb72f398a60bb3ae25e97bf11968cd4f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-017\\replays.jsonl.gz",
+    "sha256": "7eeb7eb9a47e6ba3e043937f40d990281bdbaa06cf7d4bf5b516bb34dbe70de7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-018\\group.json",
+    "sha256": "327525fd7b74f796a9f4c0b1f70f2699535ebc42351a7fa1897dad734e174564"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-018\\replays.jsonl.gz",
+    "sha256": "1ed639dc6cb6a5d62acdae95b92147eb8ccd3bd4a93d45c389f6dd2b681a5aa7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-019\\group.json",
+    "sha256": "08a518ef1eb0aae7c8d642c5440dc97da53e3f163a6b388ed956b78c33fcbe4a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-019\\replays.jsonl.gz",
+    "sha256": "696a16dcbed58453230e71968bf91f4269e9532d898efb27a15f08415c522aef"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-020\\group.json",
+    "sha256": "565e40e6b103e6d406f24b6363d78d0ae1635a1d35c64c65dfc826099ca34127"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-020\\replays.jsonl.gz",
+    "sha256": "5cede5964f291e9cac85e401682f14143b746627830acc5756dad454ec476753"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-021\\group.json",
+    "sha256": "6bb984d157ef6b30e83964e3e0098ab5a684ff8f371c950b71240f55f3cdd184"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-021\\replays.jsonl.gz",
+    "sha256": "c4193443118201646283fc97e1f86ccab897b03f4524e95670fa3bc3787657dc"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-022\\group.json",
+    "sha256": "cf7b51f1872bb9d5fac4b96a6936f03b072722c2918e0e26dcb37cfa13917f55"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-022\\replays.jsonl.gz",
+    "sha256": "9527f3ab923966c466cf9207786ec7424300e2fe6eb6bfb8b66182c8397105f5"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-023\\group.json",
+    "sha256": "aa90cfb888a2f5eb8e572787628cd91aede96ee98d0977f47dd88f6bda1bd10f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-023\\replays.jsonl.gz",
+    "sha256": "b1bfe73bca1aa5212738ec49c6061b80abfeb7f4c35c2a4d6247366154b96ba8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-024\\group.json",
+    "sha256": "8eedccf0bdf7b1232723a501421a1db659e3be837fa26ce2cd8938cd3bc0bee0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-024\\replays.jsonl.gz",
+    "sha256": "4867240b15fe48a8a25631a5c972b37fd63b2c5f180aa05b82f08b5a0bbf374f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-025\\group.json",
+    "sha256": "7bf78408949958a6e0de606a2bb73a21f04ee56263927b4017001a2e6c9f046b"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-025\\replays.jsonl.gz",
+    "sha256": "c42b9a90584b41b9437cf0a1bd2b874e080a728a8fa047842f40e2196c953739"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-026\\group.json",
+    "sha256": "50e890da61aac7f327191b8349ef37de6589ea689374fe8440e484e7b4dd8457"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-026\\replays.jsonl.gz",
+    "sha256": "81475e5a13eaa2dcd5175343ce3d95012ec3a79a2286d94145a077bf83f9b8a0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-027\\group.json",
+    "sha256": "028965663de4205a55dfa10d195ab260929f66eb62d247efaadde34a92fc65ac"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-027\\replays.jsonl.gz",
+    "sha256": "afa1b622542a71c7f6e950044b50ca065eab5f6b7a50a29e545e6159f986f79f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-028\\group.json",
+    "sha256": "3f7b9c6485f6dc547f22b211d3b8ebd3e2e3ff5ec56e1c20630085d31e46867f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-028\\replays.jsonl.gz",
+    "sha256": "b0b9e973a14241d0e6b8ef88cd42677f9cd65918dd2605d7eca7f25425a83083"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-029\\group.json",
+    "sha256": "1451c6c9f88bb26e70a7b3151d1f296372fdd7b22f099dbcd0821476894ba892"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-029\\replays.jsonl.gz",
+    "sha256": "509de920b735c2c31cde4273ad7f6f41b080a95d0b5bfaab5393393c5f949753"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-030\\group.json",
+    "sha256": "7c9c75f8245e897efeeeba3922660cd32a12c4803136e0b72a08139a4054ea63"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-030\\replays.jsonl.gz",
+    "sha256": "d10f6d5f9310cfca642e826caf46e90c09cd13e012970a6999e7be5f551c11bb"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-031\\group.json",
+    "sha256": "589783de6ee31b3eee0ca794fa088bc5b31d6f2d97fd5d37d5b7eeb628b9b301"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-0-031\\replays.jsonl.gz",
+    "sha256": "f146f17dd1f873a60bee4ce521c4dc77f9fcdcac5b9170e6795eed1231a7e1be"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-000\\group.json",
+    "sha256": "790e90e91aa8a3ed03754f1272c3d2a205a9de2dc61239964414f153e9973a8d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-000\\replays.jsonl.gz",
+    "sha256": "9d395ea0ff8b207a6662dbbf7b54598d2dec19f83a709aed3a947fc081d70180"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-001\\group.json",
+    "sha256": "2dd646193d9d2ba0f973f675c4247fa4e1eb105ac83e62160bee0a9b68dea056"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-001\\replays.jsonl.gz",
+    "sha256": "ca2a1cfc8c969766370e170d3f9104bf973caac182bffbb271648ee083ed356b"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-002\\group.json",
+    "sha256": "8e236c2b694ab76a6a6cbb03de816a0bdee564fcb57225bfc1d09d61dbf6824e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-002\\replays.jsonl.gz",
+    "sha256": "44334e7ca1a65c03a9ca5bd8f428b1ed16ccdccd7bab91e6527d480eab6d0ff0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-003\\group.json",
+    "sha256": "169bb1b2b668ca304ee0ff9fbf8cb8e33d7598dece82127e7fb6901d87f481b5"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-003\\replays.jsonl.gz",
+    "sha256": "8b74f69befdb6ff4788eb1a51cd16bb8d185c02e15355772734f156a4a941112"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-004\\group.json",
+    "sha256": "be677c56c8afec6623bad95ffd0b82536126e49a89bd8caa7f9a983dc420710d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-004\\replays.jsonl.gz",
+    "sha256": "639d53531379343270d9a96674255b2341a118057890d3480b8d2203fe8b4864"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-005\\group.json",
+    "sha256": "07bdc88eea58bf3708842d306635a44f87a310df47569d544e2705e859d53539"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-005\\replays.jsonl.gz",
+    "sha256": "62bcca3cff1bdd7a31ddc8761fcd4f5e74fa470e912ed0bf9d1d2738185ec36c"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-006\\group.json",
+    "sha256": "c8f160c47115ee1ce5dab917320ffa80801c52c70104567843b8b6773ed60ba8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-006\\replays.jsonl.gz",
+    "sha256": "5e8e7240284b0f4bfdcf9618df633757074bcfe7c3615389d08a4933381a1b35"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-007\\group.json",
+    "sha256": "839288879dd5c7e9f8738828c03d98a9c4af914ea3649513abbf1a6920a466b2"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-007\\replays.jsonl.gz",
+    "sha256": "03b7df83f2260601f1f04dfcc66eac948e36dadd18f81d15b50dbb6e0998b001"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-008\\group.json",
+    "sha256": "f90e4440d0a321573061d9e093d55fdd619bb7cd20ee383cd9f100db0626470e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-008\\replays.jsonl.gz",
+    "sha256": "ddce40e64dd8bcd8f3517639a25b3dcc1834576ab326efb720f008dbce9ad5a8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-009\\group.json",
+    "sha256": "777d08e73bc0de56c150ca860d9fcc35e7b6f965c07d41ecfb2e9c7ad217b52a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-009\\replays.jsonl.gz",
+    "sha256": "1b1e6dcaaaac9cf0c54886be4daddba2a6b9f5531b85c57d4b8e0532cd5f9fe9"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-010\\group.json",
+    "sha256": "11b57d3a5e5cfe6ed0e790356992e78f4fa505bb87d5e753d0e30428ce248230"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-010\\replays.jsonl.gz",
+    "sha256": "bbee1ca95fda4d6c2671142aefc052c8f8a7df01730d3fea7620894b622f2962"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-011\\group.json",
+    "sha256": "1add86959a4223de09637dc3e7687d3f09dc9fc0f56bba3945766ccc3023f0a7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-011\\replays.jsonl.gz",
+    "sha256": "9c6593cee217aebc9afa48826b82cacc531d37fdbf5a526088ea3f393b53d14d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-012\\group.json",
+    "sha256": "7f9bbdee17ae716aa9e52db74ddb2b35cbec19a5af7651eb1721c735827ec4b3"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-012\\replays.jsonl.gz",
+    "sha256": "a3ecb5749fbf048a15cec68ae37884abbe0d21de262cec970fe17fb6c952bf97"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-013\\group.json",
+    "sha256": "cb7807df8e6a8e8f661aee63c97a75e13011b1235f88ff350f4ff31bc1615c35"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-013\\replays.jsonl.gz",
+    "sha256": "d80c520a707005afe18d96611fded7eff05d1ff13e05233327b4dd5423167a27"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-014\\group.json",
+    "sha256": "733661b92bd5d945d046984f0d7271efdd050367c518bc4a86afc2ac69b1395e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-014\\replays.jsonl.gz",
+    "sha256": "2d276e8a502d307a55e14362fa62d3920b30384176aa3427caf21af95fe45195"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-015\\group.json",
+    "sha256": "7ba3783e5ec1466d91d4aa7691c8c98e5a87241e490cede7968c80eb13eafb50"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-015\\replays.jsonl.gz",
+    "sha256": "7f2f77249ab699c65cb92d5abd24a016047f6b16e235e046b815664418c4739f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-016\\group.json",
+    "sha256": "a9ee7b0b0fdcab45aeb5257483babd49549853691db2dd5411fdc670c9a514c0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-016\\replays.jsonl.gz",
+    "sha256": "b32981049b2eb70dd951a3a1404d2592dae9c5ee65adedca1f6b3f574723a2ae"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-017\\group.json",
+    "sha256": "f3002ba813697a7c34511fb7790e6c21030c1e8359e39eafaf3a4dde9d72d2ab"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-017\\replays.jsonl.gz",
+    "sha256": "84d959535d7662cc3a2beff8cb3143e5323cccbec6fd7cd4136380880b34db0d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-018\\group.json",
+    "sha256": "501a2e08c085d9dc6f02aaecb57f2a402e867af61b8d58e65d850063fed3acbd"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-018\\replays.jsonl.gz",
+    "sha256": "d83f4daaf9090fd2e769f5ad12cd31eab2c51834cccafa64fb589033e6b35690"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-019\\group.json",
+    "sha256": "794ecec72592471bd2cbadee5991033f9216009277f76d0e368b53148cff8990"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-019\\replays.jsonl.gz",
+    "sha256": "4ac9046f4820547a33b504d6f1d60fcb58de72b0c1ace114248a6939890b4cdb"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-020\\group.json",
+    "sha256": "59a1fa16aad21b739d1fd4913076573f3b6c4d780b6aec8487b903eaf585df19"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-020\\replays.jsonl.gz",
+    "sha256": "66fd7dd6066e10517786061fb9c906c0898cf65e97f1aaf137dcbe4c264a8ec1"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-021\\group.json",
+    "sha256": "e0ee6f3896ca06bf34cb0fac421f25993a6e2be67384c818e46690217c1c9368"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-021\\replays.jsonl.gz",
+    "sha256": "753e280f24b7bb216c6df000b10e1bd7697fd25a72017814342509deb702df74"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-022\\group.json",
+    "sha256": "1840b4134ff6839112e5de9f8f6e6ba58b418871dfbc371ff64d66c14816f23c"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-022\\replays.jsonl.gz",
+    "sha256": "1c6a5914d35eeb421922ca2dfa2d51075525cbcfbda54df092f95c242d54410a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-023\\group.json",
+    "sha256": "8465cc0d9f5e664e421427ab8a916e45de87777931cdb2de4d120e26f8a173ae"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-023\\replays.jsonl.gz",
+    "sha256": "1bfac2f62d5346b209409a9074b6787c730a2385e9e9f8462e11b5fa671a7776"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-024\\group.json",
+    "sha256": "e936cc918e7620cb908c95a4c2d5eaa13942f03767cbd60397b12b5b773dd159"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-024\\replays.jsonl.gz",
+    "sha256": "7cfd872542e4e340b296a8b8f4267e63aab94e0f6ee7787f630eaa8532625c4e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-025\\group.json",
+    "sha256": "80185db373ebb00eaba523cd479439857365931ede7fe42f6e430c16b688c6e0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-025\\replays.jsonl.gz",
+    "sha256": "51e5cde6200ff75e55ce028aaa83a34b403dc7937eadc4006beba8bb675a5d73"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-026\\group.json",
+    "sha256": "34ed531f8f917289729b73cb6f19ba7695ca157c7dae0a404e9f7212b2c7e639"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-026\\replays.jsonl.gz",
+    "sha256": "f6117fd0dbb8663f2895bb1017bdfbdb6e59265dd22ea033caab432b4336297f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-027\\group.json",
+    "sha256": "b28ef120a5589557b47aaf160c28198e6129e7a86cb9fdf6dd49ba67ca4a96f9"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-027\\replays.jsonl.gz",
+    "sha256": "e42942b5c42e0d560ded09d303bb585ef91da85d5adc1f163f65b1914799d162"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-028\\group.json",
+    "sha256": "40fbf685064445909de617d28ba1a4196b76d2680a4932242c8162d0ab046723"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-028\\replays.jsonl.gz",
+    "sha256": "444ad63b0a26b56d7f7f76907254836fdbd34ce7bced9fd6c122803b383c1bec"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-029\\group.json",
+    "sha256": "e9982ccbf9a8818930cb7e8e8098ebb2ebe9be79702489d72dab52ce80c78e4e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-029\\replays.jsonl.gz",
+    "sha256": "67eb806f304c1a979d54b6e0185be06142164ebb9649ee48aaf57b228980d670"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-030\\group.json",
+    "sha256": "6becd92c33e8db1ea8b9b4777b741b7e24dd641768daf58bf77932fdc7a3d073"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-030\\replays.jsonl.gz",
+    "sha256": "ece901c9d6089fb1c10da8c288e1f419c8d2e4bead934c835d2eb35bde149680"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-031\\group.json",
+    "sha256": "063fc5c37d9cc5f2c8aa15dc9f08be51818b6906a49c7b884d51755b1b9f765c"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-1-031\\replays.jsonl.gz",
+    "sha256": "eae22b2666040c790b57a6842b0612285ec9d31c3826b3145398d07caddf9da2"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-000\\group.json",
+    "sha256": "7acef6aaa45f0dab2c88e089f2d98ca0ff0906c70ec8542b560240b5dd1cf322"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-000\\replays.jsonl.gz",
+    "sha256": "02777e81639747127f753f5b48001c36d5526b6485cfbf5a0f39787fe30e91fc"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-001\\group.json",
+    "sha256": "a6b51391f30f28fc95f308ad157bba49d52dd19f66ee5759916357ea48a2f0cd"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-001\\replays.jsonl.gz",
+    "sha256": "49a59cfc92b5a557b34b331950996a042bec9b5976447c226cea0db932bb7211"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-002\\group.json",
+    "sha256": "c2e255cfc0d1ba056df52162e2c230a40c14bce20bdf3576759eccd2d7250141"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-002\\replays.jsonl.gz",
+    "sha256": "1a425e310e56972ae0e7c76666b9999b64ab21c41a6621dc7b59932065e6ef67"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-003\\group.json",
+    "sha256": "d54db32729469a9f3d7780e9921aa2a127f9f894c100cfb55815b5e4d5af73e0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-003\\replays.jsonl.gz",
+    "sha256": "b66450e8a9d49f61e1eb80fc82807815fbfbb6d85a5dad52c975d63a9c01d02b"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-004\\group.json",
+    "sha256": "d1c45bafa116abf5d49441d6068e843ee20ed6c741ac6607146584aba7f15041"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-004\\replays.jsonl.gz",
+    "sha256": "11e6b2c9b0733acdebf24c6cf9c98958ea9e28aa6e9a19113888705f59654415"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-005\\group.json",
+    "sha256": "caa783a624349db6f50f5d8e19022d519076d3a88c2f81bfe12f0f8327c9edb3"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-005\\replays.jsonl.gz",
+    "sha256": "31a9be821f7ce7b4663113b8ea7dfcacfa09e2388589379aba7885851ea3d430"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-006\\group.json",
+    "sha256": "57f14189cfbe6435f5c0bab7ea543261670c56b2700f93fefbdfc29ad761dc1e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-006\\replays.jsonl.gz",
+    "sha256": "9ec6274052faed8c49b49177ed1c064e282b27b9b4c57fcac1434bb56f47e4ba"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-007\\group.json",
+    "sha256": "ee37cf5da662164de70a2be9948f21feda2e18f04ba4d66a4c029c6dafdf3994"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-007\\replays.jsonl.gz",
+    "sha256": "fd97e08b78f16f148c4ea517f7fd27556381eb9736236cddd8e21c241284895f"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-008\\group.json",
+    "sha256": "ebcd5ebe45ae16abef66fe76c8f9bbc37c1b21fe67b5c93ee85e9b7008fbf6b2"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-008\\replays.jsonl.gz",
+    "sha256": "dec5fd457034eb018b9754042fb7d557df18bac2ac0b4c9a4a9699b3d2a5e21e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-009\\group.json",
+    "sha256": "d40be3b4a256c06ad287821a01bef039c18f6bbf0f80356a7d15c503ad9ad5ca"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-009\\replays.jsonl.gz",
+    "sha256": "98bd820897edd21fca034d0fae2933287571164dfb6243c1639c66c31d72efe5"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-010\\group.json",
+    "sha256": "189496ec384feadeea63e830e1a696d554bb393fa8acc40641cabd4ad5d0f32d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-010\\replays.jsonl.gz",
+    "sha256": "3969c4f2f3e946ee96086114d429864c08d5b7330e49760650ae6a8507a9e1b6"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-011\\group.json",
+    "sha256": "75193abdd365eb62b7682f73a63e4cd89cff12020b3989e0d6fdad9e36ac8b1a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-011\\replays.jsonl.gz",
+    "sha256": "6f18f2b92d2fbbdbb9282dae26c629f24a96237469ebb7d7ac53ea1874b2d8f3"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-012\\group.json",
+    "sha256": "8c3c70e242e563f672dc72f281738ef20ae010c33d74e1394b59dee47ab24323"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-012\\replays.jsonl.gz",
+    "sha256": "e55d7b210d7546f5473347e8983f8f448ee53356b6cb8c90595db286babee8e7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-013\\group.json",
+    "sha256": "639b2788f01523560acec15f107e3060322f1b0d94e91ebf1013baa3a86aa55a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-013\\replays.jsonl.gz",
+    "sha256": "858a3e4fe2dfa32f80ab3fad0b7de6884fc9fcad28a5ce5402df480e11a0fcb6"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-014\\group.json",
+    "sha256": "0c00ded4a921e879d5aea23d5606bdf669d4000f3b2b99069a97b9421e6c6e7d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-014\\replays.jsonl.gz",
+    "sha256": "5e8d88cbd4a585f691bf48d0e56edfffc49e206be6ff2b151dad48ccd3d5b7bf"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-015\\group.json",
+    "sha256": "2a33d68ce2c6127b9e2bcbcd88a6a86f0136e30f644cc29ef08efe9b66d6460d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-015\\replays.jsonl.gz",
+    "sha256": "3a0c1d520f718712423a9a1174609ffc9a7c11a45b7a0e2b4555e2f296da5dd3"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-016\\group.json",
+    "sha256": "1deb54fd8ea06366452fd3b9f23a2ef7d4e27cb878ff463b65a6ef5c691457ed"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-016\\replays.jsonl.gz",
+    "sha256": "8fdf552683b6fa987baed0963bd9e98631c39fd0b0cae3b6db2d0ee03e29a762"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-017\\group.json",
+    "sha256": "05835599bd343837483a3f8b325c43fd08e8780329ed07702ec22b92e38cb7c0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-017\\replays.jsonl.gz",
+    "sha256": "d210325da695ae2c01359062dd863bdaa3ae0f95254b97bdd7cd9bdf01cfd679"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-018\\group.json",
+    "sha256": "7c34d4bd34734a549b7a6d08c09253c980a9af8261bd1960e7ced75bc9b33a48"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-018\\replays.jsonl.gz",
+    "sha256": "2270d16702c5caa6ef3383d89a430a2927fc4d1792c9122f2529ac85fe92463d"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-019\\group.json",
+    "sha256": "33aab538c700eb05c2adb7dcde27768ef681385fbe192cc949e0be0ae12068fb"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-019\\replays.jsonl.gz",
+    "sha256": "aa06aeedff4743ec95d2c80e0559935fa05e3a0d111e02ffc53ac720182a2748"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-020\\group.json",
+    "sha256": "1681c289002137f9d4fcbc9f786c0425f73a0a09ee8ba3edd9afb4e1d30865d1"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-020\\replays.jsonl.gz",
+    "sha256": "79217df11444e849165b580650a826e8821411a28bf28e97364b6a226c728338"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-021\\group.json",
+    "sha256": "7db9ee822097073672f039914075d1694cd538c8b8ac389b94714d86cfce3913"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-021\\replays.jsonl.gz",
+    "sha256": "a2451c2f4b396829953eb60c0e27de51fc91909966a5e50aa4a37af9dca3f5e4"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-022\\group.json",
+    "sha256": "a2eda41b8fb88694757e5b557b071194bb64dbab459d3dc3a374e1a61bf0a1f0"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-022\\replays.jsonl.gz",
+    "sha256": "82e8188adc09e50c932bff4bb99da9654e96d8f99949d48f1bf56fb930062f63"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-023\\group.json",
+    "sha256": "8f2cb6610d6bc047007ac6901fc5c77f8b2b368b420e3f21b978d21596fbc5e5"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-023\\replays.jsonl.gz",
+    "sha256": "bd7a6306db29b95e252657d13830d4d80fd6518ddfb6aa0866825967d80ec3fe"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-024\\group.json",
+    "sha256": "7a671f394623203bbb777fbd8f3e41ac1309aad1347c4154d278e1664052b7e8"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-024\\replays.jsonl.gz",
+    "sha256": "aedd8b4dbdb9e313bebb00d27cbb7ae8f5047e29bc54e6c38d99426709396dfd"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-025\\group.json",
+    "sha256": "4173f03350b8422f3cd5618d7fc88906dd19d99c9182eb0ede7a2924d4a76be5"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-025\\replays.jsonl.gz",
+    "sha256": "48bad8eead95b56f3bc9310bfa8b8ffdee87507111863dc0451acfc1dd874435"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-026\\group.json",
+    "sha256": "1db972d61cf20d8f6bae23610c9c06bd0666ea579aa107f47b4e05b6dbf9b80e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-026\\replays.jsonl.gz",
+    "sha256": "48f8efab9cceaddeea4070685feb81c25d05066d2456aa41daf87ee3f475a65a"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-027\\group.json",
+    "sha256": "af2948649039b8fb013a6632f81b23038c2decbe4ea1de0eab05eeac55710606"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-027\\replays.jsonl.gz",
+    "sha256": "d1cec322d2e1d31baee6b4797336cec2283c42973de179fde4cf4dcbd6bb95ca"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-028\\group.json",
+    "sha256": "076ac42a5917372bd4b62542a5b54033622d6940b4cff007627259dad8ab6946"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-028\\replays.jsonl.gz",
+    "sha256": "0399245f8fd9012828432b369c5035f5f06577882997dbefe3cbee2824f69068"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-029\\group.json",
+    "sha256": "a220b09a18b9eb4b517feec28f836fc75b5da74677af357e88434ed6850c206e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-029\\replays.jsonl.gz",
+    "sha256": "f7676dada7997fc609b239954d53e380aeea492485e6ea55fc730b92a31ec71e"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-030\\group.json",
+    "sha256": "28be7fdc7acbf3bca58b4142912befe74223b3afb9b83fe709712e4e414ae80b"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-030\\replays.jsonl.gz",
+    "sha256": "c2fcd3e4c533c45e12f5cb562d7e0d17c69765318587593c195419df8654e6d7"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-031\\group.json",
+    "sha256": "7b4694586bcb151f811413fddaacdfbd358e11995aabd6c26e5bb424c1b065a6"
+  },
+  {
+    "path": "ai-runs\\hu-kong-20261023\\groups\\pair-2-031\\replays.jsonl.gz",
+    "sha256": "4cb0ac40371ff0dc02c7979e05f8dd9369b5e109136531ac7ff26846ac2e20b5"
+  }
+]

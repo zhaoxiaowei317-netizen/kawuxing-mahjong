@@ -1,0 +1,133 @@
+{
+  "version": "kwx-outs-guard-1",
+  "createdAt": "2026-10-20T10:54:48.695Z",
+  "sources": {
+    "previous": {
+      "previous": {
+        "core": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "drivers": {
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+          "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+        }
+      },
+      "driver": {
+        "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+        "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+      }
+    },
+    "driver": {
+      "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+      "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+      "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+      "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+    }
+  },
+  "previous": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-confirm-20261020",
+    "planSha256": "b70881c5c4eaa80a42d56f3716efc166b2329319ef9d7c0ad464396ad4052103",
+    "summarySha256": "027a4089f8de87ceb600b309b53c866315d66053c265c6c71cd57129e60afd18",
+    "verificationSha256": "8ddeef45d41dd240bd467d028d12d90fbb57039ba4cb694e14d9dcf0c21834cc",
+    "action-diagnosticsSha256": "9740ed004227144b9d8818dfaf0e0007a10012008fdd032bb9334a8b03eb621b",
+    "primary": {
+      "groups": 48,
+      "hands": 4608,
+      "candidatePer100": 12.13107638888889,
+      "incumbentPer100": 23.02517361111111,
+      "deltaPer100": -10.894097222222225,
+      "ci95": [
+        -19.401041666666664,
+        -1.9303385416666825
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    }
+  },
+  "model": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+    "validationLoss": 0.337738166235371,
+    "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+  },
+  "modelStateSha256": "1fdaf557138e23cca79f01a80d8e2d6116597e1f9ca6a922b4a743e3726a60bc",
+  "pairs": [
+    {
+      "id": "never+H0",
+      "policies": [
+        "h0-never",
+        "H0"
+      ]
+    },
+    {
+      "id": "never+never",
+      "policies": [
+        "h0-never",
+        "h0-never"
+      ]
+    },
+    {
+      "id": "never+greedy",
+      "policies": [
+        "h0-never",
+        "greedy-speed-v1"
+      ]
+    }
+  ],
+  "arms": [
+    "guarded",
+    "raw",
+    "reference"
+  ],
+  "policies": {
+    "guarded": "q-outs-guard",
+    "raw": "q-reference",
+    "reference": "h0-never"
+  },
+  "contrasts": {
+    "component": "raw",
+    "strength": "reference"
+  },
+  "budget": {
+    "groupsPerPair": 16,
+    "bootstrapSamples": 5000,
+    "workers": 4,
+    "sessionHands": 16
+  },
+  "seed": "648fbb0df245168263c6d40988d7360fe1bc7d2536d0968364f8b5dc480e08ca",
+  "intervention": "One fixed public-outs frontier: preserve raw Q action type, discard reveal flag and post-discard distance; among same-distance/same-reveal legal discards maximize public improving copies, then take highest original full-mask Q. Non-discards unchanged. No teacher selector in the guard.",
+  "primary": "Guarded vs unchanged raw checkpoint net-score difference, three equally weighted opponent pairs, paired complete-group two-sided 95% bootstrap interval entirely above zero.",
+  "secondary": "Guarded vs h0-never, opponent subgroups and behavior are descriptive without multiplicity correction. Guarded trajectory is shared across contrasts, not independent repeated evidence.",
+  "independence": "Fresh seed root, no tuning, development selection, training, threshold search or pooling with old batches. One group includes all six seats, three separate policy trajectories and real continuous dealers.",
+  "stopping": "Complete every fixed group regardless of interim results. No extra games or automatic promotion. Any gain is a strategy-component effect with frozen weights, not new neural learning. Production H0."
+}

@@ -1,0 +1,656 @@
+{
+  "fitted": {
+    "selected": {
+      "epoch": 26,
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-duration-20261022\\model-long\\epoch-026.json",
+      "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-duration-20261022\\model-long\\epoch-026.pt",
+      "validationLoss": 0.13077073716200316
+    },
+    "history": [
+      {
+        "epoch": 0,
+        "training": {
+          "objective": 1.4794499924735536,
+          "bc": 1.4794499924735536,
+          "anchor": 0,
+          "teacherAgreement": 0.8980522898649579
+        },
+        "validation": {
+          "objective": 1.4650991198780772,
+          "bc": 1.4650991198780772,
+          "anchor": 0,
+          "teacherAgreement": 0.9007554945054944
+        }
+      },
+      {
+        "epoch": 1,
+        "training": {
+          "objective": 0.6306435909474557,
+          "bc": 0.6306435909474557,
+          "anchor": 1.3330876215400769,
+          "teacherAgreement": 0.8111510791366906
+        },
+        "validation": {
+          "objective": 0.6298491830354208,
+          "bc": 0.6298491830354208,
+          "anchor": 1.3174884188306202,
+          "teacherAgreement": 0.8054601641801689
+        }
+      },
+      {
+        "epoch": 2,
+        "training": {
+          "objective": 0.5491297022933224,
+          "bc": 0.5491297022933224,
+          "anchor": 1.748323578565952,
+          "teacherAgreement": 0.8245525530899461
+        },
+        "validation": {
+          "objective": 0.5534504927121676,
+          "bc": 0.5534504927121676,
+          "anchor": 1.7292921006024538,
+          "teacherAgreement": 0.8174793956043954
+        }
+      },
+      {
+        "epoch": 3,
+        "training": {
+          "objective": 0.5094773968147966,
+          "bc": 0.5094773968147966,
+          "anchor": 1.911253926000547,
+          "teacherAgreement": 0.8312861905597474
+        },
+        "validation": {
+          "objective": 0.5124409798082414,
+          "bc": 0.5124409798082414,
+          "anchor": 1.9000908123267874,
+          "teacherAgreement": 0.8272664835164835
+        }
+      },
+      {
+        "epoch": 4,
+        "training": {
+          "objective": 0.4773626976325692,
+          "bc": 0.4773626976325692,
+          "anchor": 1.9544895959958886,
+          "teacherAgreement": 0.8421433584839445
+        },
+        "validation": {
+          "objective": 0.48313850000664427,
+          "bc": 0.48313850000664427,
+          "anchor": 1.9491981176229625,
+          "teacherAgreement": 0.8343063193363148
+        }
+      },
+      {
+        "epoch": 5,
+        "training": {
+          "objective": 0.455211319433302,
+          "bc": 0.455211319433302,
+          "anchor": 2.2148916175813507,
+          "teacherAgreement": 0.8470126337954026
+        },
+        "validation": {
+          "objective": 0.4645229823641725,
+          "bc": 0.4645229823641725,
+          "anchor": 2.2090457533742045,
+          "teacherAgreement": 0.8373969786769742
+        }
+      },
+      {
+        "epoch": 6,
+        "training": {
+          "objective": 0.3288966793227686,
+          "bc": 0.3288966793227686,
+          "anchor": 3.692954420436787,
+          "teacherAgreement": 0.8921082645973666
+        },
+        "validation": {
+          "objective": 0.33371578861068896,
+          "bc": 0.33371578861068896,
+          "anchor": 3.757648462777609,
+          "teacherAgreement": 0.8844436813186813
+        }
+      },
+      {
+        "epoch": 7,
+        "training": {
+          "objective": 0.29406142852916733,
+          "bc": 0.29406142852916733,
+          "anchor": 4.47070123396708,
+          "teacherAgreement": 0.9050271977644506
+        },
+        "validation": {
+          "objective": 0.30179570435167674,
+          "bc": 0.30179570435167674,
+          "anchor": 4.553281013782208,
+          "teacherAgreement": 0.8935439553889599
+        }
+      },
+      {
+        "epoch": 8,
+        "training": {
+          "objective": 0.2629368785683117,
+          "bc": 0.2629368785683117,
+          "anchor": 5.832248989626659,
+          "teacherAgreement": 0.9136471310860858
+        },
+        "validation": {
+          "objective": 0.2735998296475672,
+          "bc": 0.2735998296475672,
+          "anchor": 5.936076976440765,
+          "teacherAgreement": 0.9024725274725273
+        }
+      },
+      {
+        "epoch": 9,
+        "training": {
+          "objective": 0.24430089274620378,
+          "bc": 0.24430089274620378,
+          "anchor": 6.427042902216698,
+          "teacherAgreement": 0.9227276715317786
+        },
+        "validation": {
+          "objective": 0.2555877155327535,
+          "bc": 0.2555877155327535,
+          "anchor": 6.552772060855403,
+          "teacherAgreement": 0.9095123632923586
+        }
+      },
+      {
+        "epoch": 10,
+        "training": {
+          "objective": 0.22631390494622775,
+          "bc": 0.22631390494622775,
+          "anchor": 7.177981021216425,
+          "teacherAgreement": 0.9279040182488157
+        },
+        "validation": {
+          "objective": 0.23410621825810318,
+          "bc": 0.23410621825810318,
+          "anchor": 7.342688193688026,
+          "teacherAgreement": 0.9172390116440071
+        }
+      },
+      {
+        "epoch": 11,
+        "training": {
+          "objective": 0.19807120453115937,
+          "bc": 0.19807120453115937,
+          "anchor": 8.335589809655346,
+          "teacherAgreement": 0.9378838392595885
+        },
+        "validation": {
+          "objective": 0.20863853231236174,
+          "bc": 0.20863853231236174,
+          "anchor": 8.4913086105179,
+          "teacherAgreement": 0.9266826916526962
+        }
+      },
+      {
+        "epoch": 12,
+        "training": {
+          "objective": 0.18987907824217803,
+          "bc": 0.18987907824217803,
+          "anchor": 8.753168701477106,
+          "teacherAgreement": 0.9384321810844007
+        },
+        "validation": {
+          "objective": 0.20336839196446177,
+          "bc": 0.20336839196446177,
+          "anchor": 8.907143079317533,
+          "teacherAgreement": 0.926510988355993
+        }
+      },
+      {
+        "epoch": 13,
+        "training": {
+          "objective": 0.1810125399849607,
+          "bc": 0.1810125399849607,
+          "anchor": 9.42850998096831,
+          "teacherAgreement": 0.9407571503772589
+        },
+        "validation": {
+          "objective": 0.20191172076450598,
+          "bc": 0.20191172076450598,
+          "anchor": 9.581074096344329,
+          "teacherAgreement": 0.9241071422021468
+        }
+      },
+      {
+        "epoch": 14,
+        "training": {
+          "objective": 0.16314358804142873,
+          "bc": 0.16314358804142873,
+          "anchor": 10.75355017220771,
+          "teacherAgreement": 0.9481268643621692
+        },
+        "validation": {
+          "objective": 0.18392240149634223,
+          "bc": 0.18392240149634223,
+          "anchor": 10.928749849508096,
+          "teacherAgreement": 0.9349244498944546
+        }
+      },
+      {
+        "epoch": 15,
+        "training": {
+          "objective": 0.15789031159707298,
+          "bc": 0.15789031159707298,
+          "anchor": 11.298327873204544,
+          "teacherAgreement": 0.9523819968415517
+        },
+        "validation": {
+          "objective": 0.17562353086995555,
+          "bc": 0.17562353086995555,
+          "anchor": 11.509913193000541,
+          "teacherAgreement": 0.9371565940615895
+        }
+      },
+      {
+        "epoch": 16,
+        "training": {
+          "objective": 0.14798508509326802,
+          "bc": 0.14798508509326802,
+          "anchor": 13.428526038139573,
+          "teacherAgreement": 0.9506273030356205
+        },
+        "validation": {
+          "objective": 0.1738241917484409,
+          "bc": 0.1738241917484409,
+          "anchor": 13.678074595692395,
+          "teacherAgreement": 0.936813187468183
+        }
+      },
+      {
+        "epoch": 17,
+        "training": {
+          "objective": 0.138259426535227,
+          "bc": 0.138259426535227,
+          "anchor": 14.220231389053914,
+          "teacherAgreement": 0.9541147569749083
+        },
+        "validation": {
+          "objective": 0.1671326880926614,
+          "bc": 0.1671326880926614,
+          "anchor": 14.481528072566775,
+          "teacherAgreement": 0.936813187468183
+        }
+      },
+      {
+        "epoch": 18,
+        "training": {
+          "objective": 0.13032692809858681,
+          "bc": 0.13032692809858681,
+          "anchor": 14.698116706450543,
+          "teacherAgreement": 0.9586769608598698
+        },
+        "validation": {
+          "objective": 0.16028883087111043,
+          "bc": 0.16028883087111043,
+          "anchor": 14.973170353816105,
+          "teacherAgreement": 0.9390453296703297
+        }
+      },
+      {
+        "epoch": 19,
+        "training": {
+          "objective": 0.12615693007386825,
+          "bc": 0.12615693007386825,
+          "anchor": 15.381000282179162,
+          "teacherAgreement": 0.9626688892788213
+        },
+        "validation": {
+          "objective": 0.15515251064693533,
+          "bc": 0.15515251064693533,
+          "anchor": 15.672717083941448,
+          "teacherAgreement": 0.9414491764791718
+        }
+      },
+      {
+        "epoch": 20,
+        "training": {
+          "objective": 0.12103506018036518,
+          "bc": 0.12103506018036518,
+          "anchor": 16.29141048967556,
+          "teacherAgreement": 0.9591595016669595
+        },
+        "validation": {
+          "objective": 0.1521759385263527,
+          "bc": 0.1521759385263527,
+          "anchor": 16.606829821408446,
+          "teacherAgreement": 0.9414491751691798
+        }
+      },
+      {
+        "epoch": 21,
+        "training": {
+          "objective": 0.11169597148374942,
+          "bc": 0.11169597148374942,
+          "anchor": 17.75532978839008,
+          "teacherAgreement": 0.9663976136164244
+        },
+        "validation": {
+          "objective": 0.14613488693158705,
+          "bc": 0.14613488693158705,
+          "anchor": 18.08200804741828,
+          "teacherAgreement": 0.9474587905537952
+        }
+      },
+      {
+        "epoch": 22,
+        "training": {
+          "objective": 0.10661804896148076,
+          "bc": 0.10661804896148076,
+          "anchor": 18.390770882551116,
+          "teacherAgreement": 0.9683058431303739
+        },
+        "validation": {
+          "objective": 0.14344215049193454,
+          "bc": 0.14344215049193454,
+          "anchor": 18.74545158134712,
+          "teacherAgreement": 0.9467719780219781
+        }
+      },
+      {
+        "epoch": 23,
+        "training": {
+          "objective": 0.10349730623042427,
+          "bc": 0.10349730623042427,
+          "anchor": 19.713651832142794,
+          "teacherAgreement": 0.9695779961396743
+        },
+        "validation": {
+          "objective": 0.1422780915931031,
+          "bc": 0.1422780915931031,
+          "anchor": 20.094903820163598,
+          "teacherAgreement": 0.9471153846153846
+        }
+      },
+      {
+        "epoch": 24,
+        "training": {
+          "objective": 0.09775819654466496,
+          "bc": 0.09775819654466496,
+          "anchor": 20.5514047568797,
+          "teacherAgreement": 0.9706966134409548
+        },
+        "validation": {
+          "objective": 0.1406302340738066,
+          "bc": 0.1406302340738066,
+          "anchor": 20.9713943188007,
+          "teacherAgreement": 0.9486607136307181
+        }
+      },
+      {
+        "epoch": 25,
+        "training": {
+          "objective": 0.09569127298499336,
+          "bc": 0.09569127298499336,
+          "anchor": 21.25430862726632,
+          "teacherAgreement": 0.9698192665379898
+        },
+        "validation": {
+          "objective": 0.14390790527993505,
+          "bc": 0.14390790527993505,
+          "anchor": 21.66054903805911,
+          "teacherAgreement": 0.9460851654901609
+        }
+      },
+      {
+        "epoch": 26,
+        "training": {
+          "objective": 0.08942055657759618,
+          "bc": 0.08942055657759618,
+          "anchor": 21.61244768677186,
+          "teacherAgreement": 0.9741621337076686
+        },
+        "validation": {
+          "objective": 0.13077073716200316,
+          "bc": 0.13077073716200316,
+          "anchor": 22.040408270699636,
+          "teacherAgreement": 0.9510645597845644
+        }
+      },
+      {
+        "epoch": 27,
+        "training": {
+          "objective": 0.08994180139838588,
+          "bc": 0.08994180139838588,
+          "anchor": 22.050965544926033,
+          "teacherAgreement": 0.9721661695034225
+        },
+        "validation": {
+          "objective": 0.1387897702036323,
+          "bc": 0.1387897702036323,
+          "anchor": 22.414974003047735,
+          "teacherAgreement": 0.9500343406593408
+        }
+      },
+      {
+        "epoch": 28,
+        "training": {
+          "objective": 0.08725654033695288,
+          "bc": 0.08725654033695288,
+          "anchor": 23.708588309153317,
+          "teacherAgreement": 0.9727145113177758
+        },
+        "validation": {
+          "objective": 0.14802634797908448,
+          "bc": 0.14802634797908448,
+          "anchor": 24.147715495182922,
+          "teacherAgreement": 0.9471153852703807
+        }
+      },
+      {
+        "epoch": 29,
+        "training": {
+          "objective": 0.08538064392125697,
+          "bc": 0.08538064392125697,
+          "anchor": 24.73678833184524,
+          "teacherAgreement": 0.9722100368485703
+        },
+        "validation": {
+          "objective": 0.1423120713168448,
+          "bc": 0.1423120713168448,
+          "anchor": 25.191464120215112,
+          "teacherAgreement": 0.9450549457099412
+        }
+      },
+      {
+        "epoch": 30,
+        "training": {
+          "objective": 0.07620249151533781,
+          "bc": 0.07620249151533781,
+          "anchor": 24.78776531550817,
+          "teacherAgreement": 0.9779347253904198
+        },
+        "validation": {
+          "objective": 0.13113108719443226,
+          "bc": 0.13113108719443226,
+          "anchor": 25.228748028094955,
+          "teacherAgreement": 0.9503777472527473
+        }
+      },
+      {
+        "epoch": 31,
+        "training": {
+          "objective": 0.08005770540005762,
+          "bc": 0.08005770540005762,
+          "anchor": 25.93713388210389,
+          "teacherAgreement": 0.9742060010528169
+        },
+        "validation": {
+          "objective": 0.14264866807958582,
+          "bc": 0.14264866807958582,
+          "anchor": 26.388986336005914,
+          "teacherAgreement": 0.9467719773669819
+        }
+      },
+      {
+        "epoch": 32,
+        "training": {
+          "objective": 0.07268695311418522,
+          "bc": 0.07268695311418522,
+          "anchor": 26.078981512993074,
+          "teacherAgreement": 0.9780224600807164
+        },
+        "validation": {
+          "objective": 0.14058710405459768,
+          "bc": 0.14058710405459768,
+          "anchor": 26.544646378401872,
+          "teacherAgreement": 0.9495192314242269
+        }
+      }
+    ],
+    "trainingSamples": 45592,
+    "validationSamples": 5824,
+    "trainingHash": "cd1e0440f28b04d9b9ca6a31f5fb59a5ba363ab88956c3797dae0bb1000f80e6",
+    "validationHash": "c62ad6f98dad04ccdb9dcff42dddb0c693a27253dbfe6803ff605b587955f8c5",
+    "trainingCanonicalHash": "a56fd8177084ca9ff258016ff7598d1d23c6bf79284ad752134a5c142004680f",
+    "validationCanonicalHash": "c352d9932f9fcf9664d453f652e6ac5b0a8a69e0f5fc5ec4fee7a84cfc557f4e",
+    "teacherBackendAudit": {
+      "training": {
+        "argmaxDifferences": 0,
+        "maxScoreGap": 0,
+        "tolerance": 0.00001
+      },
+      "validation": {
+        "argmaxDifferences": 0,
+        "maxScoreGap": 0,
+        "tolerance": 0.00001
+      }
+    },
+    "config": {
+      "learningRate": 0.001,
+      "batchSize": 256,
+      "maxGradNorm": 5,
+      "cqlWeight": 0,
+      "bcWeight": 0,
+      "auxWeight": 0,
+      "anchorWeight": 0,
+      "temperature": 1
+    },
+    "network": {
+      "channels": 24,
+      "blocks": 2,
+      "globalSize": 64,
+      "localSize": 32,
+      "useTiles": true
+    },
+    "mode": "plain",
+    "seed": "11d0fb29e1ef55706d2b8f9fe627ad3e6d5a507e1888bac2195e0f8be9afdb34",
+    "experimentSources": {
+      "src\\engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src\\wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+      "ai\\environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+      "ai\\random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+      "ai\\runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+      "ai\\statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+      "ai\\policies\\h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+      "ai\\policies\\H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+      "ai\\policies\\index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+      "ai\\provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+      "ai\\evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+      "ai\\training\\encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+      "ai\\training\\network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+      "ai\\training\\policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+      "ai\\training\\checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+      "ai\\action-scorer\\features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+      "ai\\tile-q\\encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+      "ai\\tile-q\\sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+      "ai\\tile-q\\model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+      "ai\\tile-q\\collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+      "ai\\tile-q\\evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+      "ai\\tile-q\\study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+      "ai\\tile-q\\verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+      "ai\\tile-q\\network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+      "ai\\tile-q\\train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93",
+      "ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+      "ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+      "ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+      "ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+      "ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+      "ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+      "ai\\strong-confirm\\study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+      "ai\\strong-confirm\\verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047",
+      "ai\\outs-guard\\policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+      "ai\\outs-guard\\study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+      "ai\\outs-guard\\groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+      "ai\\outs-guard\\verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b",
+      "ai\\outs-distill\\config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+      "ai\\outs-distill\\collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+      "ai\\outs-distill\\groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+      "ai\\outs-distill\\study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+      "ai\\outs-distill\\verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+      "ai\\strong-pool\\stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+      "ai\\outs-anchor\\config.mjs": "0677c9810d4ad7969a0357ed029574b83d8954fb5a362de20db66d79e747db67",
+      "ai\\outs-anchor\\groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+      "ai\\outs-anchor\\study.mjs": "57bd41fe268ecd2238e5b9ddce7e3530ca456c6d247f66b032d60428b8604b10",
+      "ai\\outs-anchor\\verify.mjs": "aea1d42560d8997a8ba0fa361cec186d812d2b15d233d3d07b9ae1d52243242f",
+      "ai\\outs-anchor\\train.py": "2fc67d02c04583af7c170c30ed1ea04b1cf6a9d4abadbfb46654248a418b4638",
+      "ai/outs-duration/config.mjs": "10adb3ab08adba104582529d089e5b663c83447bc1ecf85eb75e4ab3ad486ee6",
+      "ai/outs-duration/groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+      "ai/outs-duration/study.mjs": "442d822d862ed171cba5de6338b0ac374c334bd66de19240e35092de20767498",
+      "ai/outs-duration/verify.mjs": "780c93d00c1689a1414de7663e91c08c1f2c2e1e5c63b7dc1ed902b1e32b811d",
+      "ai/outs-duration/check_prefix.py": "bf34e48321ef8dab7e07c80d0b35a371d14293ec24af27bf7a7d6eca554ba9a1"
+    },
+    "torch": "2.1.2+cpu",
+    "parameters": 21765
+  },
+  "prefixAudit": {
+    "epochs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "exactModelAndAdamAndHistory": true,
+    "allSnapshotPtExportsVerified": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "allExportedWeightsAndMetricsExactlyEqual": true
+  },
+  "newUniqueTrainingHands": 0,
+  "newUniqueValidationHands": 0,
+  "reusedTrainingHands": 4608,
+  "reusedValidationHands": 576
+}

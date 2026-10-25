@@ -1,0 +1,44 @@
+{
+  "patched": {
+    "choices": 90733,
+    "huOffered": 3428,
+    "huDeclined": 8,
+    "conflicts": 21,
+    "overrides": 21,
+    "groupsWithConflicts": 15,
+    "groupsWithOverrides": 15,
+    "byKind": {
+      "an": 19,
+      "bu": 0,
+      "ming": 2
+    }
+  },
+  "base": {
+    "choices": 90748,
+    "huOffered": 3434,
+    "huDeclined": 29,
+    "conflicts": 21,
+    "overrides": 0,
+    "groupsWithConflicts": 15,
+    "groupsWithOverrides": 0,
+    "byKind": {
+      "an": 19,
+      "bu": 0,
+      "ming": 2
+    }
+  },
+  "short": {
+    "choices": 90662,
+    "huOffered": 3439,
+    "huDeclined": 8,
+    "conflicts": 0,
+    "overrides": 0,
+    "groupsWithConflicts": 0,
+    "groupsWithOverrides": 0,
+    "byKind": {
+      "an": 0,
+      "bu": 0,
+      "ming": 0
+    }
+  }
+}

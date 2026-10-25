@@ -1,0 +1,101 @@
+[
+  {
+    "model": "short",
+    "backend": "kwx-tile-q-unrolled-convolution-1",
+    "modelPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.json",
+    "modelSha256": "6d055fcc502ed10528ac5b7e38a089d1337ab148b862c61e06c6d3bf49d9f488",
+    "dataPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-tile-20261023\\training\\episodes.jsonl.gz",
+    "dataSha256": "a0ff673726de4a89d69c9d3b55596c96306ad3cffb05754280f281aa409d3071",
+    "rows": 256,
+    "checkedExactForwards": 256,
+    "repeats": 5,
+    "timings": {
+      "reference": [
+        1.0041600000000008,
+        0.6430446000000002,
+        0.6966034,
+        0.6807660000000014,
+        0.6884323999999997
+      ],
+      "unrolled": [
+        0.49816700000000036,
+        0.439259,
+        0.46378220000000053,
+        0.45515409999999973,
+        0.5503608000000004
+      ]
+    },
+    "medianSeconds": {
+      "reference": 0.6884323999999997,
+      "unrolled": 0.46378220000000053
+    },
+    "medianSpeedup": 1.4843872835136815,
+    "scope": "Forward microbenchmark only. Concurrent load affects timings. Not whole-game throughput or AI strength. No frozen study backend changed."
+  },
+  {
+    "model": "long",
+    "backend": "kwx-tile-q-unrolled-convolution-1",
+    "modelPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-duration-20261022\\model-long\\epoch-026.json",
+    "modelSha256": "e6f39a1abafd47f2cdd90c2c3d12ec2ca30643c91d1b69985e378de33cc48898",
+    "dataPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-tile-20261023\\training\\episodes.jsonl.gz",
+    "dataSha256": "a0ff673726de4a89d69c9d3b55596c96306ad3cffb05754280f281aa409d3071",
+    "rows": 256,
+    "checkedExactForwards": 256,
+    "repeats": 5,
+    "timings": {
+      "reference": [
+        0.7660936000000002,
+        0.6382246999999989,
+        0.6302926000000006,
+        0.8040538000000015,
+        0.6444422000000013
+      ],
+      "unrolled": [
+        0.7998202999999994,
+        0.5449199999999983,
+        0.5858925000000017,
+        0.3644998999999989,
+        0.4567681999999986
+      ]
+    },
+    "medianSeconds": {
+      "reference": 0.6444422000000013,
+      "unrolled": 0.5449199999999983
+    },
+    "medianSpeedup": 1.1826363502899568,
+    "scope": "Forward microbenchmark only. Concurrent load affects timings. Not whole-game throughput or AI strength. No frozen study backend changed."
+  },
+  {
+    "model": "learned",
+    "backend": "kwx-tile-q-unrolled-convolution-1",
+    "modelPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-tile-20261023\\model\\epoch-006.json",
+    "modelSha256": "ed42aa96129cb4fda35b13bda2f06c0482ba1a1b15e832f0f0325cc10c59a42d",
+    "dataPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-tile-20261023\\training\\episodes.jsonl.gz",
+    "dataSha256": "a0ff673726de4a89d69c9d3b55596c96306ad3cffb05754280f281aa409d3071",
+    "rows": 256,
+    "checkedExactForwards": 256,
+    "repeats": 5,
+    "timings": {
+      "reference": [
+        0.7284667999999983,
+        0.7619233999999997,
+        0.7098333000000021,
+        0.8525265,
+        0.8099795000000013
+      ],
+      "unrolled": [
+        0.34647629999999846,
+        0.3848883999999998,
+        0.4669537999999993,
+        0.4631588000000011,
+        0.5112122000000018
+      ]
+    },
+    "medianSeconds": {
+      "reference": 0.7619233999999997,
+      "unrolled": 0.4631588000000011
+    },
+    "medianSpeedup": 1.645058671021684,
+    "scope": "Forward microbenchmark only. Concurrent load affects timings. Not whole-game throughput or AI strength. No frozen study backend changed."
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-10-18T12:08:23.179Z",
+  "sourceStudy": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\two-draw-20261018",
+  "files": {
+    "plan.json": "71c13fbcc09ff21a360f94f8ab93b2aacaf0e4462311c1ddd5ae06352e620447",
+    "summary.json": "6a20bdbb9dc8e71ca7ea363292112b21592587f1543f1965fdbb481fa02cc854",
+    "selection.json": "aa60e02ca071594946de0b57476aff791d92a3847bb1611672cc4d26744b8538",
+    "verification.json": "b2eb88276a13d15436f3cb5d360382b4900f82c3aef81ec1722450d1b4487701",
+    "tests.log": "94ae33499f318d56e939e8df17109ca074f7c6b74918be4e996c0ea12e35df91",
+    "diagnostics.json": "8ad3d90916748fcfb1b17059e568a6ff8aa0f087dafb29f1258d0a45d3aac8c3",
+    "tests-targeted.log": "6430d5f9d86f795697d5fd101823d736952a65da8057b3ab44dd0e61c54a7ff0",
+    "development-ties.json": "eb7f21197fde305f4fd4dee6c182fcb5f4969dd9efc72e220b23e73fbe724f56",
+    "development-same-shanten.json": "35ba109def803aef2dd3a6549646eacd31a54abc5e90d54aca892978927bc8cc",
+    "sealed.json": "0f2271dc66aaddf2d4c2c6a49c751a594d7b2db6010420da6eb6e510f569e3bd"
+  },
+  "reportSourceSha256": "5989c403750f12fcb6203cd4dd11b5cedca963d4826d5a4b30ff106a3b68c108"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\plan.json",
+    "sha256": "e18f8ad6090d4d668ace55be1624c77705f33f0a5cb381592266feb2b2a18e20"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\summary.json",
+    "sha256": "be9a4ab1d77001b0ac8fd2e5191f4a6609b3ea6e4e7ffa8b9083b031a16891b4"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\verification.json",
+    "sha256": "59d99590948dd1878cfaa46025cc5e4f259e3b12ee99c2a241f21e1fd4de5519"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\training.json",
+    "sha256": "681d85e6728c4fc246bd6f9eae34753b933c96937e7a90d1e3cbe3968c628d4a"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\retrained-selection.json",
+    "sha256": "8596e3b369c654674271484e0c3c8f5ab1da46f416149c01326c8f5e1abae408"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\runtime.json",
+    "sha256": "1f894ffcd7fada432500e6473a61a98981b6f9602c4553520aa0df4f52765427"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\frozen-sources.tar.gz",
+    "sha256": "da6b1b85c8fcd327b8cc28d5b9f6badda5c0c938b019175f166f8cbb57b5e6b5"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\training\\episodes.jsonl.gz",
+    "sha256": "6102ee592192c97fd387d8243636f0edb8c8ed16e5c164fd1b6de52c0ac6ddee"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\validation\\episodes.jsonl.gz",
+    "sha256": "f16ed9c85bfa0853e184ea826bb3ef8ca5388f61cf0f3117d485b8c1dab377bb"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\fixed-old\\replays.jsonl.gz",
+    "sha256": "6140478e2ba62748bd59b839babc158e7e4d90079eb12e81368f0871b9d60013"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+    "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+    "sha256": "a7b8a967d3f1fc3f5a1719a865244d872ddc3be4d2b5ad4bd3ef55bd155c4320"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\retrained-offline\\replays.jsonl.gz",
+    "sha256": "c6a722f13d28cbc53b1cef87f0a0896d6b2a638d8dd10863791aade04441f29e"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\model-offline\\epoch-008.json",
+    "sha256": "8e6754af504fb49f94cc074136cbc7c9a1f1ef95a30620a14aa52a1dc1132798"
+  },
+  {
+    "path": "ai-runs\\tile-q-confirm-20261019\\model-offline\\epoch-008.pt",
+    "sha256": "2524d7e2e3642d92a2b95f9dc9d9991e3e944e8caf6ecf156b80ab7bb287d7f0"
+  }
+]

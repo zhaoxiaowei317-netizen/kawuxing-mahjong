@@ -1,0 +1,2920 @@
+{
+  "version": "kwx-tile-q-study-1",
+  "completedAt": "2026-10-18T16:22:27.605Z",
+  "planSha256": "452daad73bd7c2061b37888aa4987c84038af25ff9d708fbd33d9cf4c873251f",
+  "datasets": {
+    "training": {
+      "version": "kwx-tile-q-episodes-1",
+      "schema": {
+        "version": "kwx-tile-q-public-1",
+        "tiles": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "z5",
+          "z6",
+          "z7"
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          22,
+          25,
+          28
+        ],
+        "length": 29,
+        "channels": 65,
+        "planes": [
+          {
+            "name": "own.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "own.draw",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p0.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p0.waits",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p1.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p1.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p1.waits",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p2.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p2.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p2.waits",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "own.passedHu",
+            "scale": 1
+          },
+          {
+            "name": "own.passedPeng",
+            "scale": 1
+          },
+          {
+            "name": "own.buOpportunities",
+            "scale": 1
+          },
+          {
+            "name": "own.reservedKongTiles",
+            "scale": 1
+          },
+          {
+            "name": "own.supplementForbidden",
+            "scale": 1
+          },
+          {
+            "name": "own.order.0",
+            "scale": 14
+          },
+          {
+            "name": "own.order.1",
+            "scale": 14
+          },
+          {
+            "name": "own.order.2",
+            "scale": 14
+          },
+          {
+            "name": "own.order.3",
+            "scale": 14
+          },
+          {
+            "name": "type.suited",
+            "scale": 1
+          },
+          {
+            "name": "type.honor",
+            "scale": 1
+          },
+          {
+            "name": "type.rank",
+            "scale": 9
+          },
+          {
+            "name": "pending.tile",
+            "scale": 1
+          },
+          {
+            "name": "last.tile",
+            "scale": 1
+          }
+        ],
+        "contextNames": [
+          "p0.liang",
+          "p0.size",
+          "p0.hidden",
+          "p0.riverSize",
+          "p0.meldSize",
+          "p0.total",
+          "p0.kongNet",
+          "p1.liang",
+          "p1.size",
+          "p1.hidden",
+          "p1.riverSize",
+          "p1.meldSize",
+          "p1.total",
+          "p1.kongNet",
+          "p2.liang",
+          "p2.size",
+          "p2.hidden",
+          "p2.riverSize",
+          "p2.meldSize",
+          "p2.total",
+          "p2.kongNet",
+          "wall",
+          "gangChain",
+          "round",
+          "dealer.0",
+          "dealer.1",
+          "dealer.2",
+          "turn.0",
+          "turn.1",
+          "turn.2",
+          "phase.discard",
+          "phase.react",
+          "pending.source.0",
+          "pending.source.1",
+          "pending.source.2",
+          "pending.discard",
+          "pending.robKong",
+          "pending.gangShot",
+          "pending.gangCount",
+          "last.source.0",
+          "last.source.1",
+          "last.source.2"
+        ],
+        "contextSize": 42,
+        "actions": 88,
+        "candidateSize": 34
+      },
+      "split": "training",
+      "seed": "30af7d14f5b3a7b7d4b589f313fe341da72389c6c6ae719389a259c42deb93e6",
+      "startHand": 0,
+      "hands": 2400,
+      "sessionHands": 16,
+      "samples": 57257,
+      "actions": 70279,
+      "huOffered": 2375,
+      "huMissed": 70,
+      "epsilon": 0.1,
+      "modelHashes": {},
+      "sources": {
+        "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+      },
+      "sha256": "5941736f9f00b2bec88908fa86137212daef655cd8cd2a4bcf3de879d0697093",
+      "target": "Undiscounted terminal net less already settled kong net, divided by 16; gamma=1",
+      "shards": 3
+    },
+    "validation": {
+      "version": "kwx-tile-q-episodes-1",
+      "schema": {
+        "version": "kwx-tile-q-public-1",
+        "tiles": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "z5",
+          "z6",
+          "z7"
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          22,
+          25,
+          28
+        ],
+        "length": 29,
+        "channels": 65,
+        "planes": [
+          {
+            "name": "own.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "own.draw",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p0.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p0.waits",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p1.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p1.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p1.waits",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p2.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p2.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p2.waits",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "own.passedHu",
+            "scale": 1
+          },
+          {
+            "name": "own.passedPeng",
+            "scale": 1
+          },
+          {
+            "name": "own.buOpportunities",
+            "scale": 1
+          },
+          {
+            "name": "own.reservedKongTiles",
+            "scale": 1
+          },
+          {
+            "name": "own.supplementForbidden",
+            "scale": 1
+          },
+          {
+            "name": "own.order.0",
+            "scale": 14
+          },
+          {
+            "name": "own.order.1",
+            "scale": 14
+          },
+          {
+            "name": "own.order.2",
+            "scale": 14
+          },
+          {
+            "name": "own.order.3",
+            "scale": 14
+          },
+          {
+            "name": "type.suited",
+            "scale": 1
+          },
+          {
+            "name": "type.honor",
+            "scale": 1
+          },
+          {
+            "name": "type.rank",
+            "scale": 9
+          },
+          {
+            "name": "pending.tile",
+            "scale": 1
+          },
+          {
+            "name": "last.tile",
+            "scale": 1
+          }
+        ],
+        "contextNames": [
+          "p0.liang",
+          "p0.size",
+          "p0.hidden",
+          "p0.riverSize",
+          "p0.meldSize",
+          "p0.total",
+          "p0.kongNet",
+          "p1.liang",
+          "p1.size",
+          "p1.hidden",
+          "p1.riverSize",
+          "p1.meldSize",
+          "p1.total",
+          "p1.kongNet",
+          "p2.liang",
+          "p2.size",
+          "p2.hidden",
+          "p2.riverSize",
+          "p2.meldSize",
+          "p2.total",
+          "p2.kongNet",
+          "wall",
+          "gangChain",
+          "round",
+          "dealer.0",
+          "dealer.1",
+          "dealer.2",
+          "turn.0",
+          "turn.1",
+          "turn.2",
+          "phase.discard",
+          "phase.react",
+          "pending.source.0",
+          "pending.source.1",
+          "pending.source.2",
+          "pending.discard",
+          "pending.robKong",
+          "pending.gangShot",
+          "pending.gangCount",
+          "last.source.0",
+          "last.source.1",
+          "last.source.2"
+        ],
+        "contextSize": 42,
+        "actions": 88,
+        "candidateSize": 34
+      },
+      "split": "validation",
+      "seed": "247590687bb4ce5969531e5ceeefc31e1e02f892f78e2e47a495acc62e500534",
+      "startHand": 0,
+      "hands": 480,
+      "sessionHands": 16,
+      "samples": 11442,
+      "actions": 13851,
+      "huOffered": 461,
+      "huMissed": 10,
+      "epsilon": 0.1,
+      "modelHashes": {},
+      "sources": {
+        "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+      },
+      "sha256": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+      "target": "Undiscounted terminal net less already settled kong net, divided by 16; gamma=1",
+      "shards": 1
+    }
+  },
+  "online": [
+    {
+      "dataset": {
+        "version": "kwx-tile-q-episodes-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "training",
+        "seed": "ee1792c696fb1693deaf04e9d8203b5b751a87a14b35e6c4f2a5c72f44daa775",
+        "startHand": 0,
+        "hands": 600,
+        "sessionHands": 16,
+        "samples": 7901,
+        "actions": 17651,
+        "huOffered": 315,
+        "huMissed": 17,
+        "epsilon": 0.1,
+        "modelHashes": {
+          "current": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+            "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+          },
+          "history-0": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.json",
+            "sha256": "9477361f3abbee085b8a12d8de8281073ddb5dbc4a6b22d2749c8038d7763998"
+          },
+          "history-1": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+            "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+          }
+        },
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "sha256": "f9147b85e6231fa88436a790ed7b63d95e7c1278e4628f81b4693f1462c71313",
+        "target": "Undiscounted terminal net less already settled kong net, divided by 16; gamma=1"
+      },
+      "selected": {
+        "epoch": 4,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.pt",
+        "validationLoss": 0.15306364084494486
+      },
+      "training": {
+        "selected": {
+          "epoch": 4,
+          "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.json",
+          "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.pt",
+          "validationLoss": 0.15306364084494486
+        },
+        "history": [
+          {
+            "epoch": 0,
+            "training": {
+              "loss": 0.15841568598127445,
+              "mcHalfMse": 0.06668029092521006,
+              "cql": 1.5120519104976773,
+              "bc": 1.49924135696977,
+              "rank": 0.6175056854209905,
+              "teacherAgreement": 0.6781420078764624
+            },
+            "validation": {
+              "loss": 0.1722032335739706,
+              "mcHalfMse": 0.08427878269322414,
+              "cql": 1.5414025870221328,
+              "bc": 1.5005193105674963,
+              "rank": 0.5791406515927773,
+              "teacherAgreement": 0.7163083377969659
+            }
+          },
+          {
+            "epoch": 1,
+            "training": {
+              "loss": 0.14193316278706897,
+              "mcHalfMse": 0.045053731867945236,
+              "cql": 1.7789577319944616,
+              "bc": 1.7753781064403698,
+              "rank": 0.6137186977595049,
+              "teacherAgreement": 0.6218200234231609
+            },
+            "validation": {
+              "loss": 0.1593959809672768,
+              "mcHalfMse": 0.06496634638678296,
+              "cql": 1.8060522115516031,
+              "bc": 1.7921053411618455,
+              "rank": 0.5858752749491728,
+              "teacherAgreement": 0.6481384377632916
+            }
+          },
+          {
+            "epoch": 2,
+            "training": {
+              "loss": 0.1381001674669511,
+              "mcHalfMse": 0.041869439119599214,
+              "cql": 1.8296092620847673,
+              "bc": 1.831845891308202,
+              "rank": 0.5959381044265546,
+              "teacherAgreement": 0.5987849646000271
+            },
+            "validation": {
+              "loss": 0.1570715490931128,
+              "mcHalfMse": 0.06347382600502083,
+              "cql": 1.8567033006561067,
+              "bc": 1.8457395579301898,
+              "rank": 0.5668293106933092,
+              "teacherAgreement": 0.6320573321757378
+            }
+          },
+          {
+            "epoch": 3,
+            "training": {
+              "loss": 0.13552738705016046,
+              "mcHalfMse": 0.040380126676077696,
+              "cql": 1.8323883930047453,
+              "bc": 1.830354885124976,
+              "rank": 0.5854016277189874,
+              "teacherAgreement": 0.6038476148748259
+            },
+            "validation": {
+              "loss": 0.15365305311132657,
+              "mcHalfMse": 0.06107375938936956,
+              "cql": 1.8564083075277498,
+              "bc": 1.8457841959851453,
+              "rank": 0.5566361257192702,
+              "teacherAgreement": 0.6364271984277873
+            }
+          },
+          {
+            "epoch": 4,
+            "training": {
+              "loss": 0.13400923955509927,
+              "mcHalfMse": 0.03951049424352382,
+              "cql": 1.8259746442488698,
+              "bc": 1.826788618359109,
+              "rank": 0.5796297341717178,
+              "teacherAgreement": 0.6038476149427214
+            },
+            "validation": {
+              "loss": 0.15306364084494486,
+              "mcHalfMse": 0.06085076014430054,
+              "cql": 1.8511637367999672,
+              "bc": 1.8403087582877415,
+              "rank": 0.5540670559365024,
+              "teacherAgreement": 0.6332808945942042
+            }
+          }
+        ],
+        "trainingSamples": 7901,
+        "validationSamples": 11442,
+        "trainingHash": "f9147b85e6231fa88436a790ed7b63d95e7c1278e4628f81b4693f1462c71313",
+        "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+        "config": {
+          "learningRate": 0.001,
+          "batchSize": 256,
+          "maxGradNorm": 5,
+          "cqlWeight": 0,
+          "bcWeight": 0.02,
+          "auxWeight": 0.1
+        },
+        "network": {
+          "channels": 24,
+          "blocks": 2,
+          "globalSize": 64,
+          "localSize": 32,
+          "useTiles": true
+        },
+        "mode": "q",
+        "seed": "ee1792c696fb1693deaf04e9d8203b5b751a87a14b35e6c4f2a5c72f44daa775",
+        "torch": "2.1.2+cpu",
+        "parameters": 21765
+      }
+    },
+    {
+      "dataset": {
+        "version": "kwx-tile-q-episodes-1",
+        "schema": {
+          "version": "kwx-tile-q-public-1",
+          "tiles": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s9",
+            "z5",
+            "z6",
+            "z7"
+          ],
+          "positions": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            22,
+            25,
+            28
+          ],
+          "length": 29,
+          "channels": 65,
+          "planes": [
+            {
+              "name": "own.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "own.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "own.draw",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=1",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=2",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=3",
+              "scale": 1
+            },
+            {
+              "name": "visible.count>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p0.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p0.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p0.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p0.waits",
+              "scale": 1
+            },
+            {
+              "name": "p0.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p0.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p1.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p1.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p1.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p1.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p1.waits",
+              "scale": 1
+            },
+            {
+              "name": "p1.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p1.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "p2.revealed>=1",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=2",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=3",
+              "scale": 1
+            },
+            {
+              "name": "p2.revealed>=4",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverCount",
+              "scale": 4
+            },
+            {
+              "name": "p2.meld.peng",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.ming",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.an",
+              "scale": 1
+            },
+            {
+              "name": "p2.meld.bu",
+              "scale": 1
+            },
+            {
+              "name": "p2.waits",
+              "scale": 1
+            },
+            {
+              "name": "p2.riverOrder.0",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.1",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.2",
+              "scale": 48
+            },
+            {
+              "name": "p2.riverOrder.3",
+              "scale": 48
+            },
+            {
+              "name": "own.passedHu",
+              "scale": 1
+            },
+            {
+              "name": "own.passedPeng",
+              "scale": 1
+            },
+            {
+              "name": "own.buOpportunities",
+              "scale": 1
+            },
+            {
+              "name": "own.reservedKongTiles",
+              "scale": 1
+            },
+            {
+              "name": "own.supplementForbidden",
+              "scale": 1
+            },
+            {
+              "name": "own.order.0",
+              "scale": 14
+            },
+            {
+              "name": "own.order.1",
+              "scale": 14
+            },
+            {
+              "name": "own.order.2",
+              "scale": 14
+            },
+            {
+              "name": "own.order.3",
+              "scale": 14
+            },
+            {
+              "name": "type.suited",
+              "scale": 1
+            },
+            {
+              "name": "type.honor",
+              "scale": 1
+            },
+            {
+              "name": "type.rank",
+              "scale": 9
+            },
+            {
+              "name": "pending.tile",
+              "scale": 1
+            },
+            {
+              "name": "last.tile",
+              "scale": 1
+            }
+          ],
+          "contextNames": [
+            "p0.liang",
+            "p0.size",
+            "p0.hidden",
+            "p0.riverSize",
+            "p0.meldSize",
+            "p0.total",
+            "p0.kongNet",
+            "p1.liang",
+            "p1.size",
+            "p1.hidden",
+            "p1.riverSize",
+            "p1.meldSize",
+            "p1.total",
+            "p1.kongNet",
+            "p2.liang",
+            "p2.size",
+            "p2.hidden",
+            "p2.riverSize",
+            "p2.meldSize",
+            "p2.total",
+            "p2.kongNet",
+            "wall",
+            "gangChain",
+            "round",
+            "dealer.0",
+            "dealer.1",
+            "dealer.2",
+            "turn.0",
+            "turn.1",
+            "turn.2",
+            "phase.discard",
+            "phase.react",
+            "pending.source.0",
+            "pending.source.1",
+            "pending.source.2",
+            "pending.discard",
+            "pending.robKong",
+            "pending.gangShot",
+            "pending.gangCount",
+            "last.source.0",
+            "last.source.1",
+            "last.source.2"
+          ],
+          "contextSize": 42,
+          "actions": 88,
+          "candidateSize": 34
+        },
+        "split": "training",
+        "seed": "3f70bea73de3e02a4e0f6d615b1073976264d62ff30949f0cc9c5b7829833418",
+        "startHand": 0,
+        "hands": 600,
+        "sessionHands": 16,
+        "samples": 8274,
+        "actions": 17900,
+        "huOffered": 289,
+        "huMissed": 11,
+        "epsilon": 0.1,
+        "modelHashes": {
+          "current": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.json",
+            "sha256": "c390d486dd5b5afc644f32a88e8dd9fe9c372409aad1525274dd1ec54db50931"
+          },
+          "history-0": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.json",
+            "sha256": "9477361f3abbee085b8a12d8de8281073ddb5dbc4a6b22d2749c8038d7763998"
+          },
+          "history-1": {
+            "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+            "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+          }
+        },
+        "sources": {
+          "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+          "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+          "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+          "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+          "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+          "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+          "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+          "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+          "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+          "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+          "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+          "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+          "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+          "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+          "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+          "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+          "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+          "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+          "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+          "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+          "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+          "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+          "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+          "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+          "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+          "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+        },
+        "sha256": "be25d6d8c17e4118bdbb2f083cd6736b42e6f23c77f216804670f8e51fe77900",
+        "target": "Undiscounted terminal net less already settled kong net, divided by 16; gamma=1"
+      },
+      "selected": {
+        "epoch": 4,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.pt",
+        "validationLoss": 0.1527870426518041
+      },
+      "training": {
+        "selected": {
+          "epoch": 4,
+          "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.json",
+          "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.pt",
+          "validationLoss": 0.1527870426518041
+        },
+        "history": [
+          {
+            "epoch": 0,
+            "training": {
+              "loss": 0.1394288761476863,
+              "mcHalfMse": 0.03829585648271696,
+              "cql": 1.7940794034139065,
+              "bc": 1.7995216747629257,
+              "rank": 0.6514258307479331,
+              "teacherAgreement": 0.6024897270136937
+            },
+            "validation": {
+              "loss": 0.15306364084494486,
+              "mcHalfMse": 0.06085076014430054,
+              "cql": 1.8511637367999672,
+              "bc": 1.8403087582877415,
+              "rank": 0.5540670559365024,
+              "teacherAgreement": 0.6332808945942042
+            }
+          },
+          {
+            "epoch": 1,
+            "training": {
+              "loss": 0.13600474490487177,
+              "mcHalfMse": 0.03545666760131302,
+              "cql": 1.827481510214452,
+              "bc": 1.8308293783696403,
+              "rank": 0.6393148738504582,
+              "teacherAgreement": 0.5931834665536592
+            },
+            "validation": {
+              "loss": 0.1534474978047304,
+              "mcHalfMse": 0.060801403021045634,
+              "cql": 1.8832752693785053,
+              "bc": 1.8745976231186106,
+              "rank": 0.5515414211346207,
+              "teacherAgreement": 0.619646914458279
+            }
+          },
+          {
+            "epoch": 2,
+            "training": {
+              "loss": 0.13594874232495957,
+              "mcHalfMse": 0.03625462193051945,
+              "cql": 1.831609312797013,
+              "bc": 1.8344137605215747,
+              "rank": 0.6300584665741181,
+              "teacherAgreement": 0.5871404401916567
+            },
+            "validation": {
+              "loss": 0.15577265308195423,
+              "mcHalfMse": 0.06304102240586444,
+              "cql": 1.887138357676736,
+              "bc": 1.8787643435617734,
+              "rank": 0.5515634340332264,
+              "teacherAgreement": 0.617374584508555
+            }
+          },
+          {
+            "epoch": 3,
+            "training": {
+              "loss": 0.1328313990055088,
+              "mcHalfMse": 0.03375104755246036,
+              "cql": 1.84028389755297,
+              "bc": 1.8433226095411206,
+              "rank": 0.6221389933242757,
+              "teacherAgreement": 0.5827894607459343
+            },
+            "validation": {
+              "loss": 0.1528263075058745,
+              "mcHalfMse": 0.05998123530282192,
+              "cql": 1.8947619505225308,
+              "bc": 1.8870488523374254,
+              "rank": 0.551040940550611,
+              "teacherAgreement": 0.6112567729163141
+            }
+          },
+          {
+            "epoch": 4,
+            "training": {
+              "loss": 0.1324176584497177,
+              "mcHalfMse": 0.034377683353886565,
+              "cql": 1.8254863436394393,
+              "bc": 1.8226182189343891,
+              "rank": 0.6158761099856171,
+              "teacherAgreement": 0.5876238822994643
+            },
+            "validation": {
+              "loss": 0.1527870426518041,
+              "mcHalfMse": 0.06021927355980253,
+              "cql": 1.8756595018380504,
+              "bc": 1.8669207850612763,
+              "rank": 0.5522935054786055,
+              "teacherAgreement": 0.5956126549218507
+            }
+          }
+        ],
+        "trainingSamples": 8274,
+        "validationSamples": 11442,
+        "trainingHash": "be25d6d8c17e4118bdbb2f083cd6736b42e6f23c77f216804670f8e51fe77900",
+        "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+        "config": {
+          "learningRate": 0.001,
+          "batchSize": 256,
+          "maxGradNorm": 5,
+          "cqlWeight": 0,
+          "bcWeight": 0.02,
+          "auxWeight": 0.1
+        },
+        "network": {
+          "channels": 24,
+          "blocks": 2,
+          "globalSize": 64,
+          "localSize": 32,
+          "useTiles": true
+        },
+        "mode": "q",
+        "seed": "3f70bea73de3e02a4e0f6d615b1073976264d62ff30949f0cc9c5b7829833418",
+        "torch": "2.1.2+cpu",
+        "parameters": 21765
+      }
+    }
+  ],
+  "fitted": {
+    "features-bc": {
+      "selected": {
+        "epoch": 12,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.pt",
+        "validationLoss": 0.393420728717603
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 2.0929990611457865,
+            "mcHalfMse": 0.058489391720206244,
+            "cql": 1.9842924619442635,
+            "bc": 1.9826931196018032,
+            "rank": 1.1030594888117293,
+            "teacherAgreement": 0.20463873410437483
+          },
+          "validation": {
+            "loss": 2.099009509312484,
+            "mcHalfMse": 0.06747544583032815,
+            "cql": 1.9903673583905692,
+            "bc": 1.9886234649889243,
+            "rank": 1.1038607363933408,
+            "teacherAgreement": 0.20485929019841628
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 1.283609703852278,
+            "mcHalfMse": 1.4759440110236406,
+            "cql": 1.3490602906747096,
+            "bc": 1.221969879787217,
+            "rank": 0.6163982670441696,
+            "teacherAgreement": 0.5813961612523878
+          },
+          "validation": {
+            "loss": 1.283904717364859,
+            "mcHalfMse": 1.496175900974217,
+            "cql": 1.355149849418409,
+            "bc": 1.2242670665981679,
+            "rank": 0.596376630356003,
+            "teacherAgreement": 0.5799685366356672
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 1.0096079300624048,
+            "mcHalfMse": 5.016922744601274,
+            "cql": 1.1670047088101345,
+            "bc": 0.9516610111592627,
+            "rank": 0.5794691861051612,
+            "teacherAgreement": 0.6544003353936787
+          },
+          "validation": {
+            "loss": 1.0167957446392215,
+            "mcHalfMse": 5.011042245762517,
+            "cql": 1.1809585685393251,
+            "bc": 0.9608518572833816,
+            "rank": 0.5594388864878445,
+            "teacherAgreement": 0.6526830976002286
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.8666547568173724,
+            "mcHalfMse": 9.616576564260559,
+            "cql": 1.109031974645757,
+            "bc": 0.8097771855032897,
+            "rank": 0.5687757133167536,
+            "teacherAgreement": 0.7220776497569237
+          },
+          "validation": {
+            "loss": 0.8760227364606943,
+            "mcHalfMse": 9.58529471484249,
+            "cql": 1.124830491183167,
+            "bc": 0.8213773480225975,
+            "rank": 0.5464538251826487,
+            "teacherAgreement": 0.7177940919523866
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.7551120476884117,
+            "mcHalfMse": 15.715517731595,
+            "cql": 1.10328318985196,
+            "bc": 0.6987032241151051,
+            "rank": 0.5640882235647928,
+            "teacherAgreement": 0.7771276872860977
+          },
+          "validation": {
+            "loss": 0.7646860440717963,
+            "mcHalfMse": 15.656680251143026,
+            "cql": 1.1192738438294372,
+            "bc": 0.7103664356081495,
+            "rank": 0.5431960543705188,
+            "teacherAgreement": 0.7721552173379959
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "loss": 0.6624451406309304,
+            "mcHalfMse": 21.279113037565356,
+            "cql": 1.0971581191774429,
+            "bc": 0.6068024411905527,
+            "rank": 0.5564270226576117,
+            "teacherAgreement": 0.8164765880987193
+          },
+          "validation": {
+            "loss": 0.6728647657154201,
+            "mcHalfMse": 21.2354844831291,
+            "cql": 1.1116688780133654,
+            "bc": 0.6193295490843832,
+            "rank": 0.5353521292619283,
+            "teacherAgreement": 0.8120957871267707
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "loss": 0.5935107177984499,
+            "mcHalfMse": 29.125251931916146,
+            "cql": 1.1198427683171535,
+            "bc": 0.5384080371871762,
+            "rank": 0.5510268237920702,
+            "teacherAgreement": 0.8706184395543373
+          },
+          "validation": {
+            "loss": 0.6036819444213626,
+            "mcHalfMse": 29.102659369490198,
+            "cql": 1.1307017228087022,
+            "bc": 0.5505524605976246,
+            "rank": 0.5312948487913915,
+            "teacherAgreement": 0.8668065027973075
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "loss": 0.5411800774659844,
+            "mcHalfMse": 36.349305949767505,
+            "cql": 1.1656886459777285,
+            "bc": 0.4865112927591796,
+            "rank": 0.5466878482245987,
+            "teacherAgreement": 0.8833155770222455
+          },
+          "validation": {
+            "loss": 0.5498668999651932,
+            "mcHalfMse": 36.38249569609331,
+            "cql": 1.1731609222335093,
+            "bc": 0.4970803124059479,
+            "rank": 0.5278658997114462,
+            "teacherAgreement": 0.8802656882752323
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "loss": 0.49817227122815155,
+            "mcHalfMse": 40.59088801886269,
+            "cql": 1.2247146578746333,
+            "bc": 0.4439353913535661,
+            "rank": 0.542368795052383,
+            "teacherAgreement": 0.9027193180287235
+          },
+          "validation": {
+            "loss": 0.5073273613712959,
+            "mcHalfMse": 40.69308521288757,
+            "cql": 1.2293388737683693,
+            "bc": 0.45492242272240657,
+            "rank": 0.5240494135667594,
+            "teacherAgreement": 0.89818213636528
+          }
+        },
+        {
+          "epoch": 9,
+          "training": {
+            "loss": 0.46389001970892274,
+            "mcHalfMse": 42.668698602782285,
+            "cql": 1.2803870590412234,
+            "bc": 0.40962177479844064,
+            "rank": 0.5426824337333872,
+            "teacherAgreement": 0.9104388982496359
+          },
+          "validation": {
+            "loss": 0.47186000936620204,
+            "mcHalfMse": 42.84161295404886,
+            "cql": 1.2791570019959526,
+            "bc": 0.4193412493865529,
+            "rank": 0.5251875784592578,
+            "teacherAgreement": 0.9063974832909191
+          }
+        },
+        {
+          "epoch": 10,
+          "training": {
+            "loss": 0.4331685437150852,
+            "mcHalfMse": 53.24248936296346,
+            "cql": 1.3846605895007265,
+            "bc": 0.37962289475496475,
+            "rank": 0.5354564840047796,
+            "teacherAgreement": 0.9284104998825398
+          },
+          "validation": {
+            "loss": 0.44130943087072055,
+            "mcHalfMse": 53.48632232393965,
+            "cql": 1.3817021909282665,
+            "bc": 0.3894846190305632,
+            "rank": 0.5182481072120287,
+            "teacherAgreement": 0.9224785879303828
+          }
+        },
+        {
+          "epoch": 11,
+          "training": {
+            "loss": 0.4078760171756061,
+            "mcHalfMse": 61.701136078193194,
+            "cql": 1.4625795133677204,
+            "bc": 0.35447202322483357,
+            "rank": 0.5340399258737241,
+            "teacherAgreement": 0.9327418482769778
+          },
+          "validation": {
+            "loss": 0.41603728538625534,
+            "mcHalfMse": 62.02754908953277,
+            "cql": 1.4539302384763764,
+            "bc": 0.3643730890915498,
+            "rank": 0.516641968687688,
+            "teacherAgreement": 0.927285439879343
+          }
+        },
+        {
+          "epoch": 12,
+          "training": {
+            "loss": 0.38533859136951676,
+            "mcHalfMse": 73.23849025999274,
+            "cql": 1.5461467645452995,
+            "bc": 0.332091018032103,
+            "rank": 0.5324757188979664,
+            "teacherAgreement": 0.9430637303998407
+          },
+          "validation": {
+            "loss": 0.393420728717603,
+            "mcHalfMse": 73.71649938995782,
+            "cql": 1.5326886529419061,
+            "bc": 0.3417514449982058,
+            "rank": 0.5166928429346029,
+            "teacherAgreement": 0.9352385949221674
+          }
+        }
+      ],
+      "trainingSamples": 57257,
+      "validationSamples": 11442,
+      "trainingHash": "5941736f9f00b2bec88908fa86137212daef655cd8cd2a4bcf3de879d0697093",
+      "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0.05,
+        "bcWeight": 0.1,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": false
+      },
+      "mode": "bc",
+      "seed": "b703cd12178ce9b980d48a862ee85e2b01247c1103e4eda6ce6d6a625453b148",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    },
+    "tiles-bc": {
+      "selected": {
+        "epoch": 12,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.pt",
+        "validationLoss": 0.3271689899181115
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 2.092835573028551,
+            "mcHalfMse": 0.06009012017788343,
+            "cql": 1.9847721007071097,
+            "bc": 1.9830885423075697,
+            "rank": 1.0974702320890544,
+            "teacherAgreement": 0.1868767138095395
+          },
+          "validation": {
+            "loss": 2.098872136661294,
+            "mcHalfMse": 0.06897524308906196,
+            "cql": 1.9908832005324262,
+            "bc": 1.989039287473788,
+            "rank": 1.0983284832901568,
+            "teacherAgreement": 0.183272155103015
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 0.9760575217106545,
+            "mcHalfMse": 3.567769542542323,
+            "cql": 1.1363386292244966,
+            "bc": 0.9118428749922555,
+            "rank": 0.6421464404541893,
+            "teacherAgreement": 0.688527166764298
+          },
+          "validation": {
+            "loss": 0.9906505401933389,
+            "mcHalfMse": 3.606096207272483,
+            "cql": 1.1538084925648386,
+            "bc": 0.9283781790416613,
+            "rank": 0.6227236413763988,
+            "teacherAgreement": 0.6822233877176174
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 0.777547207407408,
+            "mcHalfMse": 8.104834106700215,
+            "cql": 1.0266512253164244,
+            "bc": 0.7170055164926814,
+            "rank": 0.6054169079959147,
+            "teacherAgreement": 0.7395951586924167
+          },
+          "validation": {
+            "loss": 0.8030687589533699,
+            "mcHalfMse": 8.074358859443098,
+            "cql": 1.0544184111481967,
+            "bc": 0.7442296414791214,
+            "rank": 0.5883911928916349,
+            "teacherAgreement": 0.7254850550498857
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.6603608995533945,
+            "mcHalfMse": 12.756379318247296,
+            "cql": 0.9991427332520441,
+            "bc": 0.6005781188325886,
+            "rank": 0.5978277933502415,
+            "teacherAgreement": 0.7806032449368783
+          },
+          "validation": {
+            "loss": 0.6884038772038743,
+            "mcHalfMse": 12.67072615700988,
+            "cql": 1.0315338492372657,
+            "bc": 0.6307264701967118,
+            "rank": 0.5767740050180666,
+            "teacherAgreement": 0.7621045270451214
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.5820596776918942,
+            "mcHalfMse": 17.55670634679669,
+            "cql": 1.0140190783080738,
+            "bc": 0.5232653527479102,
+            "rank": 0.5879432517581489,
+            "teacherAgreement": 0.8094730776983626
+          },
+          "validation": {
+            "loss": 0.6112499114746522,
+            "mcHalfMse": 17.386165038457055,
+            "cql": 1.049410090269773,
+            "bc": 0.5543325040186645,
+            "rank": 0.5691740945635341,
+            "teacherAgreement": 0.7917322144706732
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "loss": 0.5203734198909,
+            "mcHalfMse": 20.785993597336205,
+            "cql": 1.0213747309447936,
+            "bc": 0.462234022515551,
+            "rank": 0.5813939653161723,
+            "teacherAgreement": 0.8345180503602557
+          },
+          "validation": {
+            "loss": 0.5501124407836261,
+            "mcHalfMse": 20.577577057511547,
+            "cql": 1.0580516136874065,
+            "bc": 0.49409682956260315,
+            "rank": 0.5601560911647174,
+            "teacherAgreement": 0.8165530498639165
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "loss": 0.472262013192648,
+            "mcHalfMse": 26.21643466047705,
+            "cql": 1.073729637660942,
+            "bc": 0.41466807083995116,
+            "rank": 0.5759394130430379,
+            "teacherAgreement": 0.8544632095334701
+          },
+          "validation": {
+            "loss": 0.5033290524714853,
+            "mcHalfMse": 25.994733841763864,
+            "cql": 1.1078072958133416,
+            "bc": 0.44783682718787066,
+            "rank": 0.5549222680264224,
+            "teacherAgreement": 0.8347316898576158
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "loss": 0.43250987346829806,
+            "mcHalfMse": 28.49178478913803,
+            "cql": 1.1120755501636839,
+            "bc": 0.3750702930337477,
+            "rank": 0.5743958110079127,
+            "teacherAgreement": 0.8744607646747165
+          },
+          "validation": {
+            "loss": 0.4619022248727294,
+            "mcHalfMse": 28.33554846955813,
+            "cql": 1.14443813187533,
+            "bc": 0.4065384519483593,
+            "rank": 0.5536377137617055,
+            "teacherAgreement": 0.8512497818817981
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "loss": 0.4006740547620194,
+            "mcHalfMse": 30.80579129461616,
+            "cql": 1.2002069485129856,
+            "bc": 0.3440034631049927,
+            "rank": 0.5667059226996872,
+            "teacherAgreement": 0.8812022984661835
+          },
+          "validation": {
+            "loss": 0.43022434050085406,
+            "mcHalfMse": 30.73381925208484,
+            "cql": 1.2312018330375167,
+            "bc": 0.3756758488051813,
+            "rank": 0.545484912549672,
+            "teacherAgreement": 0.8622618426061389
+          }
+        },
+        {
+          "epoch": 9,
+          "training": {
+            "loss": 0.372833037344341,
+            "mcHalfMse": 32.47537732378749,
+            "cql": 1.2683864720891183,
+            "bc": 0.3160804167975692,
+            "rank": 0.567526202184396,
+            "teacherAgreement": 0.8992786910316248
+          },
+          "validation": {
+            "loss": 0.4021317405761945,
+            "mcHalfMse": 32.47251596902555,
+            "cql": 1.2961317421860303,
+            "bc": 0.34737998792037866,
+            "rank": 0.5475175168167938,
+            "teacherAgreement": 0.8814892503603043
+          }
+        },
+        {
+          "epoch": 10,
+          "training": {
+            "loss": 0.34897562275462596,
+            "mcHalfMse": 41.6527566477233,
+            "cql": 1.4032918545378528,
+            "bc": 0.2929700619090892,
+            "rank": 0.5600556149418515,
+            "teacherAgreement": 0.901566620634602
+          },
+          "validation": {
+            "loss": 0.38092719909507605,
+            "mcHalfMse": 41.78537147067223,
+            "cql": 1.4325883325382749,
+            "bc": 0.32691572897502164,
+            "rank": 0.540114692271829,
+            "teacherAgreement": 0.8797413042387205
+          }
+        },
+        {
+          "epoch": 11,
+          "training": {
+            "loss": 0.32135629673449445,
+            "mcHalfMse": 49.607555188865696,
+            "cql": 1.4831008686921836,
+            "bc": 0.26560272944386404,
+            "rank": 0.5575356543847994,
+            "teacherAgreement": 0.9112422935603365
+          },
+          "validation": {
+            "loss": 0.35906991022926305,
+            "mcHalfMse": 49.79596067754314,
+            "cql": 1.5129928795154892,
+            "bc": 0.3053447350539271,
+            "rank": 0.537251727228043,
+            "teacherAgreement": 0.8901415839309439
+          }
+        },
+        {
+          "epoch": 12,
+          "training": {
+            "loss": 0.29919895397747964,
+            "mcHalfMse": 57.896795707449584,
+            "cql": 1.5415937983219588,
+            "bc": 0.24394155193753878,
+            "rank": 0.5525740154692237,
+            "teacherAgreement": 0.9287947326404622
+          },
+          "validation": {
+            "loss": 0.3271689899181115,
+            "mcHalfMse": 58.029921111767166,
+            "cql": 1.5598523046686565,
+            "bc": 0.27380308153078786,
+            "rank": 0.5336590722773671,
+            "teacherAgreement": 0.9118161162719964
+          }
+        }
+      ],
+      "trainingSamples": 57257,
+      "validationSamples": 11442,
+      "trainingHash": "5941736f9f00b2bec88908fa86137212daef655cd8cd2a4bcf3de879d0697093",
+      "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0.05,
+        "bcWeight": 0.1,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "bc",
+      "seed": "b703cd12178ce9b980d48a862ee85e2b01247c1103e4eda6ce6d6a625453b148",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    },
+    "tiles-offline": {
+      "selected": {
+        "epoch": 8,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+        "validationLoss": 0.3693149114088503
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 58.05352724807082,
+            "mcHalfMse": 57.896795707449584,
+            "cql": 1.5415937983219588,
+            "bc": 0.24394155193753878,
+            "rank": 0.5525740154692237,
+            "teacherAgreement": 0.9287947326404622
+          },
+          "validation": {
+            "loss": 58.18865951660775,
+            "mcHalfMse": 58.029921111767166,
+            "cql": 1.5598523046686565,
+            "bc": 0.27380308153078786,
+            "rank": 0.5336590722773671,
+            "teacherAgreement": 0.9118161162719964
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 0.3865031893888921,
+            "mcHalfMse": 0.08069224929671949,
+            "cql": 1.6007813224000156,
+            "bc": 1.5657577013426844,
+            "rank": 0.6919609976930358,
+            "teacherAgreement": 0.6820825401791889
+          },
+          "validation": {
+            "loss": 0.39622488849710236,
+            "mcHalfMse": 0.09096709517848343,
+            "cql": 1.6083942151240507,
+            "bc": 1.5725456443913979,
+            "rank": 0.6758351327030626,
+            "teacherAgreement": 0.6792518794276128
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 0.37445112280181325,
+            "mcHalfMse": 0.07371353661638518,
+            "cql": 1.6036744072307496,
+            "bc": 1.570600960815853,
+            "rank": 0.6349376422195037,
+            "teacherAgreement": 0.6899942364834181
+          },
+          "validation": {
+            "loss": 0.38464479715418637,
+            "mcHalfMse": 0.0844878894927264,
+            "cql": 1.6109141479357827,
+            "bc": 1.5776088660548062,
+            "rank": 0.6185030993976037,
+            "teacherAgreement": 0.6864184587178083
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.36952251428675614,
+            "mcHalfMse": 0.0721106495184668,
+            "cql": 1.5919351919144937,
+            "bc": 1.5578399602184725,
+            "rank": 0.620311053517891,
+            "teacherAgreement": 0.6858375396605593
+          },
+          "validation": {
+            "loss": 0.3796395052877511,
+            "mcHalfMse": 0.0830573582019949,
+            "cql": 1.5992394679077353,
+            "bc": 1.5649200909789094,
+            "rank": 0.6012815882788319,
+            "teacherAgreement": 0.6801258516861748
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.36691905090517274,
+            "mcHalfMse": 0.07411915123754678,
+            "cql": 1.5673746388322092,
+            "bc": 1.5301373029231131,
+            "rank": 0.6141743249058469,
+            "teacherAgreement": 0.7128036745224545
+          },
+          "validation": {
+            "loss": 0.37733127210882433,
+            "mcHalfMse": 0.08506400079665495,
+            "cql": 1.5748439759896404,
+            "bc": 1.5373005347534445,
+            "rank": 0.5979501593677632,
+            "teacherAgreement": 0.7038105228546929
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "loss": 0.3633038894372349,
+            "mcHalfMse": 0.07276544175698685,
+            "cql": 1.5573384163588164,
+            "bc": 1.5197455412555732,
+            "rank": 0.6069696533494041,
+            "teacherAgreement": 0.7170651624631494
+          },
+          "validation": {
+            "loss": 0.3737191660715511,
+            "mcHalfMse": 0.08386047082625786,
+            "cql": 1.565333494500792,
+            "bc": 1.5272291932900328,
+            "rank": 0.588690969092178,
+            "teacherAgreement": 0.7038979201628557
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "loss": 0.3619409951780692,
+            "mcHalfMse": 0.07579118346632681,
+            "cql": 1.5328921805109825,
+            "bc": 1.4928615432306345,
+            "rank": 0.6021904197975826,
+            "teacherAgreement": 0.7237193705021385
+          },
+          "validation": {
+            "loss": 0.3731607617541764,
+            "mcHalfMse": 0.08747074430981958,
+            "cql": 1.5415634533217517,
+            "bc": 1.5011867229973097,
+            "rank": 0.5849317611357775,
+            "teacherAgreement": 0.7103653209460737
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "loss": 0.3607337296421299,
+            "mcHalfMse": 0.075038118577352,
+            "cql": 1.531284311615668,
+            "bc": 1.4907182471864635,
+            "rank": 0.6005956481633486,
+            "teacherAgreement": 0.7357528338291651
+          },
+          "validation": {
+            "loss": 0.3722091922495794,
+            "mcHalfMse": 0.08694290419888442,
+            "cql": 1.5406255302177485,
+            "bc": 1.499349153889911,
+            "rank": 0.5830009267622306,
+            "teacherAgreement": 0.7255724524205599
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "loss": 0.35799082046695485,
+            "mcHalfMse": 0.07256018168773898,
+            "cql": 1.5329169576341328,
+            "bc": 1.4920739734168866,
+            "rank": 0.5957738873236421,
+            "teacherAgreement": 0.7322248809255212
+          },
+          "validation": {
+            "loss": 0.3693149114088503,
+            "mcHalfMse": 0.08427878269322414,
+            "cql": 1.5414025870221328,
+            "bc": 1.5005193105674963,
+            "rank": 0.5791406515927773,
+            "teacherAgreement": 0.7163083377969659
+          }
+        }
+      ],
+      "trainingSamples": 57257,
+      "validationSamples": 11442,
+      "trainingHash": "5941736f9f00b2bec88908fa86137212daef655cd8cd2a4bcf3de879d0697093",
+      "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0.05,
+        "bcWeight": 0.1,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "q",
+      "seed": "b703cd12178ce9b980d48a862ee85e2b01247c1103e4eda6ce6d6a625453b148",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    },
+    "tiles-online": {
+      "selected": {
+        "epoch": 4,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.pt",
+        "validationLoss": 0.1527870426518041
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 0.1394288761476863,
+            "mcHalfMse": 0.03829585648271696,
+            "cql": 1.7940794034139065,
+            "bc": 1.7995216747629257,
+            "rank": 0.6514258307479331,
+            "teacherAgreement": 0.6024897270136937
+          },
+          "validation": {
+            "loss": 0.15306364084494486,
+            "mcHalfMse": 0.06085076014430054,
+            "cql": 1.8511637367999672,
+            "bc": 1.8403087582877415,
+            "rank": 0.5540670559365024,
+            "teacherAgreement": 0.6332808945942042
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 0.13600474490487177,
+            "mcHalfMse": 0.03545666760131302,
+            "cql": 1.827481510214452,
+            "bc": 1.8308293783696403,
+            "rank": 0.6393148738504582,
+            "teacherAgreement": 0.5931834665536592
+          },
+          "validation": {
+            "loss": 0.1534474978047304,
+            "mcHalfMse": 0.060801403021045634,
+            "cql": 1.8832752693785053,
+            "bc": 1.8745976231186106,
+            "rank": 0.5515414211346207,
+            "teacherAgreement": 0.619646914458279
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 0.13594874232495957,
+            "mcHalfMse": 0.03625462193051945,
+            "cql": 1.831609312797013,
+            "bc": 1.8344137605215747,
+            "rank": 0.6300584665741181,
+            "teacherAgreement": 0.5871404401916567
+          },
+          "validation": {
+            "loss": 0.15577265308195423,
+            "mcHalfMse": 0.06304102240586444,
+            "cql": 1.887138357676736,
+            "bc": 1.8787643435617734,
+            "rank": 0.5515634340332264,
+            "teacherAgreement": 0.617374584508555
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.1328313990055088,
+            "mcHalfMse": 0.03375104755246036,
+            "cql": 1.84028389755297,
+            "bc": 1.8433226095411206,
+            "rank": 0.6221389933242757,
+            "teacherAgreement": 0.5827894607459343
+          },
+          "validation": {
+            "loss": 0.1528263075058745,
+            "mcHalfMse": 0.05998123530282192,
+            "cql": 1.8947619505225308,
+            "bc": 1.8870488523374254,
+            "rank": 0.551040940550611,
+            "teacherAgreement": 0.6112567729163141
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.1324176584497177,
+            "mcHalfMse": 0.034377683353886565,
+            "cql": 1.8254863436394393,
+            "bc": 1.8226182189343891,
+            "rank": 0.6158761099856171,
+            "teacherAgreement": 0.5876238822994643
+          },
+          "validation": {
+            "loss": 0.1527870426518041,
+            "mcHalfMse": 0.06021927355980253,
+            "cql": 1.8756595018380504,
+            "bc": 1.8669207850612763,
+            "rank": 0.5522935054786055,
+            "teacherAgreement": 0.5956126549218507
+          }
+        }
+      ],
+      "trainingSamples": 8274,
+      "validationSamples": 11442,
+      "trainingHash": "be25d6d8c17e4118bdbb2f083cd6736b42e6f23c77f216804670f8e51fe77900",
+      "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0,
+        "bcWeight": 0.02,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "q",
+      "seed": "3f70bea73de3e02a4e0f6d615b1073976264d62ff30949f0cc9c5b7829833418",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    }
+  },
+  "development": [
+    {
+      "arm": "features-bc",
+      "delta": -15.625000000000005,
+      "ci95": [
+        -56.25,
+        24.999999999999993
+      ],
+      "games": 864
+    },
+    {
+      "arm": "tiles-bc",
+      "delta": -6.510416666666664,
+      "ci95": [
+        -45.3125,
+        32.29166666666667
+      ],
+      "games": 864
+    },
+    {
+      "arm": "tiles-offline",
+      "delta": 25.260416666666668,
+      "ci95": [
+        16.66666666666667,
+        33.85416666666667
+      ],
+      "games": 864
+    },
+    {
+      "arm": "tiles-online",
+      "delta": -5.468750000000004,
+      "ci95": [
+        -37.50000000000001,
+        26.562499999999996
+      ],
+      "games": 864
+    }
+  ],
+  "selected": "tiles-offline",
+  "sealed": {
+    "primary": {
+      "groups": 16,
+      "hands": 1536,
+      "candidatePer100": 53.77604166666667,
+      "incumbentPer100": 13.28125,
+      "deltaPer100": 40.49479166666667,
+      "ci95": [
+        7.680664062499998,
+        75.13346354166663
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "independent": {
+      "groups": 32,
+      "hands": 192,
+      "candidatePer100": -6.770833333333336,
+      "incumbentPer100": 33.854166666666664,
+      "deltaPer100": -40.625,
+      "ci95": [
+        -106.25,
+        25.520833333333325
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "byOpponentPair": {
+      "H0+H0": {
+        "groups": 8,
+        "hands": 768,
+        "candidatePer100": 61.458333333333336,
+        "incumbentPer100": 0,
+        "deltaPer100": 61.458333333333336,
+        "ci95": [
+          10.416666666666668,
+          114.32291666666667
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      },
+      "H0+greedy-speed-v1": {
+        "groups": 8,
+        "hands": 768,
+        "candidatePer100": 46.09375000000001,
+        "incumbentPer100": 26.5625,
+        "deltaPer100": 19.53125,
+        "ci95": [
+          -20.836588541666668,
+          62.63020833333334
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      }
+    },
+    "games": 3456
+  },
+  "trainingHands": 3600,
+  "validationHands": 480,
+  "games": 6912,
+  "productionPolicy": "H0",
+  "positiveSealedEvidence": true
+}

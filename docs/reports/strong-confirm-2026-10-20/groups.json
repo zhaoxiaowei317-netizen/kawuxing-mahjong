@@ -1,0 +1,3650 @@
+[
+  {
+    "job": {
+      "id": "offline-0-000",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 0
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "f8436a784bfc88ab84108025213f23298b09daac5db65bc14ed422d76ae76f0d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "f763792d72921d1c0e7d938534590ae9d336dee31e9e26cbff061949166038d5",
+      "candidate": {
+        "hands": 96,
+        "score": -36,
+        "wins": 26,
+        "selfDraws": 12,
+        "dealIns": 1,
+        "draws": 1,
+        "huScore": -25,
+        "kongScore": -13,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 3,
+        "sessions": 6,
+        "sessionScores": [
+          -15,
+          1,
+          -3,
+          -7,
+          -4,
+          -8
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 10,
+        "wins": 33,
+        "selfDraws": 20,
+        "dealIns": 4,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 10,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -8,
+          15,
+          11,
+          7,
+          0,
+          -15
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5530,
+    "seconds": 24.1874738,
+    "seed": "47aa07d6bda11ab4eb9f6e9ddcc2b09b029fc5a7fd6abfbf2fbc221371d2bf1b"
+  },
+  {
+    "job": {
+      "id": "offline-0-001",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 1
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b713e2325e20e9514e6211d1b7a3f3622b0e105c776ed8fa44200ba7ce0c7085",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "8ee6a1ff514ae8b5389b12cd1850ec17a1fb24cdcc24f8de17116e77ef867f09",
+      "candidate": {
+        "hands": 96,
+        "score": 14,
+        "wins": 38,
+        "selfDraws": 21,
+        "dealIns": 1,
+        "draws": 2,
+        "huScore": 6,
+        "kongScore": 4,
+        "drawScore": 4,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 0.5,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          0,
+          2,
+          0,
+          10,
+          3
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 48,
+        "wins": 40,
+        "selfDraws": 25,
+        "dealIns": 3,
+        "draws": 0,
+        "huScore": 45,
+        "kongScore": 3,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          7,
+          16,
+          -3,
+          6,
+          18,
+          4
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5165,
+    "seconds": 24.2022386,
+    "seed": "500d7c2797021bebc73bf7158b7f256454ffc1801b31c20c18777d5b8c0410cb"
+  },
+  {
+    "job": {
+      "id": "offline-0-002",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 2
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "a9f43e3a4eb141f2cd59484ea36aed08f69f149c9556dcb3b1bc73f79dd10427",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "b50b871ea54c68c1e5a604a6c31038cf45f30041b6cd0c4893d5762c4c371ab8",
+      "candidate": {
+        "hands": 96,
+        "score": -24,
+        "wins": 29,
+        "selfDraws": 17,
+        "dealIns": 2,
+        "draws": 2,
+        "huScore": -36,
+        "kongScore": 10,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0.5,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -8,
+          11,
+          2,
+          1,
+          -22,
+          -8
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 27,
+        "wins": 35,
+        "selfDraws": 23,
+        "dealIns": 2,
+        "draws": 4,
+        "huScore": 16,
+        "kongScore": 9,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          3,
+          20,
+          10,
+          4,
+          -11,
+          1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 4725,
+    "seconds": 21.434719500000003,
+    "seed": "c6a2404187b7f5dfaa95572a17bc8ac3a46ce89835aa083ca70025bf2607bc93"
+  },
+  {
+    "job": {
+      "id": "offline-0-003",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 3
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "5f637ffe0c5a166fe8e4796b8fcd0e52750b758ad6ab7fd54dbc5131afaf5477",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "53553dfcc74d97088d874bf770542b3f3cfbbd53a6885060daca6c69e22dd950",
+      "candidate": {
+        "hands": 96,
+        "score": -23,
+        "wins": 32,
+        "selfDraws": 15,
+        "dealIns": 1,
+        "draws": 1,
+        "huScore": -6,
+        "kongScore": -18,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0.5,
+        "sessionLastCredit": 2.5,
+        "sessions": 6,
+        "sessionScores": [
+          -12,
+          -9,
+          8,
+          -1,
+          5,
+          -14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 10,
+        "wins": 33,
+        "selfDraws": 24,
+        "dealIns": 2,
+        "draws": 4,
+        "huScore": 10,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1.5,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          2,
+          25,
+          -4,
+          -4,
+          0,
+          -9
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5827,
+    "seconds": 27.993571399999997,
+    "seed": "ead78a5ea23e3f125a975ec3ae95f860b9abb01554a68d341e71fe2cb0a55749"
+  },
+  {
+    "job": {
+      "id": "offline-0-004",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 4
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "52b825b21ea21f3f32311a83c744ecdc66ab204dc7a91a117a42fc90695b7ca2",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "f72604cde5d3fa6ff8535c9463a353ecf9cc7ab4228dcf9e00e201ca35117a6e",
+      "candidate": {
+        "hands": 96,
+        "score": 9,
+        "wins": 37,
+        "selfDraws": 21,
+        "dealIns": 0,
+        "draws": 1,
+        "huScore": 9,
+        "kongScore": -4,
+        "drawScore": 4,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          -12,
+          1,
+          15,
+          2,
+          -2,
+          5
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 25,
+        "wins": 35,
+        "selfDraws": 24,
+        "dealIns": 2,
+        "draws": 2,
+        "huScore": 13,
+        "kongScore": 2,
+        "drawScore": 10,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          -3,
+          -14,
+          -19,
+          19,
+          31,
+          11
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 4990,
+    "seconds": 26.649068200000002,
+    "seed": "710d2636d78f441a7714d15c73103c63865b29d4d60caba35dd58a2a514dcef4"
+  },
+  {
+    "job": {
+      "id": "offline-0-005",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 5
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b62ac3f3b019abff93ab52d1c56a04105a50fb9b17ac50ddae0b39b4dba76343",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "1e0eb4643c7367429888e13002603754f563559227f0c17a90e5e12e7f21c1ab",
+      "candidate": {
+        "hands": 96,
+        "score": 21,
+        "wins": 37,
+        "selfDraws": 22,
+        "dealIns": 5,
+        "draws": 1,
+        "huScore": 11,
+        "kongScore": 6,
+        "drawScore": 4,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          -2,
+          -1,
+          19,
+          0,
+          6
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 14,
+        "wins": 37,
+        "selfDraws": 20,
+        "dealIns": 2,
+        "draws": 0,
+        "huScore": 19,
+        "kongScore": -5,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          12,
+          -8,
+          4,
+          6,
+          1,
+          -1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 4673,
+    "seconds": 25.3529515,
+    "seed": "bae709440647b869eff64f65120b47240ccf36c66c01bb62838f0a2d1dd614a7"
+  },
+  {
+    "job": {
+      "id": "offline-0-006",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 6
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "10dba543105c0960c3e2a2b5ac2a9742aab0f868442540cb87a36a0bf5edfd49",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "a668e4396df46d40643564d66e4eaadde2857f80dd942f9dd84738737617609e",
+      "candidate": {
+        "hands": 96,
+        "score": 18,
+        "wins": 34,
+        "selfDraws": 19,
+        "dealIns": 5,
+        "draws": 4,
+        "huScore": 0,
+        "kongScore": 3,
+        "drawScore": 15,
+        "revealHands": 2,
+        "revealedScore": 14,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          18,
+          19,
+          -7,
+          0,
+          6,
+          -18
+        ],
+        "largeLosses": 1
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 17,
+        "wins": 35,
+        "selfDraws": 18,
+        "dealIns": 3,
+        "draws": 6,
+        "huScore": 30,
+        "kongScore": -19,
+        "drawScore": 6,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          13,
+          13,
+          -15,
+          12,
+          -7,
+          1
+        ],
+        "largeLosses": 1
+      }
+    },
+    "games": 192,
+    "decisions": 5327,
+    "seconds": 27.9277178,
+    "seed": "f6fa7c117f671e2594e98d790583bb33f05bc7a13f7477139c10c81dcdf1b9a2"
+  },
+  {
+    "job": {
+      "id": "offline-0-007",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 7
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b458ea3fb89797977ab927a987c1a9685d1e3ea3badccf7ae86aae5bf6e9f363",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "3ed021bce0afe891e2cfad55874dcf40ca653ecbd792c56ae96aa0eeb7bc9d7a",
+      "candidate": {
+        "hands": 96,
+        "score": -24,
+        "wins": 29,
+        "selfDraws": 12,
+        "dealIns": 1,
+        "draws": 6,
+        "huScore": -34,
+        "kongScore": -6,
+        "drawScore": 16,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -14,
+          3,
+          -18,
+          -8,
+          14,
+          -1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 52,
+        "wins": 41,
+        "selfDraws": 20,
+        "dealIns": 2,
+        "draws": 2,
+        "huScore": 60,
+        "kongScore": -6,
+        "drawScore": -2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          15,
+          -2,
+          -5,
+          -3,
+          31,
+          16
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5224,
+    "seconds": 26.7963769,
+    "seed": "d64fdfa72deef2f5eed314b67cc327d81b91c94b258cc058e845aeb36db8d8f5"
+  },
+  {
+    "job": {
+      "id": "offline-0-008",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 8
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "75df9a7d2b63d23ceeaa9a141ba202dd60d929da3f650e202adf539b2c39fb30",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "81c819a7f490fc863e6911bd104e86da022cd77b2fe9a9338a971c4795a74f43",
+      "candidate": {
+        "hands": 96,
+        "score": -4,
+        "wins": 27,
+        "selfDraws": 16,
+        "dealIns": 5,
+        "draws": 4,
+        "huScore": -19,
+        "kongScore": 13,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          9,
+          -12,
+          -8,
+          -1,
+          -1,
+          9
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": -4,
+        "wins": 34,
+        "selfDraws": 24,
+        "dealIns": 1,
+        "draws": 2,
+        "huScore": 5,
+        "kongScore": -9,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          4,
+          2,
+          -21,
+          -16,
+          8,
+          19
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5269,
+    "seconds": 30.5937447,
+    "seed": "b70aa38b8bf7e783c494d9439a9ed91ea5efec782cb8feba40c3bbb905c828fa"
+  },
+  {
+    "job": {
+      "id": "offline-0-009",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 9
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "dfcfe1f1950773556b6bedf1ee3f7240a407480af54e21d9242455b5e8036b08",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "787c281105dc28063d1b8d33186e36b64fef5c2e6b7ef6c0a5e2700ed414f9ed",
+      "candidate": {
+        "hands": 96,
+        "score": 32,
+        "wins": 35,
+        "selfDraws": 19,
+        "dealIns": 2,
+        "draws": 3,
+        "huScore": 20,
+        "kongScore": 4,
+        "drawScore": 8,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3.5,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          -17,
+          21,
+          8,
+          24,
+          -11,
+          7
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 32,
+        "wins": 38,
+        "selfDraws": 23,
+        "dealIns": 3,
+        "draws": 0,
+        "huScore": 31,
+        "kongScore": 1,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -15,
+          -6,
+          25,
+          17,
+          10,
+          1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5168,
+    "seconds": 29.2671087,
+    "seed": "bc21eb3dff397d1d478f4d11b59c32b21df7b984ce7293a5aff26c166a359efb"
+  },
+  {
+    "job": {
+      "id": "offline-0-010",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 10
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "47a61ac4d615eb6c67042777770e1b67ca78d52bad71fae54cb8eeb254bc9622",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "5fc294e82e9f25c851c141282e26a2fec34168f8f0b33cc77ff2e3dae4b78299",
+      "candidate": {
+        "hands": 96,
+        "score": -1,
+        "wins": 31,
+        "selfDraws": 23,
+        "dealIns": 2,
+        "draws": 6,
+        "huScore": -2,
+        "kongScore": -6,
+        "drawScore": 7,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -7,
+          4,
+          -16,
+          10,
+          -6,
+          14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 40,
+        "wins": 32,
+        "selfDraws": 24,
+        "dealIns": 1,
+        "draws": 8,
+        "huScore": 19,
+        "kongScore": -1,
+        "drawScore": 22,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2.5,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          -12,
+          6,
+          6,
+          20,
+          14,
+          6
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5587,
+    "seconds": 33.0552183,
+    "seed": "8b3bab805de070f8100b9aa5c4941290af9831c43618708526b899f24bd56068"
+  },
+  {
+    "job": {
+      "id": "offline-0-011",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 11
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6cd125da81907b3bbd32d9e3ca519e20045d59ee6fdbe143092d2585a6a2c58d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "a92a61d3c25784a6a098dfb2e7c2433807a467ff31653fc85a04b1f9a2b27f04",
+      "candidate": {
+        "hands": 96,
+        "score": 44,
+        "wins": 33,
+        "selfDraws": 15,
+        "dealIns": 3,
+        "draws": 7,
+        "huScore": 22,
+        "kongScore": 0,
+        "drawScore": 22,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          22,
+          15,
+          -10,
+          4,
+          -5,
+          18
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 51,
+        "wins": 39,
+        "selfDraws": 21,
+        "dealIns": 2,
+        "draws": 4,
+        "huScore": 49,
+        "kongScore": -4,
+        "drawScore": 6,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          20,
+          18,
+          4,
+          4,
+          6,
+          -1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5506,
+    "seconds": 33.189135,
+    "seed": "a9e9a354f6cb5193d7032c36bb67f2b681dbd16dc49241a21e2042c9b7b707c5"
+  },
+  {
+    "job": {
+      "id": "offline-0-012",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 12
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "bb4b9ef5089b09a6db4a1391e41898e89e19e645f0b51da74738c79054ea2c26",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "69832744fbae612c2d6b8c12457eaeeb4db96359058267d8b2cf3e398dd79211",
+      "candidate": {
+        "hands": 96,
+        "score": 50,
+        "wins": 42,
+        "selfDraws": 24,
+        "dealIns": 2,
+        "draws": 2,
+        "huScore": 54,
+        "kongScore": -8,
+        "drawScore": 4,
+        "revealHands": 3,
+        "revealedScore": 18,
+        "sessionFirstCredit": 4,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          11,
+          1,
+          19,
+          -10,
+          8,
+          21
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 33,
+        "wins": 38,
+        "selfDraws": 19,
+        "dealIns": 3,
+        "draws": 6,
+        "huScore": 19,
+        "kongScore": 13,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          1,
+          6,
+          -19,
+          -13,
+          25,
+          33
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5321,
+    "seconds": 37.5226021,
+    "seed": "0ac0714bebc264b7e1fa58fe2a0910c64be18cd5facac6b5ff93decb7833568a"
+  },
+  {
+    "job": {
+      "id": "offline-0-013",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 13
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "38a2f140d853a6c6f3f84fd5876b34f0b5ce46436bfc30d0edf064c987a5763d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "63a841b071725f63db832a0e9d8a3dfd68e9bbeb74b5079941ff85ec182dd67c",
+      "candidate": {
+        "hands": 96,
+        "score": 96,
+        "wins": 44,
+        "selfDraws": 21,
+        "dealIns": 2,
+        "draws": 3,
+        "huScore": 69,
+        "kongScore": 23,
+        "drawScore": 4,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          40,
+          29,
+          1,
+          27,
+          1,
+          -2
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 61,
+        "wins": 39,
+        "selfDraws": 17,
+        "dealIns": 1,
+        "draws": 2,
+        "huScore": 60,
+        "kongScore": 3,
+        "drawScore": -2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -12,
+          34,
+          35,
+          4,
+          0,
+          0
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5639,
+    "seconds": 42.2265132,
+    "seed": "b27d6dde521dfd4d8aeb56e92d4cb94bb1513c9a466036c172481a8b124bebff"
+  },
+  {
+    "job": {
+      "id": "offline-0-014",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 14
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "1487a3490a97c10fb1a556e450e7e92078881903d8ee652692568bee7318976b",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "3cdf666b6417f1f98b8dd8edf37af7ed5f412dd2d946f226ebccc265272442a7",
+      "candidate": {
+        "hands": 96,
+        "score": -18,
+        "wins": 38,
+        "selfDraws": 23,
+        "dealIns": 7,
+        "draws": 2,
+        "huScore": -16,
+        "kongScore": -4,
+        "drawScore": 2,
+        "revealHands": 2,
+        "revealedScore": -6,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 3,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          -6,
+          13,
+          -12,
+          -8,
+          -4
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 96,
+        "wins": 41,
+        "selfDraws": 17,
+        "dealIns": 6,
+        "draws": 6,
+        "huScore": 88,
+        "kongScore": -2,
+        "drawScore": 10,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          24,
+          15,
+          4,
+          3,
+          5,
+          45
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5215,
+    "seconds": 40.439512199999996,
+    "seed": "d55d94018d41b126bd04b2a285274243bd3054d537229622083fda55e9f0e1f8"
+  },
+  {
+    "job": {
+      "id": "offline-0-015",
+      "arm": "offline",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 15
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "253c9b11013a14093ea36e10107440136880d0c2e0d6442ff3bd430f61dd8c95",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "7ff78d7a0c5aa41d354d4ced9d21c4257b772a1b09b9c18d8e8f628e00bc0871",
+      "candidate": {
+        "hands": 96,
+        "score": 0,
+        "wins": 35,
+        "selfDraws": 24,
+        "dealIns": 1,
+        "draws": 0,
+        "huScore": 10,
+        "kongScore": -10,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          2,
+          -10,
+          -15,
+          7,
+          -9,
+          25
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 22,
+        "wins": 40,
+        "selfDraws": 27,
+        "dealIns": 2,
+        "draws": 2,
+        "huScore": 23,
+        "kongScore": 1,
+        "drawScore": -2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          21,
+          10,
+          -1,
+          -2,
+          2,
+          -8
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5080,
+    "seconds": 39.1681631,
+    "seed": "6ca7c94474b715c09e10574376b2109747e5a89345b59c23968d0db97ca5db46"
+  },
+  {
+    "job": {
+      "id": "offline-1-000",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 0
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "41bad9d23952c3bdd879c5d484a085dc137721448fa2a16010a1e9b21efc0d65",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "d9208addf0dad6441c5191ca7ab50e30d203358b38ea20bebf7f5c95e2a93525",
+      "candidate": {
+        "hands": 96,
+        "score": 26,
+        "wins": 38,
+        "selfDraws": 32,
+        "dealIns": 4,
+        "draws": 6,
+        "huScore": 26,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -2,
+          -2,
+          6,
+          6,
+          9,
+          9
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 28,
+        "selfDraws": 24,
+        "dealIns": 4,
+        "draws": 12,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -10,
+          -10,
+          8,
+          8,
+          2,
+          2
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5654,
+    "seconds": 51.8776406,
+    "seed": "99a47d4562be848ab409054068bd5f9893a5b0b48c6507a3a9e55d956552d164"
+  },
+  {
+    "job": {
+      "id": "offline-1-001",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 1
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "aed070193ef26644132e42adb3032137199f0b15e470b9cfa3c08d9abda2a98c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "7d4eb9fa1ed1c29cc6b94506df35760450f67ce25dc5e7f6fb0dd671f609e498",
+      "candidate": {
+        "hands": 96,
+        "score": -32,
+        "wins": 22,
+        "selfDraws": 18,
+        "dealIns": 2,
+        "draws": 10,
+        "huScore": -20,
+        "kongScore": -12,
+        "drawScore": 0,
+        "revealHands": 2,
+        "revealedScore": -4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          0,
+          0,
+          -2,
+          -2,
+          -14,
+          -14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 30,
+        "selfDraws": 20,
+        "dealIns": 10,
+        "draws": 6,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          11,
+          11,
+          3,
+          3,
+          -14,
+          -14
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6048,
+    "seconds": 52.031109,
+    "seed": "f73b62151e53500b3394ddc9fba6b05e384addb6030b80a8db9bd754eee325b5"
+  },
+  {
+    "job": {
+      "id": "offline-1-002",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 2
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "590a14430ce43180001ae02344b7c3df49841bf6acc86c5113baf2e4c5ab9d68",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "c0ef5f56c2b01ddd046ecc8d99dc7caa08a9248aaac72d7d128a6f4aaca32429",
+      "candidate": {
+        "hands": 96,
+        "score": -6,
+        "wins": 28,
+        "selfDraws": 24,
+        "dealIns": 0,
+        "draws": 2,
+        "huScore": -6,
+        "kongScore": -2,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          -6,
+          -6,
+          -2,
+          -2,
+          5,
+          5
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 32,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          8,
+          -1,
+          -1,
+          -7,
+          -7
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 4738,
+    "seconds": 45.22173130000001,
+    "seed": "303e557e2d0b7dd828e18703b326e6a9174f4f3eaa4b3a413393c983a5ba811f"
+  },
+  {
+    "job": {
+      "id": "offline-1-003",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 3
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b0a123a3199e851cbda21565dc9751e98a762c476bb81cbb1d73aa1a18bef445",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "01055d61f38c9577a6984520edf5c4bf0086c79326f5222411a66eac1cb70ff5",
+      "candidate": {
+        "hands": 96,
+        "score": -16,
+        "wins": 28,
+        "selfDraws": 20,
+        "dealIns": 6,
+        "draws": 8,
+        "huScore": -16,
+        "kongScore": -2,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          -5,
+          -5,
+          9,
+          9,
+          -12,
+          -12
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 30,
+        "selfDraws": 26,
+        "dealIns": 4,
+        "draws": 6,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          5,
+          5,
+          -2,
+          -2,
+          -3,
+          -3
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5626,
+    "seconds": 52.3759194,
+    "seed": "df0ca510e83967b0f6188438ff028cbdf187c5a9adaa7c5323dd634727fb1e92"
+  },
+  {
+    "job": {
+      "id": "offline-1-004",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 4
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "29dc1bea9a6c3148f614be8a6b1de58bc43a3f7b756a22ffdfb24dfef99b2f88",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "a5e2c04811cdbca4ac4768667db15661c669238d1fd8bedc16c4a247fd618025",
+      "candidate": {
+        "hands": 96,
+        "score": 52,
+        "wins": 40,
+        "selfDraws": 40,
+        "dealIns": 6,
+        "draws": 2,
+        "huScore": 34,
+        "kongScore": 18,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 6,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          2,
+          2,
+          9,
+          9,
+          15,
+          15
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 30,
+        "selfDraws": 24,
+        "dealIns": 6,
+        "draws": 6,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          7,
+          7,
+          1,
+          1,
+          -8,
+          -8
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5698,
+    "seconds": 53.271157599999995,
+    "seed": "40707a084338010f1034ca259730e7530827fdf4d8503a9a867b32ff467dc0e1"
+  },
+  {
+    "job": {
+      "id": "offline-1-005",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 5
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "806fd1a241ed4c73ed2050dae8b2b1c847c597fa67a53dcdd7acd1370d5df37c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "ca9e7c80f5eb0c43bdebffd29f71ff73a96ebe2e99fc366077fa8fa7fa26fa01",
+      "candidate": {
+        "hands": 96,
+        "score": -22,
+        "wins": 34,
+        "selfDraws": 28,
+        "dealIns": 6,
+        "draws": 0,
+        "huScore": -4,
+        "kongScore": -18,
+        "drawScore": 0,
+        "revealHands": 4,
+        "revealedScore": 4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -13,
+          -13,
+          2,
+          2,
+          0,
+          0
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 26,
+        "dealIns": 6,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -14,
+          -14,
+          -8,
+          -8,
+          22,
+          22
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5172,
+    "seconds": 48.54926319999999,
+    "seed": "03ce056169af91e057ff24964266d136658c2e302d0f970bf56a24a233197f70"
+  },
+  {
+    "job": {
+      "id": "offline-1-006",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 6
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "54bfe8d71b417ce543469490973d123271b965de65df11e847ab8e85b7ab5035",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "83faab3e22f137ad76ff11af337f53857692a2e5d3a26844ab7e8c52beb81fbb",
+      "candidate": {
+        "hands": 96,
+        "score": 28,
+        "wins": 34,
+        "selfDraws": 32,
+        "dealIns": 2,
+        "draws": 10,
+        "huScore": 32,
+        "kongScore": -4,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          17,
+          17,
+          0,
+          0,
+          -3,
+          -3
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 28,
+        "dealIns": 4,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -11,
+          -11,
+          10,
+          10,
+          1,
+          1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6296,
+    "seconds": 55.670439599999995,
+    "seed": "9343444107700be1c71f2bc6e11ce67600e968c15b58b6eeae732237c82fb46b"
+  },
+  {
+    "job": {
+      "id": "offline-1-007",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 7
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "95aa1d08ad4c5ae90a310d2059c8b7c8d26a22770acf66ee76537fc095a85a68",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "570c07c25b18b711116398db7f6f543d6505c8abb6afa143436ae2ea9db5a63e",
+      "candidate": {
+        "hands": 96,
+        "score": 12,
+        "wins": 36,
+        "selfDraws": 32,
+        "dealIns": 4,
+        "draws": 4,
+        "huScore": 24,
+        "kongScore": -12,
+        "drawScore": 0,
+        "revealHands": 2,
+        "revealedScore": -4,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          -1,
+          0,
+          0,
+          7,
+          7
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 28,
+        "dealIns": 4,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -9,
+          -9,
+          18,
+          18,
+          -9,
+          -9
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5676,
+    "seconds": 50.552205300000004,
+    "seed": "714583e62a2dc16f1d578593c89985b4fd97dcea19132b77c867792c498e1c40"
+  },
+  {
+    "job": {
+      "id": "offline-1-008",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 8
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "87224ea80e34990faa6e6bf503a5c8a83082bba2bc3b053ba88e63ef8c229c88",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "a1a3eb8ef7694f5247b72064bb82b51c46d84bfeb6622d32bc61ae5a506e4a21",
+      "candidate": {
+        "hands": 96,
+        "score": -22,
+        "wins": 34,
+        "selfDraws": 32,
+        "dealIns": 2,
+        "draws": 0,
+        "huScore": -4,
+        "kongScore": -18,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -3,
+          -3,
+          -6,
+          -6,
+          -2,
+          -2
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 30,
+        "dealIns": 2,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -5,
+          -5,
+          1,
+          1,
+          4,
+          4
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5638,
+    "seconds": 52.355169800000006,
+    "seed": "a9265580bcaebd0d074074995f92bdef11966d60295a131a27ab6f5a9bd1fa16"
+  },
+  {
+    "job": {
+      "id": "offline-1-009",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 9
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "82da0584421a54c8ef9b5c7cd187b745e7133b6f8d727557fae1b6c186508088",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "5d4471241ad5b1cf69096d5f8f31afba4aded5bdaf79499d2fa5ed021eef2621",
+      "candidate": {
+        "hands": 96,
+        "score": 44,
+        "wins": 40,
+        "selfDraws": 28,
+        "dealIns": 6,
+        "draws": 0,
+        "huScore": 40,
+        "kongScore": 4,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 6,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          8,
+          5,
+          5,
+          9,
+          9
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 26,
+        "dealIns": 6,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          8,
+          -8,
+          -8,
+          0,
+          0
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5380,
+    "seconds": 52.1449831,
+    "seed": "e3fb411b279552177ce19186a9c07cdf03d0639ff6d9c5585896bf032e4cd499"
+  },
+  {
+    "job": {
+      "id": "offline-1-010",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 10
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "71a5c451dc79a7a7e054cccd4f39c4f18b8c9f0178393045d673c7373ba71cb7",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "42e043aabce6d3df7d4c79f34a0f441dc10d065f6a351cf1cb6d51e9cefd4dd2",
+      "candidate": {
+        "hands": 96,
+        "score": -32,
+        "wins": 22,
+        "selfDraws": 16,
+        "dealIns": 4,
+        "draws": 4,
+        "huScore": -32,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -23,
+          -23,
+          8,
+          8,
+          -1,
+          -1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 28,
+        "selfDraws": 26,
+        "dealIns": 2,
+        "draws": 12,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -11,
+          -11,
+          11,
+          11,
+          0,
+          0
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5676,
+    "seconds": 55.0614397,
+    "seed": "703d1e7f544ab8841024cb93356f34e62a49685b7fc3554ab388a7b190469106"
+  },
+  {
+    "job": {
+      "id": "offline-1-011",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 11
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "3d37f5e7eaa9ab1a3462de428c1f0d54279972b4255c9dc0faa1938f431fa36f",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "7a4a3b8acae66f85adc4c852bf00fb9d1e60d9bb670e8d38ad11f3e997dfb332",
+      "candidate": {
+        "hands": 96,
+        "score": -12,
+        "wins": 30,
+        "selfDraws": 26,
+        "dealIns": 10,
+        "draws": 2,
+        "huScore": -16,
+        "kongScore": 4,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 4,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          6,
+          2,
+          2,
+          -14,
+          -14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 22,
+        "dealIns": 10,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          28,
+          28,
+          -8,
+          -8,
+          -20,
+          -20
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5312,
+    "seconds": 53.3403382,
+    "seed": "119618538ec73c3e0deec2377861f7cc869223ba8ddd8acb310c402977bfb980"
+  },
+  {
+    "job": {
+      "id": "offline-1-012",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 12
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "f829795b7eaba7bd1193a315fa3f9fff9e91c267e5defcf956e49c444ad2f1db",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "b8840f04185705630f85c1791c7f927e91fa4b6d31eb3c547e527c58a328fe53",
+      "candidate": {
+        "hands": 96,
+        "score": -2,
+        "wins": 32,
+        "selfDraws": 24,
+        "dealIns": 4,
+        "draws": 8,
+        "huScore": 12,
+        "kongScore": -14,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          7,
+          7,
+          -9,
+          -9,
+          1,
+          1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 28,
+        "dealIns": 4,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          5,
+          5,
+          -5,
+          -5,
+          0,
+          0
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5692,
+    "seconds": 53.2179235,
+    "seed": "e25c574bd0047fcdf452322ebd8d8b7cdb895d6ba93925f5fa03f176f05ba89f"
+  },
+  {
+    "job": {
+      "id": "offline-1-013",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 13
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "e6cdc184a19864adf3a5efde7aa5a0c7738851e49965994220bc0281e6bb2b88",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "c92c98f5c2ed9b651d5cf1b09869f8aacb39f39047f2068de7fdf167feea9cbe",
+      "candidate": {
+        "hands": 96,
+        "score": -40,
+        "wins": 28,
+        "selfDraws": 26,
+        "dealIns": 4,
+        "draws": 10,
+        "huScore": -8,
+        "kongScore": -34,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          -13,
+          -13,
+          -5,
+          -5,
+          -2,
+          -2
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 30,
+        "selfDraws": 28,
+        "dealIns": 2,
+        "draws": 6,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          6,
+          -2,
+          -2,
+          -4,
+          -4
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6102,
+    "seconds": 57.1179813,
+    "seed": "c0ea28ae258a7b0ef84463c927db9bd7b75b0855714e939c423d446544213341"
+  },
+  {
+    "job": {
+      "id": "offline-1-014",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 14
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "e670ee31676003bd2e32b119d959c7b20f21a1a987e6fd925cb499726f72570a",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "8d7ea21acc02ad5be40c5b0b35ead376761367cf7dbdb5baea35a779b4a2ba20",
+      "candidate": {
+        "hands": 96,
+        "score": -46,
+        "wins": 24,
+        "selfDraws": 20,
+        "dealIns": 6,
+        "draws": 2,
+        "huScore": -34,
+        "kongScore": -12,
+        "drawScore": 0,
+        "revealHands": 2,
+        "revealedScore": -4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          -2,
+          -2,
+          -22,
+          -22,
+          1,
+          1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 28,
+        "selfDraws": 24,
+        "dealIns": 4,
+        "draws": 12,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          8,
+          -7,
+          -7,
+          -1,
+          -1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6004,
+    "seconds": 52.955406499999995,
+    "seed": "09a2b879eebadab70dcf1b9c191d39c5a79cb8bf3c515efb2bb109f97260730c"
+  },
+  {
+    "job": {
+      "id": "offline-1-015",
+      "arm": "offline",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 15
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6055c377044d60f78a7a92c7a5ce48a23c3474d8e6355e89155831e69ca6e1fc",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "eecdd6923c788ac1c79e6c48089d911fbc50e760a176b9368944d5777051136a",
+      "candidate": {
+        "hands": 96,
+        "score": 6,
+        "wins": 26,
+        "selfDraws": 24,
+        "dealIns": 0,
+        "draws": 8,
+        "huScore": 2,
+        "kongScore": 4,
+        "drawScore": 0,
+        "revealHands": 2,
+        "revealedScore": 8,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 4,
+        "sessions": 6,
+        "sessionScores": [
+          -4,
+          -4,
+          -5,
+          -5,
+          12,
+          12
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 22,
+        "dealIns": 10,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          1,
+          1,
+          -14,
+          -14,
+          13,
+          13
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5348,
+    "seconds": 48.3432708,
+    "seed": "f96e0dd36ce44e0a0b492fc3178d2b482f6b72f3e8638ebca51a197ea7421c73"
+  },
+  {
+    "job": {
+      "id": "offline-2-000",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 0
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "4a67d6efb13f430b39472a9af2e460333082ebdede084b1afc922d41a3fb620e",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "3ee03e03817895da9715fb428767c542b431c4bf89bed4fc7470c4ae7281c0b0",
+      "candidate": {
+        "hands": 96,
+        "score": 54,
+        "wins": 49,
+        "selfDraws": 38,
+        "dealIns": 4,
+        "draws": 5,
+        "huScore": 64,
+        "kongScore": -11,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 5,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          11,
+          0,
+          18,
+          6,
+          11
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 54,
+        "wins": 41,
+        "selfDraws": 28,
+        "dealIns": 8,
+        "draws": 4,
+        "huScore": 44,
+        "kongScore": 10,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          4,
+          13,
+          10,
+          21,
+          -1,
+          7
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6081,
+    "seconds": 44.960423899999995,
+    "seed": "67b5930c977d66730d2f844b27b68afbbb4e938c6b0dbf832a2aa013d15fa2c0"
+  },
+  {
+    "job": {
+      "id": "offline-2-001",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 1
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "59e05cbaa2099b6896b07708d810b41379fb356e21adfd0148e55bdf75762a9f",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "3e6e79d15d99096d44caab17274c2ae6ce1b38f42bf8de037ed810d6cf7d0079",
+      "candidate": {
+        "hands": 96,
+        "score": 65,
+        "wins": 47,
+        "selfDraws": 39,
+        "dealIns": 3,
+        "draws": 4,
+        "huScore": 73,
+        "kongScore": -10,
+        "drawScore": 2,
+        "revealHands": 1,
+        "revealedScore": 10,
+        "sessionFirstCredit": 4,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          7,
+          7,
+          21,
+          13,
+          -2,
+          19
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 38,
+        "wins": 37,
+        "selfDraws": 31,
+        "dealIns": 4,
+        "draws": 10,
+        "huScore": 34,
+        "kongScore": 1,
+        "drawScore": 3,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          19,
+          6,
+          -5,
+          -4,
+          16
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5535,
+    "seconds": 40.6084087,
+    "seed": "2b3c5cd9652aab293c0d51a36e648a741da6e8404dd8bba9a685ddf16209ec22"
+  },
+  {
+    "job": {
+      "id": "offline-2-002",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 2
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "88d10eef3fbf9269fc82e9e7b3a5f59df5ade2aa1aaac9e1c3dfab5192363053",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "90d1050daa2e53a9f50f80eba5891882788d25f5c009c8f61bf1f21e193650b0",
+      "candidate": {
+        "hands": 96,
+        "score": 6,
+        "wins": 32,
+        "selfDraws": 27,
+        "dealIns": 2,
+        "draws": 6,
+        "huScore": 6,
+        "kongScore": -2,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          3,
+          20,
+          4,
+          -24,
+          -11,
+          14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 32,
+        "wins": 37,
+        "selfDraws": 35,
+        "dealIns": 3,
+        "draws": 4,
+        "huScore": 20,
+        "kongScore": 7,
+        "drawScore": 5,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          16,
+          0,
+          5,
+          -15,
+          8,
+          18
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5737,
+    "seconds": 41.763858,
+    "seed": "505bd167331fdf2b675aa1583b61e3ddb6e5db332f6714d13e89fa5471a5d454"
+  },
+  {
+    "job": {
+      "id": "offline-2-003",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 3
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d8cee2d3f7e42b9aa4de8e3452d1817405a23d9e1e5107f32aa4be4e584c0e3f",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "bbc6f0a7cba1dd2e360866763ccfe91e65cc022325c221e71d10c50d5f41d7c0",
+      "candidate": {
+        "hands": 96,
+        "score": 60,
+        "wins": 37,
+        "selfDraws": 29,
+        "dealIns": 5,
+        "draws": 10,
+        "huScore": 34,
+        "kongScore": 22,
+        "drawScore": 4,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 5,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          17,
+          12,
+          10,
+          -4,
+          11,
+          14
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 53,
+        "wins": 41,
+        "selfDraws": 33,
+        "dealIns": 5,
+        "draws": 4,
+        "huScore": 41,
+        "kongScore": 12,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -8,
+          -3,
+          23,
+          -5,
+          11,
+          35
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6161,
+    "seconds": 47.9740081,
+    "seed": "25edd3f8491604fb8b74e0ac3980f54e144e7b8850854637482216d7dabfdaac"
+  },
+  {
+    "job": {
+      "id": "offline-2-004",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 4
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "ab9e401eb48e0eab69204efc8cd8514105e38e972d9540ce6386945379a14bb2",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "6c079594fd65d327c5ece77e416510ee9519d51e2089a79d2faf68f13166c188",
+      "candidate": {
+        "hands": 96,
+        "score": 18,
+        "wins": 34,
+        "selfDraws": 30,
+        "dealIns": 6,
+        "draws": 4,
+        "huScore": -4,
+        "kongScore": 21,
+        "drawScore": 1,
+        "revealHands": 1,
+        "revealedScore": 4,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          7,
+          -6,
+          -5,
+          8,
+          -7,
+          21
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 35,
+        "wins": 36,
+        "selfDraws": 29,
+        "dealIns": 7,
+        "draws": 8,
+        "huScore": 21,
+        "kongScore": 9,
+        "drawScore": 5,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          4,
+          7,
+          2,
+          5,
+          0,
+          17
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6036,
+    "seconds": 51.868898400000006,
+    "seed": "c52bb2fece155f20f424957764cef0442c037e322e9ad324d19800a5c19cae90"
+  },
+  {
+    "job": {
+      "id": "offline-2-005",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 5
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "606fde09cf41c92bf8e6868270ac64838a59066d5340d51d061911176d6260c9",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "9bc5980f9ebda4bf962c2592f98386ce62d5f3915f914d68cf86af3fdf5c863e",
+      "candidate": {
+        "hands": 96,
+        "score": 30,
+        "wins": 34,
+        "selfDraws": 28,
+        "dealIns": 7,
+        "draws": 3,
+        "huScore": 7,
+        "kongScore": 21,
+        "drawScore": 2,
+        "revealHands": 2,
+        "revealedScore": -4,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          7,
+          2,
+          16,
+          -23,
+          22
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 34,
+        "wins": 37,
+        "selfDraws": 31,
+        "dealIns": 6,
+        "draws": 6,
+        "huScore": 29,
+        "kongScore": 5,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -23,
+          29,
+          25,
+          14,
+          -16,
+          5
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5778,
+    "seconds": 49.9037685,
+    "seed": "3c4c6c85add149c9f4af5bb8a91b5db4e0d5a99fd0d210e18991c10a9853bc32"
+  },
+  {
+    "job": {
+      "id": "offline-2-006",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 6
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d09736c20e2f7c550a4f9aa9ebfb9feb72b1e15f80711a5c242d670b68a3413c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "5c1989e3e055823090ab6bad7de37fb25cc878005307983397ac6095c51de5ea",
+      "candidate": {
+        "hands": 96,
+        "score": 32,
+        "wins": 42,
+        "selfDraws": 34,
+        "dealIns": 9,
+        "draws": 6,
+        "huScore": 25,
+        "kongScore": 5,
+        "drawScore": 2,
+        "revealHands": 2,
+        "revealedScore": 2,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          10,
+          12,
+          3,
+          -7,
+          2,
+          12
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 30,
+        "wins": 39,
+        "selfDraws": 28,
+        "dealIns": 9,
+        "draws": 4,
+        "huScore": 23,
+        "kongScore": 7,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2.5,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          11,
+          9,
+          5,
+          -2,
+          6,
+          1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5878,
+    "seconds": 51.360334900000005,
+    "seed": "a0dbdb792cf3572b23cd0582229de6d0c985e44982e258fc62bf93dab8ababaa"
+  },
+  {
+    "job": {
+      "id": "offline-2-007",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 7
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "a441281ac65ebd8fc032e4a6ea5294453156f13912bc4d5a803ce6a086ec72cf",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "59eaa85ea4fbce524a78dd937b67bfabb6d5509c19000595676d192c92c28ed3",
+      "candidate": {
+        "hands": 96,
+        "score": 42,
+        "wins": 44,
+        "selfDraws": 36,
+        "dealIns": 5,
+        "draws": 7,
+        "huScore": 31,
+        "kongScore": 10,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 4,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          19,
+          6,
+          5,
+          2,
+          7,
+          3
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 24,
+        "wins": 38,
+        "selfDraws": 33,
+        "dealIns": 1,
+        "draws": 6,
+        "huScore": 25,
+        "kongScore": 0,
+        "drawScore": -1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          11,
+          15,
+          9,
+          -18,
+          -5,
+          12
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5805,
+    "seconds": 52.8707435,
+    "seed": "a0ecae899188cf4d78fa528db7fc8cc1c6446d8175ed00c21283c6df80ce361a"
+  },
+  {
+    "job": {
+      "id": "offline-2-008",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 8
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "32a7bc5988c4e53ed82c12f6122a2646f01e0e1875b0c2f8cb59011ad763897d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "6575a1a382c94dc3a7cba97276e16923f19f9cdb2d20cc4d0bf1da6451163836",
+      "candidate": {
+        "hands": 96,
+        "score": 27,
+        "wins": 39,
+        "selfDraws": 32,
+        "dealIns": 5,
+        "draws": 4,
+        "huScore": 5,
+        "kongScore": 22,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          5,
+          24,
+          13,
+          -3,
+          -11,
+          -1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 31,
+        "wins": 37,
+        "selfDraws": 32,
+        "dealIns": 7,
+        "draws": 4,
+        "huScore": 6,
+        "kongScore": 25,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          19,
+          11,
+          5,
+          -15,
+          5
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6027,
+    "seconds": 52.352623099999995,
+    "seed": "31915ddd01432dda1411ce95803a39f4d633ee66f6b9d4598e22fe0c5e706db0"
+  },
+  {
+    "job": {
+      "id": "offline-2-009",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 9
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "06322a3d43a0e5567a06a79c5bbb603be7d26fcf35ff0bdcc42666521d931dc4",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "57b5589655c777cbb0b4a5601deec276dbfc4972e831d9126c819bcbd5bf98f9",
+      "candidate": {
+        "hands": 96,
+        "score": 47,
+        "wins": 40,
+        "selfDraws": 33,
+        "dealIns": 6,
+        "draws": 8,
+        "huScore": 27,
+        "kongScore": 19,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 5,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          0,
+          12,
+          5,
+          18,
+          6,
+          6
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 48,
+        "wins": 43,
+        "selfDraws": 37,
+        "dealIns": 3,
+        "draws": 0,
+        "huScore": 45,
+        "kongScore": 3,
+        "drawScore": 0,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          4,
+          -7,
+          22,
+          21,
+          15,
+          -7
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5898,
+    "seconds": 51.1166457,
+    "seed": "b508a2af1862666e4864a0af1bd2a19c77e731ad4ee4960f20063e4da42513a8"
+  },
+  {
+    "job": {
+      "id": "offline-2-010",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 10
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "ca5594915acee15f61428c90081c0ada27977d884262dad759d7a385536f279c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "9317abfa6a92ca83365cff97ca45e3204723b071b555257e016e2b10d0ae850c",
+      "candidate": {
+        "hands": 96,
+        "score": 18,
+        "wins": 35,
+        "selfDraws": 31,
+        "dealIns": 3,
+        "draws": 7,
+        "huScore": 23,
+        "kongScore": -7,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          11,
+          15,
+          -16,
+          10,
+          2,
+          -4
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 28,
+        "wins": 37,
+        "selfDraws": 34,
+        "dealIns": 3,
+        "draws": 8,
+        "huScore": 28,
+        "kongScore": -2,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          17,
+          5,
+          0,
+          0,
+          -2,
+          8
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6018,
+    "seconds": 52.3798023,
+    "seed": "5a5a4a74f767ab619ff8543d2b3dbd4347fbd167bef489de9a67c7e358b8e63b"
+  },
+  {
+    "job": {
+      "id": "offline-2-011",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 11
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d557e465c9ed5026faaaec7e7a8fedefecfb9f48b79814d715529258544fd6e9",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "0624af959742ab68e89cf9ca9662c8a4b12f7aac9fe5c92a3842c6d95aa843f4",
+      "candidate": {
+        "hands": 96,
+        "score": 42,
+        "wins": 45,
+        "selfDraws": 35,
+        "dealIns": 6,
+        "draws": 3,
+        "huScore": 48,
+        "kongScore": -7,
+        "drawScore": 1,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          4,
+          -5,
+          10,
+          17,
+          12,
+          4
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": -5,
+        "wins": 31,
+        "selfDraws": 25,
+        "dealIns": 7,
+        "draws": 12,
+        "huScore": 6,
+        "kongScore": -13,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 3,
+        "sessions": 6,
+        "sessionScores": [
+          -6,
+          -6,
+          7,
+          5,
+          6,
+          -11
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6448,
+    "seconds": 55.973055,
+    "seed": "58c3d0604bcb7b44274a7ffc25c9cc2fcb3d1a47757aead9ecf157f1246be639"
+  },
+  {
+    "job": {
+      "id": "offline-2-012",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 12
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "69d0f2e71a2fff4de2fe081b1f868d1567f569cc86660606f14d2196babc3bb1",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "c4915e270498716955abe26c4e9c45bed342712dc69494ca85415ba939b3dcb6",
+      "candidate": {
+        "hands": 96,
+        "score": 12,
+        "wins": 33,
+        "selfDraws": 30,
+        "dealIns": 1,
+        "draws": 5,
+        "huScore": 26,
+        "kongScore": -15,
+        "drawScore": 1,
+        "revealHands": 1,
+        "revealedScore": 2,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          14,
+          15,
+          2,
+          -14,
+          -6,
+          1
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 39,
+        "wins": 39,
+        "selfDraws": 31,
+        "dealIns": 4,
+        "draws": 8,
+        "huScore": 46,
+        "kongScore": -12,
+        "drawScore": 5,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          8,
+          15,
+          -3,
+          4,
+          5,
+          10
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 5893,
+    "seconds": 49.9304891,
+    "seed": "6ee629ae7ba1ce84c8c94a9ca28c0d5ad2d9cde99d852e270a804de4b3b08fa7"
+  },
+  {
+    "job": {
+      "id": "offline-2-013",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 13
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6415b6f552af0c08ddc4405afe52425d205ae55bd639af136c10618960c584d3",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "a2eca38c1f219b68797889e3b8615067dbbd09047344629d4d8135d8c6e87b4c",
+      "candidate": {
+        "hands": 96,
+        "score": 11,
+        "wins": 33,
+        "selfDraws": 32,
+        "dealIns": 6,
+        "draws": 9,
+        "huScore": 7,
+        "kongScore": -3,
+        "drawScore": 7,
+        "revealHands": 2,
+        "revealedScore": -4,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -11,
+          6,
+          7,
+          -12,
+          8,
+          13
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 42,
+        "wins": 34,
+        "selfDraws": 27,
+        "dealIns": 3,
+        "draws": 14,
+        "huScore": 27,
+        "kongScore": 12,
+        "drawScore": 3,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -11,
+          7,
+          33,
+          10,
+          0,
+          3
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6053,
+    "seconds": 50.584640900000004,
+    "seed": "0befad93cc26a0efc210bf350bf8c3fddfbf7f0bbb3cf1d6a300f37cccd9c116"
+  },
+  {
+    "job": {
+      "id": "offline-2-014",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 14
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "a3590b5dad111a3b504902fbd1f2def168cf226c4df78818678ebd883f733642",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "9bcc7264bc25f1818b5bb25af953eb5d6dc92824a15c01e4da1719b047e8609e",
+      "candidate": {
+        "hands": 96,
+        "score": -1,
+        "wins": 34,
+        "selfDraws": 28,
+        "dealIns": 6,
+        "draws": 8,
+        "huScore": 20,
+        "kongScore": -23,
+        "drawScore": 2,
+        "revealHands": 1,
+        "revealedScore": -4,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 1,
+        "sessions": 6,
+        "sessionScores": [
+          -4,
+          1,
+          5,
+          4,
+          0,
+          -7
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 20,
+        "wins": 36,
+        "selfDraws": 31,
+        "dealIns": 6,
+        "draws": 10,
+        "huScore": 22,
+        "kongScore": -5,
+        "drawScore": 3,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 0,
+        "sessions": 6,
+        "sessionScores": [
+          -3,
+          6,
+          14,
+          0,
+          2,
+          1
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6516,
+    "seconds": 53.4872538,
+    "seed": "244945e8c54dfbb57c26bf8b5e3eed9d4171c2c45394da5243df058bfa108ac4"
+  },
+  {
+    "job": {
+      "id": "offline-2-015",
+      "arm": "offline",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 15
+    },
+    "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "67d43ed0a8e29f625d42b3a96986a07f89c1edf2564ee3171323ba96dc2f1709",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "323dce068591492205fbc360339d52164d421b21d791c019137b2b8dc3d7fcf0",
+      "candidate": {
+        "hands": 96,
+        "score": 4,
+        "wins": 28,
+        "selfDraws": 18,
+        "dealIns": 7,
+        "draws": 7,
+        "huScore": 1,
+        "kongScore": -1,
+        "drawScore": 4,
+        "revealHands": 1,
+        "revealedScore": 4,
+        "sessionFirstCredit": 1,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          3,
+          8,
+          -4,
+          -4,
+          -5
+        ],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 24,
+        "wins": 35,
+        "selfDraws": 25,
+        "dealIns": 8,
+        "draws": 12,
+        "huScore": 25,
+        "kongScore": -3,
+        "drawScore": 2,
+        "revealHands": 0,
+        "revealedScore": 0,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          6,
+          5,
+          3,
+          -14,
+          -3,
+          27
+        ],
+        "largeLosses": 0
+      }
+    },
+    "games": 192,
+    "decisions": 6004,
+    "seconds": 44.6441386,
+    "seed": "6b3c6aa0cc8ed44d348b750464f5f737e927419df49b3a1c1b3ca27fd4350535"
+  }
+]

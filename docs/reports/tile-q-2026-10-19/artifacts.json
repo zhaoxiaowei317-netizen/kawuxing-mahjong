@@ -1,0 +1,78 @@
+[
+  {
+    "path": "ai-runs\\tile-q-20261018\\runtime.json",
+    "sha256": "1f894ffcd7fada432500e6473a61a98981b6f9602c4553520aa0df4f52765427"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.json",
+    "sha256": "383729adae385fce6e0c74a8a30e62d673cb836b13d54289a303e0089f227aa3"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.pt",
+    "sha256": "c88cc93ca43b4fa3801e7b823c283fede08531fdfbdc82618ccc98a8708f5dcb"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\development-features-bc\\replays.jsonl.gz",
+    "sha256": "d9cbb772d9d42c86e4929faeb90a3bc64f2e77ffdb9249f34a02fa553d60519b"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.json",
+    "sha256": "9477361f3abbee085b8a12d8de8281073ddb5dbc4a6b22d2749c8038d7763998"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.pt",
+    "sha256": "d30d3601fc5e5252edbe5a44d1e963f6474c84c7c513babb4d441b2280900d22"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\development-tiles-bc\\replays.jsonl.gz",
+    "sha256": "219853c2b089b0fc1d5c10f3042e86630c7959228cd61174debb37ea083666a8"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+    "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+    "sha256": "a7b8a967d3f1fc3f5a1719a865244d872ddc3be4d2b5ad4bd3ef55bd155c4320"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\development-tiles-offline\\replays.jsonl.gz",
+    "sha256": "437fd956f918acdea08aa6bc2274857bab5815b0382d149b41374fc7e00472ab"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.json",
+    "sha256": "951ddb92c0f92a615da1a897df62f51cf0d5e8738c553fde03433cc85f0aefe8"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.pt",
+    "sha256": "5c97f2a03c13837c811889314e5c7261a25f0647c84885ed28e41862028388b8"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\development-tiles-online\\replays.jsonl.gz",
+    "sha256": "3334cf0c064f8a5fede5df4a618e277e4c030667a56f5c91e26dad71cf22071c"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\sealed-vs-H0\\replays.jsonl.gz",
+    "sha256": "abda6b4130bb4cddfb9d080b503d921d0100dafbf1f2526c5b8057588fa3f6b7"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\training\\episodes.jsonl.gz",
+    "sha256": "5941736f9f00b2bec88908fa86137212daef655cd8cd2a4bcf3de879d0697093"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\validation\\episodes.jsonl.gz",
+    "sha256": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\online-0\\episodes.jsonl.gz",
+    "sha256": "f9147b85e6231fa88436a790ed7b63d95e7c1278e4628f81b4693f1462c71313"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\online-1\\episodes.jsonl.gz",
+    "sha256": "be25d6d8c17e4118bdbb2f083cd6736b42e6f23c77f216804670f8e51fe77900"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\frozen-sources.tar.gz",
+    "sha256": "32eae59b743f057dd390191a5346d668c531d75b4bb5a4046d6e8a2a2cde1f38"
+  }
+]

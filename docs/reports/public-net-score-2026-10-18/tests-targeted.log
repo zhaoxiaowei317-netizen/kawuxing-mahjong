@@ -1,0 +1,10 @@
+✔ net-score development selection includes H0 and proposal control and uses fixed stable ties (1.9175ms)
+✔ bounded net-score study freezes plans and records public search traces and complete games for both arms (134107.9751ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 134448.347

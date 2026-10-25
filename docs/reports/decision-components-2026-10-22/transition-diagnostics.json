@@ -1,0 +1,392 @@
+{
+  "completedAt": "2026-10-22T14:50:11.428Z",
+  "planSha256": "a44af6db5f330da54fe53164efe31a5c038956b63e0f377e15cd896e43d5ae29",
+  "driverSha256": "0a3b08fa182f7ed1f9aba17d45d78ab713f1c23f71c66ede4614c2e63b39e9a2",
+  "role": "Posthoc descriptive same-public-state comparisons on other-policy trajectories. No per-action payoff attribution, training labels, extra test, model selection or primary claim.",
+  "groups": 48,
+  "choices": 45660,
+  "changes": [
+    {
+      "jobId": "pair-0-004",
+      "permutation": 4,
+      "hand": 13,
+      "decision": 18,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "hu → ming",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-0-005",
+      "permutation": 3,
+      "hand": 15,
+      "decision": 26,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "kong",
+        "tile": "p7",
+        "kind": "an"
+      },
+      "transition": "hu → an",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-0-008",
+      "permutation": 2,
+      "hand": 14,
+      "decision": 24,
+      "from": {
+        "type": "kong",
+        "tile": "p3",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "p1",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-0-008",
+      "permutation": 2,
+      "hand": 14,
+      "decision": 27,
+      "from": {
+        "type": "kong",
+        "tile": "p3",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "s3",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-0-010",
+      "permutation": 5,
+      "hand": 3,
+      "decision": 21,
+      "from": {
+        "type": "kong",
+        "tile": "p9",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "p8",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-0-015",
+      "permutation": 2,
+      "hand": 6,
+      "decision": 10,
+      "from": {
+        "type": "kong",
+        "tile": "s4",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "s2",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-0-015",
+      "permutation": 3,
+      "hand": 6,
+      "decision": 10,
+      "from": {
+        "type": "kong",
+        "tile": "s4",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "s2",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-001",
+      "permutation": 4,
+      "hand": 6,
+      "decision": 37,
+      "from": {
+        "type": "discard",
+        "tile": "s2",
+        "reveal": false
+      },
+      "to": {
+        "type": "kong",
+        "tile": "s2",
+        "kind": "an"
+      },
+      "transition": "discard → an",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-001",
+      "permutation": 5,
+      "hand": 6,
+      "decision": 37,
+      "from": {
+        "type": "discard",
+        "tile": "s2",
+        "reveal": false
+      },
+      "to": {
+        "type": "kong",
+        "tile": "s2",
+        "kind": "an"
+      },
+      "transition": "discard → an",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-002",
+      "permutation": 0,
+      "hand": 14,
+      "decision": 16,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-002",
+      "permutation": 1,
+      "hand": 14,
+      "decision": 16,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-003",
+      "permutation": 0,
+      "hand": 7,
+      "decision": 21,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "kong",
+        "tile": "s7",
+        "kind": "an"
+      },
+      "transition": "hu → an",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-1-003",
+      "permutation": 1,
+      "hand": 7,
+      "decision": 21,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "kong",
+        "tile": "s7",
+        "kind": "an"
+      },
+      "transition": "hu → an",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-1-005",
+      "permutation": 2,
+      "hand": 11,
+      "decision": 9,
+      "from": {
+        "type": "kong",
+        "tile": "s8",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "s4",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-005",
+      "permutation": 3,
+      "hand": 11,
+      "decision": 9,
+      "from": {
+        "type": "kong",
+        "tile": "s8",
+        "kind": "an"
+      },
+      "to": {
+        "type": "discard",
+        "tile": "s4",
+        "reveal": false
+      },
+      "transition": "an → discard",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-015",
+      "permutation": 0,
+      "hand": 11,
+      "decision": 2,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-1-015",
+      "permutation": 1,
+      "hand": 11,
+      "decision": 2,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-2-000",
+      "permutation": 4,
+      "hand": 5,
+      "decision": 15,
+      "from": {
+        "type": "ming"
+      },
+      "to": {
+        "type": "pass"
+      },
+      "transition": "ming → pass",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-2-005",
+      "permutation": 1,
+      "hand": 4,
+      "decision": 18,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "kong",
+        "tile": "p2",
+        "kind": "an"
+      },
+      "transition": "hu → an",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-2-009",
+      "permutation": 1,
+      "hand": 5,
+      "decision": 6,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-2-012",
+      "permutation": 5,
+      "hand": 13,
+      "decision": 26,
+      "from": {
+        "type": "hu"
+      },
+      "to": {
+        "type": "kong",
+        "tile": "p1",
+        "kind": "an"
+      },
+      "transition": "hu → an",
+      "huAvailable": true
+    },
+    {
+      "jobId": "pair-2-013",
+      "permutation": 4,
+      "hand": 12,
+      "decision": 15,
+      "from": {
+        "type": "peng"
+      },
+      "to": {
+        "type": "ming"
+      },
+      "transition": "peng → ming",
+      "huAvailable": false
+    },
+    {
+      "jobId": "pair-2-014",
+      "permutation": 2,
+      "hand": 11,
+      "decision": 21,
+      "from": {
+        "type": "discard",
+        "tile": "p7",
+        "reveal": false
+      },
+      "to": {
+        "type": "kong",
+        "tile": "s8",
+        "kind": "an"
+      },
+      "transition": "discard → an",
+      "huAvailable": false
+    }
+  ],
+  "transitions": {
+    "hu → ming": 1,
+    "hu → an": 5,
+    "an → discard": 7,
+    "discard → an": 3,
+    "peng → ming": 6,
+    "ming → pass": 1
+  },
+  "huOffered": 1688,
+  "huDeclined": 8
+}

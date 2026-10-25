@@ -1,0 +1,89 @@
+{
+  "completedAt": "2026-10-18T15:18:18.871Z",
+  "data": {
+    "training": {
+      "hands": 6000,
+      "roots": 1123,
+      "labelsRecomputed": 1123,
+      "counterfactualBranchesRecomputed": 2246,
+      "sha256": "8119ea29638329699bc8b234d14090834702d21f7191e5391d2de13bd45e5a69"
+    },
+    "validation": {
+      "hands": 1200,
+      "roots": 221,
+      "labelsRecomputed": 221,
+      "counterfactualBranchesRecomputed": 442,
+      "sha256": "e6c9a260a795454b759f4050512703f92ea35b5fc9227776c609544dec86539c"
+    }
+  },
+  "snapshotsVerified": 64,
+  "stages": {
+    "development-ridge": {
+      "games": 864,
+      "gamesRedealtAndReplayed": 864,
+      "decisionsRecomputed": 87,
+      "accepted": 50,
+      "statisticsRecomputed": true
+    },
+    "development-mlp-0": {
+      "games": 864,
+      "gamesRedealtAndReplayed": 864,
+      "decisionsRecomputed": 85,
+      "accepted": 85,
+      "statisticsRecomputed": true
+    },
+    "development-mlp-1": {
+      "games": 864,
+      "gamesRedealtAndReplayed": 864,
+      "decisionsRecomputed": 85,
+      "accepted": 85,
+      "statisticsRecomputed": true
+    },
+    "development-mlp-2": {
+      "games": 864,
+      "gamesRedealtAndReplayed": 864,
+      "decisionsRecomputed": 85,
+      "accepted": 84,
+      "statisticsRecomputed": true
+    }
+  },
+  "games": 3456,
+  "allActualGamesRedealtAndPolicyRecomputed": true,
+  "allStoredLabelsRecomputed": true,
+  "sourceHashes": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai/lookahead/policy.mjs": "129cd0ca889453235bac9173f3f091ef6a01cddd4e62950c1e7c4615eeb0bc7b",
+    "ai/public-rollout/sampler.mjs": "5299d114f0a4a949fe3d799891eed8b94c6f86fb314b342ab864396ff774ec9d",
+    "ai/public-rollout/policy.mjs": "6463f6f39de8f9c6911a32f1249dee87df6d342a5200cd999d77445032126c01",
+    "ai/paired-value/features.mjs": "e492187fba53ef5ee651331746aefbf22d9547913e02059063df2bd6cf619092",
+    "ai/paired-value/model.mjs": "b09887d606ab7f359391c68a890dfe64fe31fa3437d32cfc060b568e2c3000aa",
+    "ai/paired-value/policy.mjs": "9524f9362cc063c9073facd3aaa98fb6e36729ea064a548c45be5d31a4d1cf63",
+    "ai/paired-value/io.mjs": "634edac2fcbeca8c802b171e9927b4f5243130f498937fe0c6951bcc70f96219",
+    "ai/paired-value/data.mjs": "13550fe50b73c346773a1bcfcc9db9d2fface3cec2c24b71aa5e59f1c55ce9cb",
+    "ai/paired-value/collect.mjs": "b295328e6bcbdd3d71d97d22994ecc8363462247f33eccfd585149b375755022",
+    "ai/paired-value/train.mjs": "6a63ca2bab4e600c9d7030be08b5e14206bfb1f0f0defb62fbf93bf1ee01f979",
+    "ai/paired-value/evaluate.mjs": "0a662cd2237a281d8176b9e1b6090ccec9c69395cb0ab5e6170eab7efa1f4bc2",
+    "ai/paired-value/study.mjs": "b999bc25a4f8807c600708ae4e21686fdd711a4bd1689fbd12dcf4a179ddb875",
+    "ai/paired-value/verify.mjs": "ef4450ab6772eddbef89785f0152b29e84c8265c5aa35aefba73b02df846f48c"
+  },
+  "orchestration": {
+    "workers": 4,
+    "auditSourcesSha256": "3c37d861bd4eaf0723677cbb98260a608a3c4bbf361d4e900aee9bc13072b8dd",
+    "frozenVerifierSha256": "ef4450ab6772eddbef89785f0152b29e84c8265c5aa35aefba73b02df846f48c"
+  }
+}

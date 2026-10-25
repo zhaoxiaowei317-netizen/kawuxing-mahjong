@@ -1,0 +1,102 @@
+{
+  "development-features-bc": {
+    "candidate": {
+      "hands": 384,
+      "revealHands": 243,
+      "wins": 127,
+      "dealIns": 61,
+      "huScore": -44,
+      "kongScore": 32,
+      "drawScore": 22
+    },
+    "incumbent": {
+      "hands": 384,
+      "revealHands": 244,
+      "wins": 130,
+      "dealIns": 55,
+      "huScore": 24,
+      "kongScore": 33,
+      "drawScore": 13
+    }
+  },
+  "development-tiles-bc": {
+    "candidate": {
+      "hands": 384,
+      "revealHands": 249,
+      "wins": 134,
+      "dealIns": 57,
+      "huScore": 23,
+      "kongScore": 28,
+      "drawScore": -6
+    },
+    "incumbent": {
+      "hands": 384,
+      "revealHands": 244,
+      "wins": 130,
+      "dealIns": 55,
+      "huScore": 24,
+      "kongScore": 33,
+      "drawScore": 13
+    }
+  },
+  "development-tiles-offline": {
+    "candidate": {
+      "hands": 384,
+      "revealHands": 176,
+      "wins": 157,
+      "dealIns": 40,
+      "huScore": 181,
+      "kongScore": -25,
+      "drawScore": 11
+    },
+    "incumbent": {
+      "hands": 384,
+      "revealHands": 244,
+      "wins": 130,
+      "dealIns": 55,
+      "huScore": 24,
+      "kongScore": 33,
+      "drawScore": 13
+    }
+  },
+  "development-tiles-online": {
+    "candidate": {
+      "hands": 384,
+      "revealHands": 159,
+      "wins": 140,
+      "dealIns": 32,
+      "huScore": 55,
+      "kongScore": -12,
+      "drawScore": 6
+    },
+    "incumbent": {
+      "hands": 384,
+      "revealHands": 244,
+      "wins": 130,
+      "dealIns": 55,
+      "huScore": 24,
+      "kongScore": 33,
+      "drawScore": 13
+    }
+  },
+  "sealed-vs-H0": {
+    "candidate": {
+      "hands": 1536,
+      "revealHands": 703,
+      "wins": 621,
+      "dealIns": 158,
+      "huScore": 855,
+      "kongScore": -33,
+      "drawScore": 4
+    },
+    "incumbent": {
+      "hands": 1536,
+      "revealHands": 956,
+      "wins": 543,
+      "dealIns": 207,
+      "huScore": 184,
+      "kongScore": 57,
+      "drawScore": -37
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "patched": {
+    "hands": 9216,
+    "score": 2037,
+    "wins": 3447,
+    "dealIns": 411,
+    "revealHands": 0,
+    "huScore": 1612,
+    "kongScore": 189,
+    "drawScore": 236
+  },
+  "base": {
+    "hands": 9216,
+    "score": 1983,
+    "wins": 3440,
+    "dealIns": 413,
+    "revealHands": 0,
+    "huScore": 1500,
+    "kongScore": 250,
+    "drawScore": 233
+  },
+  "short": {
+    "hands": 9216,
+    "score": 2048,
+    "wins": 3450,
+    "dealIns": 409,
+    "revealHands": 0,
+    "huScore": 1632,
+    "kongScore": 180,
+    "drawScore": 236
+  },
+  "reference": {
+    "hands": 9216,
+    "score": 1936,
+    "wins": 3403,
+    "dealIns": 440,
+    "revealHands": 0,
+    "huScore": 1565,
+    "kongScore": 185,
+    "drawScore": 186
+  }
+}

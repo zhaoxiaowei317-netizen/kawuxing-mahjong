@@ -1,0 +1,39 @@
+{
+  "planSha256": "224dc3761f2794cc7245f48dece2028cf855dc1c388cdf03323738f48bc68bb8",
+  "models": {
+    "long": {
+      "samples": 5824,
+      "rawAgreement": 5111,
+      "correctedAgreement": 5539,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 479,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 5060,
+      "huOffered": 168,
+      "huDeclined": 1
+    },
+    "short": {
+      "samples": 5824,
+      "rawAgreement": 5218,
+      "correctedAgreement": 5256,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 284,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 4972,
+      "huOffered": 168,
+      "huDeclined": 0
+    },
+    "raw": {
+      "samples": 5824,
+      "rawAgreement": 5824,
+      "correctedAgreement": 5246,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 0,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 5246,
+      "huOffered": 168,
+      "huDeclined": 2
+    }
+  },
+  "role": "Descriptive only; fixed reused validation, not another independent learning batch."
+}

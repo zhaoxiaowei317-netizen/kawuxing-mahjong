@@ -1,0 +1,12 @@
+{
+  "completedAt": "2026-10-18T13:10:23.795Z",
+  "method": "Aggregate only complete phases matching the original frozen plan; no additional evaluation or reselection.",
+  "reportHashes": {
+    "development-proposal-once": "615aee868b6ed557777f64e89a8b9d5d3f59363b9243a3f70a4096527c55df93",
+    "development-ev-H0": "ea521002b4db9a71c1780fe60b99628fee68aae66ff0c50c509cdaebd7bf2439",
+    "development-ev-mixed": "1136fa37c584dd35b880a3aa382928af4376ea6077d976a747d8a5a25f35fcdf",
+    "sealed-vs-H0": "0ca2c4b6bd9f967450097548a03bda346b77ba61fbb462f270ff62961916a8aa",
+    "sealed-vs-proposal-once": "f0f2c405f06db68600ba95c0866db640e864872e2555f795530debacff63bc24"
+  },
+  "finalizerSha256": "dd6e90ca1e515b2e091faee744efd8e7ae9afe8e9f7fdb3e72c57ea18ee705c5"
+}

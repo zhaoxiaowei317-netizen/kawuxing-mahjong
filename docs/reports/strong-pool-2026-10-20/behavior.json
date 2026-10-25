@@ -1,0 +1,46 @@
+{
+  "bc": {
+    "candidate": {
+      "hands": 2304,
+      "score": 18,
+      "wins": 789,
+      "dealIns": 178,
+      "revealHands": 273,
+      "huScore": 46,
+      "kongScore": -35,
+      "drawScore": 7
+    },
+    "incumbent": {
+      "hands": 2304,
+      "score": 517,
+      "wins": 840,
+      "dealIns": 96,
+      "revealHands": 0,
+      "huScore": 429,
+      "kongScore": 59,
+      "drawScore": 29
+    }
+  },
+  "offline": {
+    "candidate": {
+      "hands": 2304,
+      "score": 670,
+      "wins": 853,
+      "dealIns": 93,
+      "revealHands": 15,
+      "huScore": 447,
+      "kongScore": 126,
+      "drawScore": 97
+    },
+    "incumbent": {
+      "hands": 2304,
+      "score": 517,
+      "wins": 840,
+      "dealIns": 96,
+      "revealHands": 0,
+      "huScore": 429,
+      "kongScore": 59,
+      "drawScore": 29
+    }
+  }
+}

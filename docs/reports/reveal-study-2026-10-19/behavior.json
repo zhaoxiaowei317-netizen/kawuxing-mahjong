@@ -1,0 +1,112 @@
+{
+  "development-h0-never": {
+    "candidate": {
+      "hands": 384,
+      "score": 163,
+      "wins": 180,
+      "dealIns": 6,
+      "revealHands": 0,
+      "huScore": 163,
+      "kongScore": -23,
+      "drawScore": 23
+    },
+    "incumbent": {
+      "hands": 384,
+      "score": 28,
+      "wins": 138,
+      "dealIns": 52,
+      "revealHands": 241,
+      "huScore": 40,
+      "kongScore": -5,
+      "drawScore": -7
+    }
+  },
+  "development-h0-q-gate": {
+    "candidate": {
+      "hands": 384,
+      "score": 101,
+      "wins": 145,
+      "dealIns": 40,
+      "revealHands": 172,
+      "huScore": 104,
+      "kongScore": -22,
+      "drawScore": 19
+    },
+    "incumbent": {
+      "hands": 384,
+      "score": 28,
+      "wins": 138,
+      "dealIns": 52,
+      "revealHands": 241,
+      "huScore": 40,
+      "kongScore": -5,
+      "drawScore": -7
+    }
+  },
+  "development-q-h0-gate": {
+    "candidate": {
+      "hands": 384,
+      "score": 142,
+      "wins": 138,
+      "dealIns": 52,
+      "revealHands": 246,
+      "huScore": 115,
+      "kongScore": 32,
+      "drawScore": -5
+    },
+    "incumbent": {
+      "hands": 384,
+      "score": 28,
+      "wins": 138,
+      "dealIns": 52,
+      "revealHands": 241,
+      "huScore": 40,
+      "kongScore": -5,
+      "drawScore": -7
+    }
+  },
+  "development-q-reference": {
+    "candidate": {
+      "hands": 384,
+      "score": 140,
+      "wins": 148,
+      "dealIns": 43,
+      "revealHands": 175,
+      "huScore": 119,
+      "kongScore": 10,
+      "drawScore": 11
+    },
+    "incumbent": {
+      "hands": 384,
+      "score": 28,
+      "wins": 138,
+      "dealIns": 52,
+      "revealHands": 241,
+      "huScore": 40,
+      "kongScore": -5,
+      "drawScore": -7
+    }
+  },
+  "sealed": {
+    "candidate": {
+      "hands": 3072,
+      "score": 1600,
+      "wins": 1391,
+      "dealIns": 28,
+      "revealHands": 0,
+      "huScore": 1264,
+      "kongScore": 196,
+      "drawScore": 140
+    },
+    "incumbent": {
+      "hands": 3072,
+      "score": 392,
+      "wins": 1060,
+      "dealIns": 436,
+      "revealHands": 1942,
+      "huScore": 365,
+      "kongScore": 36,
+      "drawScore": -9
+    }
+  }
+}

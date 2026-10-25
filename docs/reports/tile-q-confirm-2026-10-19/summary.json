@@ -1,0 +1,132 @@
+{
+  "version": "kwx-tile-q-replication-1",
+  "completedAt": "2026-10-18T22:42:01.731Z",
+  "planSha256": "e18f8ad6090d4d668ace55be1624c77705f33f0a5cb381592266feb2b2a18e20",
+  "trainingHands": 2400,
+  "validationHands": 480,
+  "trainingSamples": 58181,
+  "games": 15360,
+  "productionPolicy": "H0",
+  "evaluations": {
+    "fixed-old": {
+      "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+      "checkpointSha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3",
+      "games": 7680,
+      "primary": {
+        "groups": 32,
+        "hands": 3072,
+        "candidatePer100": 21.419270833333332,
+        "incumbentPer100": 14.713541666666668,
+        "deltaPer100": 6.7057291666666625,
+        "ci95": [
+          -18.619791666666664,
+          31.18896484374994
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "independent": {
+        "groups": 128,
+        "hands": 768,
+        "candidatePer100": 49.08854166666667,
+        "incumbentPer100": 2.3437499999999996,
+        "deltaPer100": 46.74479166666667,
+        "ci95": [
+          8.069661458333337,
+          86.19791666666666
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 16,
+          "hands": 1536,
+          "candidatePer100": -3.6458333333333357,
+          "incumbentPer100": 0,
+          "deltaPer100": -3.6458333333333357,
+          "ci95": [
+            -38.544921875,
+            31.25
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 16,
+          "hands": 1536,
+          "candidatePer100": 46.484375,
+          "incumbentPer100": 29.427083333333336,
+          "deltaPer100": 17.05729166666666,
+          "ci95": [
+            -17.447916666666664,
+            50.65104166666666
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      },
+      "outcome": "inconclusive"
+    },
+    "retrained-offline": {
+      "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-confirm-20261019\\model-offline\\epoch-008.json",
+      "checkpointSha256": "8e6754af504fb49f94cc074136cbc7c9a1f1ef95a30620a14aa52a1dc1132798",
+      "games": 7680,
+      "primary": {
+        "groups": 32,
+        "hands": 3072,
+        "candidatePer100": 18.19661458333333,
+        "incumbentPer100": 14.713541666666668,
+        "deltaPer100": 3.483072916666668,
+        "ci95": [
+          -19.402669270833336,
+          28.386230468749993
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "independent": {
+        "groups": 128,
+        "hands": 768,
+        "candidatePer100": 5.598958333333339,
+        "incumbentPer100": 2.3437499999999996,
+        "deltaPer100": 3.25520833333334,
+        "ci95": [
+          -35.289713541666664,
+          41.933593749999915
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 16,
+          "hands": 1536,
+          "candidatePer100": -4.036458333333332,
+          "incumbentPer100": 0,
+          "deltaPer100": -4.036458333333332,
+          "ci95": [
+            -46.357421875,
+            40.88541666666667
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 16,
+          "hands": 1536,
+          "candidatePer100": 40.42968749999999,
+          "incumbentPer100": 29.427083333333336,
+          "deltaPer100": 11.002604166666668,
+          "ci95": [
+            -8.593749999999996,
+            29.101562499999993
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      },
+      "outcome": "inconclusive"
+    }
+  }
+}

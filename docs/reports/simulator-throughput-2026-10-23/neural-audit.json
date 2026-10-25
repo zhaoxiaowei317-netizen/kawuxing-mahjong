@@ -1,0 +1,21 @@
+{
+  "backend": "kwx-tile-q-unrolled-convolution-1",
+  "modelHashes": {
+    "short": "6d055fcc502ed10528ac5b7e38a089d1337ab148b862c61e06c6d3bf49d9f488",
+    "long": "e6f39a1abafd47f2cdd90c2c3d12ec2ca30643c91d1b69985e378de33cc48898",
+    "learned": "ed42aa96129cb4fda35b13bda2f06c0482ba1a1b15e832f0f0325cc10c59a42d"
+  },
+  "technicalVerificationOnly": true,
+  "notNewPolicyStrengthGames": true,
+  "fullReplayPairsMatched": 144,
+  "actualTechnicalGames": 288,
+  "checkedForwardCalls": {
+    "short": 1425,
+    "long": 779,
+    "learned": 68
+  },
+  "allForwardOutputsBitIdentical": true,
+  "allActionTracesAndResultsIdentical": true,
+  "scoreCacheCapacity": 0,
+  "sourceSha256": "8f44cd2914829da86dd71f69687edcaf9e43736fcf003b30869367a5f7115bba"
+}

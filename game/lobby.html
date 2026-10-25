@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#12353d">
+  <title>湖北卡五星麻将 · 电脑版大厅</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="game.css">
+  <link rel="stylesheet" href="visual-refresh.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: radial-gradient(circle at center, #1b4d57 0%, #0d262c 100%);
+      color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    .lobby-container {
+      max-width: 960px;
+      width: 92%;
+      background: rgba(14, 38, 44, 0.85);
+      backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 20px;
+      padding: 36px 40px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+      text-align: center;
+    }
+    .logo-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, #e53e3e, #c53030);
+      color: #fff;
+      font-size: 38px;
+      font-weight: 900;
+      border-radius: 18px;
+      box-shadow: 0 8px 20px rgba(229, 62, 62, 0.35);
+      margin-bottom: 16px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 32px;
+      letter-spacing: 2px;
+      color: #f8fafc;
+    }
+    .subhead {
+      margin: 0 0 32px;
+      font-size: 15px;
+      color: #94a3b8;
+    }
+    .tagline {
+      display: inline-block;
+      padding: 4px 12px;
+      background: rgba(56, 178, 172, 0.18);
+      color: #38b2ac;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .mode-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+      margin-bottom: 30px;
+    }
+    .mode-card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 24px 20px;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.25s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .mode-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      border-color: rgba(56, 178, 172, 0.5);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+    }
+    .mode-icon {
+      font-size: 36px;
+      margin-bottom: 12px;
+    }
+    .mode-title {
+      font-size: 19px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 8px;
+    }
+    .mode-desc {
+      font-size: 13px;
+      color: #94a3b8;
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+    .mode-btn {
+      margin-top: auto;
+      padding: 9px 22px;
+      background: linear-gradient(135deg, #319795, #285e61);
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background 0.2s;
+    }
+    .mode-card:hover .mode-btn {
+      background: linear-gradient(135deg, #38b2ac, #319795);
+    }
+    .footer-info {
+      font-size: 13px;
+      color: #64748b;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 18px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .footer-info a {
+      color: #38b2ac;
+      text-decoration: none;
+    }
+    .footer-info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="lobby-container">
+    <div class="logo-badge">伍</div>
+    <h1>湖北正宗卡五星麻将</h1>
+    <div class="tagline">随州 · 孝感 · 襄阳经典三人玩法 · 纯正本地算番引擎</div>
+    <div class="subhead">筒 / 条 / 中发白 共84张 · 碰杠胡 · 亮倒避炮 · 查叫流局</div>
+
+    <div class="mode-grid">
+      <a href="index.html" class="mode-card">
+        <div class="mode-icon">🤖</div>
+        <div class="mode-title">单人练习 · 电脑陪打</div>
+        <div class="mode-desc">与两位智能电脑 AI 对弈，支持手牌理顺、碰杠亮倒、出牌建议与整场计分。</div>
+        <div class="mode-btn">开始单机对战</div>
+      </a>
+
+      <a href="online.html" class="mode-card">
+        <div class="mode-icon">👥</div>
+        <div class="mode-title">好友开房 · 联机对战</div>
+        <div class="mode-desc">支持创建 6 位数房间、局域网或公网联机，支持三人开局、三人固定对局与断线重连。</div>
+        <div class="mode-btn">进入联机大厅</div>
+      </a>
+
+      <a href="index.html" onclick="localStorage.setItem('kwx-nav-tab','lab')" class="mode-card">
+        <div class="mode-icon">🧪</div>
+        <div class="mode-title">算法验算 · 牌型实验室</div>
+        <div class="mode-desc">自由配牌试验：卡五星、碰碰胡、七对、豪七对、双豪、大三元、小三元、全求人等。</div>
+        <div class="mode-btn">打开算法实验室</div>
+      </a>
+    </div>
+
+    <div class="footer-info">
+      <div>服务运行端口: <code style="color:#e2e8f0;background:rgba(255,255,255,0.08);padding:2px 6px;border-radius:4px;">8789</code> · 纯正本地离线运行</div>
+      <div>
+        <a href="index.html">直接进入牌桌</a> · 
+        <a href="online.html">联机房卡模式</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "platform": "win32",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalProcessors": 12,
+  "totalMemoryGiB": 15.733024597167969,
+  "device": "cpu",
+  "node": "v24.16.0",
+  "workers": 4,
+  "runStartedAt": "2026-10-22T23:30:03.132Z",
+  "evaluationCompletedAt": "2026-10-23T00:12:57.103Z",
+  "auditCompletedAt": "2026-10-23T00:54:48.895Z",
+  "newUniqueTrainingHands": 0,
+  "newUniqueValidationHands": 0,
+  "optimizationUpdates": 0,
+  "evaluationGames": 36864,
+  "scoreCacheCapacity": 2048,
+  "auditScoreCacheCapacity": 0,
+  "discoveryPath": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\hu-kong-20261023",
+  "replicationPlanSha256": "9f4a5dbcce6775de2c4457654c0f7ddf3efb36371d2b44f9667c9e65ec7f3b86",
+  "tests": {
+    "passed": 237,
+    "sha256": "04e1fd184bbe7fd7d0e7f2dd228eeb07c8bd1fa7aacca4aab6349017eeb0a50e"
+  }
+}

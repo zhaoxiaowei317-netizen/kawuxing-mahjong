@@ -1,0 +1,42 @@
+{
+  "fixed-old": {
+    "candidate": {
+      "hands": 3072,
+      "revealHands": 1406,
+      "wins": 1184,
+      "dealIns": 298,
+      "huScore": 738,
+      "kongScore": -39,
+      "drawScore": -41
+    },
+    "incumbent": {
+      "hands": 3072,
+      "revealHands": 1939,
+      "wins": 1062,
+      "dealIns": 410,
+      "huScore": 395,
+      "kongScore": 71,
+      "drawScore": -14
+    }
+  },
+  "retrained-offline": {
+    "candidate": {
+      "hands": 3072,
+      "revealHands": 1951,
+      "wins": 1095,
+      "dealIns": 415,
+      "huScore": 669,
+      "kongScore": -2,
+      "drawScore": -108
+    },
+    "incumbent": {
+      "hands": 3072,
+      "revealHands": 1939,
+      "wins": 1062,
+      "dealIns": 410,
+      "huScore": 395,
+      "kongScore": 71,
+      "drawScore": -14
+    }
+  }
+}

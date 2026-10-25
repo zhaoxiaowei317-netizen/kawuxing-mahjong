@@ -1,0 +1,22 @@
+{
+  "platform": "win32",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalProcessors": 12,
+  "totalMemoryGiB": 15.733024597167969,
+  "device": "cpu",
+  "torch": "2.1.2+cpu",
+  "node": "v24.16.0",
+  "workers": 4,
+  "runStartedAt": "2026-10-22T11:37:29.901Z",
+  "trainingAndEvaluationCompletedAt": "2026-10-22T12:04:17.348Z",
+  "auditCompletedAt": "2026-10-22T12:25:05.406Z",
+  "newUniqueTrainingHands": 0,
+  "newUniqueValidationHands": 0,
+  "reusedTrainingHands": 4608,
+  "reusedValidationHands": 576,
+  "evaluationGames": 18432,
+  "tests": {
+    "passed": 230,
+    "sha256": "63d26dc9d295439966e615bd80697d039cb28bd97449d38c5946c1db4863271a"
+  }
+}

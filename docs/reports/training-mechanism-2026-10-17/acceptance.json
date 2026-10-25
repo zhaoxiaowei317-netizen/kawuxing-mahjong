@@ -1,0 +1,86 @@
+{
+  "format": "kwx-training-acceptance-1",
+  "tests": {
+    "passed": 150,
+    "failed": 0
+  },
+  "runs": {
+    "initial": {
+      "counters": {
+        "imitationEpisodes": 8,
+        "imitationSamples": 234,
+        "environmentEpisodes": 16,
+        "environmentHands": 16,
+        "environmentDecisions": 844,
+        "learnerDecisions": 723
+      },
+      "iteration": 2,
+      "finalCheckpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\.tmp\\ai-training\\verified-final-20261017\\checkpoints\\iteration-00002.json",
+        "sha256": "4fa6d06a2532bac4ec5db07dc83a65037d3e586b1cf5f09c49bc021b81961013",
+        "iteration": 2
+      },
+      "changedParameters": true,
+      "elapsedSeconds": 27.413372600000002
+    },
+    "resumed": {
+      "counters": {
+        "imitationEpisodes": 8,
+        "imitationSamples": 234,
+        "environmentEpisodes": 24,
+        "environmentHands": 24,
+        "environmentDecisions": 1254,
+        "learnerDecisions": 934
+      },
+      "iteration": 3,
+      "finalCheckpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\.tmp\\ai-training\\resumed-final-20261017\\checkpoints\\iteration-00003.json",
+        "sha256": "fbb8aa22ab7a24cda795964e0b8b1c82191564a36bdeb35c73c64f31b0799447",
+        "iteration": 3
+      },
+      "changedParameters": true,
+      "elapsedSeconds": 0.7654525000000001
+    },
+    "table": {
+      "counters": {
+        "imitationEpisodes": 24,
+        "imitationSamples": 612,
+        "environmentEpisodes": 4,
+        "environmentHands": 64,
+        "environmentDecisions": 2840,
+        "learnerDecisions": 2087
+      },
+      "iteration": 1,
+      "finalCheckpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\.tmp\\ai-training\\table-final-20261017\\checkpoints\\iteration-00001.json",
+        "sha256": "f9777e8a1cebad2ec8efd2e01d72b1132ded3809e68a3102db07c9804479fcbe",
+        "iteration": 1
+      },
+      "changedParameters": true,
+      "elapsedSeconds": 5.9060403
+    }
+  },
+  "developmentGames": 432,
+  "cliEvaluationGames": 48,
+  "sourceHashes": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "d65008faa85bebc4493ec38483fe16e2dd047451c6760526f0889dd994d48ccc",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai/training/collector.mjs": "b606e89c77747d87d8d59f894427898bef30f0a124b29c847b790ff9b5a5deaf",
+    "ai/training/trainer.mjs": "fe074a1a4e13bc417412f172a2620c4c72faad82d4fbd4d7cd450c900352fe36",
+    "ai/train.mjs": "0ad20fe06d96f03476bbd0d96e8865ce637d69e61c0e91875478651f609335ea"
+  }
+}

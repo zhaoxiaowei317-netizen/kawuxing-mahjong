@@ -1,0 +1,10 @@
+✔ streamed gzip JSONL handles member/chunk boundaries and rejects corrupt compression or JSON (97.3332ms)
+✔ streaming full audit matches frozen original audit and rejects altered dataset counts (43260.8355ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43527.5985

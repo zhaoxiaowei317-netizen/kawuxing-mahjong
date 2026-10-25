@@ -1,0 +1,58 @@
+[
+  {
+    "path": "ai-runs\\reveal-study-20261019\\plan.json",
+    "sha256": "655c453b61004bf5dcdb3b451a3ac45de5bbbe792342ce93cad52fb1f3d389dd"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\summary.json",
+    "sha256": "4f78e26ee27cd8887bdff6704a35cd5d1dbd7a528adaa6570c82b665d5e345b5"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\selection.json",
+    "sha256": "c72c83f46836f0545fb30a7d66da7e0281bf57699d38c6c28d7c135e47753100"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\verification.json",
+    "sha256": "e7bd1db17345373b05268c1740aa397ade0c3b0723613b7ca4399c544458aa31"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\runtime.json",
+    "sha256": "135062260572467c0f790df86ea460455f0528c8cfda597324171242de3e6cc6"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\frozen-sources.tar.gz",
+    "sha256": "c836fbaa4bedb2b7a6ca98521f1fd565aab522f393a94a16e6205f2497065d97"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+    "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+    "sha256": "a7b8a967d3f1fc3f5a1719a865244d872ddc3be4d2b5ad4bd3ef55bd155c4320"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\development-h0-never\\replays.jsonl.gz",
+    "sha256": "6378d20ac0de92397098fd3304294086212e21ad07c83250fc4b27541898e62a"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\development-h0-q-gate\\replays.jsonl.gz",
+    "sha256": "ed468c7e326b1e6f80beefb6e5fbf3aac68d7660cc6c781b9352be1c7106a3b5"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\development-q-h0-gate\\replays.jsonl.gz",
+    "sha256": "74e71e20e6cdee2e847adb46c1d77286f4dcad34937d49d7952082e434b7aab0"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\development-q-reference\\replays.jsonl.gz",
+    "sha256": "b419938046598aa7e0ddd40162e432ec9fe110e1f8ba4b73eeab2ab793f5e32c"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\sealed\\replays.jsonl.gz",
+    "sha256": "38b029684503259fc97d423aa6b757f2985bc7c61cb8490c8cc034ff71c46de6"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\rule-explanation.json",
+    "sha256": "d1cceeaebffd1c7a3a24b9d58004272245a626c41f80134b83282a233a477f4d"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "seed": "kwx-table-training-v1",
+  "hiddenSize": 32,
+  "bcEpisodes": 24,
+  "bcEpochs": 3,
+  "trainingHands": 16,
+  "episodesPerIteration": 4,
+  "ppoEpochs": 3,
+  "batchSize": 64,
+  "evalEvery": 4,
+  "evalGroups": 4,
+  "evalSessionGroups": 2,
+  "bootstrapSamples": 1000
+}

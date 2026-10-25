@@ -1,0 +1,32 @@
+{
+  "corrected": {
+    "hands": 4608,
+    "score": 868,
+    "wins": 1755,
+    "dealIns": 208,
+    "revealHands": 2,
+    "huScore": 796,
+    "kongScore": -35,
+    "drawScore": 107
+  },
+  "self": {
+    "hands": 4608,
+    "score": 703,
+    "wins": 1661,
+    "dealIns": 218,
+    "revealHands": 0,
+    "huScore": 317,
+    "kongScore": 290,
+    "drawScore": 96
+  },
+  "raw": {
+    "hands": 4608,
+    "score": 716,
+    "wins": 1601,
+    "dealIns": 231,
+    "revealHands": 43,
+    "huScore": 264,
+    "kongScore": 304,
+    "drawScore": 148
+  }
+}

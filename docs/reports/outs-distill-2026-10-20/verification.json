@@ -1,0 +1,635 @@
+{
+  "completedAt": "2026-10-20T12:48:18.718Z",
+  "planSha256": "a4692c0476e64d10c4c7a6a283499f6dd8c1e18dfd8c4bbbb68c91de9daceb44",
+  "sources": {
+    "previous": {
+      "previous": {
+        "previous": {
+          "core": {
+            "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+            "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+            "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+            "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+            "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+            "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+            "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+            "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+            "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+            "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+            "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+            "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+            "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+            "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+            "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+            "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+            "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+            "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+            "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+            "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+            "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+            "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+            "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+            "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+            "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+            "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+          },
+          "drivers": {
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+            "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+          }
+        },
+        "driver": {
+          "study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+          "verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047"
+        }
+      },
+      "driver": {
+        "policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+        "study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+        "groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+        "verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b"
+      }
+    },
+    "drivers": {
+      "config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+      "collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+      "groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+      "study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+      "verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+      "../strong-pool/stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+      "../tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69"
+    }
+  },
+  "games": 13824,
+  "data": [
+    {
+      "kind": "data",
+      "hands": 1152,
+      "samples": 11323,
+      "actions": 34158,
+      "correctedLabels": 1144,
+      "split": "training",
+      "startHand": 3456,
+      "hashes": {
+        "canonical": "c082e6e244bb9b636c1c6c5fe4e18ec43d095c8a48fa0d354a6e6ed953b4336d",
+        "corrected": "44b5435c28c013672c98dc6abdb28e638c4353ad42494e46de4ce27c02dc599a",
+        "self": "c01c80064c622dff3a640329f0df0c0969559928d02b4cf127008967dc22b572"
+      },
+      "allEpisodesRedealtAndBothTeachersInputsReturnsAndLabelsRecomputed": true
+    },
+    {
+      "kind": "data",
+      "hands": 1152,
+      "samples": 11407,
+      "actions": 34364,
+      "correctedLabels": 1157,
+      "split": "training",
+      "startHand": 0,
+      "hashes": {
+        "canonical": "879ff63757940e6d96908d5372d80a5f533567db6c45773385f316506c67dbdf",
+        "corrected": "78265b1653d242ebdf9a42c840fdb565703aed4061292dadc552cced9c820749",
+        "self": "deefb05f69f9cc7ceaade4ef714c92e799d960241f9cb61c074991a5b936d5c5"
+      },
+      "allEpisodesRedealtAndBothTeachersInputsReturnsAndLabelsRecomputed": true
+    },
+    {
+      "kind": "data",
+      "hands": 1152,
+      "samples": 11414,
+      "actions": 34446,
+      "correctedLabels": 1205,
+      "split": "training",
+      "startHand": 1152,
+      "hashes": {
+        "canonical": "f38198e3cb3225140299d1a0a21d8a15e618416f4c9bf7cea1fca304ab498dca",
+        "corrected": "11cb2e36cc50f8ce4ab3cd147d0bc53880a111e2fd142dcf152d717cec6e0aca",
+        "self": "0c72dfa86cf8aea2efe29e041e5631a474d41768ff7561c484668dfffadc783d"
+      },
+      "allEpisodesRedealtAndBothTeachersInputsReturnsAndLabelsRecomputed": true
+    },
+    {
+      "kind": "data",
+      "hands": 1152,
+      "samples": 11606,
+      "actions": 35176,
+      "correctedLabels": 1218,
+      "split": "training",
+      "startHand": 2304,
+      "hashes": {
+        "canonical": "520fab31b584d065dfba336bfe5965281416e0bd88c347e0b15a1e71b8022e68",
+        "corrected": "10250c5227f5928e6c2c75e863ace027d74a59d59e7a1b3579d5b15d15e1e962",
+        "self": "0cacfd6ceb3d29e465a8042053befd959bd7f6bdc47741b61351d1c1ac7e645a"
+      },
+      "allEpisodesRedealtAndBothTeachersInputsReturnsAndLabelsRecomputed": true
+    },
+    {
+      "kind": "data",
+      "hands": 576,
+      "samples": 5649,
+      "actions": 16955,
+      "correctedLabels": 550,
+      "split": "validation",
+      "startHand": 0,
+      "hashes": {
+        "canonical": "9aa699c2efd9b1a38f1ba44344eb3711b7c78cf76937aa186f9668e4f4aacb17",
+        "corrected": "0c6dcae55890610ce43342e8e466cfdf79c54509a927347d4efe140f08949eb4",
+        "self": "88bd677445d7bc12aeeb2e5496a35d97553f5599020db28b4ec4ae4a4942956a"
+      },
+      "allEpisodesRedealtAndBothTeachersInputsReturnsAndLabelsRecomputed": true
+    }
+  ],
+  "groups": [
+    {
+      "kind": "group",
+      "jobId": "pair-0-000",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "8cc04cf5558d8b828fbbdeb5110ec1ea4dd8423547584e7002527c025ca0c4d1",
+      "groupSha256": "d1f12d045b620b96c4f629eb2f62017c0f2875da27ff30a98aba0604f0d7d229"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-001",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "42a2d36d3dc0e9fab7d158b26614018739b3db5e1c25d8896eb36db2d8fb6946",
+      "groupSha256": "3124e68a303b41dcaa267e18d420758990de495b5b34c666426fe9139dc19756"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-002",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "4c62ca43aa50989e442833cf8cec0e3fd5f6af6a26f14b3646a28af8328472d6",
+      "groupSha256": "fa716c888662c397bbf87291e58860fa8245ddff8f2b75a563b6fedb6ee04a1d"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-003",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "e4c393a6729fb832828d64cb9e0ec9db82e42851399f629617815d6e2abcce4c",
+      "groupSha256": "6aed1c8c3ff3baf6ce2a8fb1786e8ce73608a5b96e82e2de3ea0bcf66dde8482"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-004",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "7534727fcf2f1ab9e8def8942a440fe45d93a44405c44eb7e7844710ecfd44ea",
+      "groupSha256": "2a57b2d22e12c4f49bf40a313c9b34ad868113151d5cfc8fc86d72ae53a1bce2"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-005",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "e214fd677e857334202ae0439aa47ed57fbf47ced49834caff7db7b3bb369d03",
+      "groupSha256": "ceac7ea39965fad44bf3cfee323c6e3e0748e1e7b90801f45c3414598db903de"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-006",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "70b0d7469ac59b11770012fec8f03fa40d12f18173c75845c8151870ce8350f6",
+      "groupSha256": "72a1b470dcb34c5c744c28a08c491e44cf0a12266a3109f4f01af883817f4f69"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-007",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "0778735e88cec1f19cd9ae267837531cec12c2b9a4e26cc23680a79663ec2470",
+      "groupSha256": "d3f2c2bb9eda9a41a9180ae9a7ad1ea290750079307248e75cd0b657e587b814"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-008",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "4ac4fed524c8e811fbc8bd97aaca65aefe9f55188240aca9c8ec0ca542ccf13c",
+      "groupSha256": "ec8d83e4d7dbb6591e8d197dc81cfe73a71877e89fd61463746c1eea71eb0927"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-009",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "96c04f0f1cd74f179c291d60b07f50246c894a5bcdbaa84bcc4f159b5172de8a",
+      "groupSha256": "8cdca8dc29ed3255a19c6069249cba5418f21006d9cc0b461cc6e2c91e8cc970"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-010",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "56defacdf821bb9188d32b34f81f2c61d1209791f061a9e5d9222b833f19c29e",
+      "groupSha256": "b2f8e0a4427c3b225e247c23ffc3eaf11ed29319513595242afa55bae31b40c3"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-011",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "6f0d84366c7e5c3823675b8bd9c71e931eb2836b1b65bc9852a4cf50ed89271a",
+      "groupSha256": "70ee687b25577763ea2dfeed1c48b04426d26f3148f5399da0be5d6f660f7373"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-012",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "9f60ffbe17135a54331bf346bdcb9ce9f78c586f679656a002a3c4f438c2f37e",
+      "groupSha256": "ed7d2e1338d83298d10a3bc6e9f58aba5a0c5781bc8f39100d12dc37aeeab5d8"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-013",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "18bbe0a91a0defbdc17ed4c54e5984888df2013fa26279cdc8c9317b45395479",
+      "groupSha256": "372127f1fa142c346defab0e0cb2f90c68a387acb63cb201a82bbfa45b8a3fee"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-014",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "7e8de3bcd60a8de2856b9744c4b0e2ede6ac34c544c232f2dfca90e66c99e2f6",
+      "groupSha256": "a64dc76f10f006e2d659dbe964c9b2e1d8ef155c083afe2250ea5c47033a6797"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-0-015",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "d7f16ca38e818f27cbf60435c7865beb7bf0ec3b5ab634802f67f2dab742b0f3",
+      "groupSha256": "45a0505466cd68e72c27286db2e023fb9ab4f5a91be4b9a639085ad25cb3ce4e"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-000",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "5d84fc4537820bcb174d71436e3782528e32418b4eea48af45d27b97c4a4bec4",
+      "groupSha256": "0f818514c3e2387540a0780e0c6f45ef656c03ee6a1c5d3ca60540a88f0519a1"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-001",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "26bc089cf801b8d7e23f58c51cf3e9c8b9070e59942dadb31c128f2c4e943cfa",
+      "groupSha256": "1e100b220737de5d45ab42cf06ec538ab21e2acaee47c601e50ad9781c2c4add"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-002",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "4e1b70b31d0e88492739c108ed2f026f4d2cecccbdb5a267963a534209eb2fc1",
+      "groupSha256": "7f02c71a9c6ab3e6600a9e56a1e604a5671f11a170937f27be6eaa5492c479ad"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-003",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "8008f84ca5853b0685c41a0f5a717537e46996f9854c1045753b1c8cae098efc",
+      "groupSha256": "dd35139df4b8ad3a26ca8a962aa8f95f93d22bbf560b46abf7e40bfea6b18aeb"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-004",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "286da089f5d602ceda8814f4e359ef7786a6b78bf9f0ba1f1546fa1609991f27",
+      "groupSha256": "738ccccc9c766f1e1d70c278cdc39ad6402c6606fc397652506870a6990bd4e9"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-005",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "65e2dc7acacd9bfe726329c2091ac2c0e710273905ad0098472902e477844ecd",
+      "groupSha256": "a9845d59489c228d5c0e839d907348e168d5c878d50bce8d57d05c75e8a0c966"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-006",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "6c5bf147fb694a96e8c5ac152c82057ce124d69ac4124f3cdbfb49a6bb8d043e",
+      "groupSha256": "58fbefeea052abdf65c423049e518c0c255a5aa5b6c25dbc38fa3c95b127e249"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-007",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "d230d6fd0ae1a925e083baea5e18d0a3cd4b600ad7360077893a10a88287dea1",
+      "groupSha256": "208a578f1fa94997f73b5057918b57d32165ce19ecc14bbcea6cb4d7dc6bf4ae"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-008",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "95241c5de343352218c558bc59ecc0e27479a8f021c5d577f1702696dd7a2022",
+      "groupSha256": "e22825dfe686345acea971a0507ca22f2377cba4026435b686cb8aa824cbc4e3"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-009",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "91e5f454c0bb075b1da48ba2ffc22515c1e81d6f4c636d873411bdc598e3af1a",
+      "groupSha256": "6004dc3737a26cfd34425448f10214d829220ae71881ba781244441c0d6caeaf"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-010",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "6c128f9560730a539380169b476f59e0e61ada55895137da16eeeb9445da7cfb",
+      "groupSha256": "b152f58be4ec6655a9b8095c7b3605513bd27b9b6e98020c94ecd7c5b9498e3c"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-011",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "3b5b6e7dcaa5a31e9c7957123ac4207c19e0da37b2c4138058ec43b700e17d4a",
+      "groupSha256": "cba7e59b042138b914c8e089e41ac20f8402ff77d05e0b2607f7a0373ca70a65"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-012",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "ef1468ef9f8b1cf3f797174ea901fbbb83b62d8b93c438cf3a5cb1e781ee5bf6",
+      "groupSha256": "dda0e5b469347dc28549b3362cb794341b42bff05a3ba0021eb1c0f9efcfd609"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-013",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "a55cd7552616b72e9d74980c72a4c53a699409916212e2aa0bb1e537da54420c",
+      "groupSha256": "8e2a99cf8536c13c9854146ab5a72e2275132044277160bf6dc5900eeb829366"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-014",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "5d9c8da1a110a1d486bfea2c0e5c3f25a525a86872713695e49a4cd6e6934cf8",
+      "groupSha256": "c52a56bf642648c360864bd2692c855eb645327bf7510effaf5fa610afd597cb"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-1-015",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "ff314929c68c6cd6abae94c67309d3625955504e1dc2c448129646677a8b6ee0",
+      "groupSha256": "f32b6261bd1e0f21939a8153f612099556cd90b88b6c37c167bb9adca6979a3a"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-000",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "1db2135224d8b564e08558fefa0f8eb1c7a2c28b1a8d5ef95ce49fc9c72a839b",
+      "groupSha256": "354bf9417af6fbbbf52a263c62e287659e4dbe8713b7d67687d84276401077e0"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-001",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "f8e3670c0a791f07996e010acb22c1cca03027971b81bcf20216ec473b4d76f6",
+      "groupSha256": "7da01ef2066fc8294171a726df01c5f6b7f9c19a23fa1d62bb203e5b565b7cce"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-002",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "0bf5e18042eec2f29df8aa88c585ba1274755dc6f3b554954c487acdfed04325",
+      "groupSha256": "31754cb804d3a85df9c6f71e78b1626aed34e2fb65a8db070d49f2df43113b61"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-003",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "03880643e5581ec7ec95420a2384e6d432c63d6070fc5d285919eb2edb7cbcc8",
+      "groupSha256": "ce61206bb43a0c7dc69e1844d1e273134b1f9e53fabfcf9a7da28cba8470cf5c"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-004",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "a14c59eab4a80145cff698dba8e4b118171be6febe7d5a3c20bf629c6f775def",
+      "groupSha256": "8beddaff0d990634a07840c7e1c4086d5dd5f205e3a216ac283ccab0bfa01f1e"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-005",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "b52191fd96eefe42b39106d04fa4dead5fb3c34269c1dc17b9ea665373197af0",
+      "groupSha256": "7b312dff4b7dae94ef3dd572fd909fe06e6afe7ce83cf2d27612b7e25c61ee9d"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-006",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "e192e09318737e9e4a1d096a188a185aecd7eb2c468a8914fb12b7c72f561c56",
+      "groupSha256": "6b70fc74edefcf8c6de362f41a514d3d9e0a22c57ee4b09515ced5a301f0c97a"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-007",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "8713df810d7070b48701026cf111e539320ca7f18b56f38b60a96254d21b46ec",
+      "groupSha256": "7e6d2f2b4515ad13508f8627f1ea3810cb99bf07ac3fad9b086ecbaa813459ab"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-008",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "9cdecbce3b92ae66524ee6ac167ff47562f30d09086596ee38e93e54c84c43be",
+      "groupSha256": "e79d8e9c18335b797eaeee40589299fe49508577619fb9c43d92ad25c71f2ae5"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-009",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "c8a54d360d32e1c53f8f149e5d6e317e39fbe4bf753562558773229b94099fc8",
+      "groupSha256": "c21016477a87fb1e957beb096737619bbd05bbc635010a56e4cc73818df07981"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-010",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "360a909f6c9cf477e4806e168ac48a4987845a05ebfcd99a724d61acde41e4ab",
+      "groupSha256": "16e637c8f70bbd506825221c4d24cb2ae1503fde4e224cb7370015a86f650c69"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-011",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "322ef9cf3c8ba37a9bebc17dc12f0519854c1c92084b9fedf8d6770a95e033bc",
+      "groupSha256": "76cf96233c474c87fbbe31fc95890612f9370ead8ffef623086b8cda1fba7992"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-012",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "81abca4020eed23db24d3fd56a7701f9ec15f6476d711104db2cc6d7d977b03c",
+      "groupSha256": "9fc36d67c8ac1eeb3cbe223f44d9fdd1914ee63b8204585930417e377ecd636c"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-013",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "1e4b4faf8d0c81c71fc4d67dacb5c0f100db26ad657a76c8073eaf92e6fba38c",
+      "groupSha256": "76b4d577749cf23a4b35db628734e6d29b8e99c1fe0d0c27e83d8c37a82b0805"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-014",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "aed9b131a79092ca0e16a2e623c95ea88ca2c26d3656296964b53efe31c98f0b",
+      "groupSha256": "0cc58ee3709e7d65ff94fb4ce3fb8111f0710596b30ccb91088a6e3cb5bed66c"
+    },
+    {
+      "kind": "group",
+      "jobId": "pair-2-015",
+      "games": 288,
+      "allEpisodesRedealtAndNeuralPoliciesAndExactTracesMatched": true,
+      "replaysSha256": "36c675e9a8784b98c46492e0af8a719d37c701c79b5093110538d0db8da92cfd",
+      "groupSha256": "3e8a283469fb6abbf63bf9a15b2435e8b93d1460ecdf919a1227ca8842cbb85e"
+    }
+  ],
+  "snapshotsVerified": 18,
+  "snapshots": [
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-000.json",
+      "sha256": "59075eb210baf3ba24626403d1a38973d87cca64d2f12a0ff7cd438281620823",
+      "stateSha256": "52e68b30c7b3b48dd4fcb81bf343f79b4dc9ff8d22be0b87d50110c1b6295213"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-001.json",
+      "sha256": "c88fb8eb05c88c8f085095b2661ffe1f9f7379cf65e427b77c004c8bb3a9bcf9",
+      "stateSha256": "b99eb4260a765251c7b0cc01d8b11c5409bf3e33713fe0efade112f80fe2d267"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-002.json",
+      "sha256": "ab97e879c30aa7b3e83eed71acb6b3d5d8af11c3f9562e6f3fcf1931eff05dd5",
+      "stateSha256": "3e6decd458a7489e75cffd36c72b9d17ecbf58ac77057675f30dc543ccfb6716"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-003.json",
+      "sha256": "9ff24b6d4ec3e245d14db344cd9d516ec226ab4c9534a1845b9cd75fa2ef8a08",
+      "stateSha256": "0a173b75c9a5cb5eddb7253cdd42b9f0f1467b3100eb6c1223fe98e490cfbdee"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-004.json",
+      "sha256": "36dd01a4b68e7228527e200348baa3b3f8de54a182187a74cbde73e29d41f1ff",
+      "stateSha256": "5ff8f806ad29e82f04c8725ea26650ba2f88f1660faa9700fb2c0518eabc9351"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-005.json",
+      "sha256": "1a87f519318aa0941c97e7d16c668ebc417944661bc19b92c125bb25f9b9d5f7",
+      "stateSha256": "5f6efb4925daea2eab2d9375b366179f413435515ce6d36a461b60f9d97fa08f"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-006.json",
+      "sha256": "267e1ef2663d23de5fff8348f62465e04f2a7e95855ad7fc5d727a014ac143f2",
+      "stateSha256": "cfa4ffd8d001a1ca5157f4951e04642ac6ea1f7367f732c86326e2382fa70b91"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-007.json",
+      "sha256": "8d88cf9fe2ef7db0d9f6c7977d8e0f9b3813156c05be0751c951672876344b90",
+      "stateSha256": "8982a2a54eddd24bf80c94821a9ef88e99d7175ae93ba9a7c356baccdd6fe4c4"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-008.json",
+      "sha256": "5df20f0ff44fde983f30df281ae12e9ee6c79662e20723c35d4b724e545818fd",
+      "stateSha256": "2be8f5705ee9a155622a0195429489f488b1315611c5c73ef0a767e8bbc4978d"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-000.json",
+      "sha256": "29f8f10d47001804c337de61a99f7646fb626b48bddebe55d14296d527870956",
+      "stateSha256": "9c70ecdfac1e53ccb10955d3ed1e15de9fd20ccd059db1056627217a7c587595"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-001.json",
+      "sha256": "dcd0e2ca175f0d878f6e2aa1b2a281de009914e615d72c3d24c365ad3ca8619b",
+      "stateSha256": "c013b9e5c3ccaa9c86154be4317193e73ee3d8e8bad0fac69ac5a28ab7a8d226"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-002.json",
+      "sha256": "de4388d3b26fda7138087448a0aad1f736cf150a5c33861187326f72770ec59e",
+      "stateSha256": "73bb8ff5f43a24e106b30b49c3175ca7aa43f5fe4de1fd48aa67b9e1f21077b3"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-003.json",
+      "sha256": "357215ef2074ea061257e1b9fa7c6cbfe09226b57af1ecf7b8ab4946307bb9b1",
+      "stateSha256": "9ab8445ea6fd7b8a5a0dc7d54ec9c88da3737689ea29af5000f89ae5f772c6b7"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-004.json",
+      "sha256": "9db7f02f52dbf7a752568498f031d8fef0948e9ca6e15d6635a50b0627c57118",
+      "stateSha256": "2613c73cd3138db0e289781ba4636c5714e2130b0f846a101c9f71ff9e628e3b"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-005.json",
+      "sha256": "1d424375e963849acfb94b1ddad5f479dff82c0687cc029a16ed3e3cd04fe3a5",
+      "stateSha256": "625a72be9b088785fd72235c02468bfb9f75462149f0f4fec0667af5fe175778"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-006.json",
+      "sha256": "b2020955f955d637a8258fd6ffb6efee052e0a76284abdb6d640ec17e7e6eeb5",
+      "stateSha256": "b93309fb53cf145f7b0917b4f37323d797f2ce72d05692e09482f65bb7e8015c"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-007.json",
+      "sha256": "4d7f26046566e6c29f59de678814aaadbf9a844acd431a1539f94f47b0d4219c",
+      "stateSha256": "6c618ecd6dee8a20a2ab8957483c06b0114d07fd43f23b640154858d1929a050"
+    },
+    {
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-008.json",
+      "sha256": "8b61ddc470d6b0a2801f8fad340fb2b9990d4ab5ea585ffc5d2aaf5bbf51e2e4",
+      "stateSha256": "c5735e96c2e30ad26c88ec079ea14767accb808197b898c892f013340814ad32"
+    }
+  ],
+  "parity": {
+    "corrected": {
+      "fixtures": 12,
+      "maxError": 0.000010288386913970271
+    },
+    "self": {
+      "fixtures": 12,
+      "maxError": 0.000012362461944803727
+    }
+  },
+  "validationDiagnosticsSha256": "0e27288403176d59ecfbc784b355d2db26bac7825f62d4e778d5eaa4a3a05c5a"
+}

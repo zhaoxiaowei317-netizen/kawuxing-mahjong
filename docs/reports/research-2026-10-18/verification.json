@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-10-17T22:53:21.235Z",
+  "baseline": {
+    "id": "H0",
+    "version": "h0-2026-10-17",
+    "rulesVersion": "xiaogan-1.0",
+    "description": "Frozen existing heuristic, observation adapter verified against botStep",
+    "deterministic": true,
+    "dependencies": {
+      "@kobalab/majiang-core": "1.4.1"
+    },
+    "sha256": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4"
+    }
+  },
+  "resumableCheckpoints": [
+    {
+      "seed": 0,
+      "arm": "self-play",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\self-play\\checkpoints\\iteration-00020.json",
+        "sha256": "19671ed3a745c45e8230883fc6b0facec320a7d77a4ceeb7600e488e685fc617",
+        "iteration": 20
+      }
+    },
+    {
+      "seed": 0,
+      "arm": "league",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\league\\checkpoints\\iteration-00020.json",
+        "sha256": "47b5673f4f5ba76bbe18d4593c64ac510b60996a52263337f9d79f565b2a20c5",
+        "iteration": 20
+      }
+    },
+    {
+      "seed": 1,
+      "arm": "self-play",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\self-play\\checkpoints\\iteration-00020.json",
+        "sha256": "d398e8457657fc37305b8ebd35e8aa6fb9782fb20c4ff4b2c920b15f91162b95",
+        "iteration": 20
+      }
+    },
+    {
+      "seed": 1,
+      "arm": "league",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\league\\checkpoints\\iteration-00020.json",
+        "sha256": "0979ecd080ad7de1bcc0dd39c83273318e1d813a3fb58766a35851b86fa641ce",
+        "iteration": 20
+      }
+    },
+    {
+      "seed": 2,
+      "arm": "self-play",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\self-play\\checkpoints\\iteration-00020.json",
+        "sha256": "8eb70cac77b847212041d701436a98af1d68ec3f6f93be8ad690f9d67dcd9c72",
+        "iteration": 20
+      }
+    },
+    {
+      "seed": 2,
+      "arm": "league",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\league\\checkpoints\\iteration-00020.json",
+        "sha256": "9d0dd176da25635eebd19558ac9d8aa4cfe534fc03e15aee891f4517b71b3a17",
+        "iteration": 20
+      }
+    },
+    {
+      "arm": "refined-ppo",
+      "checkpoint": {
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\refined-ppo-20261017\\training\\checkpoints\\iteration-00012.json",
+        "sha256": "256429580bbde3c76cee4785a2d274b14e262af7c30ce2fbec5754e9bf516deb",
+        "iteration": 12
+      }
+    }
+  ],
+  "replayVerification": [
+    {
+      "arm": "vs-H0",
+      "episodes": 2880,
+      "sha256": "deed46e0ee9670423b7668b9be15d4ea285958b4933dab24e86f81f58e5fca53"
+    },
+    {
+      "arm": "vs-parent",
+      "episodes": 2880,
+      "sha256": "d2ee4a430927dd8c907bcfc31fea8d5225b9cdff282780a271a6a30c0bf0e489"
+    }
+  ]
+}

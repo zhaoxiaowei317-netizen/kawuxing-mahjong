@@ -1,0 +1,74 @@
+{
+  "version": "kwx-hu-kong-confirm-1",
+  "completedAt": "2026-10-23T00:12:57.103Z",
+  "planSha256": "9f4a5dbcce6775de2c4457654c0f7ddf3efb36371d2b44f9667c9e65ec7f3b86",
+  "bindingSha256": "9f9dc1884f167b8a1ff41ed05024e36b966ef9a844619d085d904ac4337db574",
+  "trialSummarySha256": "a260e465c78451a93d87a699a5c1273d000d8a4941f1eb8234eb9c88aff2deb5",
+  "games": 36864,
+  "primary": {
+    "mechanism": {
+      "groups": 96,
+      "hands": 9216,
+      "candidatePer100": 19.498697916666668,
+      "incumbentPer100": 18.41362847222222,
+      "deltaPer100": 1.0850694444444446,
+      "ci95": [
+        0.4231770833333335,
+        1.8557400173611076
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "strength": {
+      "groups": 96,
+      "hands": 9216,
+      "candidatePer100": 19.498697916666668,
+      "incumbentPer100": 19.18402777777778,
+      "deltaPer100": 0.3146701388888891,
+      "ci95": [
+        -4.839680989583334,
+        5.56640625
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    }
+  },
+  "outcomes": {
+    "mechanism": "positive",
+    "strength": "inconclusive"
+  },
+  "positiveJointEvidence": false,
+  "mechanismReplicated": true,
+  "discoveryPrimary": {
+    "mechanism": {
+      "groups": 96,
+      "hands": 9216,
+      "candidatePer100": 22.10286458333333,
+      "incumbentPer100": 21.516927083333332,
+      "deltaPer100": 0.5859375,
+      "ci95": [
+        0.1519097222222222,
+        1.1610243055555554
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "strength": {
+      "groups": 96,
+      "hands": 9216,
+      "candidatePer100": 22.10286458333333,
+      "incumbentPer100": 21.00694444444445,
+      "deltaPer100": 1.0959201388888875,
+      "ci95": [
+        -4.481608072916668,
+        7.031792534722214
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    }
+  },
+  "newUniqueTrainingHands": 0,
+  "newUniqueValidationHands": 0,
+  "optimizationUpdates": 0,
+  "productionPolicy": "H0"
+}

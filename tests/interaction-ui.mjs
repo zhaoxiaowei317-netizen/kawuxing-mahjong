@@ -1,0 +1,31 @@
+import {chromium} from '../../node_modules/playwright/index.mjs';
+import assert from 'node:assert/strict';
+import {newGame,parseHand} from '../src/engine.js';
+const g=newGame({base:1,cap:32,mode:'bots'});g.players[0].hand=parseHand('p11223344556678');
+g.players[1].hand=parseHand('s123456789z5566');g.players[2].hand=parseHand('s123456789z6677');g.drawTile='p8';
+const b=await chromium.launch({headless:true,channel:'msedge'}),p=await b.newPage({viewport:{width:1440,height:810}});
+const errors=[];p.on('pageerror',e=>errors.push(e.message));
+await p.addInitScript(g=>localStorage.setItem('kwx-lab-v1',JSON.stringify(g)),g);
+await p.goto('http://127.0.0.1:8789/');await p.locator('canvas').waitFor();await p.locator('[data-action="pause"]').click();
+await p.locator('[data-tile-index="0"]').click();assert.equal(await p.locator('.preview-wait').count(),3);assert.match(await p.locator('.hand-preview header').innerText(),/余 7 张/);
+await p.locator('[data-action="liang"]').click();assert.equal((await p.evaluate(()=>JSON.parse(localStorage.getItem('kwx-lab-v1')))).players[0].liang,false);
+await p.locator('[data-tile-index="12"]').click();assert.equal(await p.locator('.preview-wait').count(),1);assert.match(await p.locator('.hand-preview header').innerText(),/余 3 张/);
+await p.locator('[data-action="liang-cancel"]').click();assert.equal(await p.locator('[data-action="liang-confirm"]').count(),0);
+await p.locator('[data-tile-index="0"]').click();await p.locator('[data-action="liang"]').click();
+for(const size of [{width:1440,height:810},{width:844,height:390},{width:390,height:844}]){
+ await p.setViewportSize(size);await p.waitForTimeout(150);await p.waitForFunction(()=>Array.from(document.images).every(i=>i.complete&&i.naturalWidth>0));
+ const boxes=await p.locator('.hand-preview,.hand,.game-actions').evaluateAll(es=>es.map(e=>{const r=e.getBoundingClientRect();return {x:r.x,y:r.y,right:r.right,bottom:r.bottom};}));
+ const a=boxes[0];assert.ok(a.x>=0&&a.y>=0&&a.right<=size.width+1&&a.bottom<=size.height+1);
+ for(const c of boxes.slice(1))assert.ok(!(Math.min(a.right,c.right)>Math.max(a.x,c.x)+1&&Math.min(a.bottom,c.bottom)>Math.max(a.y,c.y)+1));
+ await p.screenshot({path:`artifacts/interaction-${size.width}.png`});
+}
+await p.setViewportSize({width:1440,height:810});await p.locator('[data-action="liang-confirm"]').click();
+await p.waitForFunction(()=>document.querySelector('canvas').dataset.flight==='moving');
+const first=await p.locator('canvas').evaluate(c=>c.toDataURL());await p.waitForTimeout(160);const second=await p.locator('canvas').evaluate(c=>c.toDataURL());assert.notEqual(first,second);
+await p.screenshot({path:'artifacts/discard-flight.png'});await p.waitForTimeout(650);
+const saved=await p.evaluate(()=>JSON.parse(localStorage.getItem('kwx-lab-v1')));assert.equal(saved.players[0].liang,true);assert.equal(saved.phase,'discard');assert.equal(saved.turn,1);
+assert.equal(await p.locator('canvas').getAttribute('data-marker'),'0:0:p1');assert.equal(await p.locator('canvas').getAttribute('data-flight'),'landed');
+assert.equal(await p.locator('.last-play').count(),0);
+assert.equal(await p.locator('[data-action="counter"]').count(),0);assert.equal(await p.locator('#tile-counter').count(),0);
+assert.equal(await p.locator('canvas').getAttribute('data-flight'),'landed');assert.equal(await p.locator('canvas').getAttribute('data-marker'),'0:0:p1');
+assert.deepEqual(errors,[]);await b.close();console.log('Preview switching/cancel/confirm, responsive panels, moving canvas, persistent marker and counter passed.');

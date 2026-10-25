@@ -1,0 +1,85 @@
+{
+  "selected": "ev-mixed",
+  "rows": [
+    {
+      "arm": "proposal-once",
+      "delta": 6.77083333333333,
+      "ci95": [
+        -1.041666666666667,
+        14.583333333333329
+      ],
+      "games": 960,
+      "seconds": 60.559706899999995,
+      "search": {
+        "decisions": 4457,
+        "proposals": 94,
+        "searches": 0,
+        "changed": 94,
+        "hypotheticalGames": 0,
+        "hypotheticalDecisions": 0,
+        "fallbacks": {
+          "wall-outside-search-range": 673,
+          "no-structural-disagreement": 1317,
+          "revealed-reserved-triplet-unknown": 213,
+          "preserve-H0-special-action": 1643
+        },
+        "modeledOpponentWins": 0,
+        "modeledDraws": 0
+      }
+    },
+    {
+      "arm": "ev-H0",
+      "delta": 8.593749999999998,
+      "ci95": [
+        -7.8125,
+        24.999999999999996
+      ],
+      "games": 960,
+      "seconds": 322.9432874,
+      "search": {
+        "decisions": 4475,
+        "proposals": 93,
+        "searches": 93,
+        "changed": 52,
+        "hypotheticalGames": 2976,
+        "hypotheticalDecisions": 60584,
+        "fallbacks": {
+          "wall-outside-search-range": 678,
+          "no-structural-disagreement": 1321,
+          "revealed-reserved-triplet-unknown": 222,
+          "preserve-H0-special-action": 1639
+        },
+        "modeledOpponentWins": 1748,
+        "modeledDraws": 173
+      }
+    },
+    {
+      "arm": "ev-mixed",
+      "delta": 24.739583333333332,
+      "ci95": [
+        3.125,
+        46.354166666666664
+      ],
+      "games": 960,
+      "seconds": 202.60253350000008,
+      "search": {
+        "decisions": 4439,
+        "proposals": 95,
+        "searches": 95,
+        "changed": 54,
+        "hypotheticalGames": 3040,
+        "hypotheticalDecisions": 63250,
+        "fallbacks": {
+          "wall-outside-search-range": 676,
+          "no-structural-disagreement": 1298,
+          "revealed-reserved-triplet-unknown": 222,
+          "preserve-H0-special-action": 1642
+        },
+        "modeledOpponentWins": 1689,
+        "modeledDraws": 248
+      }
+    }
+  ],
+  "createdAt": "2026-10-18T12:41:31.407Z",
+  "planSha256": "8de58373842cdbed0e185eb49dbf964adef73d4a6e96c3437a0ada525f724922"
+}

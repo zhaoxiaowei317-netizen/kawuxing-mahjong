@@ -1,0 +1,438 @@
+[
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\plan.json",
+    "sha256": "b70881c5c4eaa80a42d56f3716efc166b2329319ef9d7c0ad464396ad4052103"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\summary.json",
+    "sha256": "027a4089f8de87ceb600b309b53c866315d66053c265c6c71cd57129e60afd18"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\verification.json",
+    "sha256": "8ddeef45d41dd240bd467d028d12d90fbb57039ba4cb694e14d9dcf0c21834cc"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\runtime.json",
+    "sha256": "98d6f489de584c8fcc8f0eaf01e123f2eeaa183ff3d59d7429d834e11fdebf99"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\frozen-sources.tar.gz",
+    "sha256": "231077ed3d6b961eaee013a38e15b506d08a2f23eb853794a6fa307a5e2478ad"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\execution.log",
+    "sha256": "bbc8982997558713be94a977582682dbeb091525b403239ddaf58876da0590b6"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\audit.log",
+    "sha256": "6b2b103cf48c76529b987e81723171fb2a420d0052627f32495770312fb81d14"
+  },
+  {
+    "path": ".tmp\\strong-confirm-full-tests.log",
+    "sha256": "59c8e5fa8201d388d97e57619e6f0ab5ffd0a84ea00008f5d93e6f396209df58"
+  },
+  {
+    "path": "ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+  },
+  {
+    "path": "ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+    "sha256": "1fdaf557138e23cca79f01a80d8e2d6116597e1f9ca6a922b4a743e3726a60bc"
+  },
+  {
+    "path": "ai-runs\\strong-pool-20261020\\summary.json",
+    "sha256": "94bdec5d75ee4195851ea3c5dc8e32fe9e86764d5c802a491e81000586a66e63"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-000\\group.json",
+    "sha256": "2b27dfdc5bc8a7e42c27861aa8a36f87c78befb3af77502098a82a77909d4b72"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-000\\replays.jsonl.gz",
+    "sha256": "f8436a784bfc88ab84108025213f23298b09daac5db65bc14ed422d76ae76f0d"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-001\\group.json",
+    "sha256": "04fd1f284073f1e2b0766324213fe9334972e94d8da04a0c8717657091a5a02f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-001\\replays.jsonl.gz",
+    "sha256": "b713e2325e20e9514e6211d1b7a3f3622b0e105c776ed8fa44200ba7ce0c7085"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-002\\group.json",
+    "sha256": "cfc0d5506383cd16158dddd5412b10a5daa62677bf98a16d301467dc7b80495f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-002\\replays.jsonl.gz",
+    "sha256": "a9f43e3a4eb141f2cd59484ea36aed08f69f149c9556dcb3b1bc73f79dd10427"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-003\\group.json",
+    "sha256": "2ffbc7131353ba752f2cf79011807ab104985f4bcdfd0cb0ebd0e727ab71d5d6"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-003\\replays.jsonl.gz",
+    "sha256": "5f637ffe0c5a166fe8e4796b8fcd0e52750b758ad6ab7fd54dbc5131afaf5477"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-004\\group.json",
+    "sha256": "662860c3c4ad6a90489b835cfd515d788c6f158e5ee1e5e29a85be6053fa8d91"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-004\\replays.jsonl.gz",
+    "sha256": "52b825b21ea21f3f32311a83c744ecdc66ab204dc7a91a117a42fc90695b7ca2"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-005\\group.json",
+    "sha256": "d2db1cf2fb1b9c3f5689cc3e8336ee1cd577aed2b00583d1c7a10a8c1e006923"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-005\\replays.jsonl.gz",
+    "sha256": "b62ac3f3b019abff93ab52d1c56a04105a50fb9b17ac50ddae0b39b4dba76343"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-006\\group.json",
+    "sha256": "e937caa42259208a605cd25247549e327ff91245b2a18cea326cd82c360a1ef5"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-006\\replays.jsonl.gz",
+    "sha256": "10dba543105c0960c3e2a2b5ac2a9742aab0f868442540cb87a36a0bf5edfd49"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-007\\group.json",
+    "sha256": "a1502a65fa17637291e1ea02833e05e4fef7436a8d728c770aa7dce5161f623d"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-007\\replays.jsonl.gz",
+    "sha256": "b458ea3fb89797977ab927a987c1a9685d1e3ea3badccf7ae86aae5bf6e9f363"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-008\\group.json",
+    "sha256": "6883fc8384cd6ac66eac73181a6da1190e154910b2ffab7111fa96d1d545618b"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-008\\replays.jsonl.gz",
+    "sha256": "75df9a7d2b63d23ceeaa9a141ba202dd60d929da3f650e202adf539b2c39fb30"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-009\\group.json",
+    "sha256": "42c9cdf8fbac3685d0eabe8c889ad1a03dffba77cc13b70e0579ac8107e62a7e"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-009\\replays.jsonl.gz",
+    "sha256": "dfcfe1f1950773556b6bedf1ee3f7240a407480af54e21d9242455b5e8036b08"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-010\\group.json",
+    "sha256": "47ec5a34581772c9f724b2fb1b569f95bd393d40a67c05e637bc625d6c279eb1"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-010\\replays.jsonl.gz",
+    "sha256": "47a61ac4d615eb6c67042777770e1b67ca78d52bad71fae54cb8eeb254bc9622"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-011\\group.json",
+    "sha256": "031a5c510db6abe20a00c8a7caf0ef220e2476540f5f716472ab2342660f699e"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-011\\replays.jsonl.gz",
+    "sha256": "6cd125da81907b3bbd32d9e3ca519e20045d59ee6fdbe143092d2585a6a2c58d"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-012\\group.json",
+    "sha256": "c3b3e391a2332f710787376554e45cb350d8a0a855a9e46d21b833db305da795"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-012\\replays.jsonl.gz",
+    "sha256": "bb4b9ef5089b09a6db4a1391e41898e89e19e645f0b51da74738c79054ea2c26"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-013\\group.json",
+    "sha256": "b6c60d41fd5a97ba7e09cfa4be83d299bd773c1effc5ae8a89e4993bf7cd7adb"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-013\\replays.jsonl.gz",
+    "sha256": "38a2f140d853a6c6f3f84fd5876b34f0b5ce46436bfc30d0edf064c987a5763d"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-014\\group.json",
+    "sha256": "6d886b9fbd8f19ae673b84f2ee23db4c015bc7fa599ccb050c68147c12ee193a"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-014\\replays.jsonl.gz",
+    "sha256": "1487a3490a97c10fb1a556e450e7e92078881903d8ee652692568bee7318976b"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-015\\group.json",
+    "sha256": "7dbd224835be210222af35264654ef10c08e74738f5d85db73879e15948e9b1a"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-0-015\\replays.jsonl.gz",
+    "sha256": "253c9b11013a14093ea36e10107440136880d0c2e0d6442ff3bd430f61dd8c95"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-000\\group.json",
+    "sha256": "7b7ccc46eab4ce5d0d7050a1627b982c387fe9cb55eb6d28e667b52b113dfbfb"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-000\\replays.jsonl.gz",
+    "sha256": "41bad9d23952c3bdd879c5d484a085dc137721448fa2a16010a1e9b21efc0d65"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-001\\group.json",
+    "sha256": "b530acea56000681b5cf2518b4cb12def96fa3e89d0e28449d339320ee20f924"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-001\\replays.jsonl.gz",
+    "sha256": "aed070193ef26644132e42adb3032137199f0b15e470b9cfa3c08d9abda2a98c"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-002\\group.json",
+    "sha256": "48307265d5ee1d158dd1f149cb344bf66f0091381c1f99a82f00fe5b0c1a7911"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-002\\replays.jsonl.gz",
+    "sha256": "590a14430ce43180001ae02344b7c3df49841bf6acc86c5113baf2e4c5ab9d68"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-003\\group.json",
+    "sha256": "62b090f5bcbec1e5e04cdf76a42c54f026d4a58dce8712d22618be34c84c9883"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-003\\replays.jsonl.gz",
+    "sha256": "b0a123a3199e851cbda21565dc9751e98a762c476bb81cbb1d73aa1a18bef445"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-004\\group.json",
+    "sha256": "c9936f5f512a7030219aa0af96d8f28ee5f8eb78acb70f8b1b887a6adbf5191a"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-004\\replays.jsonl.gz",
+    "sha256": "29dc1bea9a6c3148f614be8a6b1de58bc43a3f7b756a22ffdfb24dfef99b2f88"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-005\\group.json",
+    "sha256": "e48b966080d25c00312455dfc12d79129f85592f4599ab17e89ebdde484685d0"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-005\\replays.jsonl.gz",
+    "sha256": "806fd1a241ed4c73ed2050dae8b2b1c847c597fa67a53dcdd7acd1370d5df37c"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-006\\group.json",
+    "sha256": "6b56b3bf269caf19deb4ba37662a15caa75f0fabb8e41dbb83498b644c491fdd"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-006\\replays.jsonl.gz",
+    "sha256": "54bfe8d71b417ce543469490973d123271b965de65df11e847ab8e85b7ab5035"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-007\\group.json",
+    "sha256": "afbdb4fdb8c2aa424f40d83cb5e58dc0de08d1994888ede316c1a161e72ef75b"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-007\\replays.jsonl.gz",
+    "sha256": "95aa1d08ad4c5ae90a310d2059c8b7c8d26a22770acf66ee76537fc095a85a68"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-008\\group.json",
+    "sha256": "29bed8a1a93aef5ecdf5e1742bcae103dc57b9de7e938759414e2a6915ad2192"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-008\\replays.jsonl.gz",
+    "sha256": "87224ea80e34990faa6e6bf503a5c8a83082bba2bc3b053ba88e63ef8c229c88"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-009\\group.json",
+    "sha256": "ec3de1e92aa9f1dd29f9853fde2d8ddf266bd57e703f9d1efca013c000c53ea3"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-009\\replays.jsonl.gz",
+    "sha256": "82da0584421a54c8ef9b5c7cd187b745e7133b6f8d727557fae1b6c186508088"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-010\\group.json",
+    "sha256": "d20bbc5e788c1260b328a5e7b81a5ce8e906a400a1c327b1b29e9eaf8ce35205"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-010\\replays.jsonl.gz",
+    "sha256": "71a5c451dc79a7a7e054cccd4f39c4f18b8c9f0178393045d673c7373ba71cb7"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-011\\group.json",
+    "sha256": "b177fd321cc37268261b0728980757b6d6859877cc42930b337ceb99486e2b75"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-011\\replays.jsonl.gz",
+    "sha256": "3d37f5e7eaa9ab1a3462de428c1f0d54279972b4255c9dc0faa1938f431fa36f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-012\\group.json",
+    "sha256": "6263f5db52dbf486f702ad0d05c60e6ae51a8c96dff9dce1e53d343b710b1f43"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-012\\replays.jsonl.gz",
+    "sha256": "f829795b7eaba7bd1193a315fa3f9fff9e91c267e5defcf956e49c444ad2f1db"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-013\\group.json",
+    "sha256": "32c032d8eff7c25fc7b7ec8cd936171d042359aedc574aa3e56dea0922d99e4f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-013\\replays.jsonl.gz",
+    "sha256": "e6cdc184a19864adf3a5efde7aa5a0c7738851e49965994220bc0281e6bb2b88"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-014\\group.json",
+    "sha256": "970489413c1616bdde96e27a9039699a107db62cda103e2f5ad5a917cfef84d8"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-014\\replays.jsonl.gz",
+    "sha256": "e670ee31676003bd2e32b119d959c7b20f21a1a987e6fd925cb499726f72570a"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-015\\group.json",
+    "sha256": "db7da5297c07790ff69f46436e79202876e3012eddb525107fafe858c19fbcbb"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-1-015\\replays.jsonl.gz",
+    "sha256": "6055c377044d60f78a7a92c7a5ce48a23c3474d8e6355e89155831e69ca6e1fc"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-000\\group.json",
+    "sha256": "6ae3ed2996e4518cfa0f908ce7bdd2714df1175a4490cb61ea36a071c3f2dc0f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-000\\replays.jsonl.gz",
+    "sha256": "4a67d6efb13f430b39472a9af2e460333082ebdede084b1afc922d41a3fb620e"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-001\\group.json",
+    "sha256": "e6b6bde61a43e1eab4291af88e3082460e8e8e1e623077f0fa2a6bdcce982120"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-001\\replays.jsonl.gz",
+    "sha256": "59e05cbaa2099b6896b07708d810b41379fb356e21adfd0148e55bdf75762a9f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-002\\group.json",
+    "sha256": "8c37ef907223174b917c93669cd793050fa34ab838a33842bce00247a5e012b1"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-002\\replays.jsonl.gz",
+    "sha256": "88d10eef3fbf9269fc82e9e7b3a5f59df5ade2aa1aaac9e1c3dfab5192363053"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-003\\group.json",
+    "sha256": "198df8d6c563b15c19793d210098f2b60997b176850371475b80a95c6dac4f29"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-003\\replays.jsonl.gz",
+    "sha256": "d8cee2d3f7e42b9aa4de8e3452d1817405a23d9e1e5107f32aa4be4e584c0e3f"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-004\\group.json",
+    "sha256": "9bf1f9863714c562881bf7a9c82c5b0113b9a92d1107044b3c35b67cabbe75b9"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-004\\replays.jsonl.gz",
+    "sha256": "ab9e401eb48e0eab69204efc8cd8514105e38e972d9540ce6386945379a14bb2"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-005\\group.json",
+    "sha256": "38c4dbf26929014d33e4a9789989515e5bcffd2cf59fe2d799ea9d558fccd3d9"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-005\\replays.jsonl.gz",
+    "sha256": "606fde09cf41c92bf8e6868270ac64838a59066d5340d51d061911176d6260c9"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-006\\group.json",
+    "sha256": "9dcf2b751bcb49be6b6a48f11bc43409e65525a7112702d68eab3de58ad2fc52"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-006\\replays.jsonl.gz",
+    "sha256": "d09736c20e2f7c550a4f9aa9ebfb9feb72b1e15f80711a5c242d670b68a3413c"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-007\\group.json",
+    "sha256": "19b401accaf1f68cc41a7f8b036a5d87db8ae71384b84123123077822c1ae328"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-007\\replays.jsonl.gz",
+    "sha256": "a441281ac65ebd8fc032e4a6ea5294453156f13912bc4d5a803ce6a086ec72cf"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-008\\group.json",
+    "sha256": "2454e1211a123496aeee30c0b7d0dca028ae4faa7c46bcad8bda45f7efdb1c44"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-008\\replays.jsonl.gz",
+    "sha256": "32a7bc5988c4e53ed82c12f6122a2646f01e0e1875b0c2f8cb59011ad763897d"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-009\\group.json",
+    "sha256": "b56c2693179d9e020d8bc87b70c9dccea9a9a2075f8cd3599a3c88b97d0f9164"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-009\\replays.jsonl.gz",
+    "sha256": "06322a3d43a0e5567a06a79c5bbb603be7d26fcf35ff0bdcc42666521d931dc4"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-010\\group.json",
+    "sha256": "492c17b74e50e18f285cf971bbbfffd24c22830f272b4b65d74cf7e35e37b73c"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-010\\replays.jsonl.gz",
+    "sha256": "ca5594915acee15f61428c90081c0ada27977d884262dad759d7a385536f279c"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-011\\group.json",
+    "sha256": "a0b01d5cf5538d9c12fc7362bed7e6e91ebff9569acb2310b3141d124cfa666a"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-011\\replays.jsonl.gz",
+    "sha256": "d557e465c9ed5026faaaec7e7a8fedefecfb9f48b79814d715529258544fd6e9"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-012\\group.json",
+    "sha256": "9489e5ae99da5c68325b2fa272149f4585fb2b0a4199ca44afd785f9949bb2a3"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-012\\replays.jsonl.gz",
+    "sha256": "69d0f2e71a2fff4de2fe081b1f868d1567f569cc86660606f14d2196babc3bb1"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-013\\group.json",
+    "sha256": "e3727ac5b73187398442ac7c7c709cbe8ca0ca446331bddf1722dcd2eea10d47"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-013\\replays.jsonl.gz",
+    "sha256": "6415b6f552af0c08ddc4405afe52425d205ae55bd639af136c10618960c584d3"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-014\\group.json",
+    "sha256": "dde55d1dee795dea3857b388834132a101f2412e6e7fe106827a848f185f5be8"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-014\\replays.jsonl.gz",
+    "sha256": "a3590b5dad111a3b504902fbd1f2def168cf226c4df78818678ebd883f733642"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-015\\group.json",
+    "sha256": "ddc142e15b309d40b2e034807d7a5e78af75e38ba916bc211fe7c24e2633548b"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\groups\\offline-2-015\\replays.jsonl.gz",
+    "sha256": "67d43ed0a8e29f625d42b3a96986a07f89c1edf2564ee3171323ba96dc2f1709"
+  },
+  {
+    "path": "ai-runs\\strong-confirm-20261020\\action-diagnostics.json",
+    "sha256": "9740ed004227144b9d8818dfaf0e0007a10012008fdd032bb9334a8b03eb621b"
+  },
+  {
+    "path": "ai\\strong-confirm\\diagnose.mjs",
+    "sha256": "30a17bd228c0dd0a52e84fda62166e6869fe03f9fe78203ad84e6af9cd234e75"
+  }
+]

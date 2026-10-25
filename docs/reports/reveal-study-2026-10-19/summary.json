@@ -1,0 +1,223 @@
+{
+  "version": "kwx-reveal-interventions-1",
+  "completedAt": "2026-10-18T23:17:44.442Z",
+  "planSha256": "655c453b61004bf5dcdb3b451a3ac45de5bbbe792342ce93cad52fb1f3d389dd",
+  "development": [
+    {
+      "arm": "h0-never",
+      "delta": 35.15625,
+      "ci95": [
+        1.0416666666666679,
+        69.27083333333334
+      ],
+      "games": 768
+    },
+    {
+      "arm": "h0-q-gate",
+      "delta": 19.010416666666668,
+      "ci95": [
+        4.6875,
+        33.333333333333336
+      ],
+      "games": 768
+    },
+    {
+      "arm": "q-h0-gate",
+      "delta": 29.687499999999996,
+      "ci95": [
+        5.208333333333329,
+        54.166666666666664
+      ],
+      "games": 768
+    },
+    {
+      "arm": "q-reference",
+      "delta": 29.166666666666675,
+      "ci95": [
+        -2.604166666666666,
+        60.93750000000001
+      ],
+      "games": 768
+    }
+  ],
+  "vsReference": {
+    "h0-never": {
+      "overall": {
+        "groups": 4,
+        "hands": 384,
+        "candidatePer100": 42.44791666666667,
+        "incumbentPer100": 36.458333333333336,
+        "deltaPer100": 5.989583333333329,
+        "ci95": [
+          -4.6875000000000036,
+          16.666666666666664
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": 35.416666666666664,
+          "incumbentPer100": 2.083333333333333,
+          "deltaPer100": 33.33333333333333,
+          "ci95": [
+            24.999999999999993,
+            41.66666666666667
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": 49.47916666666667,
+          "incumbentPer100": 70.83333333333334,
+          "deltaPer100": -21.35416666666667,
+          "ci95": [
+            -34.375,
+            -8.333333333333343
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      }
+    },
+    "h0-q-gate": {
+      "overall": {
+        "groups": 4,
+        "hands": 384,
+        "candidatePer100": 26.302083333333336,
+        "incumbentPer100": 36.458333333333336,
+        "deltaPer100": -10.156249999999998,
+        "ci95": [
+          -45.3125,
+          25.000000000000004
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": 30.208333333333336,
+          "incumbentPer100": 2.083333333333333,
+          "deltaPer100": 28.125000000000004,
+          "ci95": [
+            -2.083333333333334,
+            58.33333333333334
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": 22.395833333333332,
+          "incumbentPer100": 70.83333333333334,
+          "deltaPer100": -48.4375,
+          "ci95": [
+            -88.54166666666667,
+            -8.333333333333336
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      }
+    },
+    "q-h0-gate": {
+      "overall": {
+        "groups": 4,
+        "hands": 384,
+        "candidatePer100": 36.979166666666664,
+        "incumbentPer100": 36.458333333333336,
+        "deltaPer100": 0.5208333333333255,
+        "ci95": [
+          -6.770833333333344,
+          7.812499999999995
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": -2.083333333333334,
+          "incumbentPer100": 2.083333333333333,
+          "deltaPer100": -4.166666666666667,
+          "ci95": [
+            -6.250000000000002,
+            -2.083333333333332
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 2,
+          "hands": 192,
+          "candidatePer100": 76.04166666666666,
+          "incumbentPer100": 70.83333333333334,
+          "deltaPer100": 5.208333333333318,
+          "ci95": [
+            -7.291666666666686,
+            17.70833333333332
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      }
+    }
+  },
+  "selected": "h0-never",
+  "sealed": {
+    "primary": {
+      "groups": 32,
+      "hands": 3072,
+      "candidatePer100": 52.08333333333334,
+      "incumbentPer100": 12.760416666666668,
+      "deltaPer100": 39.32291666666667,
+      "ci95": [
+        22.459309895833332,
+        57.12972005208332
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "byOpponentPair": {
+      "H0+H0": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 35.15625000000001,
+        "incumbentPer100": 0,
+        "deltaPer100": 35.15625000000001,
+        "ci95": [
+          9.765624999999998,
+          62.760416666666664
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      },
+      "H0+greedy-speed-v1": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 69.01041666666667,
+        "incumbentPer100": 25.520833333333336,
+        "deltaPer100": 43.489583333333336,
+        "ci95": [
+          22.135416666666668,
+          65.62662760416666
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      }
+    },
+    "games": 6144
+  },
+  "games": 9216,
+  "trainingHands": 0,
+  "productionPolicy": "H0",
+  "positiveSealedEvidence": true
+}

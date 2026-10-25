@@ -1,0 +1,514 @@
+{
+  "protocolVersion": "kwx-paired-v1",
+  "split": "development",
+  "seed": "m0-null-control-20261017",
+  "candidate": "H0",
+  "incumbent": "H0",
+  "base": 1,
+  "independentGroups": 2,
+  "sessionGroups": 1,
+  "sessionHands": 16,
+  "opponentPairs": [
+    {
+      "id": "H0+H0",
+      "policies": [
+        "H0",
+        "H0"
+      ]
+    },
+    {
+      "id": "H0+greedy-speed-v1",
+      "policies": [
+        "H0",
+        "greedy-speed-v1"
+      ]
+    }
+  ],
+  "seatPermutations": [
+    [
+      "C",
+      "P",
+      "Q"
+    ],
+    [
+      "C",
+      "Q",
+      "P"
+    ],
+    [
+      "P",
+      "C",
+      "Q"
+    ],
+    [
+      "Q",
+      "C",
+      "P"
+    ],
+    [
+      "P",
+      "Q",
+      "C"
+    ],
+    [
+      "Q",
+      "P",
+      "C"
+    ]
+  ],
+  "totalGames": 432,
+  "totalDecisions": 11240,
+  "seconds": 30.909049300000003,
+  "gamesPerSecond": 13.976489403056469,
+  "decisionsPerSecond": 363.6475483573026,
+  "illegalActions": 0,
+  "conservationCheckedEveryAction": true,
+  "records": [
+    {
+      "suite": "independent",
+      "opponentPair": "H0+H0",
+      "seed": "0781622cd48fc4e2d0f39bc0192cfff393d18fe3031245726f5af4d8987512c1",
+      "candidate": {
+        "hands": 6,
+        "score": 0,
+        "wins": 2,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 6,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 6,
+        "score": 0,
+        "wins": 2,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 6,
+        "revealedScore": 0,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      }
+    },
+    {
+      "suite": "independent",
+      "opponentPair": "H0+H0",
+      "seed": "0702d20fb4874c86bd5a81d191842b69c60de4ff208cd20f0edac89c44bf284a",
+      "candidate": {
+        "hands": 6,
+        "score": 0,
+        "wins": 2,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 4,
+        "revealedScore": 4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 6,
+        "score": 0,
+        "wins": 2,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 4,
+        "revealedScore": 4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      }
+    },
+    {
+      "suite": "independent",
+      "opponentPair": "H0+greedy-speed-v1",
+      "seed": "39716b44b0d674a9e32710289bce132f6d6c0b34dc44f3cee66f7541061e9387",
+      "candidate": {
+        "hands": 6,
+        "score": -2,
+        "wins": 1,
+        "selfDraws": 1,
+        "dealIns": 2,
+        "draws": 0,
+        "huScore": -2,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 6,
+        "revealedScore": -2,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 6,
+        "score": -2,
+        "wins": 1,
+        "selfDraws": 1,
+        "dealIns": 2,
+        "draws": 0,
+        "huScore": -2,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 6,
+        "revealedScore": -2,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      }
+    },
+    {
+      "suite": "independent",
+      "opponentPair": "H0+greedy-speed-v1",
+      "seed": "77a4cf69c2fc59219e6c4a593d024662a924ff3b558169e792175709c5999b08",
+      "candidate": {
+        "hands": 6,
+        "score": 7,
+        "wins": 3,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 6,
+        "kongScore": 1,
+        "drawScore": 0,
+        "revealHands": 4,
+        "revealedScore": 4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      },
+      "incumbent": {
+        "hands": 6,
+        "score": 7,
+        "wins": 3,
+        "selfDraws": 2,
+        "dealIns": 0,
+        "draws": 0,
+        "huScore": 6,
+        "kongScore": 1,
+        "drawScore": 0,
+        "revealHands": 4,
+        "revealedScore": 4,
+        "sessionFirstCredit": 0,
+        "sessionLastCredit": 0,
+        "sessions": 0,
+        "sessionScores": [],
+        "largeLosses": 0
+      }
+    },
+    {
+      "suite": "session",
+      "opponentPair": "H0+H0",
+      "seed": "1f0b9051a0bd8930465a662631d7fbca9d7116bd6349ad2a5fcef9abefcd68a9",
+      "candidate": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 20,
+        "dealIns": 12,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 52,
+        "revealedScore": 48,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          -1,
+          -3,
+          -3,
+          4,
+          4
+        ],
+        "largeLosses": 2
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 0,
+        "wins": 32,
+        "selfDraws": 20,
+        "dealIns": 12,
+        "draws": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0,
+        "revealHands": 52,
+        "revealedScore": 48,
+        "sessionFirstCredit": 2,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          -1,
+          -1,
+          -3,
+          -3,
+          4,
+          4
+        ],
+        "largeLosses": 2
+      }
+    },
+    {
+      "suite": "session",
+      "opponentPair": "H0+greedy-speed-v1",
+      "seed": "968b7ec6545808d9ecea8f4bb92a387476958989744b30effbc1b99f3585edbe",
+      "candidate": {
+        "hands": 96,
+        "score": 19,
+        "wins": 34,
+        "selfDraws": 27,
+        "dealIns": 11,
+        "draws": 4,
+        "huScore": 17,
+        "kongScore": -2,
+        "drawScore": 4,
+        "revealHands": 63,
+        "revealedScore": 39,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          47,
+          17,
+          -27,
+          10,
+          -28,
+          0
+        ],
+        "largeLosses": 1
+      },
+      "incumbent": {
+        "hands": 96,
+        "score": 19,
+        "wins": 34,
+        "selfDraws": 27,
+        "dealIns": 11,
+        "draws": 4,
+        "huScore": 17,
+        "kongScore": -2,
+        "drawScore": 4,
+        "revealHands": 63,
+        "revealedScore": 39,
+        "sessionFirstCredit": 3,
+        "sessionLastCredit": 2,
+        "sessions": 6,
+        "sessionScores": [
+          47,
+          17,
+          -27,
+          10,
+          -28,
+          0
+        ],
+        "largeLosses": 1
+      }
+    }
+  ],
+  "latency": {
+    "H0": {
+      "decisions": 9144,
+      "meanMs": 1.8256748031496002,
+      "p50Ms": 2.0421000000023923,
+      "p95Ms": 3.7269999999998618,
+      "maxMs": 13.510899999999992
+    },
+    "greedy-speed-v1": {
+      "decisions": 2096,
+      "meanMs": 0.0739437022901073,
+      "p50Ms": 0.07129999999961001,
+      "p95Ms": 0.15170000000216532,
+      "maxMs": 0.8305000000000291
+    }
+  },
+  "statistics": {
+    "independent": {
+      "overall": {
+        "groups": 4,
+        "hands": 24,
+        "candidatePer100": 20.833333333333336,
+        "incumbentPer100": 20.833333333333336,
+        "deltaPer100": 0,
+        "ci95": [
+          0,
+          0
+        ],
+        "bootstrapSamples": 2000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 2,
+          "hands": 12,
+          "candidatePer100": 0,
+          "incumbentPer100": 0,
+          "deltaPer100": 0,
+          "ci95": [
+            0,
+            0
+          ],
+          "bootstrapSamples": 2000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 2,
+          "hands": 12,
+          "candidatePer100": 41.66666666666667,
+          "incumbentPer100": 41.66666666666667,
+          "deltaPer100": 0,
+          "ci95": [
+            0,
+            0
+          ],
+          "bootstrapSamples": 2000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      }
+    },
+    "session": {
+      "overall": {
+        "groups": 2,
+        "hands": 192,
+        "candidatePer100": 9.895833333333332,
+        "incumbentPer100": 9.895833333333332,
+        "deltaPer100": 0,
+        "ci95": [
+          0,
+          0
+        ],
+        "bootstrapSamples": 2000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 1,
+          "hands": 96,
+          "candidatePer100": 0,
+          "incumbentPer100": 0,
+          "deltaPer100": 0,
+          "ci95": [
+            0,
+            0
+          ],
+          "bootstrapSamples": 2000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 1,
+          "hands": 96,
+          "candidatePer100": 19.791666666666664,
+          "incumbentPer100": 19.791666666666664,
+          "deltaPer100": 0,
+          "ci95": [
+            0,
+            0
+          ],
+          "bootstrapSamples": 2000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      }
+    }
+  },
+  "createdAt": "2026-10-17T11:45:13.399Z",
+  "baseline": {
+    "id": "H0",
+    "version": "h0-2026-10-17",
+    "rulesVersion": "xiaogan-1.0",
+    "description": "Frozen existing heuristic, observation adapter verified against botStep",
+    "deterministic": true,
+    "dependencies": {
+      "@kobalab/majiang-core": "1.4.1"
+    },
+    "sha256": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4"
+    }
+  },
+  "sourceHashes": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "02fb99d2db70f697c7b70dbaa2a6db25583f3535c2d5e692479cfa2d77dd15f8",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "2c128566dc6c56fa1fb120f9d11385489afd888899016a138b34b8ba53f53803",
+    "ai/evaluate.mjs": "fa44b3d42a005369d169f0dcbe736602b48e997703ee85c309c1e740b74cc3fc"
+  },
+  "gitHead": "544a7203d89cbefef0d8ee9e5ba2a64b10b3663b",
+  "gitDirty": true,
+  "command": [
+    "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\evaluate.mjs",
+    "--candidate",
+    "H0",
+    "--incumbent",
+    "H0",
+    "--groups",
+    "2",
+    "--session-groups",
+    "1",
+    "--bootstrap",
+    "2000",
+    "--seed",
+    "m0-null-control-20261017",
+    "--out",
+    ".tmp/ai-evaluation/m0-null-control-20261017"
+  ],
+  "hardware": {
+    "node": "v24.16.0",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+    "logicalProcessors": 12,
+    "totalMemoryGiB": 15.733024597167969,
+    "processPeakRssMiB": 242.50390625
+  },
+  "replayArtifact": {
+    "path": ".tmp\\ai-evaluation\\m0-null-control-20261017\\replays.jsonl.gz",
+    "episodes": 432,
+    "sha256": "26817e752f42867fd553d629ba774c3cf661ae744d8cd76b113491b49eeaa71c",
+    "format": "concatenated gzip members containing JSONL"
+  },
+  "limitations": [
+    "Development pilots do not establish playing-strength improvement.",
+    "Confidence intervals describe paired score differences, not absolute skill.",
+    "One-seed strata cannot estimate unseen seed variation.",
+    "Privacy invariance tests cover known cases; arbitrary policy code is not sandboxed."
+  ]
+}

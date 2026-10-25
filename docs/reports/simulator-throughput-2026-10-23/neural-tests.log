@@ -1,0 +1,10 @@
+✔ unrolled convolution matches every reference bit at boundaries, separators, signs and ReLU (27.3628ms)
+✔ complete fast forward and decisions equal reference for public observations and disabled tiles (1470.8906ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1980.7152

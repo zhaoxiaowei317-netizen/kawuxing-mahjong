@@ -1,0 +1,13 @@
+{
+  "seed": "kwx-training-smoke-20261017",
+  "hiddenSize": 16,
+  "bcEpisodes": 8,
+  "bcEpochs": 2,
+  "episodesPerIteration": 8,
+  "ppoEpochs": 2,
+  "batchSize": 64,
+  "evalEvery": 2,
+  "evalGroups": 2,
+  "evalSessionGroups": 1,
+  "bootstrapSamples": 200
+}

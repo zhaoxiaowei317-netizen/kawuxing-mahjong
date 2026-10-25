@@ -1,0 +1,13 @@
+{
+  "seed": "kwx-cpu-training-v1",
+  "hiddenSize": 32,
+  "bcEpisodes": 24,
+  "bcEpochs": 3,
+  "episodesPerIteration": 24,
+  "ppoEpochs": 3,
+  "batchSize": 64,
+  "evalEvery": 4,
+  "evalGroups": 4,
+  "evalSessionGroups": 2,
+  "bootstrapSamples": 1000
+}

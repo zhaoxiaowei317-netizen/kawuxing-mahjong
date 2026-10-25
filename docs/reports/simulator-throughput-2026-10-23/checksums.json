@@ -1,0 +1,54 @@
+[
+  {
+    "path": "artifacts.json",
+    "sha256": "1538f62fb0c551fefd41ba8f6e4aab123e2aaf1d4ac3075f2eb53ad2055ff2d4"
+  },
+  {
+    "path": "cpu-profile-summary.json",
+    "sha256": "39e997140cb1edd3758fa79345a9821979991368e81639c1430969e8f2048750"
+  },
+  {
+    "path": "geometry-tests.log",
+    "sha256": "f6cf6ac89e75530a6bdeb2f4db9a19f12baec7b9867532acdda521e2a554a42b"
+  },
+  {
+    "path": "neural-audit.json",
+    "sha256": "cc09b87e6c656c5884d611da3af8645eeb9faaa39dd28ec192374eaf758fb8e9"
+  },
+  {
+    "path": "neural-benchmark.json",
+    "sha256": "b6dd29ea4ea74f86d666c3a66065f2853c08e4308ebd985207a731e993876335"
+  },
+  {
+    "path": "neural-tests.log",
+    "sha256": "a865a16c53a68775878cd9198a438f297810dd786b0339f95e5632ea7d67f0ad"
+  },
+  {
+    "path": "runtime.json",
+    "sha256": "c21588abfef20f46b24b2c55df45795623d7ebe4febd57196caef30ff08740cf"
+  },
+  {
+    "path": "simulator-audit.json",
+    "sha256": "6447b1a8c2216760a049a0da94a1f2c9955a687426ec05e51c6f237ce8ec9d4e"
+  },
+  {
+    "path": "simulator-benchmark.json",
+    "sha256": "39610dd9924a9390c5436ed9281786a2681422a6d2dd9b648eb8b818f0d86d79"
+  },
+  {
+    "path": "source-hashes.json",
+    "sha256": "c236f431645e5aa7679284633a477c1be9f5f5b5bbbf3e271e8028a74dc842e4"
+  },
+  {
+    "path": "sources.tar.gz",
+    "sha256": "47b044af42f1b466739ad77bbd6c692c76ec76bc382b313252d07605319f9542"
+  },
+  {
+    "path": "technical.cpuprofile",
+    "sha256": "0d0a938e5943a1861576c1a4d59f8f1157b41f1722101e604ed5522d2dc19d75"
+  },
+  {
+    "path": "结果.md",
+    "sha256": "28eb2fba527201ae98a1f003810fbec5aa88cf7e3c2f914864d5af965195417c"
+  }
+]

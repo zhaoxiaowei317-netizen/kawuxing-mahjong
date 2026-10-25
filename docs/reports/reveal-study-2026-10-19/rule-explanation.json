@@ -1,0 +1,42 @@
+{
+  "createdAt": "2026-10-18T23:20:41.177Z",
+  "kind": "Post-hoc descriptive rule consistency check; not an additional confirmatory hypothesis test",
+  "rules": {
+    "document": "docs/孝感卡五星正式规则.md",
+    "documentSha256": "6e58a4e5a76ed647edac201b5154eb3be61ac249385746ad4d6f738b2b4ec841",
+    "engineSha256": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "concealed": "An unrevealed player with a safe discard must avoid publicly revealed opponent waits.",
+    "revealed": "A revealed player normally must discard the drawn tile, even if it is dangerous."
+  },
+  "inference": "Remaining concealed retains discard flexibility and avoidance of public waits under these rules. This is consistent with the observed reduction in deal-ins, but this count does not identify the exact mediated share of the total score effect or prove never revealing is universally optimal.",
+  "sourceSha256": "60e21fc8725adc100ed754259425df60cb81b7193416efa6e1638f9f663c58eb",
+  "replaysSha256": "38b029684503259fc97d423aa6b757f2985bc7c61cb8490c8cc034ff71c46de6",
+  "sides": {
+    "candidate": {
+      "hands": 3072,
+      "dealIns": 28,
+      "dealInsWhileRevealed": 0,
+      "dealInsWhileConcealed": 28,
+      "wins": 1391,
+      "selfDraws": 732,
+      "discardWins": 659,
+      "score": 1600,
+      "huScore": 1264,
+      "kongScore": 196,
+      "drawScore": 140
+    },
+    "incumbent": {
+      "hands": 3072,
+      "dealIns": 436,
+      "dealInsWhileRevealed": 420,
+      "dealInsWhileConcealed": 16,
+      "wins": 1060,
+      "selfDraws": 704,
+      "discardWins": 356,
+      "score": 392,
+      "huScore": 365,
+      "kongScore": 36,
+      "drawScore": -9
+    }
+  }
+}

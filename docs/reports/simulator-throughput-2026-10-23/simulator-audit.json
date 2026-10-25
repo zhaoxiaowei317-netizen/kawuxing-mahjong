@@ -1,0 +1,219 @@
+{
+  "benchmarkSha256": "39610dd9924a9390c5436ed9281786a2681422a6d2dd9b648eb8b818f0d86d79",
+  "sourceSha256": "999501ed8905b48542f79694b9a06febecf268c1e56bcb1d74fc3e4e42f8917d",
+  "allOriginalTraceHashesRecomputed": true,
+  "capacities": [
+    0,
+    1,
+    32768
+  ],
+  "cases": [
+    {
+      "capacity": 0,
+      "repeat": 0,
+      "hands": 16,
+      "traceSha256": "1af3eec2a97f1068536ed989a5e4ad97a8fbeadc81efdaaf11207a4c7ebd6eb7",
+      "metrics": {
+        "capacity": 0,
+        "distance": {
+          "requests": 427538,
+          "hits": 0,
+          "misses": 427538,
+          "evictions": 0,
+          "size": 0
+        },
+        "waits": {
+          "requests": 40578,
+          "hits": 0,
+          "misses": 40578,
+          "evictions": 0,
+          "size": 0
+        }
+      }
+    },
+    {
+      "capacity": 0,
+      "repeat": 1,
+      "hands": 16,
+      "traceSha256": "8ac39e3a3127c43cff7c378c09c1d4c2e0d83b531fb7ecb8dd6daa0dc0c8f483",
+      "metrics": {
+        "capacity": 0,
+        "distance": {
+          "requests": 414375,
+          "hits": 0,
+          "misses": 414375,
+          "evictions": 0,
+          "size": 0
+        },
+        "waits": {
+          "requests": 39315,
+          "hits": 0,
+          "misses": 39315,
+          "evictions": 0,
+          "size": 0
+        }
+      }
+    },
+    {
+      "capacity": 0,
+      "repeat": 2,
+      "hands": 16,
+      "traceSha256": "3ef204cd5008621e49b6c6329ee33c6e1c9052a5284f45759a1c16388040c52c",
+      "metrics": {
+        "capacity": 0,
+        "distance": {
+          "requests": 653423,
+          "hits": 0,
+          "misses": 653423,
+          "evictions": 0,
+          "size": 0
+        },
+        "waits": {
+          "requests": 61684,
+          "hits": 0,
+          "misses": 61684,
+          "evictions": 0,
+          "size": 0
+        }
+      }
+    },
+    {
+      "capacity": 1,
+      "repeat": 0,
+      "hands": 16,
+      "traceSha256": "1af3eec2a97f1068536ed989a5e4ad97a8fbeadc81efdaaf11207a4c7ebd6eb7",
+      "metrics": {
+        "capacity": 1,
+        "distance": {
+          "requests": 427538,
+          "hits": 26,
+          "misses": 427512,
+          "evictions": 427511,
+          "size": 1
+        },
+        "waits": {
+          "requests": 40578,
+          "hits": 0,
+          "misses": 40578,
+          "evictions": 40577,
+          "size": 1
+        }
+      }
+    },
+    {
+      "capacity": 1,
+      "repeat": 1,
+      "hands": 16,
+      "traceSha256": "8ac39e3a3127c43cff7c378c09c1d4c2e0d83b531fb7ecb8dd6daa0dc0c8f483",
+      "metrics": {
+        "capacity": 1,
+        "distance": {
+          "requests": 414375,
+          "hits": 16,
+          "misses": 414359,
+          "evictions": 414358,
+          "size": 1
+        },
+        "waits": {
+          "requests": 39315,
+          "hits": 0,
+          "misses": 39315,
+          "evictions": 39314,
+          "size": 1
+        }
+      }
+    },
+    {
+      "capacity": 1,
+      "repeat": 2,
+      "hands": 16,
+      "traceSha256": "3ef204cd5008621e49b6c6329ee33c6e1c9052a5284f45759a1c16388040c52c",
+      "metrics": {
+        "capacity": 1,
+        "distance": {
+          "requests": 653423,
+          "hits": 27,
+          "misses": 653396,
+          "evictions": 653395,
+          "size": 1
+        },
+        "waits": {
+          "requests": 61684,
+          "hits": 2,
+          "misses": 61682,
+          "evictions": 61681,
+          "size": 1
+        }
+      }
+    },
+    {
+      "capacity": 32768,
+      "repeat": 0,
+      "hands": 16,
+      "traceSha256": "1af3eec2a97f1068536ed989a5e4ad97a8fbeadc81efdaaf11207a4c7ebd6eb7",
+      "metrics": {
+        "capacity": 32768,
+        "distance": {
+          "requests": 427538,
+          "hits": 172800,
+          "misses": 254738,
+          "evictions": 221970,
+          "size": 32768
+        },
+        "waits": {
+          "requests": 40578,
+          "hits": 28009,
+          "misses": 12569,
+          "evictions": 0,
+          "size": 12569
+        }
+      }
+    },
+    {
+      "capacity": 32768,
+      "repeat": 1,
+      "hands": 16,
+      "traceSha256": "8ac39e3a3127c43cff7c378c09c1d4c2e0d83b531fb7ecb8dd6daa0dc0c8f483",
+      "metrics": {
+        "capacity": 32768,
+        "distance": {
+          "requests": 414375,
+          "hits": 188486,
+          "misses": 225889,
+          "evictions": 193121,
+          "size": 32768
+        },
+        "waits": {
+          "requests": 39315,
+          "hits": 28065,
+          "misses": 11250,
+          "evictions": 0,
+          "size": 11250
+        }
+      }
+    },
+    {
+      "capacity": 32768,
+      "repeat": 2,
+      "hands": 16,
+      "traceSha256": "3ef204cd5008621e49b6c6329ee33c6e1c9052a5284f45759a1c16388040c52c",
+      "metrics": {
+        "capacity": 32768,
+        "distance": {
+          "requests": 653423,
+          "hits": 273029,
+          "misses": 380394,
+          "evictions": 347626,
+          "size": 32768
+        },
+        "waits": {
+          "requests": 61684,
+          "hits": 42906,
+          "misses": 18778,
+          "evictions": 0,
+          "size": 18778
+        }
+      }
+    }
+  ]
+}

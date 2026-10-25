@@ -1,0 +1,15 @@
+{
+  "id": "H0",
+  "version": "h0-2026-10-17",
+  "rulesVersion": "xiaogan-1.0",
+  "description": "Frozen existing heuristic, observation adapter verified against botStep",
+  "deterministic": true,
+  "dependencies": {
+    "@kobalab/majiang-core": "1.4.1"
+  },
+  "sha256": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4"
+  }
+}

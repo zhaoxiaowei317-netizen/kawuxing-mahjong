@@ -1,0 +1,26 @@
+{
+  "features-bc": {
+    "epoch": 12,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-features-bc\\epoch-012.pt",
+    "validationLoss": 0.393420728717603
+  },
+  "tiles-bc": {
+    "epoch": 12,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-bc\\epoch-012.pt",
+    "validationLoss": 0.3271689899181115
+  },
+  "tiles-offline": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+    "validationLoss": 0.3693149114088503
+  },
+  "tiles-online": {
+    "epoch": 4,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-online-1\\epoch-004.pt",
+    "validationLoss": 0.1527870426518041
+  }
+}

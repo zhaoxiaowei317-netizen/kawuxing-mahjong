@@ -1,0 +1,23 @@
+{
+  "raw": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+    "validationLoss": 0.337738166235371,
+    "sha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+  },
+  "corrected": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-corrected\\epoch-008.pt",
+    "validationLoss": 0.15763926747668672,
+    "sha256": "5df20f0ff44fde983f30df281ae12e9ee6c79662e20723c35d4b724e545818fd"
+  },
+  "self": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-distill-20261020\\model-self\\epoch-008.pt",
+    "validationLoss": 0.16060709332096662,
+    "sha256": "8b61ddc470d6b0a2801f8fad340fb2b9990d4ab5ea585ffc5d2aaf5bbf51e2e4"
+  }
+}

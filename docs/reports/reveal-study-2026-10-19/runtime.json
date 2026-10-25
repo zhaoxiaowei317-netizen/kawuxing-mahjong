@@ -1,0 +1,8 @@
+{
+  "node": "v24.16.0",
+  "platform": "win32",
+  "arch": "x64",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalCpus": 12,
+  "trainingHands": 0
+}

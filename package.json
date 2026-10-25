@@ -1,0 +1,30 @@
+{
+  "name": "kawuxing-pc-game",
+  "version": "1.0.0",
+  "description": "孝感卡五星麻将 · 三人固定对局 · 用户确认规则 v1.0",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node desktop_server.js",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node build.mjs",
+    "test:ui": "node tests/rules-ui.mjs",
+    "ai:eval": "node ai/evaluate.mjs",
+    "ai:benchmark": "node ai/benchmark.mjs",
+    "ai:train": "node ai/train.mjs",
+    "ai:experiment": "node ai/experiment.mjs"
+  },
+  "dependencies": {
+    "@kobalab/majiang-core": "1.4.1",
+    "lucide": "^0.468.0",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "playwright": "1.62.1"
+  }
+}

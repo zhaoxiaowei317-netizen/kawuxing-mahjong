@@ -1,0 +1,128 @@
+{
+  "selected": {
+    "epoch": 4,
+    "path": "C:\\Users\\zhaox\\Desktop\\\u5361\u4e94\u661f\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\\u5361\u4e94\u661f\\ai-runs\\tile-q-20261018\\model-online-0\\epoch-004.pt",
+    "validationLoss": 0.15306364084494486
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "training": {
+        "loss": 0.15841568598127445,
+        "mcHalfMse": 0.06668029092521006,
+        "cql": 1.5120519104976773,
+        "bc": 1.49924135696977,
+        "rank": 0.6175056854209905,
+        "teacherAgreement": 0.6781420078764624
+      },
+      "validation": {
+        "loss": 0.1722032335739706,
+        "mcHalfMse": 0.08427878269322414,
+        "cql": 1.5414025870221328,
+        "bc": 1.5005193105674963,
+        "rank": 0.5791406515927773,
+        "teacherAgreement": 0.7163083377969659
+      }
+    },
+    {
+      "epoch": 1,
+      "training": {
+        "loss": 0.14193316278706897,
+        "mcHalfMse": 0.045053731867945236,
+        "cql": 1.7789577319944616,
+        "bc": 1.7753781064403698,
+        "rank": 0.6137186977595049,
+        "teacherAgreement": 0.6218200234231609
+      },
+      "validation": {
+        "loss": 0.1593959809672768,
+        "mcHalfMse": 0.06496634638678296,
+        "cql": 1.8060522115516031,
+        "bc": 1.7921053411618455,
+        "rank": 0.5858752749491728,
+        "teacherAgreement": 0.6481384377632916
+      }
+    },
+    {
+      "epoch": 2,
+      "training": {
+        "loss": 0.1381001674669511,
+        "mcHalfMse": 0.041869439119599214,
+        "cql": 1.8296092620847673,
+        "bc": 1.831845891308202,
+        "rank": 0.5959381044265546,
+        "teacherAgreement": 0.5987849646000271
+      },
+      "validation": {
+        "loss": 0.1570715490931128,
+        "mcHalfMse": 0.06347382600502083,
+        "cql": 1.8567033006561067,
+        "bc": 1.8457395579301898,
+        "rank": 0.5668293106933092,
+        "teacherAgreement": 0.6320573321757378
+      }
+    },
+    {
+      "epoch": 3,
+      "training": {
+        "loss": 0.13552738705016046,
+        "mcHalfMse": 0.040380126676077696,
+        "cql": 1.8323883930047453,
+        "bc": 1.830354885124976,
+        "rank": 0.5854016277189874,
+        "teacherAgreement": 0.6038476148748259
+      },
+      "validation": {
+        "loss": 0.15365305311132657,
+        "mcHalfMse": 0.06107375938936956,
+        "cql": 1.8564083075277498,
+        "bc": 1.8457841959851453,
+        "rank": 0.5566361257192702,
+        "teacherAgreement": 0.6364271984277873
+      }
+    },
+    {
+      "epoch": 4,
+      "training": {
+        "loss": 0.13400923955509927,
+        "mcHalfMse": 0.03951049424352382,
+        "cql": 1.8259746442488698,
+        "bc": 1.826788618359109,
+        "rank": 0.5796297341717178,
+        "teacherAgreement": 0.6038476149427214
+      },
+      "validation": {
+        "loss": 0.15306364084494486,
+        "mcHalfMse": 0.06085076014430054,
+        "cql": 1.8511637367999672,
+        "bc": 1.8403087582877415,
+        "rank": 0.5540670559365024,
+        "teacherAgreement": 0.6332808945942042
+      }
+    }
+  ],
+  "trainingSamples": 7901,
+  "validationSamples": 11442,
+  "trainingHash": "f9147b85e6231fa88436a790ed7b63d95e7c1278e4628f81b4693f1462c71313",
+  "validationHash": "9002a8e7ed8666b8c2093378f78771e1f2db2bbf04b8c798681f366569f341c2",
+  "config": {
+    "learningRate": 0.001,
+    "batchSize": 256,
+    "maxGradNorm": 5,
+    "cqlWeight": 0,
+    "bcWeight": 0.02,
+    "auxWeight": 0.1
+  },
+  "network": {
+    "channels": 24,
+    "blocks": 2,
+    "globalSize": 64,
+    "localSize": 32,
+    "useTiles": true
+  },
+  "mode": "q",
+  "seed": "ee1792c696fb1693deaf04e9d8203b5b751a87a14b35e6c4f2a5c72f44daa775",
+  "torch": "2.1.2+cpu",
+  "parameters": 21765
+}

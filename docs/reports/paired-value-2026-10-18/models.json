@@ -1,0 +1,29 @@
+{
+  "ridge": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-value-20261018\\model-ridge\\ridge.json",
+    "validation": {
+      "rows": 221,
+      "hands": 1200,
+      "mse": 21.282483011686704,
+      "conditionalChosenGain": 135,
+      "chosenGainPer100Hands": 11.25,
+      "proposalGainPer100Hands": 12.583333333333332,
+      "accepted": 145
+    }
+  },
+  "mlp-0": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-value-20261018\\model-mlp-0\\epoch-001.json",
+    "epoch": 1,
+    "validationMse": 20.539143318781573
+  },
+  "mlp-1": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-value-20261018\\model-mlp-1\\epoch-001.json",
+    "epoch": 1,
+    "validationMse": 20.53974184808343
+  },
+  "mlp-2": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\paired-value-20261018\\model-mlp-2\\epoch-001.json",
+    "epoch": 1,
+    "validationMse": 20.57321827815561
+  }
+}

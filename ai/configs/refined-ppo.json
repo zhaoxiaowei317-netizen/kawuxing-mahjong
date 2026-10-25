@@ -1,0 +1,15 @@
+{
+  "seed": "kwx-refined-ppo-pilot-20261017",
+  "hiddenSize": 64,
+  "bcEpisodes": 0,
+  "episodesPerIteration": 128,
+  "trainingHands": 1,
+  "ppoEpochs": 2,
+  "learningRate": 0.0001,
+  "batchSize": 128,
+  "entropyCoef": 0.002,
+  "valueCoef": 0.1,
+  "selfPlayFraction": 0.25,
+  "leagueSize": 4,
+  "evalEvery": 0
+}

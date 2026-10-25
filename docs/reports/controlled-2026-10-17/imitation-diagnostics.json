@@ -1,0 +1,1121 @@
+[
+  {
+    "seed": 0,
+    "chosen": {
+      "epoch": 8,
+      "metrics": {
+        "loss": 1.0053670786672273,
+        "policyLoss": 1.0053670786672273,
+        "valueLoss": 0,
+        "entropy": 1.1069390976709819,
+        "approxKl": 0,
+        "clipFraction": 0,
+        "policySaturation": 0,
+        "gradNorm": 0.43660845174583185,
+        "clippedGradNorm": 0.43296169614269553,
+        "maxObservedGradNorm": 0.8722564685365838,
+        "updates": 253,
+        "samples": 32284,
+        "samplesSeen": 32284
+      },
+      "validation": {
+        "samples": 4282,
+        "accuracy": 0.5957496496964035,
+        "choices": 3416,
+        "choiceAccuracy": 0.49326697892271665,
+        "crossEntropy": 1.1605056069858282,
+        "categories": {
+          "discard": {
+            "samples": 3375,
+            "correct": 1900,
+            "choices": 2509,
+            "choiceCorrect": 1034,
+            "accuracy": 0.562962962962963,
+            "choiceAccuracy": 0.4121163810282981
+          },
+          "reveal": {
+            "samples": 274,
+            "correct": 183,
+            "choices": 274,
+            "choiceCorrect": 183,
+            "accuracy": 0.6678832116788321,
+            "choiceAccuracy": 0.6678832116788321
+          },
+          "hu": {
+            "samples": 162,
+            "correct": 162,
+            "choices": 162,
+            "choiceCorrect": 162,
+            "accuracy": 1,
+            "choiceAccuracy": 1
+          },
+          "peng": {
+            "samples": 194,
+            "correct": 146,
+            "choices": 194,
+            "choiceCorrect": 146,
+            "accuracy": 0.7525773195876289,
+            "choiceAccuracy": 0.7525773195876289
+          },
+          "pass": {
+            "samples": 189,
+            "correct": 72,
+            "choices": 189,
+            "choiceCorrect": 72,
+            "accuracy": 0.38095238095238093,
+            "choiceAccuracy": 0.38095238095238093
+          },
+          "kong": {
+            "samples": 88,
+            "correct": 88,
+            "choices": 88,
+            "choiceCorrect": 88,
+            "accuracy": 1,
+            "choiceAccuracy": 1
+          }
+        }
+      },
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\imitation-epoch-8.json",
+      "sha256": "f84236b186aee3db874985d19d0c24e33517f4bf2311e35a0865050dcd650974"
+    },
+    "curve": [
+      {
+        "epoch": 0,
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.3491359177954227,
+          "choices": 3416,
+          "choiceAccuracy": 0.18413348946135832,
+          "crossEntropy": 1.5793095447787595,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1179,
+              "choices": 2509,
+              "choiceCorrect": 313,
+              "accuracy": 0.34933333333333333,
+              "choiceAccuracy": 0.12475089677162216
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 28,
+              "choices": 274,
+              "choiceCorrect": 28,
+              "accuracy": 0.10218978102189781,
+              "choiceAccuracy": 0.10218978102189781
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 78,
+              "choices": 162,
+              "choiceCorrect": 78,
+              "accuracy": 0.48148148148148145,
+              "choiceAccuracy": 0.48148148148148145
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 81,
+              "choices": 194,
+              "choiceCorrect": 81,
+              "accuracy": 0.4175257731958763,
+              "choiceAccuracy": 0.4175257731958763
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 97,
+              "choices": 189,
+              "choiceCorrect": 97,
+              "accuracy": 0.5132275132275133,
+              "choiceAccuracy": 0.5132275132275133
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 32,
+              "choices": 88,
+              "choiceCorrect": 32,
+              "accuracy": 0.36363636363636365,
+              "choiceAccuracy": 0.36363636363636365
+            }
+          }
+        }
+      },
+      {
+        "epoch": 4,
+        "metrics": {
+          "loss": 1.1933682950470508,
+          "policyLoss": 1.1933682950470508,
+          "valueLoss": 0,
+          "entropy": 1.264018579790382,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.38814718299626544,
+          "clippedGradNorm": 0.3873352157408577,
+          "maxObservedGradNorm": 0.915911286890865,
+          "updates": 253,
+          "samples": 32284,
+          "samplesSeen": 32284
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5719290051377861,
+          "choices": 3416,
+          "choiceAccuracy": 0.46340749414519905,
+          "crossEntropy": 1.21259941694908,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1783,
+              "choices": 2509,
+              "choiceCorrect": 917,
+              "accuracy": 0.5282962962962963,
+              "choiceAccuracy": 0.3654842566759665
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 187,
+              "choices": 274,
+              "choiceCorrect": 187,
+              "accuracy": 0.6824817518248175,
+              "choiceAccuracy": 0.6824817518248175
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 145,
+              "choices": 194,
+              "choiceCorrect": 145,
+              "accuracy": 0.7474226804123711,
+              "choiceAccuracy": 0.7474226804123711
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 84,
+              "choices": 189,
+              "choiceCorrect": 84,
+              "accuracy": 0.4444444444444444,
+              "choiceAccuracy": 0.4444444444444444
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 88,
+              "choices": 88,
+              "choiceCorrect": 88,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\imitation-epoch-4.json",
+        "sha256": "9ed1a8448a162346097dbc7a4e6bcdc80fd316f234345df3c100c85689049554"
+      },
+      {
+        "epoch": 8,
+        "metrics": {
+          "loss": 1.0053670786672273,
+          "policyLoss": 1.0053670786672273,
+          "valueLoss": 0,
+          "entropy": 1.1069390976709819,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.43660845174583185,
+          "clippedGradNorm": 0.43296169614269553,
+          "maxObservedGradNorm": 0.8722564685365838,
+          "updates": 253,
+          "samples": 32284,
+          "samplesSeen": 32284
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5957496496964035,
+          "choices": 3416,
+          "choiceAccuracy": 0.49326697892271665,
+          "crossEntropy": 1.1605056069858282,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1900,
+              "choices": 2509,
+              "choiceCorrect": 1034,
+              "accuracy": 0.562962962962963,
+              "choiceAccuracy": 0.4121163810282981
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 183,
+              "choices": 274,
+              "choiceCorrect": 183,
+              "accuracy": 0.6678832116788321,
+              "choiceAccuracy": 0.6678832116788321
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 146,
+              "choices": 194,
+              "choiceCorrect": 146,
+              "accuracy": 0.7525773195876289,
+              "choiceAccuracy": 0.7525773195876289
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 72,
+              "choices": 189,
+              "choiceCorrect": 72,
+              "accuracy": 0.38095238095238093,
+              "choiceAccuracy": 0.38095238095238093
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 88,
+              "choices": 88,
+              "choiceCorrect": 88,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\imitation-epoch-8.json",
+        "sha256": "f84236b186aee3db874985d19d0c24e33517f4bf2311e35a0865050dcd650974"
+      },
+      {
+        "epoch": 12,
+        "metrics": {
+          "loss": 0.8958496930664127,
+          "policyLoss": 0.8958496930664127,
+          "valueLoss": 0,
+          "entropy": 1.0063842892709636,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.480579702052272,
+          "clippedGradNorm": 0.46998350712725273,
+          "maxObservedGradNorm": 1.0703781258479566,
+          "updates": 253,
+          "samples": 32284,
+          "samplesSeen": 32284
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5931807566557683,
+          "choices": 3416,
+          "choiceAccuracy": 0.49004683840749413,
+          "crossEntropy": 1.1713569582566135,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1892,
+              "choices": 2509,
+              "choiceCorrect": 1026,
+              "accuracy": 0.5605925925925926,
+              "choiceAccuracy": 0.4089278597050618
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 178,
+              "choices": 274,
+              "choiceCorrect": 178,
+              "accuracy": 0.6496350364963503,
+              "choiceAccuracy": 0.6496350364963503
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 121,
+              "choices": 194,
+              "choiceCorrect": 121,
+              "accuracy": 0.6237113402061856,
+              "choiceAccuracy": 0.6237113402061856
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 99,
+              "choices": 189,
+              "choiceCorrect": 99,
+              "accuracy": 0.5238095238095238,
+              "choiceAccuracy": 0.5238095238095238
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 88,
+              "choices": 88,
+              "choiceCorrect": 88,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-0\\imitation-epoch-12.json",
+        "sha256": "1b6476498df84608148312c2c19e585967d52629af789cb379d446e0e466b265"
+      }
+    ]
+  },
+  {
+    "seed": 1,
+    "chosen": {
+      "epoch": 8,
+      "metrics": {
+        "loss": 1.008290975076455,
+        "policyLoss": 1.008290975076455,
+        "valueLoss": 0,
+        "entropy": 1.112216240528771,
+        "approxKl": 0,
+        "clipFraction": 0,
+        "policySaturation": 0,
+        "gradNorm": 0.43362591070358086,
+        "clippedGradNorm": 0.43172809369652626,
+        "maxObservedGradNorm": 0.5885041655758607,
+        "updates": 254,
+        "samples": 32475,
+        "samplesSeen": 32475
+      },
+      "validation": {
+        "samples": 4282,
+        "accuracy": 0.5871088276506305,
+        "choices": 3416,
+        "choiceAccuracy": 0.48243559718969553,
+        "crossEntropy": 1.1777898943115697,
+        "categories": {
+          "discard": {
+            "samples": 3375,
+            "correct": 1845,
+            "choices": 2509,
+            "choiceCorrect": 979,
+            "accuracy": 0.5466666666666666,
+            "choiceAccuracy": 0.3901952969310482
+          },
+          "reveal": {
+            "samples": 274,
+            "correct": 183,
+            "choices": 274,
+            "choiceCorrect": 183,
+            "accuracy": 0.6678832116788321,
+            "choiceAccuracy": 0.6678832116788321
+          },
+          "hu": {
+            "samples": 162,
+            "correct": 162,
+            "choices": 162,
+            "choiceCorrect": 162,
+            "accuracy": 1,
+            "choiceAccuracy": 1
+          },
+          "peng": {
+            "samples": 194,
+            "correct": 140,
+            "choices": 194,
+            "choiceCorrect": 140,
+            "accuracy": 0.7216494845360825,
+            "choiceAccuracy": 0.7216494845360825
+          },
+          "pass": {
+            "samples": 189,
+            "correct": 98,
+            "choices": 189,
+            "choiceCorrect": 98,
+            "accuracy": 0.5185185185185185,
+            "choiceAccuracy": 0.5185185185185185
+          },
+          "kong": {
+            "samples": 88,
+            "correct": 86,
+            "choices": 88,
+            "choiceCorrect": 86,
+            "accuracy": 0.9772727272727273,
+            "choiceAccuracy": 0.9772727272727273
+          }
+        }
+      },
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\imitation-epoch-8.json",
+      "sha256": "6f82a54a4f2f10cd6f6d39860524e7e2d100328e3f26c9c844524efd8c739b87"
+    },
+    "curve": [
+      {
+        "epoch": 0,
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.3381597384399813,
+          "choices": 3416,
+          "choiceAccuracy": 0.17037470725995316,
+          "crossEntropy": 1.5792527679935418,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1205,
+              "choices": 2509,
+              "choiceCorrect": 339,
+              "accuracy": 0.35703703703703704,
+              "choiceAccuracy": 0.1351135910721403
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 8,
+              "choices": 274,
+              "choiceCorrect": 8,
+              "accuracy": 0.029197080291970802,
+              "choiceAccuracy": 0.029197080291970802
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 37,
+              "choices": 162,
+              "choiceCorrect": 37,
+              "accuracy": 0.22839506172839505,
+              "choiceAccuracy": 0.22839506172839505
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 109,
+              "choices": 194,
+              "choiceCorrect": 109,
+              "accuracy": 0.5618556701030928,
+              "choiceAccuracy": 0.5618556701030928
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 63,
+              "choices": 189,
+              "choiceCorrect": 63,
+              "accuracy": 0.3333333333333333,
+              "choiceAccuracy": 0.3333333333333333
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 26,
+              "choices": 88,
+              "choiceCorrect": 26,
+              "accuracy": 0.29545454545454547,
+              "choiceAccuracy": 0.29545454545454547
+            }
+          }
+        }
+      },
+      {
+        "epoch": 4,
+        "metrics": {
+          "loss": 1.2056814428198412,
+          "policyLoss": 1.2056814428198412,
+          "valueLoss": 0,
+          "entropy": 1.2831078273467889,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.3767725664070087,
+          "clippedGradNorm": 0.376601218356101,
+          "maxObservedGradNorm": 0.5408387863197136,
+          "updates": 254,
+          "samples": 32475,
+          "samplesSeen": 32475
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5665576833255488,
+          "choices": 3416,
+          "choiceAccuracy": 0.4566744730679157,
+          "crossEntropy": 1.2299097967441435,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1760,
+              "choices": 2509,
+              "choiceCorrect": 894,
+              "accuracy": 0.5214814814814814,
+              "choiceAccuracy": 0.356317257871662
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 198,
+              "choices": 274,
+              "choiceCorrect": 198,
+              "accuracy": 0.7226277372262774,
+              "choiceAccuracy": 0.7226277372262774
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 168,
+              "choices": 194,
+              "choiceCorrect": 168,
+              "accuracy": 0.865979381443299,
+              "choiceAccuracy": 0.865979381443299
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 51,
+              "choices": 189,
+              "choiceCorrect": 51,
+              "accuracy": 0.2698412698412698,
+              "choiceAccuracy": 0.2698412698412698
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 87,
+              "choices": 88,
+              "choiceCorrect": 87,
+              "accuracy": 0.9886363636363636,
+              "choiceAccuracy": 0.9886363636363636
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\imitation-epoch-4.json",
+        "sha256": "2eab69518432bc7836e97b86d253b6f4afc9f17d62a2f5fcd5ed7bb65c5bae7d"
+      },
+      {
+        "epoch": 8,
+        "metrics": {
+          "loss": 1.008290975076455,
+          "policyLoss": 1.008290975076455,
+          "valueLoss": 0,
+          "entropy": 1.112216240528771,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.43362591070358086,
+          "clippedGradNorm": 0.43172809369652626,
+          "maxObservedGradNorm": 0.5885041655758607,
+          "updates": 254,
+          "samples": 32475,
+          "samplesSeen": 32475
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5871088276506305,
+          "choices": 3416,
+          "choiceAccuracy": 0.48243559718969553,
+          "crossEntropy": 1.1777898943115697,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1845,
+              "choices": 2509,
+              "choiceCorrect": 979,
+              "accuracy": 0.5466666666666666,
+              "choiceAccuracy": 0.3901952969310482
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 183,
+              "choices": 274,
+              "choiceCorrect": 183,
+              "accuracy": 0.6678832116788321,
+              "choiceAccuracy": 0.6678832116788321
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 140,
+              "choices": 194,
+              "choiceCorrect": 140,
+              "accuracy": 0.7216494845360825,
+              "choiceAccuracy": 0.7216494845360825
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 98,
+              "choices": 189,
+              "choiceCorrect": 98,
+              "accuracy": 0.5185185185185185,
+              "choiceAccuracy": 0.5185185185185185
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 86,
+              "choices": 88,
+              "choiceCorrect": 86,
+              "accuracy": 0.9772727272727273,
+              "choiceAccuracy": 0.9772727272727273
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\imitation-epoch-8.json",
+        "sha256": "6f82a54a4f2f10cd6f6d39860524e7e2d100328e3f26c9c844524efd8c739b87"
+      },
+      {
+        "epoch": 12,
+        "metrics": {
+          "loss": 0.8986353822394328,
+          "policyLoss": 0.8986353822394328,
+          "valueLoss": 0,
+          "entropy": 1.0079241336337308,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.4840044665799921,
+          "clippedGradNorm": 0.47178213386912515,
+          "maxObservedGradNorm": 0.6205837042399718,
+          "updates": 254,
+          "samples": 32475,
+          "samplesSeen": 32475
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5920130780009342,
+          "choices": 3416,
+          "choiceAccuracy": 0.4885831381733021,
+          "crossEntropy": 1.1907124268250544,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1878,
+              "choices": 2509,
+              "choiceCorrect": 1012,
+              "accuracy": 0.5564444444444444,
+              "choiceAccuracy": 0.40334794738939816
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 174,
+              "choices": 274,
+              "choiceCorrect": 174,
+              "accuracy": 0.635036496350365,
+              "choiceAccuracy": 0.635036496350365
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 136,
+              "choices": 194,
+              "choiceCorrect": 136,
+              "accuracy": 0.7010309278350515,
+              "choiceAccuracy": 0.7010309278350515
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 100,
+              "choices": 189,
+              "choiceCorrect": 100,
+              "accuracy": 0.5291005291005291,
+              "choiceAccuracy": 0.5291005291005291
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 85,
+              "choices": 88,
+              "choiceCorrect": 85,
+              "accuracy": 0.9659090909090909,
+              "choiceAccuracy": 0.9659090909090909
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-1\\imitation-epoch-12.json",
+        "sha256": "49471f81a58a95e29edd340cd17f462b0b5838fd2332b55cb79e71dfe28d7ff0"
+      }
+    ]
+  },
+  {
+    "seed": 2,
+    "chosen": {
+      "epoch": 8,
+      "metrics": {
+        "loss": 1.0061018545512028,
+        "policyLoss": 1.0061018545512028,
+        "valueLoss": 0,
+        "entropy": 1.1080143471584403,
+        "approxKl": 0,
+        "clipFraction": 0,
+        "policySaturation": 0,
+        "gradNorm": 0.44385756681997707,
+        "clippedGradNorm": 0.4407271397149612,
+        "maxObservedGradNorm": 0.6341413775640559,
+        "updates": 255,
+        "samples": 32586,
+        "samplesSeen": 32586
+      },
+      "validation": {
+        "samples": 4282,
+        "accuracy": 0.595049042503503,
+        "choices": 3416,
+        "choiceAccuracy": 0.4923887587822014,
+        "crossEntropy": 1.1564727378079118,
+        "categories": {
+          "discard": {
+            "samples": 3375,
+            "correct": 1876,
+            "choices": 2509,
+            "choiceCorrect": 1010,
+            "accuracy": 0.5558518518518518,
+            "choiceAccuracy": 0.4025508170585891
+          },
+          "reveal": {
+            "samples": 274,
+            "correct": 183,
+            "choices": 274,
+            "choiceCorrect": 183,
+            "accuracy": 0.6678832116788321,
+            "choiceAccuracy": 0.6678832116788321
+          },
+          "hu": {
+            "samples": 162,
+            "correct": 162,
+            "choices": 162,
+            "choiceCorrect": 162,
+            "accuracy": 1,
+            "choiceAccuracy": 1
+          },
+          "peng": {
+            "samples": 194,
+            "correct": 137,
+            "choices": 194,
+            "choiceCorrect": 137,
+            "accuracy": 0.7061855670103093,
+            "choiceAccuracy": 0.7061855670103093
+          },
+          "pass": {
+            "samples": 189,
+            "correct": 103,
+            "choices": 189,
+            "choiceCorrect": 103,
+            "accuracy": 0.544973544973545,
+            "choiceAccuracy": 0.544973544973545
+          },
+          "kong": {
+            "samples": 88,
+            "correct": 87,
+            "choices": 88,
+            "choiceCorrect": 87,
+            "accuracy": 0.9886363636363636,
+            "choiceAccuracy": 0.9886363636363636
+          }
+        }
+      },
+      "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\imitation-epoch-8.json",
+      "sha256": "c85441851a07d75f9d7f5739c2a542cc41f96447f5dff426669c3684b6b27aa4"
+    },
+    "curve": [
+      {
+        "epoch": 0,
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.31247080803362914,
+          "choices": 3416,
+          "choiceAccuracy": 0.13817330210772832,
+          "crossEntropy": 1.5796841009954783,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1067,
+              "choices": 2509,
+              "choiceCorrect": 201,
+              "accuracy": 0.3161481481481481,
+              "choiceAccuracy": 0.08011159824631327
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 27,
+              "choices": 274,
+              "choiceCorrect": 27,
+              "accuracy": 0.09854014598540146,
+              "choiceAccuracy": 0.09854014598540146
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 37,
+              "choices": 162,
+              "choiceCorrect": 37,
+              "accuracy": 0.22839506172839505,
+              "choiceAccuracy": 0.22839506172839505
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 17,
+              "choices": 194,
+              "choiceCorrect": 17,
+              "accuracy": 0.08762886597938144,
+              "choiceAccuracy": 0.08762886597938144
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 173,
+              "choices": 189,
+              "choiceCorrect": 173,
+              "accuracy": 0.9153439153439153,
+              "choiceAccuracy": 0.9153439153439153
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 17,
+              "choices": 88,
+              "choiceCorrect": 17,
+              "accuracy": 0.19318181818181818,
+              "choiceAccuracy": 0.19318181818181818
+            }
+          }
+        }
+      },
+      {
+        "epoch": 4,
+        "metrics": {
+          "loss": 1.1972643675592138,
+          "policyLoss": 1.1972643675592138,
+          "valueLoss": 0,
+          "entropy": 1.2757211780445465,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.39417619197629894,
+          "clippedGradNorm": 0.3936040682545683,
+          "maxObservedGradNorm": 0.5484097762606547,
+          "updates": 255,
+          "samples": 32586,
+          "samplesSeen": 32586
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5723960765997198,
+          "choices": 3416,
+          "choiceAccuracy": 0.46399297423887587,
+          "crossEntropy": 1.2107215841703656,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1774,
+              "choices": 2509,
+              "choiceCorrect": 908,
+              "accuracy": 0.5256296296296297,
+              "choiceAccuracy": 0.36189717018732565
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 194,
+              "choices": 274,
+              "choiceCorrect": 194,
+              "accuracy": 0.708029197080292,
+              "choiceAccuracy": 0.708029197080292
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 148,
+              "choices": 194,
+              "choiceCorrect": 148,
+              "accuracy": 0.7628865979381443,
+              "choiceAccuracy": 0.7628865979381443
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 86,
+              "choices": 189,
+              "choiceCorrect": 86,
+              "accuracy": 0.455026455026455,
+              "choiceAccuracy": 0.455026455026455
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 87,
+              "choices": 88,
+              "choiceCorrect": 87,
+              "accuracy": 0.9886363636363636,
+              "choiceAccuracy": 0.9886363636363636
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\imitation-epoch-4.json",
+        "sha256": "1b379387f5f5f917a8f346f13edb5f3b993068980e78f96c2bfd94a580023b64"
+      },
+      {
+        "epoch": 8,
+        "metrics": {
+          "loss": 1.0061018545512028,
+          "policyLoss": 1.0061018545512028,
+          "valueLoss": 0,
+          "entropy": 1.1080143471584403,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.44385756681997707,
+          "clippedGradNorm": 0.4407271397149612,
+          "maxObservedGradNorm": 0.6341413775640559,
+          "updates": 255,
+          "samples": 32586,
+          "samplesSeen": 32586
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.595049042503503,
+          "choices": 3416,
+          "choiceAccuracy": 0.4923887587822014,
+          "crossEntropy": 1.1564727378079118,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1876,
+              "choices": 2509,
+              "choiceCorrect": 1010,
+              "accuracy": 0.5558518518518518,
+              "choiceAccuracy": 0.4025508170585891
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 183,
+              "choices": 274,
+              "choiceCorrect": 183,
+              "accuracy": 0.6678832116788321,
+              "choiceAccuracy": 0.6678832116788321
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 137,
+              "choices": 194,
+              "choiceCorrect": 137,
+              "accuracy": 0.7061855670103093,
+              "choiceAccuracy": 0.7061855670103093
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 103,
+              "choices": 189,
+              "choiceCorrect": 103,
+              "accuracy": 0.544973544973545,
+              "choiceAccuracy": 0.544973544973545
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 87,
+              "choices": 88,
+              "choiceCorrect": 87,
+              "accuracy": 0.9886363636363636,
+              "choiceAccuracy": 0.9886363636363636
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\imitation-epoch-8.json",
+        "sha256": "c85441851a07d75f9d7f5739c2a542cc41f96447f5dff426669c3684b6b27aa4"
+      },
+      {
+        "epoch": 12,
+        "metrics": {
+          "loss": 0.9011624412611674,
+          "policyLoss": 0.9011624412611674,
+          "valueLoss": 0,
+          "entropy": 1.005295476333897,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.4963548427861537,
+          "clippedGradNorm": 0.4771946662976018,
+          "maxObservedGradNorm": 0.695196975547876,
+          "updates": 255,
+          "samples": 32586,
+          "samplesSeen": 32586
+        },
+        "validation": {
+          "samples": 4282,
+          "accuracy": 0.5997197571228398,
+          "choices": 3416,
+          "choiceAccuracy": 0.49824355971896955,
+          "crossEntropy": 1.1703563303808153,
+          "categories": {
+            "discard": {
+              "samples": 3375,
+              "correct": 1897,
+              "choices": 2509,
+              "choiceCorrect": 1031,
+              "accuracy": 0.5620740740740741,
+              "choiceAccuracy": 0.4109206855320845
+            },
+            "reveal": {
+              "samples": 274,
+              "correct": 181,
+              "choices": 274,
+              "choiceCorrect": 181,
+              "accuracy": 0.6605839416058394,
+              "choiceAccuracy": 0.6605839416058394
+            },
+            "hu": {
+              "samples": 162,
+              "correct": 162,
+              "choices": 162,
+              "choiceCorrect": 162,
+              "accuracy": 1,
+              "choiceAccuracy": 1
+            },
+            "peng": {
+              "samples": 194,
+              "correct": 150,
+              "choices": 194,
+              "choiceCorrect": 150,
+              "accuracy": 0.7731958762886598,
+              "choiceAccuracy": 0.7731958762886598
+            },
+            "pass": {
+              "samples": 189,
+              "correct": 92,
+              "choices": 189,
+              "choiceCorrect": 92,
+              "accuracy": 0.48677248677248675,
+              "choiceAccuracy": 0.48677248677248675
+            },
+            "kong": {
+              "samples": 88,
+              "correct": 86,
+              "choices": 88,
+              "choiceCorrect": 86,
+              "accuracy": 0.9772727272727273,
+              "choiceAccuracy": 0.9772727272727273
+            }
+          }
+        },
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\controlled-20261017\\seed-2\\imitation-epoch-12.json",
+        "sha256": "43510ce5f3d0430f10120feab4bfc550e1666150e106436befe4e5ccb4f3d4e5"
+      }
+    ]
+  }
+]

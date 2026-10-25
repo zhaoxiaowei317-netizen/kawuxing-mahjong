@@ -1,0 +1,742 @@
+{
+  "completedAt": "2026-10-22T15:10:43.658Z",
+  "planSha256": "a44af6db5f330da54fe53164efe31a5c038956b63e0f377e15cd896e43d5ae29",
+  "sourceMap": {
+    "src\\engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src\\wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+    "ai\\environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai\\random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai\\runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai\\statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai\\policies\\h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai\\policies\\H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai\\policies\\index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai\\provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai\\evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai\\training\\encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai\\training\\network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai\\training\\policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai\\training\\checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai\\action-scorer\\features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+    "ai\\tile-q\\encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+    "ai\\tile-q\\sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+    "ai\\tile-q\\model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+    "ai\\tile-q\\collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+    "ai\\tile-q\\evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+    "ai\\tile-q\\study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+    "ai\\tile-q\\verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+    "ai\\tile-q\\network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+    "ai\\tile-q\\train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93",
+    "ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+    "ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+    "ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+    "ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+    "ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+    "ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+    "ai\\strong-confirm\\study.mjs": "3595090e868579095f7b3bb4987a5c781c95a144a0b705f00358be508e965fc2",
+    "ai\\strong-confirm\\verify.mjs": "f96e9334ba70a5a07379acb072cdab83906f608835aaddc24e9f15eeaa858047",
+    "ai\\outs-guard\\policy.mjs": "484e5f05a8f9dc404430d90f4b355856b5dd2d00ec47f411f553382716200ca3",
+    "ai\\outs-guard\\study.mjs": "f7369216fe6cdc69525a150cdeff94929fecc281edffebb752ad5e85fbb07afb",
+    "ai\\outs-guard\\groups.mjs": "d76db2ab4c3aa3ff0a2b9a18fda9188a8f1e96a21b7b7d9999e9b715f31ba588",
+    "ai\\outs-guard\\verify.mjs": "8afa4baa97d34281ee93a7dda47b58b769d201e339ff48a11e51a943b235aa3b",
+    "ai\\outs-distill\\config.mjs": "572c7bd239e1f38a655961ba292f9ed90ad2f49fef37afc080387df57b7538fb",
+    "ai\\outs-distill\\collect.mjs": "bac6b969b701b24e02a7e39ff5283d830291c4f0633499b6df7cc186e07171f9",
+    "ai\\outs-distill\\groups.mjs": "e2e9aabd9d37f01e4145b68be86401a7080f8c475b9c0e76bf87bd2582950be4",
+    "ai\\outs-distill\\study.mjs": "59404e7aa5a999546470fb76f8a4663f7af4c80b5df37f6c4d6ab1506c64b674",
+    "ai\\outs-distill\\verify.mjs": "5201d72c5594c71330c6dc593f18617fc78de3b4a00eb65d6a3050c1247ab8fe",
+    "ai\\strong-pool\\stream-data.mjs": "ee49e6ab6efcd61078f0a2c71eb4d42c08afd7b8dc8865a9a3565fa49239c6f6",
+    "ai\\outs-anchor\\config.mjs": "0677c9810d4ad7969a0357ed029574b83d8954fb5a362de20db66d79e747db67",
+    "ai\\outs-anchor\\groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+    "ai\\outs-anchor\\study.mjs": "57bd41fe268ecd2238e5b9ddce7e3530ca456c6d247f66b032d60428b8604b10",
+    "ai\\outs-anchor\\verify.mjs": "aea1d42560d8997a8ba0fa361cec186d812d2b15d233d3d07b9ae1d52243242f",
+    "ai\\outs-anchor\\train.py": "2fc67d02c04583af7c170c30ed1ea04b1cf6a9d4abadbfb46654248a418b4638",
+    "ai/outs-duration/config.mjs": "10adb3ab08adba104582529d089e5b663c83447bc1ecf85eb75e4ab3ad486ee6",
+    "ai/outs-duration/groups.mjs": "7e74fe27895d47f47c9b0efa0d64ebbf04f7bacccaed8b19e69d24a7240e914d",
+    "ai/outs-duration/study.mjs": "442d822d862ed171cba5de6338b0ac374c334bd66de19240e35092de20767498",
+    "ai/outs-duration/verify.mjs": "780c93d00c1689a1414de7663e91c08c1f2c2e1e5c63b7dc1ed902b1e32b811d",
+    "ai/outs-duration/check_prefix.py": "bf34e48321ef8dab7e07c80d0b35a371d14293ec24af27bf7a7d6eca554ba9a1",
+    "ai/decision-components/config.mjs": "2aa02b68fb8dfbd126643ec1c3f811299e2395ee66d847e2015429d932e336b6",
+    "ai/decision-components/policy.mjs": "f14dad961b33c148996b89b1fbcd9854e74fb4b334e576450cf513adfa557a84",
+    "ai/decision-components/statistics.mjs": "3ea1dd8b4722577f725ae00fba6df101684806783af3ceabd03b6ce5a716b920",
+    "ai/decision-components/groups.mjs": "174e027fb9ee27bafcb6d4792f415e4c805eb6b6b188a2e489c2e340e4f0d5b2",
+    "ai/decision-components/study.mjs": "a0c80125fbb34ffe1e48aa23aebf32ecc827fe6678999bbc9c3391cc438c71cd",
+    "ai/decision-components/verify.mjs": "9040319d5867f331ef53977afb0139a75cba7a7a575be1a9db593d70150f0ca1"
+  },
+  "games": 23040,
+  "allGroupsRecomputedWithoutScoreCache": true,
+  "groups": [
+    {
+      "jobId": "pair-0-000",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "338c8d25b068d0bc71aa2da6f8e4b7024a490de9c8fccd33bb1b13999475fe95",
+      "groupSha256": "4860e709aac3aa09d1f4b4200a45b4af6e563805099a8a99e152bdb13964e31b",
+      "uncachedMetrics": {
+        "requests": 4504,
+        "hits": 0,
+        "shortForwards": 3590,
+        "longForwards": 2863
+      }
+    },
+    {
+      "jobId": "pair-0-001",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "325d9831649be14e4b2fea5b345cfa3039c0e53c0d64a1cf9e8f383108951af4",
+      "groupSha256": "4bef13cb36b8dcf0189d223c1020b1820516d8e3a488753c65759ac92e92676f",
+      "uncachedMetrics": {
+        "requests": 4564,
+        "hits": 0,
+        "shortForwards": 3629,
+        "longForwards": 2891
+      }
+    },
+    {
+      "jobId": "pair-0-002",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "81336e621ed947bfe4dac8aabe49905b7701c8f5b4ae04179b38b27a311f0528",
+      "groupSha256": "d10c925835822edf8898795e88bd301e47cc1ba46e744e28d21f821cbd817c55",
+      "uncachedMetrics": {
+        "requests": 4456,
+        "hits": 0,
+        "shortForwards": 3548,
+        "longForwards": 2757
+      }
+    },
+    {
+      "jobId": "pair-0-003",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "a6e6d005327ad568b17748a4c81174ff79e45e0919ed725c8359b57c0eb64776",
+      "groupSha256": "00881bc9a4d5e6e0b428285dc7814fb9d9e5cdb5a183764f75010cdfba0ea51e",
+      "uncachedMetrics": {
+        "requests": 4863,
+        "hits": 0,
+        "shortForwards": 3885,
+        "longForwards": 3041
+      }
+    },
+    {
+      "jobId": "pair-0-004",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "8d0fad53b83689c878b6a14d51eb08bdc802a5b31121e0067db816951da4bfaf",
+      "groupSha256": "7ce464f00f74c10dc36eaf71d9026f6fe0ee0e8ef69791995c2343158304f8af",
+      "uncachedMetrics": {
+        "requests": 4343,
+        "hits": 0,
+        "shortForwards": 3450,
+        "longForwards": 2745
+      }
+    },
+    {
+      "jobId": "pair-0-005",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "a444d23adc2444b3d3db62604bcdf705bf0e085075fa216617ba92bd16679581",
+      "groupSha256": "0ad6a52f1b5e3a4ba616ee3183f03429621d123780f2779eb2dac8bff63c9bbd",
+      "uncachedMetrics": {
+        "requests": 4333,
+        "hits": 0,
+        "shortForwards": 3455,
+        "longForwards": 2719
+      }
+    },
+    {
+      "jobId": "pair-0-006",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "1d9cb5be8908837047b4ddb86de79c7b3e4b889f6a76ebc6753db55a9cb29a79",
+      "groupSha256": "da57f8682dd59f092b98e85a4bd529786210de4b30b258e258a9cb10bcd33cd3",
+      "uncachedMetrics": {
+        "requests": 4441,
+        "hits": 0,
+        "shortForwards": 3542,
+        "longForwards": 2780
+      }
+    },
+    {
+      "jobId": "pair-0-007",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "b81a06bae85b68a988a03fb313f552df0aabf9fa4290ba4dc9f5a55cd8843315",
+      "groupSha256": "eaf5fc9b6b7c3f36f161d991df9ee6a1f3d92af49d8ec98f66fd15274cce58e5",
+      "uncachedMetrics": {
+        "requests": 4148,
+        "hits": 0,
+        "shortForwards": 3322,
+        "longForwards": 2599
+      }
+    },
+    {
+      "jobId": "pair-0-008",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "10c1224a13d07d0f974f6e2b40e9e82586c785451f5b8619533f566d89ca9efb",
+      "groupSha256": "1c6b879a001b17c0163e6b6fc95a49eea53e766e65512c70e87d86f111368e05",
+      "uncachedMetrics": {
+        "requests": 4495,
+        "hits": 0,
+        "shortForwards": 3590,
+        "longForwards": 2782
+      }
+    },
+    {
+      "jobId": "pair-0-009",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "7155794bd6212a264c3af4180ec8c029e9ce40ca890e2be3b0065aaadaa3d2d0",
+      "groupSha256": "276a5acfdad6dab009f5654a0876afbba9631c4da688b6321a3f65318e97bc32",
+      "uncachedMetrics": {
+        "requests": 5020,
+        "hits": 0,
+        "shortForwards": 4007,
+        "longForwards": 3192
+      }
+    },
+    {
+      "jobId": "pair-0-010",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "3618d326891634e125bcd745f64f644772677a2d0d1eedde21f8f5257bd8a7de",
+      "groupSha256": "e2b95f661e524ef1900174e9b1f9e25e9ef0c683bd07efebd807e0d77ae34ca4",
+      "uncachedMetrics": {
+        "requests": 4342,
+        "hits": 0,
+        "shortForwards": 3495,
+        "longForwards": 2700
+      }
+    },
+    {
+      "jobId": "pair-0-011",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "a823a03b968ec90c8bfa24a55646869d394a7bd839dea3a73024c9045ccfbaa3",
+      "groupSha256": "ca03b0970a2ae73a8813ce31e1085e7a85b532f4a67b62a94dcada35109cbd06",
+      "uncachedMetrics": {
+        "requests": 4481,
+        "hits": 0,
+        "shortForwards": 3604,
+        "longForwards": 2811
+      }
+    },
+    {
+      "jobId": "pair-0-012",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "43079cf7d1b549629b59e5db8d290f0ae8a0a9f9083e0551d3657134f754c8b7",
+      "groupSha256": "7c5571c2dba2b8af105df75afae73214bcde4ad46b0dbb3fe70a5161a789d1b4",
+      "uncachedMetrics": {
+        "requests": 4353,
+        "hits": 0,
+        "shortForwards": 3489,
+        "longForwards": 2737
+      }
+    },
+    {
+      "jobId": "pair-0-013",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "c118bc724843909dc8293eff6d1b99cfbfe7eefd4f9edfd9711794f82c699fa7",
+      "groupSha256": "cd318c3fe7d6fea0c117f75c2012c005b78693b9d76fd15d47dc5b7d8e1c25d8",
+      "uncachedMetrics": {
+        "requests": 4196,
+        "hits": 0,
+        "shortForwards": 3347,
+        "longForwards": 2698
+      }
+    },
+    {
+      "jobId": "pair-0-014",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "74bb6b2d3b1f919816b2116dd26d8254059c48df19d89986776d0fd770079c73",
+      "groupSha256": "9136e5d567321b99f2ff2d3824a7d0bfcf3eec405e4cc9b89172fbfa86ba2345",
+      "uncachedMetrics": {
+        "requests": 4640,
+        "hits": 0,
+        "shortForwards": 3721,
+        "longForwards": 2889
+      }
+    },
+    {
+      "jobId": "pair-0-015",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "a2115cd376edbd36900a740b8e3dbb2995531f49c85d41047e40085f5453aa57",
+      "groupSha256": "da65cb63e7866d06ac43cc8a6a5da89187fb6f9f3bc6f4e223e5efcacdc7fa65",
+      "uncachedMetrics": {
+        "requests": 4172,
+        "hits": 0,
+        "shortForwards": 3330,
+        "longForwards": 2587
+      }
+    },
+    {
+      "jobId": "pair-1-000",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "494fb1a3aaf6115e642eadf220be93218d208d33034ef367c82f99470f0bb377",
+      "groupSha256": "c1a10ce991f70ce6245f4af693ca023fc65636b68a52b99f202ab9f8d80e934f",
+      "uncachedMetrics": {
+        "requests": 4680,
+        "hits": 0,
+        "shortForwards": 3720,
+        "longForwards": 3000
+      }
+    },
+    {
+      "jobId": "pair-1-001",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "55777154867174226c8efd2302775550cbf46d103e4487b3e37302d45cfd7328",
+      "groupSha256": "c6ee2e1676e000a12a78b4b5bf23cfa24cddffaaabfc6d5a73d9245eb25a2229",
+      "uncachedMetrics": {
+        "requests": 4616,
+        "hits": 0,
+        "shortForwards": 3710,
+        "longForwards": 2888
+      }
+    },
+    {
+      "jobId": "pair-1-002",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "411bd2d3c7eec9236b353c0d8da90e7de52cce80af0b2dd858de78fd963d9537",
+      "groupSha256": "309322107e6ecefe0a7bd51e544e4236795c42c0d2704908c3930b51a9797fa6",
+      "uncachedMetrics": {
+        "requests": 4550,
+        "hits": 0,
+        "shortForwards": 3676,
+        "longForwards": 2870
+      }
+    },
+    {
+      "jobId": "pair-1-003",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "9ab7c3046be5ad86a181c4357158ededf80c05dc1349acd88abde1c072962869",
+      "groupSha256": "cc39172a9a87f534166f09d2eaf37433411ed3ceaacbbadc9ddfb1f46d4d0703",
+      "uncachedMetrics": {
+        "requests": 4460,
+        "hits": 0,
+        "shortForwards": 3550,
+        "longForwards": 2826
+      }
+    },
+    {
+      "jobId": "pair-1-004",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "01b42327c5936bffc3aac2b3e8b0ebdef52a720c8fad10597f867a263a85e85f",
+      "groupSha256": "bf5b3474fffe5678bd1f64a33dda4de11e9f5f71a72b29b1d016c6483c7e95c5",
+      "uncachedMetrics": {
+        "requests": 4716,
+        "hits": 0,
+        "shortForwards": 3738,
+        "longForwards": 3014
+      }
+    },
+    {
+      "jobId": "pair-1-005",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "1881b2abe3ac5909abe49524c3907eba2c438430b5040d912ac214502468cb20",
+      "groupSha256": "49b0ba49629ba7bbe7b594ec415c5a2e9905b2015f79629ef7d8fb26a320fca1",
+      "uncachedMetrics": {
+        "requests": 4354,
+        "hits": 0,
+        "shortForwards": 3488,
+        "longForwards": 2714
+      }
+    },
+    {
+      "jobId": "pair-1-006",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "4ea4c917d06f0392e97036d5513cf866691533a83611993c0bbdcc579ef1e12c",
+      "groupSha256": "cf3084e85c02cd52798e30225d01663d161937121f0a8caa6ffb9121cdf1b5b7",
+      "uncachedMetrics": {
+        "requests": 5118,
+        "hits": 0,
+        "shortForwards": 4102,
+        "longForwards": 3322
+      }
+    },
+    {
+      "jobId": "pair-1-007",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "53a43be77271e839061cbd5815765c16cd8b78472257599373ef5af634ad5041",
+      "groupSha256": "55ded90e3310c67d6f0847c377528ef00fecc03c9d13b11ef1be9a426d28c9f5",
+      "uncachedMetrics": {
+        "requests": 4250,
+        "hits": 0,
+        "shortForwards": 3400,
+        "longForwards": 2698
+      }
+    },
+    {
+      "jobId": "pair-1-008",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "cdb4cf9aee917967104998fef83b88b85ab7986d0022b2ab30dc0c38c135d9ea",
+      "groupSha256": "b96ab656e8a9a140b153f7967fb69701fd4c9b5f9345ab39b3b3df44c6b1c23f",
+      "uncachedMetrics": {
+        "requests": 5094,
+        "hits": 0,
+        "shortForwards": 4146,
+        "longForwards": 3208
+      }
+    },
+    {
+      "jobId": "pair-1-009",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "6de44a6fe0e8678c53e802c1f183cb8f8026f2c7900c9b634db4d1038286da8a",
+      "groupSha256": "8b3d43fc83c2e195a829f1b5774fe89230cf8c4fb52e84ff3320649226222b7a",
+      "uncachedMetrics": {
+        "requests": 4574,
+        "hits": 0,
+        "shortForwards": 3688,
+        "longForwards": 2866
+      }
+    },
+    {
+      "jobId": "pair-1-010",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "4b08cdb7d74648563793c804f1802e91b28b5b7cf170f0a25db76c95494d6229",
+      "groupSha256": "a5fd38cf4e4ae0e94fc4c2e8e7476bd006280ef54211253d8b768a539b3efb49",
+      "uncachedMetrics": {
+        "requests": 4914,
+        "hits": 0,
+        "shortForwards": 3920,
+        "longForwards": 3086
+      }
+    },
+    {
+      "jobId": "pair-1-011",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "e7d78bce8a62985d90551d5cff09c345def1071d4fd801690a6647e19ac99c9d",
+      "groupSha256": "811c4bfa7ad375f54fd47fd051b8447a421aea23f84b1511c6aa0fb96a70aad3",
+      "uncachedMetrics": {
+        "requests": 4504,
+        "hits": 0,
+        "shortForwards": 3692,
+        "longForwards": 2762
+      }
+    },
+    {
+      "jobId": "pair-1-012",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "850ae9e29a989e4fbc9ade30be969a0ae9863ee6caae2edd8a23362a9f879993",
+      "groupSha256": "173a52d0f855ffff469a0c584086251517b7717efb813ed90447ca3c071d0492",
+      "uncachedMetrics": {
+        "requests": 4564,
+        "hits": 0,
+        "shortForwards": 3614,
+        "longForwards": 2892
+      }
+    },
+    {
+      "jobId": "pair-1-013",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "5604534f4fc101fe4e26d8d1b69f11eced6f975848553eb660f35878be41f0f5",
+      "groupSha256": "1581df646aa578e5d8eeaad6d05e5307952974184e21f2635f4e12c57ed8f316",
+      "uncachedMetrics": {
+        "requests": 4722,
+        "hits": 0,
+        "shortForwards": 3798,
+        "longForwards": 3032
+      }
+    },
+    {
+      "jobId": "pair-1-014",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "a3609bdc19dc3766db3ff581788de2f5cfec22c0d9061c1fb333dc2510617259",
+      "groupSha256": "206a289bb9622de24fcf5317f1ab9b5be2e5ec23abc51c882235cd71a524b159",
+      "uncachedMetrics": {
+        "requests": 3958,
+        "hits": 0,
+        "shortForwards": 3182,
+        "longForwards": 2522
+      }
+    },
+    {
+      "jobId": "pair-1-015",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "6c10c8e523ea3eaa5479a39881cba15d7d7c8a19de4a686e2b30e60f5636644e",
+      "groupSha256": "2a015f4ee12999d2992e57fd9d447cdb75a65b792f511018eb341a4f2d354481",
+      "uncachedMetrics": {
+        "requests": 5328,
+        "hits": 0,
+        "shortForwards": 4252,
+        "longForwards": 3348
+      }
+    },
+    {
+      "jobId": "pair-2-000",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "c87b22a3a786f23c8786eb850764dd8f3f8f6f301fa53b5d3e679463cdf119de",
+      "groupSha256": "38790ed7a15d9c5081c00c504a2aeed8ef30791c05e4e33c970e12667eee1440",
+      "uncachedMetrics": {
+        "requests": 5496,
+        "hits": 0,
+        "shortForwards": 4413,
+        "longForwards": 3567
+      }
+    },
+    {
+      "jobId": "pair-2-001",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "6ec1ef7af90b16a67af190790fe17aeb8badd79525f81a1749d98d5d2a4bc0e7",
+      "groupSha256": "9144b7b91381abd540acde9e8371c26092674f806d20518049d10faf8d73027a",
+      "uncachedMetrics": {
+        "requests": 5086,
+        "hits": 0,
+        "shortForwards": 4100,
+        "longForwards": 3255
+      }
+    },
+    {
+      "jobId": "pair-2-002",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "98611f189462683f75bd133197edbfe3819ed997f44206411bf4d9c2f19e83fa",
+      "groupSha256": "a2113dc614659368838a056dc82c728ff3e2de0a23b182a6920fb17c6a0cb148",
+      "uncachedMetrics": {
+        "requests": 5093,
+        "hits": 0,
+        "shortForwards": 4108,
+        "longForwards": 3242
+      }
+    },
+    {
+      "jobId": "pair-2-003",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "e019accc214d42bcf9b91e820409b0fa09430409c937e44da27888fb14a9843d",
+      "groupSha256": "d8a494d90c5ee3111d91c7096ab35f7001af925c92710d20b857ae2e3e27529c",
+      "uncachedMetrics": {
+        "requests": 5029,
+        "hits": 0,
+        "shortForwards": 4008,
+        "longForwards": 3224
+      }
+    },
+    {
+      "jobId": "pair-2-004",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "66fca83ae145a824c94323c8df7594d259f9fdc0000a5a9f524ceaa8fdffe02e",
+      "groupSha256": "340fafe3a48a4a8f1dde00f362c3cf665838a4fea72bfc8e8e4914750a118013",
+      "uncachedMetrics": {
+        "requests": 4949,
+        "hits": 0,
+        "shortForwards": 3982,
+        "longForwards": 3138
+      }
+    },
+    {
+      "jobId": "pair-2-005",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "fef7d57e48d769d8ba3f952b8d3ee9a631846498741ef165dfc0aac3542f2d47",
+      "groupSha256": "320b7a6cd4d72e76a237d3d8050d98ea2f062d316f7ad163ba959222f85485b4",
+      "uncachedMetrics": {
+        "requests": 5212,
+        "hits": 0,
+        "shortForwards": 4205,
+        "longForwards": 3321
+      }
+    },
+    {
+      "jobId": "pair-2-006",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "407cfeae9c0fd7c6c896c796adee927fdc4e51d5bbc7840416f3457966303480",
+      "groupSha256": "60d0d98ea864da0e503fb7dcacbc76e3672e4dc9cbb6fafd7b803c11a189273b",
+      "uncachedMetrics": {
+        "requests": 5345,
+        "hits": 0,
+        "shortForwards": 4264,
+        "longForwards": 3468
+      }
+    },
+    {
+      "jobId": "pair-2-007",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "92903f045b482d609f32ad915aa35d22f2628a8ce26a29a8cc6c72b52d09ed3c",
+      "groupSha256": "f4f7cf6201b8f36e5dbe06e324ca4e4e62ae3d8a2f9cae89890d473b7a066ccb",
+      "uncachedMetrics": {
+        "requests": 4617,
+        "hits": 0,
+        "shortForwards": 3687,
+        "longForwards": 2890
+      }
+    },
+    {
+      "jobId": "pair-2-008",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "8c5ea1a27fae95b5233f20a5cef4c554e478a508549ed4351361ad3f8c7d598c",
+      "groupSha256": "e3c9ba82208c245899d6ca3836564371d5a6fe3c67808a9e899ab8e70e0df4fd",
+      "uncachedMetrics": {
+        "requests": 5395,
+        "hits": 0,
+        "shortForwards": 4275,
+        "longForwards": 3517
+      }
+    },
+    {
+      "jobId": "pair-2-009",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "413b4ae2ed8e9cbac1ccc9ce46845fcbdabec5297d0a85d3eba7bd0dc2161a2f",
+      "groupSha256": "bed7ec1d0043e496167989b5b3cfa6b2ba0384ecc9407f33aca55441e6f5cbf0",
+      "uncachedMetrics": {
+        "requests": 5275,
+        "hits": 0,
+        "shortForwards": 4215,
+        "longForwards": 3380
+      }
+    },
+    {
+      "jobId": "pair-2-010",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "03b5352b1aeadfd583a2387c630d40be0f4ae9e608021d359090fec1e690f86f",
+      "groupSha256": "d56ccc1ef591658b199c8f4bddc37841e61d65284ad898497c99ff657e78b9e6",
+      "uncachedMetrics": {
+        "requests": 5032,
+        "hits": 0,
+        "shortForwards": 4001,
+        "longForwards": 3235
+      }
+    },
+    {
+      "jobId": "pair-2-011",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "c81c02dd1f3e9000db463cad3dc488b214099bac246520417f86772cc0de078c",
+      "groupSha256": "ae69e8026436c0d48ddefebd11229db414b82e36e73f3f9d997837bbb36d4b00",
+      "uncachedMetrics": {
+        "requests": 5155,
+        "hits": 0,
+        "shortForwards": 4118,
+        "longForwards": 3338
+      }
+    },
+    {
+      "jobId": "pair-2-012",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "c839d20bf5daff3a3c3f6e3461e58bc14836ee1d36aed0dd99b80a0de97f1dd5",
+      "groupSha256": "b3817bf2c2b9044b1b7f57da8c7b1e239c004d5cd7c90e97236e08e8ac8d9768",
+      "uncachedMetrics": {
+        "requests": 5411,
+        "hits": 0,
+        "shortForwards": 4323,
+        "longForwards": 3510
+      }
+    },
+    {
+      "jobId": "pair-2-013",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "cc182a60e8178dbe3fa341f3bf088f37d2ff83b1b225457d9a19490a429f2dc2",
+      "groupSha256": "71078ccc7de7a5a6f49033f3de8a340bba0747410fac68b07f7f952cda1b9e7c",
+      "uncachedMetrics": {
+        "requests": 4954,
+        "hits": 0,
+        "shortForwards": 3974,
+        "longForwards": 3179
+      }
+    },
+    {
+      "jobId": "pair-2-014",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "24cabfd40881a3e6edd4c0e5c6c0fe0333e1fbb8f751359b8a1d6cdadc84d695",
+      "groupSha256": "31574fda25db637b1782a8af2e6ff7b8dce6ea908be1e7643637f3a298ebbd53",
+      "uncachedMetrics": {
+        "requests": 5099,
+        "hits": 0,
+        "shortForwards": 4112,
+        "longForwards": 3233
+      }
+    },
+    {
+      "jobId": "pair-2-015",
+      "games": 480,
+      "allEpisodesRedealtAndPoliciesAndExactTracesMatched": true,
+      "cacheDisabled": true,
+      "replaysSha256": "48949af4e1260e0732338e4ac7ab7aac493ad795413c0337ddf7bc2dfcdec25e",
+      "groupSha256": "31fc0fee1275bd4dc7040611befc947af6bee7d0add09c040d9f95c9657303e5",
+      "uncachedMetrics": {
+        "requests": 5068,
+        "hits": 0,
+        "shortForwards": 4034,
+        "longForwards": 3274
+      }
+    }
+  ]
+}

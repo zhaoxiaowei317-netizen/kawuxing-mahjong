@@ -1,0 +1,141 @@
+{
+  "version": "kwx-reveal-generalization-1",
+  "createdAt": "2026-10-20T08:12:21.275Z",
+  "baseline": {
+    "id": "H0",
+    "version": "h0-2026-10-17",
+    "rulesVersion": "xiaogan-1.0",
+    "description": "Frozen existing heuristic, observation adapter verified against botStep",
+    "deterministic": true,
+    "dependencies": {
+      "@kobalab/majiang-core": "1.4.1"
+    },
+    "sha256": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4"
+    }
+  },
+  "sources": {
+    "previous": {
+      "core": {
+        "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+      },
+      "driver": {
+        "policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+        "study.mjs": "55c11746da3e526baf2a5fab760bdc85bded12744a92752dd2cff7556bedd8c9",
+        "verify.mjs": "50b5eca83de1dadcba9d60636e00580e1f8264e178d0987943a3441fc5e4297e"
+      }
+    },
+    "driver": {
+      "policies.mjs": "09623e776242570d6209038adac0b1f3d65a1a252833f0f355e2ba946289c6d3",
+      "groups.mjs": "f6200f781e78677431ebc41e84ca08a71e08774f4e0634db41daa5120c283566",
+      "study.mjs": "2f3e4f68a9a3a0cbde04996462a5bd16f3e114e3979ede09eb05663d0d9166ec",
+      "verify.mjs": "a8ae54eec03680d6eba32fe4bbc5dfe8e44c99681102de229fded2a540b51eab"
+    }
+  },
+  "checkpoint": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+  "checkpointSha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3",
+  "previous": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\reveal-study-20261019",
+    "planSha256": "655c453b61004bf5dcdb3b451a3ac45de5bbbe792342ce93cad52fb1f3d389dd",
+    "summarySha256": "4f78e26ee27cd8887bdff6704a35cd5d1dbd7a528adaa6570c82b665d5e345b5",
+    "verificationSha256": "e7bd1db17345373b05268c1740aa397ade0c3b0723613b7ca4399c544458aa31"
+  },
+  "candidate": "h0-never",
+  "pairs": {
+    "replication": [
+      {
+        "id": "H0+H0",
+        "policies": [
+          "H0",
+          "H0"
+        ]
+      },
+      {
+        "id": "H0+greedy-speed-v1",
+        "policies": [
+          "H0",
+          "greedy-speed-v1"
+        ]
+      }
+    ],
+    "stress": [
+      {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      {
+        "id": "selective+H0",
+        "policies": [
+          "h0-q-gate",
+          "H0"
+        ]
+      },
+      {
+        "id": "neural+H0",
+        "policies": [
+          "q-reference",
+          "H0"
+        ]
+      }
+    ]
+  },
+  "budget": {
+    "replicationGroups": 16,
+    "stressGroups": 4,
+    "sessionHands": 16,
+    "bootstrapSamples": 5000,
+    "workers": 4
+  },
+  "seeds": {
+    "replication": "72027281aa76135c75ecaf33d5e6dd0ea6ab929f70e157481aa6d8673bb190ef",
+    "stress": "4186e34bbf0f8710235b81533fcd2ac609cbb7f9ac4f6e28972ef47b105cbd7f"
+  },
+  "primary": "The frozen h0-never candidate vs H0 in the original two opponent pairs on fresh 16-hand sessions. Confirm replication only if the full two-sided 95% paired-group interval is above zero.",
+  "secondary": "Five fixed stress opponent pairs are an equally weighted secondary descriptive pool. The pool and each subgroup are not adjusted for multiple comparisons and do not establish universal strength.",
+  "parallelism": "Each job is one complete opening-seed group with all six seat permutations, both arms and all session hands. The frozen paired-v1 dealing and policy seeds are unchanged. No group is split for bootstrap.",
+  "stopping": "Run both full budgets regardless of interim results. No candidate selection, no tuning, no new training, no automatic promotion; default H0 remains."
+}

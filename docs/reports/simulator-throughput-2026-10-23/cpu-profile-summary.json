@@ -1,0 +1,459 @@
+{
+  "profile": "C:\\Users\\zhaox\\Desktop\\卡五星\\.tmp\\wall-average-profile\\CPU.20261023.223224.33052.0.001.cpuprofile",
+  "samples": 39123,
+  "scope": "Technical 16-hand profile, excluded from training and formal evaluation. Sampling percentages under concurrent load; not elapsed-time speedup.",
+  "topSelf": [
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 26,
+      "self": 5984,
+      "inclusive": 5984,
+      "selfPercent": 15.295350561051045,
+      "inclusivePercent": 15.295350561051045
+    },
+    {
+      "function": "evaluate",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 24,
+      "self": 4134,
+      "inclusive": 19319,
+      "selfPercent": 10.566674334790276,
+      "inclusivePercent": 49.38016000817933
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 15,
+      "self": 3566,
+      "inclusive": 3566,
+      "selfPercent": 9.114842931268052,
+      "inclusivePercent": 9.114842931268052
+    },
+    {
+      "function": "open",
+      "url": "",
+      "line": 0,
+      "self": 2933,
+      "inclusive": 2933,
+      "selfPercent": 7.496868849525854,
+      "inclusivePercent": 7.496868849525854
+    },
+    {
+      "function": "conv",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/tile-q/model.mjs",
+      "line": 30,
+      "self": 2511,
+      "inclusive": 2511,
+      "selfPercent": 6.418219461697722,
+      "inclusivePercent": 6.418219461697722
+    },
+    {
+      "function": "valid_pai",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/shoupai.js",
+      "line": 8,
+      "self": 1383,
+      "inclusive": 1991,
+      "selfPercent": 3.535004984280347,
+      "inclusivePercent": 5.0890780359379395
+    },
+    {
+      "function": "mianzi",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/xiangting.js",
+      "line": 35,
+      "self": 1305,
+      "inclusive": 1897,
+      "selfPercent": 3.335633770416379,
+      "inclusivePercent": 4.848810162819825
+    },
+    {
+      "function": "counts",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 15,
+      "self": 940,
+      "inclusive": 3474,
+      "selfPercent": 2.4026787311811466,
+      "inclusivePercent": 8.879687140556706
+    },
+    {
+      "function": "distance",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 270,
+      "self": 894,
+      "inclusive": 5119,
+      "selfPercent": 2.2851008358254736,
+      "inclusivePercent": 13.084374920123713
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 69,
+      "self": 884,
+      "inclusive": 19318,
+      "selfPercent": 2.2595404237916314,
+      "inclusivePercent": 49.37760396697595
+    },
+    {
+      "function": "Shoupai",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/shoupai.js",
+      "line": 33,
+      "self": 801,
+      "inclusive": 2793,
+      "selfPercent": 2.047389003910743,
+      "inclusivePercent": 7.139023081052066
+    },
+    {
+      "function": "mianzi",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/hule.js",
+      "line": 11,
+      "self": 793,
+      "inclusive": 793,
+      "selfPercent": 2.0269406742836695,
+      "inclusivePercent": 2.0269406742836695
+    },
+    {
+      "function": "mianzi_all",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/xiangting.js",
+      "line": 66,
+      "self": 780,
+      "inclusive": 2677,
+      "selfPercent": 1.9937121386396748,
+      "inclusivePercent": 6.8425223014595
+    },
+    {
+      "function": "hule_mianzi_yiban",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/hule.js",
+      "line": 86,
+      "self": 777,
+      "inclusive": 2395,
+      "selfPercent": 1.9860440150295222,
+      "inclusivePercent": 6.121718682105156
+    },
+    {
+      "function": "hule_mianzi",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/hule.js",
+      "line": 185,
+      "self": 677,
+      "inclusive": 3433,
+      "selfPercent": 1.7304398946911024,
+      "inclusivePercent": 8.774889451217954
+    },
+    {
+      "function": "RegExp: ^(?:[mps]\\d|z[1-7])_?\\*?[\\+\\=\\-]?$",
+      "url": "",
+      "line": 0,
+      "self": 609,
+      "inclusive": 609,
+      "selfPercent": 1.556629092860977,
+      "inclusivePercent": 1.556629092860977
+    },
+    {
+      "function": "dazi",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/xiangting.js",
+      "line": 16,
+      "self": 592,
+      "inclusive": 592,
+      "selfPercent": 1.5131763924034456,
+      "inclusivePercent": 1.5131763924034456
+    },
+    {
+      "function": "mianzi_all",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/hule.js",
+      "line": 40,
+      "self": 585,
+      "inclusive": 1493,
+      "selfPercent": 1.4952841039797562,
+      "inclusivePercent": 3.8161695166526086
+    },
+    {
+      "function": "forward",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/tile-q/model.mjs",
+      "line": 38,
+      "self": 427,
+      "inclusive": 3198,
+      "selfPercent": 1.091429593845053,
+      "inclusivePercent": 8.174219768422667
+    },
+    {
+      "function": "(garbage collector)",
+      "url": "",
+      "line": 0,
+      "self": 420,
+      "inclusive": 420,
+      "selfPercent": 1.0735373054213635,
+      "inclusivePercent": 1.0735373054213635
+    },
+    {
+      "function": "readFileUtf8",
+      "url": "",
+      "line": 0,
+      "self": 393,
+      "inclusive": 393,
+      "selfPercent": 1.00452419292999,
+      "inclusivePercent": 1.00452419292999
+    },
+    {
+      "function": "read",
+      "url": "",
+      "line": 0,
+      "self": 390,
+      "inclusive": 390,
+      "selfPercent": 0.9968560693198374,
+      "inclusivePercent": 0.9968560693198374
+    },
+    {
+      "function": "chooseDiscard",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/policies/h0.mjs",
+      "line": 5,
+      "self": 361,
+      "inclusive": 9011,
+      "selfPercent": 0.9227308744216957,
+      "inclusivePercent": 23.032487283695012
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/tile-q/encoding.mjs",
+      "line": 52,
+      "self": 302,
+      "inclusive": 302,
+      "selfPercent": 0.7719244434220279,
+      "inclusivePercent": 0.7719244434220279
+    },
+    {
+      "function": "clone",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/node_modules/@kobalab/majiang-core/lib/shoupai.js",
+      "line": 126,
+      "self": 256,
+      "inclusive": 284,
+      "selfPercent": 0.6543465480663548,
+      "inclusivePercent": 0.7259157017611124
+    }
+  ],
+  "topInclusive": [
+    {
+      "function": "(root)",
+      "url": "",
+      "line": 0,
+      "self": 0,
+      "inclusive": 39123,
+      "selfPercent": 0,
+      "inclusivePercent": 100
+    },
+    {
+      "function": "generate",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/wall-average/collect.mjs",
+      "line": 21,
+      "self": 16,
+      "inclusive": 36156,
+      "selfPercent": 0.04089665925414718,
+      "inclusivePercent": 92.41622574955909
+    },
+    {
+      "function": "branch",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/wall-average/collect.mjs",
+      "line": 31,
+      "self": 34,
+      "inclusive": 26784,
+      "selfPercent": 0.08690540091506276,
+      "inclusivePercent": 68.46100759144237
+    },
+    {
+      "function": "select",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/wall-average/collect.mjs",
+      "line": 29,
+      "self": 43,
+      "inclusive": 26640,
+      "selfPercent": 0.10990977174552054,
+      "inclusivePercent": 68.09293765815505
+    },
+    {
+      "function": "waits",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 67,
+      "self": 231,
+      "inclusive": 19787,
+      "selfPercent": 0.5904455179817498,
+      "inclusivePercent": 50.57638729136314
+    },
+    {
+      "function": "evaluate",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 24,
+      "self": 4134,
+      "inclusive": 19319,
+      "selfPercent": 10.566674334790276,
+      "inclusivePercent": 49.38016000817933
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 69,
+      "self": 884,
+      "inclusive": 19318,
+      "selfPercent": 2.2595404237916314,
+      "inclusivePercent": 49.37760396697595
+    },
+    {
+      "function": "legalActionsFor",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/environment.mjs",
+      "line": 52,
+      "self": 116,
+      "inclusive": 10358,
+      "selfPercent": 0.29650077959256704,
+      "inclusivePercent": 26.475474784653528
+    },
+    {
+      "function": "selectAction",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/policies/h0.mjs",
+      "line": 35,
+      "self": 90,
+      "inclusive": 9130,
+      "selfPercent": 0.23004370830457788,
+      "inclusivePercent": 23.336656186897734
+    },
+    {
+      "function": "chooseDiscard",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/policies/h0.mjs",
+      "line": 5,
+      "self": 361,
+      "inclusive": 9011,
+      "selfPercent": 0.9227308744216957,
+      "inclusivePercent": 23.032487283695012
+    },
+    {
+      "function": "view",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/decision-components/policy.mjs",
+      "line": 22,
+      "self": 90,
+      "inclusive": 7273,
+      "selfPercent": 0.23004370830457788,
+      "inclusivePercent": 18.590087672213276
+    },
+    {
+      "function": "encodePublic",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/tile-q/encoding.mjs",
+      "line": 37,
+      "self": 93,
+      "inclusive": 7245,
+      "selfPercent": 0.23771183191473047,
+      "inclusivePercent": 18.51851851851852
+    },
+    {
+      "function": "encodeCandidates",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/action-scorer/features.mjs",
+      "line": 41,
+      "self": 86,
+      "inclusive": 6644,
+      "selfPercent": 0.21981954349104108,
+      "inclusivePercent": 16.982337755284615
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/action-scorer/features.mjs",
+      "line": 52,
+      "self": 33,
+      "inclusive": 6483,
+      "selfPercent": 0.08434935971167855,
+      "inclusivePercent": 16.57081512153976
+    },
+    {
+      "function": "describe",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/action-scorer/features.mjs",
+      "line": 47,
+      "self": 112,
+      "inclusive": 6428,
+      "selfPercent": 0.2862766147790302,
+      "inclusivePercent": 16.43023285535363
+    },
+    {
+      "function": "handEfficiency",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/action-scorer/features.mjs",
+      "line": 27,
+      "self": 165,
+      "inclusive": 6315,
+      "selfPercent": 0.42174679855839275,
+      "inclusivePercent": 16.141400199371216
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/reveal-study/policies.mjs",
+      "line": 31,
+      "self": 4,
+      "inclusive": 6073,
+      "selfPercent": 0.010224164813536794,
+      "inclusivePercent": 15.522838228152239
+    },
+    {
+      "function": "decide",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/reveal-study/policies.mjs",
+      "line": 6,
+      "self": 15,
+      "inclusive": 6069,
+      "selfPercent": 0.03834061805076298,
+      "inclusivePercent": 15.5126140633387
+    },
+    {
+      "function": "",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 26,
+      "self": 5984,
+      "inclusive": 5984,
+      "selfPercent": 15.295350561051045,
+      "inclusivePercent": 15.295350561051045
+    },
+    {
+      "function": "check",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/paired-tile/config.mjs",
+      "line": 15,
+      "self": 2,
+      "inclusive": 5344,
+      "selfPercent": 0.005112082406768397,
+      "inclusivePercent": 13.659484190885157
+    },
+    {
+      "function": "distance",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/src/engine.js",
+      "line": 270,
+      "self": 894,
+      "inclusive": 5119,
+      "selfPercent": 2.2851008358254736,
+      "inclusivePercent": 13.084374920123713
+    },
+    {
+      "function": "checkSummary",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/hu-kong-confirm/config.mjs",
+      "line": 55,
+      "self": 1,
+      "inclusive": 5067,
+      "selfPercent": 0.0025560412033841986,
+      "inclusivePercent": 12.951460777547734
+    },
+    {
+      "function": "summaryFor",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/hu-kong-confirm/config.mjs",
+      "line": 47,
+      "self": 0,
+      "inclusive": 5056,
+      "selfPercent": 0,
+      "inclusivePercent": 12.923344324310508
+    },
+    {
+      "function": "checkBinding",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/hu-kong-confirm/config.mjs",
+      "line": 38,
+      "self": 3,
+      "inclusive": 5011,
+      "selfPercent": 0.007668123610152596,
+      "inclusivePercent": 12.808322470158219
+    },
+    {
+      "function": "check",
+      "url": "file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/hu-kong/config.mjs",
+      "line": 13,
+      "self": 2,
+      "inclusive": 4810,
+      "selfPercent": 0.005112082406768397,
+      "inclusivePercent": 12.294558188277994
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "short": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-anchor-20261021\\model-plain\\epoch-008.pt",
+    "validationLoss": 0.2735998296475672,
+    "sha256": "6d055fcc502ed10528ac5b7e38a089d1337ab148b862c61e06c6d3bf49d9f488"
+  },
+  "long": {
+    "epoch": 26,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-duration-20261022\\model-long\\epoch-026.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\outs-duration-20261022\\model-long\\epoch-026.pt",
+    "validationLoss": 0.13077073716200316,
+    "sha256": "e6f39a1abafd47f2cdd90c2c3d12ec2ca30643c91d1b69985e378de33cc48898"
+  }
+}

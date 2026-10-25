@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-18T14:34:42.531Z",
+  "files": {
+    "plan.json": "8de58373842cdbed0e185eb49dbf964adef73d4a6e96c3437a0ada525f724922",
+    "summary.json": "098f2cec7f6f31b530778ff632ba75842c42393c867c70acfb3482b2ba2af59c",
+    "selection.json": "944f0e0e0d3c021d6f90911c0149185bfaae4e9a1286e298c434fad1dd03a776",
+    "verification.json": "9f4be6f7bd825ce5c98af6467edf5f6a388fe00def990e6d6ed8db0e3e9e9484",
+    "counterfactual-audit.json": "d9797b279c3857d8ad8731674ea83aff8059dd191b7c9acd347f1e9b476cf0fa",
+    "orchestration.json": "01e22a32d47d8efd55e1f99b4b28b45712d4e1b73aa7fdf4810dded35934c9ec",
+    "tests.log": "8b61289036decc59dfe47e6e59fe4447faa4f78cbb0fc77caafaf859806ee883",
+    "tests-targeted.log": "f7e42df5e3004135b33e9b3af67675de7b4ebdf3d5072575b8a2bbb0c63bcdac",
+    "development-proposal-once.json": "615aee868b6ed557777f64e89a8b9d5d3f59363b9243a3f70a4096527c55df93",
+    "development-ev-H0.json": "ea521002b4db9a71c1780fe60b99628fee68aae66ff0c50c509cdaebd7bf2439",
+    "development-ev-mixed.json": "1136fa37c584dd35b880a3aa382928af4376ea6077d976a747d8a5a25f35fcdf",
+    "sealed-vs-H0.json": "0ca2c4b6bd9f967450097548a03bda346b77ba61fbb462f270ff62961916a8aa",
+    "sealed-vs-proposal-once.json": "f0f2c405f06db68600ba95c0866db640e864872e2555f795530debacff63bc24",
+    "实验结果.md": "e16c6b7a5f3ebb2605a40837b160fea0a4d9a2e294a0ffea6f680e712787f247"
+  },
+  "reportSourceSha256": "f7bf3a1a88dd678f3efd0bf5c36f8ce117f499a60a22b59327aca6d7c703de58"
+}

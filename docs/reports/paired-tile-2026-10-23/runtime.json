@@ -1,0 +1,28 @@
+{
+  "platform": "win32",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalProcessors": 12,
+  "totalMemoryGiB": 15.733024597167969,
+  "device": "cpu",
+  "node": "v24.16.0",
+  "python": {
+    "python": "3.11.9",
+    "torch": "2.1.2+cpu",
+    "defaultThreads": 8
+  },
+  "workers": 4,
+  "trainingTorchThreads": 2,
+  "runStartedAt": "2026-10-23T03:12:08.950Z",
+  "studyCompletedAt": "2026-10-23T03:47:29.065Z",
+  "auditCompletedAt": "2026-10-23T04:22:33.972Z",
+  "newUniqueTrainingHands": 5760,
+  "newUniqueValidationHands": 864,
+  "optimizationUpdates": 352,
+  "evaluationGames": 18432,
+  "scoreCacheCapacity": 2048,
+  "auditScoreCacheCapacity": 0,
+  "tests": {
+    "passed": 239,
+    "sha256": "9f7b4cf5807e5332cbc71bc6e56c35ca060ecccb60ad97a9a435120886ddabb1"
+  }
+}

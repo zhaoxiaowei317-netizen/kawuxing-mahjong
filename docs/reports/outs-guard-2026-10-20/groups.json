@@ -1,0 +1,5234 @@
+[
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-000",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 0
+    },
+    "groupSeed": "cc600791346ce3dc46627b19157fbeec19b484f12f287aff907e5fb18474467b",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "cc600791346ce3dc46627b19157fbeec19b484f12f287aff907e5fb18474467b",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 7,
+          "wins": 28,
+          "selfDraws": 20,
+          "dealIns": 0,
+          "draws": 3,
+          "huScore": -2,
+          "kongScore": -9,
+          "drawScore": 18,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -3,
+            -6,
+            16,
+            -18,
+            1,
+            17
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 4,
+          "wins": 31,
+          "selfDraws": 21,
+          "dealIns": 0,
+          "draws": 1,
+          "huScore": -15,
+          "kongScore": 3,
+          "drawScore": 16,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1.5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            7,
+            18,
+            -1,
+            0,
+            -5,
+            -15
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 31,
+          "wins": 36,
+          "selfDraws": 21,
+          "dealIns": 0,
+          "draws": 2,
+          "huScore": 18,
+          "kongScore": -5,
+          "drawScore": 18,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            0,
+            19,
+            14,
+            -19,
+            3,
+            14
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7454,
+    "intervention": {
+      "choices": 843,
+      "baseDiscards": 702,
+      "eligible": 89,
+      "changed": 89,
+      "outsGain": 216
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "1b4f4250164a3117f467e6d76fe1fa449e102d531c2d478a64276a3372a32c18"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-001",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 1
+    },
+    "groupSeed": "7f31458160e870cfa5bfabf5023fc41318640cf65d40806b02d7b2eab0fab1b6",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "7f31458160e870cfa5bfabf5023fc41318640cf65d40806b02d7b2eab0fab1b6",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 3,
+          "wins": 29,
+          "selfDraws": 15,
+          "dealIns": 2,
+          "draws": 3,
+          "huScore": -15,
+          "kongScore": 6,
+          "drawScore": 12,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            -1,
+            14,
+            12,
+            -6,
+            -8
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 8,
+          "wins": 36,
+          "selfDraws": 18,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": -8,
+          "kongScore": 12,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            8,
+            7,
+            4,
+            -10,
+            -5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 25,
+          "wins": 35,
+          "selfDraws": 16,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": 6,
+          "kongScore": 1,
+          "drawScore": 18,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0.5,
+          "sessions": 6,
+          "sessionScores": [
+            5,
+            10,
+            6,
+            -5,
+            -1,
+            10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7456,
+    "intervention": {
+      "choices": 792,
+      "baseDiscards": 637,
+      "eligible": 50,
+      "changed": 50,
+      "outsGain": 137
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "fcf786933611d7baa9bedd096c85c60ec9cacf65df6c6292eb8abe2d3b4e4008"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-002",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 2
+    },
+    "groupSeed": "dd513d3cf4774610b2855bdfac69640afb720232b17186934c86fdd813cd28bc",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "dd513d3cf4774610b2855bdfac69640afb720232b17186934c86fdd813cd28bc",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 43,
+          "wins": 39,
+          "selfDraws": 29,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 44,
+          "kongScore": -1,
+          "drawScore": 0,
+          "revealHands": 1,
+          "revealedScore": -4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            24,
+            -2,
+            5,
+            0,
+            8,
+            8
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 40,
+          "wins": 35,
+          "selfDraws": 22,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 35,
+          "kongScore": 3,
+          "drawScore": 2,
+          "revealHands": 1,
+          "revealedScore": -4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            21,
+            -1,
+            13,
+            6,
+            -4,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 40,
+          "wins": 39,
+          "selfDraws": 23,
+          "dealIns": 3,
+          "draws": 0,
+          "huScore": 36,
+          "kongScore": 4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            20,
+            -4,
+            6,
+            8,
+            13,
+            -3
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 6916,
+    "intervention": {
+      "choices": 760,
+      "baseDiscards": 626,
+      "eligible": 81,
+      "changed": 81,
+      "outsGain": 156
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "2352a45267002fd1a144ccf595f097f74bc2b395b679d957621e789a3f05a242"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-003",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 3
+    },
+    "groupSeed": "b79993d8220eb6487da6855374a4f7cc5dec8d0b9552e3774b7f45fadf78a6f7",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "b79993d8220eb6487da6855374a4f7cc5dec8d0b9552e3774b7f45fadf78a6f7",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -21,
+          "wins": 33,
+          "selfDraws": 23,
+          "dealIns": 3,
+          "draws": 2,
+          "huScore": -13,
+          "kongScore": -8,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -20,
+            -5,
+            28,
+            5,
+            -7,
+            -22
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -45,
+          "wins": 27,
+          "selfDraws": 21,
+          "dealIns": 2,
+          "draws": 5,
+          "huScore": -26,
+          "kongScore": -20,
+          "drawScore": 1,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -22,
+            1,
+            9,
+            6,
+            -26,
+            -13
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 29,
+          "wins": 40,
+          "selfDraws": 23,
+          "dealIns": 5,
+          "draws": 2,
+          "huScore": 42,
+          "kongScore": -5,
+          "drawScore": -8,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            0,
+            14,
+            41,
+            -1,
+            -17
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7219,
+    "intervention": {
+      "choices": 813,
+      "baseDiscards": 678,
+      "eligible": 71,
+      "changed": 71,
+      "outsGain": 144
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "f7863b01aacb2fdabbe129d2e9ce13ddefb5d7845320a281ca163a8c67423c50"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-004",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 4
+    },
+    "groupSeed": "5ae3e5ca19d68c967b73610a13518876f7ba2b91ba3546eece55235bf58f7d08",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "5ae3e5ca19d68c967b73610a13518876f7ba2b91ba3546eece55235bf58f7d08",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 61,
+          "wins": 40,
+          "selfDraws": 25,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 56,
+          "kongScore": 5,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 5.5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            6,
+            5,
+            2,
+            26,
+            18
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 24,
+          "wins": 36,
+          "selfDraws": 23,
+          "dealIns": 2,
+          "draws": 1,
+          "huScore": 15,
+          "kongScore": 9,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1.5,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            2,
+            -7,
+            8,
+            -8,
+            2,
+            27
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": -11,
+          "wins": 35,
+          "selfDraws": 16,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": -7,
+          "kongScore": -4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -3,
+            -2,
+            -10,
+            -4,
+            12,
+            -4
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7384,
+    "intervention": {
+      "choices": 825,
+      "baseDiscards": 682,
+      "eligible": 93,
+      "changed": 93,
+      "outsGain": 212
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "8defc0f46cfcaa6ea860b65effa5de053098622476e49a2291b9d2c1cd0d0904"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-005",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 5
+    },
+    "groupSeed": "d919be7b53f0c609d4684507e562ff688782172ab51f85fc5bb3bc11583b4ed9",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "d919be7b53f0c609d4684507e562ff688782172ab51f85fc5bb3bc11583b4ed9",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 21,
+          "wins": 32,
+          "selfDraws": 20,
+          "dealIns": 0,
+          "draws": 1,
+          "huScore": -7,
+          "kongScore": 28,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            7,
+            -4,
+            -4,
+            17,
+            13
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -21,
+          "wins": 25,
+          "selfDraws": 18,
+          "dealIns": 0,
+          "draws": 1,
+          "huScore": -34,
+          "kongScore": 13,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -14,
+            -6,
+            -9,
+            -6,
+            18,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 26,
+          "wins": 36,
+          "selfDraws": 23,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": 22,
+          "kongScore": 4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -6,
+            3,
+            33,
+            1,
+            -12,
+            7
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7506,
+    "intervention": {
+      "choices": 832,
+      "baseDiscards": 691,
+      "eligible": 70,
+      "changed": 70,
+      "outsGain": 176
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d1684ff350244bc20d93341fd331fdccd88724b29111e05c2f38189df2ea6d89"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-006",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 6
+    },
+    "groupSeed": "76e056817c1620d794ba288d147c03ecb32972cdea7a78dbe52940853dd1a495",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "76e056817c1620d794ba288d147c03ecb32972cdea7a78dbe52940853dd1a495",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -51,
+          "wins": 27,
+          "selfDraws": 16,
+          "dealIns": 4,
+          "draws": 6,
+          "huScore": -50,
+          "kongScore": -2,
+          "drawScore": 1,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -33,
+            -19,
+            -17,
+            1,
+            12,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -20,
+          "wins": 31,
+          "selfDraws": 13,
+          "dealIns": 1,
+          "draws": 5,
+          "huScore": -19,
+          "kongScore": 0,
+          "drawScore": -1,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -29,
+            -13,
+            -4,
+            -4,
+            19,
+            11
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": -24,
+          "wins": 30,
+          "selfDraws": 16,
+          "dealIns": 3,
+          "draws": 10,
+          "huScore": -12,
+          "kongScore": -17,
+          "drawScore": 5,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -17,
+            -4,
+            -24,
+            0,
+            7,
+            14
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8112,
+    "intervention": {
+      "choices": 877,
+      "baseDiscards": 736,
+      "eligible": 103,
+      "changed": 103,
+      "outsGain": 319
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b35e1809fe215b17c62336aaf4a69d452680047b7185484bedaf76b537f7b7ad"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-007",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 7
+    },
+    "groupSeed": "7a70ae61124d2a611768d4618e596dab92e57fb9ebcdc5ab34a99bd97633835c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "7a70ae61124d2a611768d4618e596dab92e57fb9ebcdc5ab34a99bd97633835c",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 15,
+          "wins": 35,
+          "selfDraws": 23,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": 6,
+          "kongScore": 6,
+          "drawScore": 3,
+          "revealHands": 1,
+          "revealedScore": -4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            13,
+            -11,
+            -15,
+            21,
+            -9
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -32,
+          "wins": 32,
+          "selfDraws": 20,
+          "dealIns": 4,
+          "draws": 1,
+          "huScore": -37,
+          "kongScore": 3,
+          "drawScore": 2,
+          "revealHands": 1,
+          "revealedScore": -4,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            0,
+            0,
+            -11,
+            -1,
+            0,
+            -20
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": -7,
+          "wins": 36,
+          "selfDraws": 23,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 5,
+          "kongScore": -4,
+          "drawScore": -8,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            -7,
+            -7,
+            -11,
+            15,
+            -13
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7702,
+    "intervention": {
+      "choices": 853,
+      "baseDiscards": 717,
+      "eligible": 87,
+      "changed": 87,
+      "outsGain": 218
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "5818166b1d86ab86b1b568bfff0baac783e1c3cc6435572f0c92e121058657e1"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-008",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 8
+    },
+    "groupSeed": "d9b1ed545fdcfb7ed8a2747f6a598e9d624b31555371b767da3abce8480baec7",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "d9b1ed545fdcfb7ed8a2747f6a598e9d624b31555371b767da3abce8480baec7",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -4,
+          "wins": 38,
+          "selfDraws": 22,
+          "dealIns": 3,
+          "draws": 0,
+          "huScore": -5,
+          "kongScore": 1,
+          "drawScore": 0,
+          "revealHands": 3,
+          "revealedScore": 8,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            27,
+            -20,
+            -5,
+            -3,
+            -12
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -20,
+          "wins": 33,
+          "selfDraws": 22,
+          "dealIns": 2,
+          "draws": 1,
+          "huScore": -3,
+          "kongScore": -8,
+          "drawScore": -9,
+          "revealHands": 1,
+          "revealedScore": -4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -11,
+            13,
+            -17,
+            3,
+            17,
+            -25
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 35,
+          "wins": 41,
+          "selfDraws": 22,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 17,
+          "kongScore": 14,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            30,
+            15,
+            -14,
+            0,
+            0,
+            4
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7286,
+    "intervention": {
+      "choices": 834,
+      "baseDiscards": 675,
+      "eligible": 77,
+      "changed": 77,
+      "outsGain": 185
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b64fadb2439fb4c2dc2ee42027dc644fe898437899618f5776a4920ad6a43345"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-009",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 9
+    },
+    "groupSeed": "7b10e69a97712083cbfd745e3121da1e105ca5f94bb7388a678d27145c5b2cd4",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "7b10e69a97712083cbfd745e3121da1e105ca5f94bb7388a678d27145c5b2cd4",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -24,
+          "wins": 30,
+          "selfDraws": 21,
+          "dealIns": 4,
+          "draws": 1,
+          "huScore": -15,
+          "kongScore": -10,
+          "drawScore": 1,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -11,
+            -11,
+            -4,
+            4,
+            -9,
+            7
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -25,
+          "wins": 33,
+          "selfDraws": 21,
+          "dealIns": 2,
+          "draws": 1,
+          "huScore": -17,
+          "kongScore": -10,
+          "drawScore": 2,
+          "revealHands": 2,
+          "revealedScore": 8,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            2,
+            5,
+            -23,
+            -6,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 10,
+          "wins": 35,
+          "selfDraws": 24,
+          "dealIns": 3,
+          "draws": 0,
+          "huScore": 9,
+          "kongScore": 1,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -16,
+            -2,
+            18,
+            10,
+            -9,
+            9
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 6952,
+    "intervention": {
+      "choices": 765,
+      "baseDiscards": 633,
+      "eligible": 83,
+      "changed": 83,
+      "outsGain": 197
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6150ea441eaf88253afbf102d07abb44f40a9d98d76a5bd746e0ac37e2f0a511"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-010",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 10
+    },
+    "groupSeed": "79b7460b2d25d0c97fe815dd4bb588704de77a13e461ab6f70d5e42dd5fcfb0d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "79b7460b2d25d0c97fe815dd4bb588704de77a13e461ab6f70d5e42dd5fcfb0d",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 55,
+          "wins": 41,
+          "selfDraws": 26,
+          "dealIns": 0,
+          "draws": 5,
+          "huScore": 66,
+          "kongScore": -8,
+          "drawScore": -3,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            11,
+            17,
+            6,
+            6,
+            11
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 41,
+          "wins": 38,
+          "selfDraws": 25,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": 36,
+          "kongScore": 6,
+          "drawScore": -1,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1.5,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            0,
+            -3,
+            -1,
+            15,
+            21
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 73,
+          "wins": 41,
+          "selfDraws": 23,
+          "dealIns": 1,
+          "draws": 4,
+          "huScore": 59,
+          "kongScore": 6,
+          "drawScore": 8,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            28,
+            11,
+            15,
+            4,
+            6
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8466,
+    "intervention": {
+      "choices": 944,
+      "baseDiscards": 779,
+      "eligible": 96,
+      "changed": 96,
+      "outsGain": 219
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "1f90d110da49f27384ea6caee6cce26402d8f585bf1d5eae6a6e749650199479"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-011",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 11
+    },
+    "groupSeed": "71e9770e520e23be0e572717d484bbcac9619c38e60c01234e4eb61ab4d6dca0",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "71e9770e520e23be0e572717d484bbcac9619c38e60c01234e4eb61ab4d6dca0",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -2,
+          "wins": 34,
+          "selfDraws": 17,
+          "dealIns": 3,
+          "draws": 0,
+          "huScore": -6,
+          "kongScore": 4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -6,
+            -25,
+            0,
+            3,
+            12,
+            14
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 47,
+          "wins": 38,
+          "selfDraws": 19,
+          "dealIns": 2,
+          "draws": 1,
+          "huScore": 35,
+          "kongScore": 10,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            -3,
+            0,
+            19,
+            14,
+            22
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 27,
+          "wins": 37,
+          "selfDraws": 18,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": 23,
+          "kongScore": 0,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            1,
+            11,
+            20,
+            1,
+            -5
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7931,
+    "intervention": {
+      "choices": 897,
+      "baseDiscards": 736,
+      "eligible": 83,
+      "changed": 83,
+      "outsGain": 227
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b4fcf3397ebbfd0deda7ccbc3b102e92396e0ab2de316affc118d7118687e082"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-012",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 12
+    },
+    "groupSeed": "33526b0c7c681278f7144f494d85b34d360dd02be290858d8871239e4d26852a",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "33526b0c7c681278f7144f494d85b34d360dd02be290858d8871239e4d26852a",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 57,
+          "wins": 38,
+          "selfDraws": 18,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": 49,
+          "kongScore": 5,
+          "drawScore": 3,
+          "revealHands": 1,
+          "revealedScore": 12,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            25,
+            0,
+            -11,
+            11,
+            23
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -4,
+          "wins": 36,
+          "selfDraws": 14,
+          "dealIns": 3,
+          "draws": 2,
+          "huScore": 27,
+          "kongScore": -23,
+          "drawScore": -8,
+          "revealHands": 3,
+          "revealedScore": 6,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            6,
+            20,
+            -5,
+            -8,
+            -13,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 31,
+          "wins": 38,
+          "selfDraws": 18,
+          "dealIns": 5,
+          "draws": 0,
+          "huScore": 18,
+          "kongScore": 13,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            20,
+            -5,
+            13,
+            -9,
+            14,
+            -2
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7737,
+    "intervention": {
+      "choices": 862,
+      "baseDiscards": 693,
+      "eligible": 101,
+      "changed": 101,
+      "outsGain": 251
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "987acd4877d33f0c55ca72528a258f47eace2dc9b3a1ab43c68646db2960b5b3"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-013",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 13
+    },
+    "groupSeed": "1fb45f734a1b3cbc82be1e3449d3520dde27bb132d9d37b1d06edbf6c0647518",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "1fb45f734a1b3cbc82be1e3449d3520dde27bb132d9d37b1d06edbf6c0647518",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 42,
+          "wins": 38,
+          "selfDraws": 24,
+          "dealIns": 2,
+          "draws": 3,
+          "huScore": 22,
+          "kongScore": 15,
+          "drawScore": 5,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3.5,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            10,
+            -4,
+            12,
+            18,
+            11
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 8,
+          "wins": 34,
+          "selfDraws": 21,
+          "dealIns": 4,
+          "draws": 3,
+          "huScore": -4,
+          "kongScore": -8,
+          "drawScore": 20,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            25,
+            -19,
+            -4,
+            -8,
+            3
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 22,
+          "wins": 38,
+          "selfDraws": 20,
+          "dealIns": 3,
+          "draws": 0,
+          "huScore": 24,
+          "kongScore": -2,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            2,
+            -13,
+            -7,
+            29,
+            12
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7948,
+    "intervention": {
+      "choices": 885,
+      "baseDiscards": 732,
+      "eligible": 98,
+      "changed": 98,
+      "outsGain": 253
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "4eba1cebbe24198ba6418a3bbc08d12eb144a8f2b7102a3ef2112f1f20e0ef03"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-014",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 14
+    },
+    "groupSeed": "455800776d5f293627ce741239030e520d8b2e7b1c7d09832ef010917036744e",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "455800776d5f293627ce741239030e520d8b2e7b1c7d09832ef010917036744e",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 21,
+          "wins": 35,
+          "selfDraws": 25,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": 24,
+          "kongScore": -7,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            3,
+            5,
+            6,
+            15,
+            7,
+            -15
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 61,
+          "wins": 45,
+          "selfDraws": 28,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": 63,
+          "kongScore": -4,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            21,
+            18,
+            3,
+            11,
+            3,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 26,
+          "wins": 37,
+          "selfDraws": 24,
+          "dealIns": 3,
+          "draws": 2,
+          "huScore": 32,
+          "kongScore": -10,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            18,
+            19,
+            3,
+            7,
+            -8,
+            -13
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7833,
+    "intervention": {
+      "choices": 873,
+      "baseDiscards": 715,
+      "eligible": 81,
+      "changed": 81,
+      "outsGain": 210
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "0862fb598f5fcde14fc8de15cff366de5faded2ffe6a7e78e6642b4ee928d47e"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-0-015",
+      "pair": {
+        "id": "never+H0",
+        "policies": [
+          "h0-never",
+          "H0"
+        ]
+      },
+      "group": 15
+    },
+    "groupSeed": "3cdaee7976e82a7add0c6686198e5407a7716bc2a53aa0d640d9ecd4aa20156d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+H0",
+      "seed": "3cdaee7976e82a7add0c6686198e5407a7716bc2a53aa0d640d9ecd4aa20156d",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 38,
+          "wins": 42,
+          "selfDraws": 23,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 34,
+          "kongScore": 4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            6,
+            10,
+            5,
+            17,
+            -8,
+            8
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -24,
+          "wins": 37,
+          "selfDraws": 21,
+          "dealIns": 1,
+          "draws": 2,
+          "huScore": -16,
+          "kongScore": -6,
+          "drawScore": -2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 0.5,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            -22,
+            -8,
+            -1,
+            -4,
+            -5
+          ],
+          "largeLosses": 1
+        },
+        "reference": {
+          "hands": 96,
+          "score": 5,
+          "wins": 38,
+          "selfDraws": 22,
+          "dealIns": 1,
+          "draws": 0,
+          "huScore": 7,
+          "kongScore": -2,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            7,
+            5,
+            3,
+            3,
+            -19,
+            6
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7811,
+    "intervention": {
+      "choices": 866,
+      "baseDiscards": 703,
+      "eligible": 59,
+      "changed": 59,
+      "outsGain": 132
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6350e64b6c499b7f5e87ba60bed691e3984044ddde698ec5df267e76b4ef9b90"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-000",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 0
+    },
+    "groupSeed": "a8e92984d00ddbd08d5313805cae8742bf4ba835abd5dc86f51276a4d352bd71",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "a8e92984d00ddbd08d5313805cae8742bf4ba835abd5dc86f51276a4d352bd71",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -18,
+          "wins": 34,
+          "selfDraws": 32,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": -16,
+          "kongScore": -2,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -6,
+            -6,
+            -8,
+            -8,
+            5,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 10,
+          "wins": 30,
+          "selfDraws": 28,
+          "dealIns": 6,
+          "draws": 2,
+          "huScore": -16,
+          "kongScore": 24,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            -5,
+            3,
+            3,
+            7,
+            7
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 20,
+          "dealIns": 12,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -7,
+            -7,
+            -4,
+            -4,
+            11,
+            11
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7554,
+    "intervention": {
+      "choices": 856,
+      "baseDiscards": 700,
+      "eligible": 74,
+      "changed": 74,
+      "outsGain": 200
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "1d7b563bdf6c468908db1ceb8151cf5755259748ff9ce41086df4366d431331a"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-001",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 1
+    },
+    "groupSeed": "1976a25914993eea507180a81907dc8b6c31a452d12bb825934af16702340a14",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "1976a25914993eea507180a81907dc8b6c31a452d12bb825934af16702340a14",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -54,
+          "wins": 22,
+          "selfDraws": 22,
+          "dealIns": 6,
+          "draws": 0,
+          "huScore": -40,
+          "kongScore": -14,
+          "drawScore": 0,
+          "revealHands": 4,
+          "revealedScore": -16,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -33,
+            -33,
+            2,
+            2,
+            4,
+            4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -66,
+          "wins": 24,
+          "selfDraws": 20,
+          "dealIns": 8,
+          "draws": 2,
+          "huScore": -44,
+          "kongScore": -22,
+          "drawScore": 0,
+          "revealHands": 4,
+          "revealedScore": -16,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -23,
+            -23,
+            2,
+            2,
+            -12,
+            -12
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 28,
+          "dealIns": 4,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -15,
+            -15,
+            8,
+            8,
+            7,
+            7
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8630,
+    "intervention": {
+      "choices": 956,
+      "baseDiscards": 796,
+      "eligible": 84,
+      "changed": 84,
+      "outsGain": 214
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "a5d018e95766a1d7bf6d3f8afdc0077198c3ee996c6dda831dbcb499fdbba1b9"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-002",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 2
+    },
+    "groupSeed": "267bd0338c4fe42a15b73fb2acbdafb1b24c5e3d58f7cbc77d829a3f71c0ecae",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "267bd0338c4fe42a15b73fb2acbdafb1b24c5e3d58f7cbc77d829a3f71c0ecae",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 12,
+          "wins": 28,
+          "selfDraws": 26,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": -8,
+          "kongScore": 20,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": -4,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            4,
+            -1,
+            -1,
+            3,
+            3
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -10,
+          "wins": 26,
+          "selfDraws": 24,
+          "dealIns": 10,
+          "draws": 0,
+          "huScore": -24,
+          "kongScore": 14,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": -4,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -6,
+            -6,
+            0,
+            0,
+            1,
+            1
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 24,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -9,
+            -9,
+            0,
+            0,
+            9,
+            9
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8356,
+    "intervention": {
+      "choices": 930,
+      "baseDiscards": 764,
+      "eligible": 64,
+      "changed": 64,
+      "outsGain": 206
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "da568b196b60c22bddaae28809818456aace655473d4e5957fb88f1bbf72eedd"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-003",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 3
+    },
+    "groupSeed": "d960785cf9f398cbf24da036943004c3a9af584dc5f33477457e660856d0bcb0",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "d960785cf9f398cbf24da036943004c3a9af584dc5f33477457e660856d0bcb0",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -8,
+          "wins": 34,
+          "selfDraws": 30,
+          "dealIns": 4,
+          "draws": 0,
+          "huScore": 16,
+          "kongScore": -24,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            -2,
+            -10,
+            -10,
+            8,
+            8
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 2,
+          "wins": 34,
+          "selfDraws": 28,
+          "dealIns": 4,
+          "draws": 4,
+          "huScore": 20,
+          "kongScore": -18,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            -5,
+            3,
+            3,
+            3,
+            3
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 30,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            3,
+            3,
+            -9,
+            -9,
+            6,
+            6
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8484,
+    "intervention": {
+      "choices": 948,
+      "baseDiscards": 764,
+      "eligible": 54,
+      "changed": 54,
+      "outsGain": 142
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "386f0bf39d2620b3840c5147cbe913e1244bebc17220c67a140d8f2ea6ada55b"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-004",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 4
+    },
+    "groupSeed": "59386feb886d23836a529505f51d0aa3aac067e17d91a13b4f8533a3f0008e4d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "59386feb886d23836a529505f51d0aa3aac067e17d91a13b4f8533a3f0008e4d",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 10,
+          "wins": 36,
+          "selfDraws": 28,
+          "dealIns": 6,
+          "draws": 4,
+          "huScore": 20,
+          "kongScore": -10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            12,
+            12,
+            2,
+            2,
+            -9,
+            -9
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -32,
+          "wins": 14,
+          "selfDraws": 12,
+          "dealIns": 8,
+          "draws": 2,
+          "huScore": -44,
+          "kongScore": 12,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 16,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            4,
+            -8,
+            -8,
+            -12,
+            -12
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 24,
+          "dealIns": 6,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            17,
+            17,
+            -12,
+            -12,
+            -5,
+            -5
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8028,
+    "intervention": {
+      "choices": 938,
+      "baseDiscards": 778,
+      "eligible": 100,
+      "changed": 100,
+      "outsGain": 262
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "cd3c181931c005ae43532d4473487cc719e601549cf012156111385c6fb684d0"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-005",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 5
+    },
+    "groupSeed": "07367c8b6befe29ebd2b5a056f206d5e2c5d21354635a815190dd31ce195dc6a",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "07367c8b6befe29ebd2b5a056f206d5e2c5d21354635a815190dd31ce195dc6a",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -82,
+          "wins": 26,
+          "selfDraws": 22,
+          "dealIns": 6,
+          "draws": 0,
+          "huScore": -58,
+          "kongScore": -24,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -12,
+            -12,
+            -10,
+            -10,
+            -19,
+            -19
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -64,
+          "wins": 22,
+          "selfDraws": 16,
+          "dealIns": 6,
+          "draws": 4,
+          "huScore": -62,
+          "kongScore": -2,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            -2,
+            -24,
+            -24,
+            -6,
+            -6
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 22,
+          "dealIns": 8,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            2,
+            2,
+            6,
+            6,
+            -8,
+            -8
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7730,
+    "intervention": {
+      "choices": 818,
+      "baseDiscards": 682,
+      "eligible": 62,
+      "changed": 62,
+      "outsGain": 166
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "ccd645629dca189d4e071d0e1121b410836764946183a2a944cbb6143e67b0c1"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-006",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 6
+    },
+    "groupSeed": "4d44b70f9976d730e1f26a4c69e0c8ed93a91cc8a46c5cd14f84348fb37a0447",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "4d44b70f9976d730e1f26a4c69e0c8ed93a91cc8a46c5cd14f84348fb37a0447",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -36,
+          "wins": 26,
+          "selfDraws": 20,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": -32,
+          "kongScore": -4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -11,
+            -11,
+            5,
+            5,
+            -12,
+            -12
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -38,
+          "wins": 30,
+          "selfDraws": 26,
+          "dealIns": 10,
+          "draws": 0,
+          "huScore": -28,
+          "kongScore": -10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            -1,
+            -10,
+            -10,
+            -8,
+            -8
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 24,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -3,
+            -3,
+            0,
+            0,
+            3,
+            3
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8848,
+    "intervention": {
+      "choices": 956,
+      "baseDiscards": 788,
+      "eligible": 98,
+      "changed": 98,
+      "outsGain": 248
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d093fffcfb2048ba1ab518be6c3c81fe2a1e8146aec90c8fdd04047909f2deaf"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-007",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 7
+    },
+    "groupSeed": "545ab827c90cbf3c7346ad67576975693db872f7c151bd9ce6935fc3e532b545",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "545ab827c90cbf3c7346ad67576975693db872f7c151bd9ce6935fc3e532b545",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 8,
+          "wins": 36,
+          "selfDraws": 30,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 30,
+          "kongScore": -24,
+          "drawScore": 2,
+          "revealHands": 4,
+          "revealedScore": 16,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -7,
+            -7,
+            14,
+            14,
+            -3,
+            -3
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 44,
+          "wins": 40,
+          "selfDraws": 28,
+          "dealIns": 0,
+          "draws": 4,
+          "huScore": 44,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 8,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            18,
+            18,
+            10,
+            10,
+            -6,
+            -6
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 24,
+          "dealIns": 6,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            -2,
+            7,
+            7,
+            -5,
+            -5
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8088,
+    "intervention": {
+      "choices": 928,
+      "baseDiscards": 750,
+      "eligible": 100,
+      "changed": 100,
+      "outsGain": 256
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "3ce76e240e1cde34d2edddc576910d8f1fa8c49bb4f26211b3a75bff8f3b4ecf"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-008",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 8
+    },
+    "groupSeed": "6c2d7e8148a37c51d6feb7034c23226e191f49bcc776ea228c50dffdde016931",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "6c2d7e8148a37c51d6feb7034c23226e191f49bcc776ea228c50dffdde016931",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -6,
+          "wins": 32,
+          "selfDraws": 26,
+          "dealIns": 4,
+          "draws": 16,
+          "huScore": 2,
+          "kongScore": -8,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            6,
+            6,
+            -2,
+            -2,
+            -7,
+            -7
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -40,
+          "wins": 24,
+          "selfDraws": 18,
+          "dealIns": 2,
+          "draws": 8,
+          "huScore": -8,
+          "kongScore": -28,
+          "drawScore": -4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            -15,
+            -15,
+            -5,
+            -5,
+            0,
+            0
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 28,
+          "selfDraws": 26,
+          "dealIns": 2,
+          "draws": 12,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            10,
+            10,
+            -4,
+            -4,
+            -6,
+            -6
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9154,
+    "intervention": {
+      "choices": 1054,
+      "baseDiscards": 904,
+      "eligible": 90,
+      "changed": 90,
+      "outsGain": 266
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d85edc89a260d7b3d55f465651472b92f7dbee9a21459d5346ec04bafff4d55d"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-009",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 9
+    },
+    "groupSeed": "75087a966770ecef660a51978efd4bf8d74ff18b0daa448520b1581e66dfb3bc",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "75087a966770ecef660a51978efd4bf8d74ff18b0daa448520b1581e66dfb3bc",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -28,
+          "wins": 26,
+          "selfDraws": 26,
+          "dealIns": 12,
+          "draws": 8,
+          "huScore": -18,
+          "kongScore": -10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 3,
+          "sessions": 6,
+          "sessionScores": [
+            14,
+            14,
+            -24,
+            -24,
+            -4,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -32,
+          "wins": 32,
+          "selfDraws": 28,
+          "dealIns": 8,
+          "draws": 2,
+          "huScore": -10,
+          "kongScore": -22,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            -2,
+            -7,
+            -7,
+            -7,
+            -7
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 28,
+          "selfDraws": 20,
+          "dealIns": 8,
+          "draws": 12,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            11,
+            -13,
+            -13,
+            2,
+            2
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7784,
+    "intervention": {
+      "choices": 894,
+      "baseDiscards": 732,
+      "eligible": 76,
+      "changed": 76,
+      "outsGain": 208
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "f68c8b85b0e6067dcf46b2050fdf48b002f8255ef1265410b7d6dcd7bfa0a413"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-010",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 10
+    },
+    "groupSeed": "e7a1cfd81684d2a004dc2271ae721084b0b9af0373f103eeb64c5db153bb51f5",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "e7a1cfd81684d2a004dc2271ae721084b0b9af0373f103eeb64c5db153bb51f5",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 24,
+          "wins": 32,
+          "selfDraws": 26,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 16,
+          "kongScore": 8,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 16,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            19,
+            19,
+            -4,
+            -4,
+            -3,
+            -3
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -24,
+          "wins": 26,
+          "selfDraws": 16,
+          "dealIns": 6,
+          "draws": 0,
+          "huScore": -10,
+          "kongScore": -14,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 16,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            -5,
+            -3,
+            -3,
+            -4,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 26,
+          "dealIns": 4,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            -1,
+            11,
+            11,
+            -10,
+            -10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8536,
+    "intervention": {
+      "choices": 924,
+      "baseDiscards": 754,
+      "eligible": 88,
+      "changed": 88,
+      "outsGain": 152
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "edc44e804d60360ff6ace3b3be482cc391c6e9661298abacc414b2b7cc8316fd"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-011",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 11
+    },
+    "groupSeed": "4a8fc2d0813a786e457ab75f77a3919fb361adc04fb04c3f46fe9e02fcc9410d",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "4a8fc2d0813a786e457ab75f77a3919fb361adc04fb04c3f46fe9e02fcc9410d",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 28,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": -8,
+          "kongScore": 8,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": -10,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            17,
+            17,
+            7,
+            7,
+            -24,
+            -24
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -16,
+          "wins": 32,
+          "selfDraws": 28,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": -8,
+          "kongScore": -8,
+          "drawScore": 0,
+          "revealHands": 4,
+          "revealedScore": -14,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 5,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            -1,
+            -4,
+            -4,
+            -3,
+            -3
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 30,
+          "dealIns": 0,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            17,
+            17,
+            3,
+            3,
+            -20,
+            -20
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9304,
+    "intervention": {
+      "choices": 1012,
+      "baseDiscards": 822,
+      "eligible": 88,
+      "changed": 88,
+      "outsGain": 218
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "45e0e97cbf48168d43a31244481920b416b895da2c729591270b518649f9c1e6"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-012",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 12
+    },
+    "groupSeed": "22b43c99a815995bdac18abfac48e2b2c5e575d9114ff2d7dce89de13e317c86",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "22b43c99a815995bdac18abfac48e2b2c5e575d9114ff2d7dce89de13e317c86",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -22,
+          "wins": 34,
+          "selfDraws": 32,
+          "dealIns": 2,
+          "draws": 12,
+          "huScore": 16,
+          "kongScore": -38,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            -8,
+            1,
+            1,
+            -4,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -28,
+          "wins": 26,
+          "selfDraws": 26,
+          "dealIns": 2,
+          "draws": 10,
+          "huScore": -2,
+          "kongScore": -16,
+          "drawScore": -10,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 4,
+          "sessions": 6,
+          "sessionScores": [
+            -4,
+            -4,
+            -15,
+            -15,
+            5,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 30,
+          "dealIns": 0,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            9,
+            -13,
+            -13,
+            4,
+            4
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8724,
+    "intervention": {
+      "choices": 950,
+      "baseDiscards": 794,
+      "eligible": 80,
+      "changed": 80,
+      "outsGain": 214
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "9be3202239e1daa7ecd15a4b64c7a86f56f092bbc3d9793328e87ac57b7a4843"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-013",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 13
+    },
+    "groupSeed": "5cb65ac6692d6faa6634b4f30dd4d89e233644bf2fbfedefe2cc4a6cc8ad3ff0",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "5cb65ac6692d6faa6634b4f30dd4d89e233644bf2fbfedefe2cc4a6cc8ad3ff0",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 76,
+          "wins": 36,
+          "selfDraws": 32,
+          "dealIns": 0,
+          "draws": 2,
+          "huScore": 50,
+          "kongScore": 26,
+          "drawScore": 0,
+          "revealHands": 4,
+          "revealedScore": 52,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            16,
+            -3,
+            -3,
+            25,
+            25
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 28,
+          "wins": 34,
+          "selfDraws": 32,
+          "dealIns": 6,
+          "draws": 6,
+          "huScore": 20,
+          "kongScore": 8,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 16,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            -1,
+            3,
+            3,
+            12,
+            12
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 32,
+          "selfDraws": 30,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            19,
+            19,
+            -9,
+            -9,
+            -10,
+            -10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 7786,
+    "intervention": {
+      "choices": 858,
+      "baseDiscards": 716,
+      "eligible": 80,
+      "changed": 80,
+      "outsGain": 210
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "87ffe0348b5143549d195385aa2d183742f9aa55bc28decfb184dabce3936b1f"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-014",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 14
+    },
+    "groupSeed": "5503f5834487fc51100a2e1cdaabdeec9f19f12601c32c1aa904384369b858d3",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "5503f5834487fc51100a2e1cdaabdeec9f19f12601c32c1aa904384369b858d3",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 18,
+          "wins": 30,
+          "selfDraws": 26,
+          "dealIns": 4,
+          "draws": 8,
+          "huScore": 8,
+          "kongScore": 10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            -5,
+            -11,
+            -11,
+            25,
+            25
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -10,
+          "wins": 30,
+          "selfDraws": 26,
+          "dealIns": 2,
+          "draws": 2,
+          "huScore": -6,
+          "kongScore": -4,
+          "drawScore": 0,
+          "revealHands": 2,
+          "revealedScore": 10,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -1,
+            -1,
+            -10,
+            -10,
+            6,
+            6
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 28,
+          "selfDraws": 24,
+          "dealIns": 4,
+          "draws": 12,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -11,
+            -11,
+            0,
+            0,
+            11,
+            11
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8462,
+    "intervention": {
+      "choices": 926,
+      "baseDiscards": 778,
+      "eligible": 78,
+      "changed": 78,
+      "outsGain": 196
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "549201e0628b214bb668f474c96f86497942143ce8c8d39499447c8c4b99b9cf"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-1-015",
+      "pair": {
+        "id": "never+never",
+        "policies": [
+          "h0-never",
+          "h0-never"
+        ]
+      },
+      "group": 15
+    },
+    "groupSeed": "ffa58fd489bd605c4301a3e985ea3abc590c6f69ed446f1ec7bcc13146aa72d5",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+never",
+      "seed": "ffa58fd489bd605c4301a3e985ea3abc590c6f69ed446f1ec7bcc13146aa72d5",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 20,
+          "wins": 28,
+          "selfDraws": 22,
+          "dealIns": 4,
+          "draws": 14,
+          "huScore": 16,
+          "kongScore": 4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            1,
+            1,
+            15,
+            15,
+            -6,
+            -6
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 0,
+          "wins": 24,
+          "selfDraws": 18,
+          "dealIns": 0,
+          "draws": 4,
+          "huScore": 10,
+          "kongScore": -10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -4,
+            -4,
+            -15,
+            -15,
+            19,
+            19
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 0,
+          "wins": 30,
+          "selfDraws": 22,
+          "dealIns": 8,
+          "draws": 6,
+          "huScore": 0,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -16,
+            -16,
+            6,
+            6,
+            10,
+            10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9232,
+    "intervention": {
+      "choices": 1066,
+      "baseDiscards": 884,
+      "eligible": 102,
+      "changed": 102,
+      "outsGain": 328
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "1a4ca3b3d3489e319b9e5b79b0a06edc66e0a012daba6fde0b40f2e60e816720"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-000",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 0
+    },
+    "groupSeed": "892e929981b5d97551624e502ed14d22af4ed5489f5363b5d8ab1fd6c406c7f1",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "892e929981b5d97551624e502ed14d22af4ed5489f5363b5d8ab1fd6c406c7f1",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 8,
+          "wins": 31,
+          "selfDraws": 30,
+          "dealIns": 2,
+          "draws": 6,
+          "huScore": 5,
+          "kongScore": 0,
+          "drawScore": 3,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -12,
+            6,
+            -6,
+            11,
+            5,
+            4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 23,
+          "wins": 33,
+          "selfDraws": 30,
+          "dealIns": 7,
+          "draws": 4,
+          "huScore": -3,
+          "kongScore": 26,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            0,
+            17,
+            2,
+            6,
+            -8,
+            6
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 27,
+          "wins": 38,
+          "selfDraws": 34,
+          "dealIns": 3,
+          "draws": 4,
+          "huScore": 28,
+          "kongScore": -1,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -8,
+            10,
+            19,
+            5,
+            2,
+            -1
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8306,
+    "intervention": {
+      "choices": 921,
+      "baseDiscards": 758,
+      "eligible": 105,
+      "changed": 105,
+      "outsGain": 254
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "3612e6b6720e8b05617004cb5894eff621bcb6a6d3183ca3d1854503e661d06c"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-001",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 1
+    },
+    "groupSeed": "805c8c2661fe025ae9b3cff71ad03f26eeb2285320a297b7866d1ca65dd25fb0",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "805c8c2661fe025ae9b3cff71ad03f26eeb2285320a297b7866d1ca65dd25fb0",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 44,
+          "wins": 45,
+          "selfDraws": 38,
+          "dealIns": 2,
+          "draws": 3,
+          "huScore": 43,
+          "kongScore": 0,
+          "drawScore": 1,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 2.5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            10,
+            4,
+            15,
+            7,
+            -2,
+            10
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 30,
+          "wins": 35,
+          "selfDraws": 27,
+          "dealIns": 2,
+          "draws": 8,
+          "huScore": 28,
+          "kongScore": -4,
+          "drawScore": 6,
+          "revealHands": 2,
+          "revealedScore": 5,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            1,
+            9,
+            5,
+            -9,
+            13
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 51,
+          "wins": 42,
+          "selfDraws": 35,
+          "dealIns": 2,
+          "draws": 0,
+          "huScore": 41,
+          "kongScore": 10,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            10,
+            11,
+            5,
+            3,
+            2,
+            20
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8423,
+    "intervention": {
+      "choices": 915,
+      "baseDiscards": 739,
+      "eligible": 78,
+      "changed": 78,
+      "outsGain": 211
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "f4612845465e6bdef141b9cec14e96b0933cb8532727320a3feb00f218c96130"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-002",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 2
+    },
+    "groupSeed": "583cc40b2fe5fe65a9f3d5e4a904aa783ad21fc17c02a62b3e906cd893e5aefe",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "583cc40b2fe5fe65a9f3d5e4a904aa783ad21fc17c02a62b3e906cd893e5aefe",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 60,
+          "wins": 47,
+          "selfDraws": 38,
+          "dealIns": 4,
+          "draws": 2,
+          "huScore": 54,
+          "kongScore": 6,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            13,
+            7,
+            5,
+            19,
+            12,
+            4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 59,
+          "wins": 38,
+          "selfDraws": 30,
+          "dealIns": 5,
+          "draws": 9,
+          "huScore": 37,
+          "kongScore": 15,
+          "drawScore": 7,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            10,
+            4,
+            25,
+            18,
+            2,
+            0
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 17,
+          "wins": 37,
+          "selfDraws": 31,
+          "dealIns": 4,
+          "draws": 6,
+          "huScore": 13,
+          "kongScore": 8,
+          "drawScore": -4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            14,
+            -9,
+            3,
+            -9,
+            2,
+            16
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9005,
+    "intervention": {
+      "choices": 991,
+      "baseDiscards": 821,
+      "eligible": 99,
+      "changed": 99,
+      "outsGain": 226
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b861fe5d65a5a7b88dbfbd28f669fa8c7418724d9a95810c1539dfd60ca05fcb"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-003",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 3
+    },
+    "groupSeed": "ab887de5f0b17d83f96ca71fb64626ad30545adb020cd79664f7a264dd34173e",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "ab887de5f0b17d83f96ca71fb64626ad30545adb020cd79664f7a264dd34173e",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 10,
+          "wins": 37,
+          "selfDraws": 28,
+          "dealIns": 5,
+          "draws": 7,
+          "huScore": 11,
+          "kongScore": -3,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            4,
+            -1,
+            -5,
+            11,
+            -10
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -38,
+          "wins": 25,
+          "selfDraws": 24,
+          "dealIns": 8,
+          "draws": 7,
+          "huScore": -44,
+          "kongScore": -1,
+          "drawScore": 7,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 0,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            2,
+            -17,
+            -5,
+            -13,
+            -8,
+            3
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": -9,
+          "wins": 36,
+          "selfDraws": 25,
+          "dealIns": 10,
+          "draws": 12,
+          "huScore": 12,
+          "kongScore": -22,
+          "drawScore": 1,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            12,
+            -25,
+            2,
+            -8,
+            0,
+            10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9380,
+    "intervention": {
+      "choices": 1014,
+      "baseDiscards": 826,
+      "eligible": 119,
+      "changed": 119,
+      "outsGain": 266
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "df12bd85927d088e4f2c02d34dd33875fc8347836b0f6fed7f5319c73bb46fe3"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-004",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 4
+    },
+    "groupSeed": "a7cf5fad0ea86768bde07297e862e3f43e01d94edf952d03fb4db63f0a844083",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "a7cf5fad0ea86768bde07297e862e3f43e01d94edf952d03fb4db63f0a844083",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 37,
+          "wins": 39,
+          "selfDraws": 29,
+          "dealIns": 5,
+          "draws": 3,
+          "huScore": 23,
+          "kongScore": 13,
+          "drawScore": 1,
+          "revealHands": 2,
+          "revealedScore": 6,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            8,
+            -2,
+            14,
+            15,
+            4
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 47,
+          "wins": 44,
+          "selfDraws": 34,
+          "dealIns": 3,
+          "draws": 3,
+          "huScore": 45,
+          "kongScore": 1,
+          "drawScore": 1,
+          "revealHands": 2,
+          "revealedScore": 6,
+          "sessionFirstCredit": 4.5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            3,
+            9,
+            5,
+            17,
+            7,
+            6
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 34,
+          "wins": 37,
+          "selfDraws": 34,
+          "dealIns": 3,
+          "draws": 2,
+          "huScore": 16,
+          "kongScore": 18,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            5,
+            7,
+            8,
+            3,
+            13
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8798,
+    "intervention": {
+      "choices": 962,
+      "baseDiscards": 789,
+      "eligible": 81,
+      "changed": 81,
+      "outsGain": 182
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "be49d9e93afad604dbf62b0841a4d43338c4caf28f821b50b5b7902cdd580507"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-005",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 5
+    },
+    "groupSeed": "a5e453b6f7bf3205e8c9535eae2901ce62c90b785493fb33501be3d4a334c4d6",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "a5e453b6f7bf3205e8c9535eae2901ce62c90b785493fb33501be3d4a334c4d6",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 26,
+          "wins": 38,
+          "selfDraws": 35,
+          "dealIns": 5,
+          "draws": 8,
+          "huScore": 28,
+          "kongScore": -10,
+          "drawScore": 8,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            23,
+            9,
+            -5,
+            1,
+            -4,
+            2
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 14,
+          "wins": 34,
+          "selfDraws": 30,
+          "dealIns": 5,
+          "draws": 12,
+          "huScore": 1,
+          "kongScore": 7,
+          "drawScore": 6,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            1,
+            -1,
+            -11,
+            0,
+            15,
+            10
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 1,
+          "wins": 33,
+          "selfDraws": 30,
+          "dealIns": 3,
+          "draws": 10,
+          "huScore": 5,
+          "kongScore": -4,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            25,
+            -8,
+            -5,
+            -7,
+            -12,
+            8
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9209,
+    "intervention": {
+      "choices": 989,
+      "baseDiscards": 814,
+      "eligible": 71,
+      "changed": 71,
+      "outsGain": 195
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "649d25e36f9401dd690358bbf997b99128abd596cebe27ee46d45a42a65ef6c8"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-006",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 6
+    },
+    "groupSeed": "edb10da799b7f3b8942823a756c1769bba4c0697604e6fbdade46010ca3c84ae",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "edb10da799b7f3b8942823a756c1769bba4c0697604e6fbdade46010ca3c84ae",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 8,
+          "wins": 38,
+          "selfDraws": 30,
+          "dealIns": 4,
+          "draws": 0,
+          "huScore": 24,
+          "kongScore": -16,
+          "drawScore": 0,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            12,
+            6,
+            1,
+            -14,
+            18,
+            -15
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 0,
+          "wins": 33,
+          "selfDraws": 30,
+          "dealIns": 7,
+          "draws": 1,
+          "huScore": -6,
+          "kongScore": 6,
+          "drawScore": 0,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            3,
+            10,
+            -1,
+            -11,
+            6,
+            -7
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 30,
+          "wins": 38,
+          "selfDraws": 28,
+          "dealIns": 3,
+          "draws": 2,
+          "huScore": 32,
+          "kongScore": -2,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            12,
+            9,
+            1,
+            -5,
+            -5,
+            18
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8325,
+    "intervention": {
+      "choices": 915,
+      "baseDiscards": 745,
+      "eligible": 82,
+      "changed": 82,
+      "outsGain": 195
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "01e130c6e8e7399b9a7f4b8bf102cd63e174542d5afa9763a51a4cf91173fda8"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-007",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 7
+    },
+    "groupSeed": "16834fb5fded330dfe0bdb6ee3cae6094bb3287ac3aac69bd4a844b6fbb30a43",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "16834fb5fded330dfe0bdb6ee3cae6094bb3287ac3aac69bd4a844b6fbb30a43",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 45,
+          "wins": 38,
+          "selfDraws": 30,
+          "dealIns": 7,
+          "draws": 7,
+          "huScore": 42,
+          "kongScore": -3,
+          "drawScore": 6,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            17,
+            1,
+            6,
+            0,
+            8,
+            13
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 36,
+          "wins": 38,
+          "selfDraws": 30,
+          "dealIns": 8,
+          "draws": 6,
+          "huScore": 20,
+          "kongScore": 5,
+          "drawScore": 11,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            5,
+            12,
+            -1,
+            9,
+            15,
+            -4
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 15,
+          "wins": 31,
+          "selfDraws": 26,
+          "dealIns": 7,
+          "draws": 8,
+          "huScore": 7,
+          "kongScore": 4,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -14,
+            1,
+            4,
+            12,
+            11,
+            1
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8958,
+    "intervention": {
+      "choices": 1039,
+      "baseDiscards": 838,
+      "eligible": 116,
+      "changed": 116,
+      "outsGain": 259
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "9987539f25b5f940d0af38d174f1421229e5fb0e3694ca76d255a2fd1e8a2e19"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-008",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 8
+    },
+    "groupSeed": "d924d710fa3fcfdbce37600f1f18a67a66a899d9c3f2f00ef0f7fc45c67e5efb",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "d924d710fa3fcfdbce37600f1f18a67a66a899d9c3f2f00ef0f7fc45c67e5efb",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 54,
+          "wins": 41,
+          "selfDraws": 37,
+          "dealIns": 4,
+          "draws": 6,
+          "huScore": 43,
+          "kongScore": 11,
+          "drawScore": 0,
+          "revealHands": 3,
+          "revealedScore": 6,
+          "sessionFirstCredit": 5,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            3,
+            13,
+            4,
+            6,
+            12
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 40,
+          "wins": 38,
+          "selfDraws": 33,
+          "dealIns": 3,
+          "draws": 4,
+          "huScore": 32,
+          "kongScore": 8,
+          "drawScore": 0,
+          "revealHands": 1,
+          "revealedScore": 4,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            14,
+            4,
+            11,
+            4,
+            -3,
+            10
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 25,
+          "wins": 39,
+          "selfDraws": 35,
+          "dealIns": 5,
+          "draws": 0,
+          "huScore": 25,
+          "kongScore": 0,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            1,
+            0,
+            19,
+            9,
+            -13,
+            9
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8232,
+    "intervention": {
+      "choices": 952,
+      "baseDiscards": 776,
+      "eligible": 69,
+      "changed": 69,
+      "outsGain": 155
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "da85be7096de640857ab856f2d8ab099532ab2173d5531b32a9bc00259ce677d"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-009",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 9
+    },
+    "groupSeed": "632e7b8548d0655b79197f1dfa29cae1cc7b2831dd5deb7ac0d164f745c48f84",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "632e7b8548d0655b79197f1dfa29cae1cc7b2831dd5deb7ac0d164f745c48f84",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 25,
+          "wins": 32,
+          "selfDraws": 29,
+          "dealIns": 7,
+          "draws": 9,
+          "huScore": -8,
+          "kongScore": 24,
+          "drawScore": 9,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            21,
+            -5,
+            6,
+            -36,
+            6,
+            33
+          ],
+          "largeLosses": 1
+        },
+        "raw": {
+          "hands": 96,
+          "score": 24,
+          "wins": 34,
+          "selfDraws": 28,
+          "dealIns": 10,
+          "draws": 8,
+          "huScore": 12,
+          "kongScore": 5,
+          "drawScore": 7,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            17,
+            1,
+            6,
+            -11,
+            6,
+            5
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 21,
+          "wins": 32,
+          "selfDraws": 26,
+          "dealIns": 9,
+          "draws": 12,
+          "huScore": 6,
+          "kongScore": 11,
+          "drawScore": 4,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1.5,
+          "sessions": 6,
+          "sessionScores": [
+            15,
+            -1,
+            -6,
+            -26,
+            2,
+            37
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9344,
+    "intervention": {
+      "choices": 1031,
+      "baseDiscards": 841,
+      "eligible": 123,
+      "changed": 123,
+      "outsGain": 287
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d35ad0236c4eed9215b6436f579799202e637b4a1b91a4134a58040c10ed08dc"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-010",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 10
+    },
+    "groupSeed": "d0fe6b95ec2a228f138768c16c5e98e1c446ad1a72558e4acf1fd80a14b4650c",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "d0fe6b95ec2a228f138768c16c5e98e1c446ad1a72558e4acf1fd80a14b4650c",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 6,
+          "wins": 36,
+          "selfDraws": 31,
+          "dealIns": 8,
+          "draws": 4,
+          "huScore": 7,
+          "kongScore": -8,
+          "drawScore": 7,
+          "revealHands": 2,
+          "revealedScore": 4,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            -6,
+            -3,
+            -8,
+            12,
+            -5
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 21,
+          "wins": 37,
+          "selfDraws": 31,
+          "dealIns": 8,
+          "draws": 6,
+          "huScore": 13,
+          "kongScore": 2,
+          "drawScore": 6,
+          "revealHands": 2,
+          "revealedScore": 4,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2.5,
+          "sessions": 6,
+          "sessionScores": [
+            19,
+            -4,
+            -12,
+            -8,
+            28,
+            -2
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 17,
+          "wins": 39,
+          "selfDraws": 30,
+          "dealIns": 8,
+          "draws": 0,
+          "huScore": 22,
+          "kongScore": -5,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            9,
+            -4,
+            -4,
+            5,
+            12,
+            -1
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8179,
+    "intervention": {
+      "choices": 886,
+      "baseDiscards": 718,
+      "eligible": 80,
+      "changed": 80,
+      "outsGain": 224
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "6a338313dec4b6d9533b5524a070685e98e8a77b3d56118366a82bb7ee5ab6c6"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-011",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 11
+    },
+    "groupSeed": "531161822d32ef97324323a8395643648a3e8e40b4d8fa6b715ab1af471ce524",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "531161822d32ef97324323a8395643648a3e8e40b4d8fa6b715ab1af471ce524",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 40,
+          "wins": 34,
+          "selfDraws": 29,
+          "dealIns": 9,
+          "draws": 8,
+          "huScore": 18,
+          "kongScore": 12,
+          "drawScore": 10,
+          "revealHands": 2,
+          "revealedScore": 12,
+          "sessionFirstCredit": 2.5,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            -6,
+            12,
+            8,
+            2,
+            13
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 46,
+          "wins": 33,
+          "selfDraws": 30,
+          "dealIns": 9,
+          "draws": 10,
+          "huScore": 22,
+          "kongScore": 13,
+          "drawScore": 11,
+          "revealHands": 2,
+          "revealedScore": 12,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            11,
+            0,
+            4,
+            8,
+            12,
+            11
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 37,
+          "wins": 39,
+          "selfDraws": 30,
+          "dealIns": 9,
+          "draws": 4,
+          "huScore": 24,
+          "kongScore": 13,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            13,
+            4,
+            11,
+            0,
+            -1,
+            10
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8970,
+    "intervention": {
+      "choices": 995,
+      "baseDiscards": 807,
+      "eligible": 94,
+      "changed": 94,
+      "outsGain": 257
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "d51fc6da27da9693af0127b296e175e3886ddbe0ecf0c7b135239847be5014c0"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-012",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 12
+    },
+    "groupSeed": "1701873d671506179807370ac74f18815abe9a37d8b2483d05ca107f57ecc7f3",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "1701873d671506179807370ac74f18815abe9a37d8b2483d05ca107f57ecc7f3",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -6,
+          "wins": 39,
+          "selfDraws": 32,
+          "dealIns": 9,
+          "draws": 0,
+          "huScore": -9,
+          "kongScore": 3,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            4,
+            9,
+            -7,
+            1,
+            -2,
+            -11
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 35,
+          "wins": 39,
+          "selfDraws": 31,
+          "dealIns": 8,
+          "draws": 5,
+          "huScore": 21,
+          "kongScore": 6,
+          "drawScore": 8,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            18,
+            -5,
+            2,
+            21,
+            -3,
+            2
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 36,
+          "wins": 41,
+          "selfDraws": 36,
+          "dealIns": 5,
+          "draws": 0,
+          "huScore": 23,
+          "kongScore": 13,
+          "drawScore": 0,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            8,
+            16,
+            1,
+            10,
+            2,
+            -1
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8548,
+    "intervention": {
+      "choices": 914,
+      "baseDiscards": 760,
+      "eligible": 82,
+      "changed": 82,
+      "outsGain": 217
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "dea72b183e524f87e8737a9368fc79f4a95c733f56d03583604de5a09891fcc1"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-013",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 13
+    },
+    "groupSeed": "85c7934cb9a5379caf2947f801915d2e3aa69ec2b4d4c672945901a35aac46f4",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "85c7934cb9a5379caf2947f801915d2e3aa69ec2b4d4c672945901a35aac46f4",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 28,
+          "wins": 37,
+          "selfDraws": 27,
+          "dealIns": 8,
+          "draws": 8,
+          "huScore": 26,
+          "kongScore": 0,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 4,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            4,
+            6,
+            24,
+            1,
+            -5
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": -11,
+          "wins": 35,
+          "selfDraws": 30,
+          "dealIns": 13,
+          "draws": 6,
+          "huScore": -2,
+          "kongScore": -11,
+          "drawScore": 2,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -4,
+            10,
+            -3,
+            -7,
+            3,
+            -10
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 13,
+          "wins": 34,
+          "selfDraws": 25,
+          "dealIns": 9,
+          "draws": 8,
+          "huScore": 6,
+          "kongScore": 2,
+          "drawScore": 5,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -5,
+            2,
+            0,
+            19,
+            -3,
+            0
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9293,
+    "intervention": {
+      "choices": 1063,
+      "baseDiscards": 889,
+      "eligible": 95,
+      "changed": 95,
+      "outsGain": 257
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "a553938c9cc2b3c81b18c1b0214ab2d5c9c16257812da336d8b91f30c70ffd5b"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-014",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 14
+    },
+    "groupSeed": "9cd36572aa33657d52be04bbc2a6ac6d57b5ced08d12592c2e8a8a80478f8f89",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "9cd36572aa33657d52be04bbc2a6ac6d57b5ced08d12592c2e8a8a80478f8f89",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": -14,
+          "wins": 29,
+          "selfDraws": 23,
+          "dealIns": 6,
+          "draws": 9,
+          "huScore": -13,
+          "kongScore": -6,
+          "drawScore": 5,
+          "revealHands": 1,
+          "revealedScore": -8,
+          "sessionFirstCredit": 1,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            -2,
+            -3,
+            12,
+            -8,
+            -10,
+            -3
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 18,
+          "wins": 36,
+          "selfDraws": 31,
+          "dealIns": 6,
+          "draws": 4,
+          "huScore": 4,
+          "kongScore": 8,
+          "drawScore": 6,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 2,
+          "sessionLastCredit": 2,
+          "sessions": 6,
+          "sessionScores": [
+            -3,
+            -14,
+            12,
+            2,
+            7,
+            14
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 19,
+          "wins": 32,
+          "selfDraws": 30,
+          "dealIns": 8,
+          "draws": 6,
+          "huScore": 11,
+          "kongScore": 2,
+          "drawScore": 6,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 1,
+          "sessions": 6,
+          "sessionScores": [
+            7,
+            11,
+            -3,
+            -8,
+            -9,
+            21
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 8963,
+    "intervention": {
+      "choices": 1033,
+      "baseDiscards": 857,
+      "eligible": 117,
+      "changed": 117,
+      "outsGain": 300
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "b30014e9ec3e928010594a39ffce16755d0dfd114f50fb567f4e291e10b617b4"
+  },
+  {
+    "version": "kwx-outs-guard-1",
+    "protocolVersion": "kwx-paired-v1",
+    "job": {
+      "id": "pair-2-015",
+      "pair": {
+        "id": "never+greedy",
+        "policies": [
+          "h0-never",
+          "greedy-speed-v1"
+        ]
+      },
+      "group": 15
+    },
+    "groupSeed": "ca26462f996708f16aadd4cf7e86c658e52cc4c7158ab4b84a5413d940e8260f",
+    "record": {
+      "suite": "session",
+      "opponentPair": "never+greedy",
+      "seed": "ca26462f996708f16aadd4cf7e86c658e52cc4c7158ab4b84a5413d940e8260f",
+      "arms": {
+        "guarded": {
+          "hands": 96,
+          "score": 61,
+          "wins": 47,
+          "selfDraws": 37,
+          "dealIns": 6,
+          "draws": 7,
+          "huScore": 58,
+          "kongScore": -2,
+          "drawScore": 5,
+          "revealHands": 1,
+          "revealedScore": 8,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            16,
+            -7,
+            9,
+            25,
+            7,
+            11
+          ],
+          "largeLosses": 0
+        },
+        "raw": {
+          "hands": 96,
+          "score": 37,
+          "wins": 40,
+          "selfDraws": 32,
+          "dealIns": 7,
+          "draws": 7,
+          "huScore": 46,
+          "kongScore": -12,
+          "drawScore": 3,
+          "revealHands": 1,
+          "revealedScore": 8,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            12,
+            -7,
+            9,
+            3,
+            -2,
+            22
+          ],
+          "largeLosses": 0
+        },
+        "reference": {
+          "hands": 96,
+          "score": 52,
+          "wins": 36,
+          "selfDraws": 28,
+          "dealIns": 6,
+          "draws": 12,
+          "huScore": 26,
+          "kongScore": 17,
+          "drawScore": 9,
+          "revealHands": 0,
+          "revealedScore": 0,
+          "sessionFirstCredit": 3,
+          "sessionLastCredit": 0,
+          "sessions": 6,
+          "sessionScores": [
+            3,
+            0,
+            12,
+            17,
+            21,
+            -1
+          ],
+          "largeLosses": 0
+        }
+      }
+    },
+    "games": 288,
+    "decisions": 9968,
+    "intervention": {
+      "choices": 1108,
+      "baseDiscards": 903,
+      "eligible": 98,
+      "changed": 98,
+      "outsGain": 239
+    },
+    "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82",
+    "replaysSha256": "13eeaf6015cfd8a00a4f60fc3e5a9a60f60591984a41f7302d5c4e6afaf5dfca"
+  }
+]

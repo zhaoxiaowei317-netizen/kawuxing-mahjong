@@ -1,0 +1,3692 @@
+{
+  "createdAt": "2026-10-18T11:50:39.277Z",
+  "hands": 80,
+  "seed": "kwx-two-draw-public-diagnostic-1",
+  "trajectoryPolicy": "H0",
+  "trainingHands": 0,
+  "purpose": "Post-hoc structural examples on shared H0 states; not a strength test or selection input.",
+  "sources": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai/lookahead/policy.mjs": "129cd0ca889453235bac9173f3f091ef6a01cddd4e62950c1e7c4615eeb0bc7b",
+    "ai/lookahead/study.mjs": "a3753ed8de47e8aaba243e360e24cf935da0570a84d9371135f215883cdaf343"
+  },
+  "diagnosticSha256": "fbcc3790e2e83cf99b34e19b710a260b51894c69c438e02a5577de1ed8b93893",
+  "modes": {
+    "ties": {
+      "decisions": 2215,
+      "discardDecisions": 1915,
+      "searched": 570,
+      "changed": 43,
+      "lowerImmediateOuts": 0,
+      "sameImmediateOuts": 43,
+      "seconds": 16.0674316,
+      "examples": [
+        {
+          "hand": 3,
+          "step": 4,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "s1"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p1",
+                  "p1",
+                  "p4",
+                  "p5",
+                  "p7",
+                  "p8",
+                  "p8",
+                  "p9",
+                  "p9",
+                  "s5",
+                  "s5",
+                  "s9",
+                  "z5",
+                  "p8"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "s4"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 2,
+                "melds": [],
+                "river": [
+                  "s3"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 41,
+            "gangChain": 0,
+            "drawTile": "p8",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "s3",
+              "serial": 3,
+              "riverIndex": 0
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p1": 2,
+              "p4": 1,
+              "p5": 1,
+              "p7": 1,
+              "p8": 3,
+              "p9": 2,
+              "s5": 2,
+              "s9": 1,
+              "z5": 1,
+              "s1": 1,
+              "s4": 1,
+              "s3": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子6+3 · 从南边数墩开牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出4条",
+              "阿慧摸牌",
+              "阿慧打出3条",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p7",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 2,
+            "outs": 27,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 67,
+              "immediateOuts": 27,
+              "numerator": 237,
+              "denominator": 4422,
+              "probability": 0.05359565807327001,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p4"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 2,
+            "outs": 27,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 67,
+              "immediateOuts": 27,
+              "numerator": 333,
+              "denominator": 4422,
+              "probability": 0.07530529172320218,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 10,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 10,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 21,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 21,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "p7"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 4,
+          "step": 16,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 1,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "s9",
+                  "s1",
+                  "s6"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "s9",
+                  "z6"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p1",
+                  "p2",
+                  "p4",
+                  "p5",
+                  "p7",
+                  "p8",
+                  "p9",
+                  "s1",
+                  "s1",
+                  "s3",
+                  "s7",
+                  "s8",
+                  "s9",
+                  "p7"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "s3"
+                  }
+                ],
+                "river": [
+                  "s6",
+                  "s2",
+                  "p4",
+                  "s6"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "p3",
+                  "p6",
+                  "p9"
+                ],
+                "revealedTiles": [
+                  "p4",
+                  "p5",
+                  "p6",
+                  "p7",
+                  "p8",
+                  "s5",
+                  "s5",
+                  "s7",
+                  "s8",
+                  "s9"
+                ],
+                "hiddenTileCount": 0
+              }
+            ],
+            "phase": "discard",
+            "turn": 1,
+            "dealer": 1,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 33,
+            "gangChain": 0,
+            "drawTile": "p7",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 0,
+              "tile": "s6",
+              "serial": 12,
+              "riverIndex": 3
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p1": 1,
+              "p2": 1,
+              "p4": 3,
+              "p5": 2,
+              "p7": 3,
+              "p8": 2,
+              "p9": 1,
+              "s1": 3,
+              "s3": 4,
+              "s7": 2,
+              "s8": 2,
+              "s9": 4,
+              "z6": 3,
+              "s6": 3,
+              "s2": 1,
+              "p6": 1,
+              "s5": 2
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子3+3 · 从北边数墩开牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6条",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出3条",
+              "阿慧碰3条",
+              "阿慧打出2条并亮倒",
+              "阿源摸牌",
+              "阿源打出9条",
+              "小林摸牌",
+              "小林打出9条",
+              "阿慧摸牌",
+              "阿慧打出4筒",
+              "阿源摸牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6条",
+              "阿源摸牌",
+              "阿源打出6条",
+              "小林摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p1",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "p7",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 7,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 46,
+              "immediateOuts": 7,
+              "numerator": 24,
+              "denominator": 2070,
+              "probability": 0.011594202898550725,
+              "firstDraws": [
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s3"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 7,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 46,
+              "immediateOuts": 7,
+              "numerator": 36,
+              "denominator": 2070,
+              "probability": 0.017391304347826087,
+              "firstDraws": [
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 5,
+          "step": 15,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "p8",
+                  "p1"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p5",
+                  "p5",
+                  "s1",
+                  "s1",
+                  "s2",
+                  "s2",
+                  "s3",
+                  "s4",
+                  "s4",
+                  "s5",
+                  "s6",
+                  "s8",
+                  "s9",
+                  "s9"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p6"
+                  }
+                ],
+                "river": [
+                  "p3",
+                  "p2",
+                  "z6"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "s5",
+                  "s8"
+                ],
+                "revealedTiles": [
+                  "p1",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "s6",
+                  "s6",
+                  "s7",
+                  "s7",
+                  "s8"
+                ],
+                "hiddenTileCount": 0
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p9"
+                  }
+                ],
+                "river": [
+                  "z6",
+                  "z7",
+                  "p7",
+                  "p6"
+                ],
+                "liang": false,
+                "handSize": 10,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 10
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 34,
+            "gangChain": 0,
+            "drawTile": "s9",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "p6",
+              "serial": 12,
+              "riverIndex": 3
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p5": 2,
+              "s1": 2,
+              "s2": 2,
+              "s3": 1,
+              "s4": 2,
+              "s5": 1,
+              "s6": 3,
+              "s8": 2,
+              "s9": 2,
+              "z6": 3,
+              "p8": 1,
+              "p1": 3,
+              "p3": 2,
+              "p2": 2,
+              "p6": 4,
+              "p4": 1,
+              "s7": 2,
+              "z7": 1,
+              "p7": 1,
+              "p9": 3
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子1+2 · 从北边数墩开牌",
+              "阿源打出6筒",
+              "小林碰6筒",
+              "小林打出3筒并亮倒",
+              "阿慧摸牌",
+              "阿慧打出发财",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出红中",
+              "阿源摸牌",
+              "阿源打出8筒",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧碰9筒",
+              "阿慧打出7筒",
+              "阿源摸牌",
+              "阿源打出1筒",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6筒",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s1",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 9,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 44,
+              "immediateOuts": 9,
+              "numerator": 12,
+              "denominator": 1892,
+              "probability": 0.006342494714587738,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 9,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 44,
+              "immediateOuts": 9,
+              "numerator": 22,
+              "denominator": 1892,
+              "probability": 0.011627906976744186,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s1"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s2"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 6,
+          "step": 9,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "s1"
+                  }
+                ],
+                "river": [
+                  "s6",
+                  "z5"
+                ],
+                "liang": false,
+                "handSize": 11,
+                "publicWaits": [],
+                "hand": [
+                  "p3",
+                  "p5",
+                  "p5",
+                  "p6",
+                  "p9",
+                  "p9",
+                  "s2",
+                  "s3",
+                  "s7",
+                  "z6",
+                  "s9"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "s2",
+                  "z7"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 2,
+                "melds": [],
+                "river": [
+                  "s1",
+                  "z5"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 1,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 38,
+            "gangChain": 0,
+            "drawTile": "s9",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "z5",
+              "serial": 7,
+              "riverIndex": 1
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p3": 1,
+              "p5": 2,
+              "p6": 1,
+              "p9": 2,
+              "s2": 2,
+              "s3": 1,
+              "s7": 1,
+              "z6": 1,
+              "s9": 1,
+              "s6": 1,
+              "z5": 2,
+              "s1": 4,
+              "z7": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子5+4 · 从东边数墩开牌",
+              "小林打出1条",
+              "阿源碰1条",
+              "阿源打出6条",
+              "小林摸牌",
+              "小林打出2条",
+              "阿慧摸牌",
+              "阿慧打出1条",
+              "阿源摸牌",
+              "阿源打出白板",
+              "小林摸牌",
+              "小林打出红中",
+              "阿慧摸牌",
+              "阿慧打出白板",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p3",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "before": {
+            "distance": 2,
+            "outs": 20,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 64,
+              "immediateOuts": 20,
+              "numerator": 224,
+              "denominator": 4032,
+              "probability": 0.05555555555555555,
+              "firstDraws": [
+                {
+                  "tile": "p4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p5"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p5"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z6"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z6"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 2,
+            "outs": 20,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 64,
+              "immediateOuts": 20,
+              "numerator": 236,
+              "denominator": 4032,
+              "probability": 0.05853174603174603,
+              "firstDraws": [
+                {
+                  "tile": "p4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 11,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "p3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 9,
+          "step": 2,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 2,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "s8"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 2,
+                "melds": [],
+                "river": [],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p2",
+                  "p4",
+                  "p5",
+                  "p6",
+                  "p8",
+                  "p8",
+                  "p9",
+                  "s3",
+                  "s6",
+                  "s9",
+                  "z5",
+                  "z6",
+                  "z7",
+                  "s1"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              }
+            ],
+            "phase": "discard",
+            "turn": 2,
+            "dealer": 1,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 43,
+            "gangChain": 0,
+            "drawTile": "s1",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 1,
+              "tile": "s8",
+              "serial": 1,
+              "riverIndex": 0
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p2": 1,
+              "p4": 1,
+              "p5": 1,
+              "p6": 1,
+              "p8": 2,
+              "p9": 1,
+              "s3": 1,
+              "s6": 1,
+              "s9": 1,
+              "z5": 1,
+              "z6": 1,
+              "z7": 1,
+              "s1": 1,
+              "s8": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子4+5 · 从东边数墩开牌",
+              "小林打出8条",
+              "阿慧摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "z5",
+            "reveal": false
+          },
+          "before": {
+            "distance": 4,
+            "outs": 60,
+            "lookahead": {
+              "distance": 4,
+              "target": 2,
+              "unseen": 69,
+              "immediateOuts": 60,
+              "numerator": 2581,
+              "denominator": 4692,
+              "probability": 0.5500852514919011,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 41,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 46,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 41,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s6"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 20,
+                  "discard": "p2"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 56,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "s2",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 37,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 41,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 38,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 40,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 37,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "z6"
+                },
+                {
+                  "tile": "z6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "z7",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "z5"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 4,
+            "outs": 60,
+            "lookahead": {
+              "distance": 4,
+              "target": 2,
+              "unseen": 69,
+              "immediateOuts": 60,
+              "numerator": 2721,
+              "denominator": 4692,
+              "probability": 0.579923273657289,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 41,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 46,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 41,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s6"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 20,
+                  "discard": "p2"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 56,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s2",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 44,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 44,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 45,
+                  "discard": "z6"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 50,
+                  "discard": "p9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "z6"
+                },
+                {
+                  "tile": "z6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "z7",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 53,
+                  "discard": "s9"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 15,
+          "step": 22,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "p2",
+                  "z5",
+                  "p2",
+                  "z7",
+                  "s3"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p7",
+                  "p8",
+                  "p9",
+                  "s1",
+                  "s1",
+                  "s3",
+                  "s4",
+                  "s4",
+                  "s5",
+                  "s6",
+                  "s8",
+                  "s9",
+                  "z6",
+                  "p9"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p5"
+                  }
+                ],
+                "river": [
+                  "s7",
+                  "z5",
+                  "z7",
+                  "p3",
+                  "s5",
+                  "p8",
+                  "s8"
+                ],
+                "liang": false,
+                "handSize": 10,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 10
+              },
+              {
+                "seat": 2,
+                "melds": [],
+                "river": [
+                  "s9",
+                  "s4",
+                  "s9",
+                  "p6",
+                  "p7",
+                  "p1",
+                  "p1"
+                ],
+                "liang": true,
+                "handSize": 13,
+                "publicWaits": [
+                  "p9",
+                  "z6"
+                ],
+                "revealedTiles": [
+                  "p5",
+                  "p6",
+                  "p7",
+                  "p9",
+                  "p9",
+                  "s2",
+                  "s3",
+                  "s4",
+                  "s5",
+                  "s6",
+                  "s7",
+                  "z6",
+                  "z6"
+                ],
+                "hiddenTileCount": 0
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 1,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 25,
+            "gangChain": 0,
+            "drawTile": "p9",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "p1",
+              "serial": 20,
+              "riverIndex": 6
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p7": 3,
+              "p8": 2,
+              "p9": 4,
+              "s1": 2,
+              "s3": 3,
+              "s4": 4,
+              "s5": 3,
+              "s6": 2,
+              "s8": 2,
+              "s9": 3,
+              "z6": 3,
+              "p2": 2,
+              "z5": 2,
+              "z7": 2,
+              "s7": 2,
+              "p3": 1,
+              "p5": 4,
+              "p6": 2,
+              "p1": 2,
+              "s2": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子3+2 · 从东边数墩开牌",
+              "小林打出7条",
+              "阿慧摸牌",
+              "阿慧打出9条",
+              "阿源摸牌",
+              "阿源打出2筒",
+              "小林摸牌",
+              "小林打出白板",
+              "阿慧摸牌",
+              "阿慧打出4条",
+              "阿源摸牌",
+              "阿源打出5筒",
+              "小林碰5筒",
+              "小林打出红中",
+              "阿慧摸牌",
+              "阿慧打出9条",
+              "阿源摸牌",
+              "阿源打出白板",
+              "小林摸牌",
+              "小林打出3筒",
+              "阿慧摸牌",
+              "阿慧打出6筒",
+              "阿源摸牌",
+              "阿源打出2筒",
+              "小林摸牌",
+              "小林打出5条",
+              "阿慧摸牌",
+              "阿慧打出7筒并亮倒",
+              "阿源摸牌",
+              "阿源打出红中",
+              "小林摸牌",
+              "小林打出8筒",
+              "阿慧摸牌",
+              "阿慧打出1筒",
+              "阿源摸牌",
+              "阿源打出3条",
+              "小林摸牌",
+              "小林打出8条",
+              "阿慧摸牌",
+              "阿慧打出1筒",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s4",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 2,
+            "outs": 20,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 35,
+              "immediateOuts": 20,
+              "numerator": 66,
+              "denominator": 1190,
+              "probability": 0.05546218487394958,
+              "firstDraws": [
+                {
+                  "tile": "p6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "s1"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "s1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "s2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "s1"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s5",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s9",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "z6",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "s1"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 2,
+            "outs": 20,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 35,
+              "immediateOuts": 20,
+              "numerator": 96,
+              "denominator": 1190,
+              "probability": 0.08067226890756303,
+              "firstDraws": [
+                {
+                  "tile": "p6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "s1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 7,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "s2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s5",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "s8"
+                },
+                {
+                  "tile": "s6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "s4"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s9",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "z6",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s8"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "same-shanten": {
+      "decisions": 2215,
+      "discardDecisions": 1915,
+      "searched": 1179,
+      "changed": 99,
+      "lowerImmediateOuts": 56,
+      "sameImmediateOuts": 43,
+      "seconds": 32.295135300000126,
+      "examples": [
+        {
+          "hand": 3,
+          "step": 4,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "s1"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p1",
+                  "p1",
+                  "p4",
+                  "p5",
+                  "p7",
+                  "p8",
+                  "p8",
+                  "p9",
+                  "p9",
+                  "s5",
+                  "s5",
+                  "s9",
+                  "z5",
+                  "p8"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "s4"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 2,
+                "melds": [],
+                "river": [
+                  "s3"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 41,
+            "gangChain": 0,
+            "drawTile": "p8",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "s3",
+              "serial": 3,
+              "riverIndex": 0
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p1": 2,
+              "p4": 1,
+              "p5": 1,
+              "p7": 1,
+              "p8": 3,
+              "p9": 2,
+              "s5": 2,
+              "s9": 1,
+              "z5": 1,
+              "s1": 1,
+              "s4": 1,
+              "s3": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子6+3 · 从南边数墩开牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出4条",
+              "阿慧摸牌",
+              "阿慧打出3条",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p7",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 2,
+            "outs": 27,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 67,
+              "immediateOuts": 27,
+              "numerator": 237,
+              "denominator": 4422,
+              "probability": 0.05359565807327001,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p4"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 2,
+            "outs": 27,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 67,
+              "immediateOuts": 27,
+              "numerator": 333,
+              "denominator": 4422,
+              "probability": 0.07530529172320218,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 10,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 10,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p7",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 21,
+                  "discard": "p8"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 21,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "p9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "p7"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 16,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p8"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 4,
+          "step": 16,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 1,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "s9",
+                  "s1",
+                  "s6"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 1,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "s9",
+                  "z6"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p1",
+                  "p2",
+                  "p4",
+                  "p5",
+                  "p7",
+                  "p8",
+                  "p9",
+                  "s1",
+                  "s1",
+                  "s3",
+                  "s7",
+                  "s8",
+                  "s9",
+                  "p7"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "s3"
+                  }
+                ],
+                "river": [
+                  "s6",
+                  "s2",
+                  "p4",
+                  "s6"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "p3",
+                  "p6",
+                  "p9"
+                ],
+                "revealedTiles": [
+                  "p4",
+                  "p5",
+                  "p6",
+                  "p7",
+                  "p8",
+                  "s5",
+                  "s5",
+                  "s7",
+                  "s8",
+                  "s9"
+                ],
+                "hiddenTileCount": 0
+              }
+            ],
+            "phase": "discard",
+            "turn": 1,
+            "dealer": 1,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 33,
+            "gangChain": 0,
+            "drawTile": "p7",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 0,
+              "tile": "s6",
+              "serial": 12,
+              "riverIndex": 3
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p1": 1,
+              "p2": 1,
+              "p4": 3,
+              "p5": 2,
+              "p7": 3,
+              "p8": 2,
+              "p9": 1,
+              "s1": 3,
+              "s3": 4,
+              "s7": 2,
+              "s8": 2,
+              "s9": 4,
+              "z6": 3,
+              "s6": 3,
+              "s2": 1,
+              "p6": 1,
+              "s5": 2
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子3+3 · 从北边数墩开牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6条",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出3条",
+              "阿慧碰3条",
+              "阿慧打出2条并亮倒",
+              "阿源摸牌",
+              "阿源打出9条",
+              "小林摸牌",
+              "小林打出9条",
+              "阿慧摸牌",
+              "阿慧打出4筒",
+              "阿源摸牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6条",
+              "阿源摸牌",
+              "阿源打出6条",
+              "小林摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p1",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "p7",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 7,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 46,
+              "immediateOuts": 7,
+              "numerator": 24,
+              "denominator": 2070,
+              "probability": 0.011594202898550725,
+              "firstDraws": [
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s3"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 7,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 46,
+              "immediateOuts": 7,
+              "numerator": 36,
+              "denominator": 2070,
+              "probability": 0.017391304347826087,
+              "firstDraws": [
+                {
+                  "tile": "p3",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "s3"
+                },
+                {
+                  "tile": "p6",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 5,
+          "step": 11,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 2,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "p8"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p6"
+                  }
+                ],
+                "river": [
+                  "p3",
+                  "p2"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "s5",
+                  "s8"
+                ],
+                "revealedTiles": [
+                  "p1",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "s6",
+                  "s6",
+                  "s7",
+                  "s7",
+                  "s8"
+                ],
+                "hiddenTileCount": 0
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p9"
+                  }
+                ],
+                "river": [
+                  "z6",
+                  "z7"
+                ],
+                "liang": false,
+                "handSize": 11,
+                "publicWaits": [],
+                "hand": [
+                  "p1",
+                  "p3",
+                  "p6",
+                  "p7",
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s5",
+                  "s8",
+                  "z5",
+                  "z5"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              }
+            ],
+            "phase": "discard",
+            "turn": 2,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 38,
+            "gangChain": 0,
+            "drawTile": null,
+            "pending": null,
+            "lastDiscard": {
+              "seat": 1,
+              "tile": "p9",
+              "serial": 8,
+              "riverIndex": 2
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p1": 3,
+              "p3": 3,
+              "p6": 4,
+              "p7": 1,
+              "s1": 1,
+              "s2": 1,
+              "s3": 1,
+              "s5": 1,
+              "s8": 2,
+              "z5": 2,
+              "z6": 2,
+              "p8": 1,
+              "p2": 2,
+              "p4": 1,
+              "s6": 2,
+              "s7": 2,
+              "z7": 1,
+              "p9": 3
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子1+2 · 从北边数墩开牌",
+              "阿源打出6筒",
+              "小林碰6筒",
+              "小林打出3筒并亮倒",
+              "阿慧摸牌",
+              "阿慧打出发财",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出红中",
+              "阿源摸牌",
+              "阿源打出8筒",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧碰9筒"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "p7",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "p1",
+            "reveal": false
+          },
+          "before": {
+            "distance": 2,
+            "outs": 37,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 51,
+              "immediateOuts": 37,
+              "numerator": 180,
+              "denominator": 2550,
+              "probability": 0.07058823529411765,
+              "firstDraws": [
+                {
+                  "tile": "p2",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 22,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p5",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p7",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p8",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 7,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 6,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 8,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "p6"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 7,
+                  "discard": "p6"
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 2,
+            "outs": 36,
+            "lookahead": {
+              "distance": 2,
+              "target": 0,
+              "unseen": 51,
+              "immediateOuts": 36,
+              "numerator": 400,
+              "denominator": 2550,
+              "probability": 0.1568627450980392,
+              "firstDraws": [
+                {
+                  "tile": "p1",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p2",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p3",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "p5",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 22,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "p8",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 22,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 11,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 11,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s6",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 13,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 13,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 10,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 4,
+                  "immediateWin": false,
+                  "secondOuts": 9,
+                  "discard": "p3"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 12,
+                  "discard": "p3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 5,
+          "step": 15,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "p8",
+                  "p1"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p5",
+                  "p5",
+                  "s1",
+                  "s1",
+                  "s2",
+                  "s2",
+                  "s3",
+                  "s4",
+                  "s4",
+                  "s5",
+                  "s6",
+                  "s8",
+                  "s9",
+                  "s9"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p6"
+                  }
+                ],
+                "river": [
+                  "p3",
+                  "p2",
+                  "z6"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "s5",
+                  "s8"
+                ],
+                "revealedTiles": [
+                  "p1",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "s6",
+                  "s6",
+                  "s7",
+                  "s7",
+                  "s8"
+                ],
+                "hiddenTileCount": 0
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p9"
+                  }
+                ],
+                "river": [
+                  "z6",
+                  "z7",
+                  "p7",
+                  "p6"
+                ],
+                "liang": false,
+                "handSize": 10,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 10
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 34,
+            "gangChain": 0,
+            "drawTile": "s9",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "p6",
+              "serial": 12,
+              "riverIndex": 3
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p5": 2,
+              "s1": 2,
+              "s2": 2,
+              "s3": 1,
+              "s4": 2,
+              "s5": 1,
+              "s6": 3,
+              "s8": 2,
+              "s9": 2,
+              "z6": 3,
+              "p8": 1,
+              "p1": 3,
+              "p3": 2,
+              "p2": 2,
+              "p6": 4,
+              "p4": 1,
+              "s7": 2,
+              "z7": 1,
+              "p7": 1,
+              "p9": 3
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子1+2 · 从北边数墩开牌",
+              "阿源打出6筒",
+              "小林碰6筒",
+              "小林打出3筒并亮倒",
+              "阿慧摸牌",
+              "阿慧打出发财",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出红中",
+              "阿源摸牌",
+              "阿源打出8筒",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧碰9筒",
+              "阿慧打出7筒",
+              "阿源摸牌",
+              "阿源打出1筒",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6筒",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s1",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 9,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 44,
+              "immediateOuts": 9,
+              "numerator": 12,
+              "denominator": 1892,
+              "probability": 0.006342494714587738,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 9,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 44,
+              "immediateOuts": 9,
+              "numerator": 22,
+              "denominator": 1892,
+              "probability": 0.011627906976744186,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s1",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s1"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s2"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 5,
+          "step": 18,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 0,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "p8",
+                  "p1",
+                  "s1"
+                ],
+                "liang": false,
+                "handSize": 14,
+                "publicWaits": [],
+                "hand": [
+                  "p5",
+                  "p5",
+                  "s1",
+                  "s2",
+                  "s2",
+                  "s3",
+                  "s4",
+                  "s4",
+                  "s5",
+                  "s6",
+                  "s8",
+                  "s9",
+                  "s9",
+                  "s4"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p6"
+                  }
+                ],
+                "river": [
+                  "p3",
+                  "p2",
+                  "z6",
+                  "p2"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "s5",
+                  "s8"
+                ],
+                "revealedTiles": [
+                  "p1",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "s6",
+                  "s6",
+                  "s7",
+                  "s7",
+                  "s8"
+                ],
+                "hiddenTileCount": 0
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p9"
+                  }
+                ],
+                "river": [
+                  "z6",
+                  "z7",
+                  "p7",
+                  "p6",
+                  "p1"
+                ],
+                "liang": false,
+                "handSize": 10,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 10
+              }
+            ],
+            "phase": "discard",
+            "turn": 0,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 31,
+            "gangChain": 0,
+            "drawTile": "s4",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 2,
+              "tile": "p1",
+              "serial": 15,
+              "riverIndex": 4
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "p5": 2,
+              "s1": 2,
+              "s2": 2,
+              "s3": 1,
+              "s4": 3,
+              "s5": 1,
+              "s6": 3,
+              "s8": 2,
+              "s9": 2,
+              "z6": 3,
+              "p8": 1,
+              "p1": 4,
+              "p3": 2,
+              "p2": 3,
+              "p6": 4,
+              "p4": 1,
+              "s7": 2,
+              "z7": 1,
+              "p7": 1,
+              "p9": 3
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子1+2 · 从北边数墩开牌",
+              "阿源打出6筒",
+              "小林碰6筒",
+              "小林打出3筒并亮倒",
+              "阿慧摸牌",
+              "阿慧打出发财",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出红中",
+              "阿源摸牌",
+              "阿源打出8筒",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧碰9筒",
+              "阿慧打出7筒",
+              "阿源摸牌",
+              "阿源打出1筒",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6筒",
+              "阿源摸牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出1筒",
+              "阿源摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s1",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 9,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 41,
+              "immediateOuts": 9,
+              "numerator": 12,
+              "denominator": 1640,
+              "probability": 0.007317073170731708,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 3,
+                  "discard": "s9"
+                },
+                {
+                  "tile": "s9",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 8,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 41,
+              "immediateOuts": 8,
+              "numerator": 20,
+              "denominator": 1640,
+              "probability": 0.012195121951219513,
+              "firstDraws": [
+                {
+                  "tile": "p5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s3",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s1"
+                },
+                {
+                  "tile": "s4",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "s2"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 4,
+                  "discard": "s2"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "hand": 5,
+          "step": 33,
+          "observation": {
+            "version": "kwx-observation-1",
+            "rulesVersion": "xiaogan-1.0",
+            "seat": 2,
+            "config": {
+              "base": 1,
+              "cap": 16
+            },
+            "players": [
+              {
+                "seat": 0,
+                "melds": [],
+                "river": [
+                  "z6",
+                  "p8",
+                  "p1",
+                  "s1",
+                  "s1",
+                  "z7",
+                  "s9",
+                  "z5",
+                  "s9"
+                ],
+                "liang": false,
+                "handSize": 13,
+                "publicWaits": [],
+                "revealedTiles": [],
+                "hiddenTileCount": 13
+              },
+              {
+                "seat": 1,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p6"
+                  }
+                ],
+                "river": [
+                  "p3",
+                  "p2",
+                  "z6",
+                  "p2",
+                  "p9",
+                  "p8",
+                  "s6",
+                  "p4",
+                  "z6"
+                ],
+                "liang": true,
+                "handSize": 10,
+                "publicWaits": [
+                  "s5",
+                  "s8"
+                ],
+                "revealedTiles": [
+                  "p1",
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "s6",
+                  "s6",
+                  "s7",
+                  "s7",
+                  "s8"
+                ],
+                "hiddenTileCount": 0
+              },
+              {
+                "seat": 2,
+                "melds": [
+                  {
+                    "kind": "peng",
+                    "tile": "p9"
+                  }
+                ],
+                "river": [
+                  "z6",
+                  "z7",
+                  "p7",
+                  "p6",
+                  "p1",
+                  "p8",
+                  "p3",
+                  "p8",
+                  "p2"
+                ],
+                "liang": false,
+                "handSize": 11,
+                "publicWaits": [],
+                "hand": [
+                  "s1",
+                  "s2",
+                  "s3",
+                  "s3",
+                  "s4",
+                  "s5",
+                  "s8",
+                  "s9",
+                  "z5",
+                  "z5",
+                  "s5"
+                ],
+                "passedHu": [],
+                "passedPeng": [],
+                "buOpportunities": [],
+                "reservedKongTiles": []
+              }
+            ],
+            "phase": "discard",
+            "turn": 2,
+            "dealer": 0,
+            "round": 1,
+            "totals": [
+              0,
+              0,
+              0
+            ],
+            "wallCount": 17,
+            "gangChain": 0,
+            "drawTile": "s5",
+            "pending": null,
+            "lastDiscard": {
+              "seat": 1,
+              "tile": "z6",
+              "serial": 29,
+              "riverIndex": 8
+            },
+            "kongs": [],
+            "visibleCounts": {
+              "s1": 3,
+              "s2": 1,
+              "s3": 2,
+              "s4": 1,
+              "s5": 2,
+              "s8": 2,
+              "s9": 3,
+              "z5": 3,
+              "z6": 4,
+              "p8": 4,
+              "p1": 4,
+              "z7": 2,
+              "p3": 3,
+              "p2": 4,
+              "p9": 4,
+              "s6": 3,
+              "p4": 2,
+              "p6": 4,
+              "s7": 2,
+              "p7": 1
+            },
+            "publicActionLog": [
+              "新一局开牌",
+              "四边码牌11/10/11/10墩 · 骰子1+2 · 从北边数墩开牌",
+              "阿源打出6筒",
+              "小林碰6筒",
+              "小林打出3筒并亮倒",
+              "阿慧摸牌",
+              "阿慧打出发财",
+              "阿源摸牌",
+              "阿源打出发财",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出红中",
+              "阿源摸牌",
+              "阿源打出8筒",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧碰9筒",
+              "阿慧打出7筒",
+              "阿源摸牌",
+              "阿源打出1筒",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌",
+              "阿慧打出6筒",
+              "阿源摸牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出2筒",
+              "阿慧摸牌",
+              "阿慧打出1筒",
+              "阿源摸牌",
+              "阿源打出1条",
+              "小林摸牌",
+              "小林打出9筒",
+              "阿慧摸牌",
+              "阿慧打出8筒",
+              "阿源摸牌",
+              "阿源打出红中",
+              "小林摸牌",
+              "小林打出8筒",
+              "阿慧摸牌",
+              "阿慧打出3筒",
+              "阿源摸牌",
+              "阿源打出9条",
+              "小林摸牌",
+              "小林打出6条",
+              "阿慧摸牌",
+              "阿慧打出8筒",
+              "阿源摸牌",
+              "阿源打出白板",
+              "小林摸牌",
+              "小林打出4筒",
+              "阿慧摸牌",
+              "阿慧打出2筒",
+              "阿源摸牌",
+              "阿源打出9条",
+              "小林摸牌",
+              "小林打出发财",
+              "阿慧摸牌"
+            ]
+          },
+          "baseline": {
+            "type": "discard",
+            "tile": "s9",
+            "reveal": false
+          },
+          "selected": {
+            "type": "discard",
+            "tile": "z5",
+            "reveal": false
+          },
+          "before": {
+            "distance": 1,
+            "outs": 17,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 30,
+              "immediateOuts": 17,
+              "numerator": 0,
+              "denominator": 870,
+              "probability": 0,
+              "firstDraws": [
+                {
+                  "tile": "s2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s3",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s4",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s6",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s8",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "s9",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                },
+                {
+                  "tile": "z5",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                }
+              ]
+            }
+          },
+          "after": {
+            "distance": 1,
+            "outs": 8,
+            "lookahead": {
+              "distance": 1,
+              "target": -1,
+              "unseen": 30,
+              "immediateOuts": 8,
+              "numerator": 20,
+              "denominator": 870,
+              "probability": 0.022988505747126436,
+              "firstDraws": [
+                {
+                  "tile": "s2",
+                  "copies": 3,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "s5",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 2,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "s7",
+                  "copies": 2,
+                  "immediateWin": false,
+                  "secondOuts": 5,
+                  "discard": "z5"
+                },
+                {
+                  "tile": "z5",
+                  "copies": 1,
+                  "immediateWin": false,
+                  "secondOuts": 0,
+                  "discard": null
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

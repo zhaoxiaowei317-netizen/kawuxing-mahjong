@@ -1,0 +1,9 @@
+{
+  "completedAt": "2026-10-18T15:11:27.753Z",
+  "reason": "Initial training-0 child failed with EPERM creating its directory. The exact predeclared shard was rerun after the parent existed; all successful shards reused.",
+  "planSha256": "f44449413c283efedacd628df1e1197f2eac6cb47b1c72a2dda0387399c04e63",
+  "recoverySourceSha256": "c6cc2dd968143d00181d38a005f596476446f6b238fc15af4419fe3a675c52a3",
+  "changedSeeds": false,
+  "changedBudgets": false,
+  "changedInferenceOrTrainingSources": false
+}

@@ -1,0 +1,98 @@
+{
+  "never+H0": {
+    "guarded": {
+      "hands": 1536,
+      "score": 261,
+      "wins": 559,
+      "dealIns": 31,
+      "revealHands": 7,
+      "huScore": 188,
+      "kongScore": 29,
+      "drawScore": 44
+    },
+    "raw": {
+      "hands": 1536,
+      "score": 42,
+      "wins": 547,
+      "dealIns": 31,
+      "revealHands": 8,
+      "huScore": 32,
+      "kongScore": -20,
+      "drawScore": 30
+    },
+    "reference": {
+      "hands": 1536,
+      "score": 338,
+      "wins": 592,
+      "dealIns": 42,
+      "revealHands": 0,
+      "huScore": 299,
+      "kongScore": -6,
+      "drawScore": 45
+    }
+  },
+  "never+never": {
+    "guarded": {
+      "hands": 1536,
+      "score": -86,
+      "wins": 490,
+      "dealIns": 82,
+      "revealHands": 18,
+      "huScore": -6,
+      "kongScore": -82,
+      "drawScore": 2
+    },
+    "raw": {
+      "hands": 1536,
+      "score": -276,
+      "wins": 448,
+      "dealIns": 80,
+      "revealHands": 20,
+      "huScore": -168,
+      "kongScore": -96,
+      "drawScore": -12
+    },
+    "reference": {
+      "hands": 1536,
+      "score": 0,
+      "wins": 486,
+      "dealIns": 82,
+      "revealHands": 0,
+      "huScore": 0,
+      "kongScore": 0,
+      "drawScore": 0
+    }
+  },
+  "never+greedy": {
+    "guarded": {
+      "hands": 1536,
+      "score": 432,
+      "wins": 608,
+      "dealIns": 91,
+      "revealHands": 14,
+      "huScore": 352,
+      "kongScore": 21,
+      "drawScore": 59
+    },
+    "raw": {
+      "hands": 1536,
+      "score": 381,
+      "wins": 572,
+      "dealIns": 109,
+      "revealHands": 11,
+      "huScore": 226,
+      "kongScore": 74,
+      "drawScore": 81
+    },
+    "reference": {
+      "hands": 1536,
+      "score": 386,
+      "wins": 584,
+      "dealIns": 94,
+      "revealHands": 0,
+      "huScore": 297,
+      "kongScore": 64,
+      "drawScore": 25
+    }
+  }
+}

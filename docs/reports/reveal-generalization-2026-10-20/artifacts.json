@@ -1,0 +1,450 @@
+[
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\plan.json",
+    "sha256": "d4d44564cbfee6e9118b50574b6e854213f8fce07161276faa10f3a92a6a21ad"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\summary.json",
+    "sha256": "4769243e6d793312935e512ffdaad442ef73434dedd8570ca98f3e04dd7eb053"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\verification.json",
+    "sha256": "72ed0b147e5b93de8d1d3a3d5a1c3a368696ef13b932502212ef659fb6fc64f2"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\runtime.json",
+    "sha256": "37d260d0bd8bf0c7ec1de3b5526b49266b5dfc7c540fab912d33344474c10191"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\frozen-sources.tar.gz",
+    "sha256": "b3f53b6e0181d2607a5e79a8003e3939cfec614f79289ae3a3f6b08ed0722159"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.json",
+    "sha256": "b9a45d031042a107c839b40c744f840b5e5df795db2b6fa354fb3524a6f4f1f3"
+  },
+  {
+    "path": "ai-runs\\tile-q-20261018\\model-tiles-offline\\epoch-008.pt",
+    "sha256": "a7b8a967d3f1fc3f5a1719a865244d872ddc3be4d2b5ad4bd3ef55bd155c4320"
+  },
+  {
+    "path": "ai-runs\\reveal-study-20261019\\summary.json",
+    "sha256": "4f78e26ee27cd8887bdff6704a35cd5d1dbd7a528adaa6570c82b665d5e345b5"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-000\\group.json",
+    "sha256": "35cab9c073d80c3d74acad8836efeb41382eac9f784170dc3dde142dffdff611"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-000\\replays.jsonl.gz",
+    "sha256": "5bb7e7b93f6ee6058304ea1c7ebddd01bd9802544dfd0f6113fcee4aa68d6e9d"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-001\\group.json",
+    "sha256": "9d29903485cba96ff6c7e2b64c8a123c692d6b443d9ceb597b3d3f483cdd3e00"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-001\\replays.jsonl.gz",
+    "sha256": "03a0603edf200e15e724eac7fc2bb44a90df5129e3abcefbbafa9f1f83a65d59"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-002\\group.json",
+    "sha256": "453e3daa43277543b44889b1f7df19ece74a2cbdba383876e4ef9bd4cd31b943"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-002\\replays.jsonl.gz",
+    "sha256": "681069011d0ea25675e9ce913b84daf6d2fe288eada62ae83922b7e90576716b"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-003\\group.json",
+    "sha256": "6726d38a9a00b12875e37efab57d880cf4a05fb2cfd987b917ff8fc88b5596fb"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-003\\replays.jsonl.gz",
+    "sha256": "fa4baf4f03eee8371ce4d227002d10e55273a4693def2a73836f0dfd811e3711"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-004\\group.json",
+    "sha256": "682c2b8eb6305e6a78d2797821b312cfcfc645b682fe9e20e82153924f68d257"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-004\\replays.jsonl.gz",
+    "sha256": "c33d0634d2fb5b55ca59772f7b7db5a3c1014bf3504c60899488d5b32b51ba43"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-005\\group.json",
+    "sha256": "00e40b8334c7cb43ce5654a72a13385805781db709169cadd79e586e39687ca2"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-005\\replays.jsonl.gz",
+    "sha256": "310a468ae3a076f6de580c7c070a6d18560f470a6c1177f25444f7d9d3eda93e"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-006\\group.json",
+    "sha256": "33e0c5d4a52bf50fd74f6e14ac051b184aac66ae9bb7c3ddb63e94b8826b6709"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-006\\replays.jsonl.gz",
+    "sha256": "1d7b0145c0d2a1dba0ee3e7d93b7b35f8a6afcb3f9ad5f834a300b6f2f913c4c"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-007\\group.json",
+    "sha256": "0210c786346dbb2544efe919d8cf05a3d2163aec9c0b92e51853305e017f7487"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-007\\replays.jsonl.gz",
+    "sha256": "789dddd1df53149802e7b5bfeb8fd05c2d07569bf627e60495422ddd9360c624"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-008\\group.json",
+    "sha256": "7afa4eae4c60c3f784fc6c020fcc3ce983e5558b61b62067f73d0b31d9bc8556"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-008\\replays.jsonl.gz",
+    "sha256": "7f1d93bf9b8870a61ebeb84fe248c4c1e3a42a80e56d09328f0bc9096e07c6ea"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-009\\group.json",
+    "sha256": "3c19347a0f683efc584762dd281a0e45810375e473a86a80da5ca5236a57f178"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-009\\replays.jsonl.gz",
+    "sha256": "f28a368403ffc4d19a23dca63b429af118493a7c31398640538d137a9ed0c27f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-010\\group.json",
+    "sha256": "85ea12c08f564dc2201aba46d73e85a035c51438ca38846e764a9033ad0f3fbd"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-010\\replays.jsonl.gz",
+    "sha256": "ecd9e52043dcd866209aadf0e6b1907de200c0b96797e92050d7bb0b8f0cb7d7"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-011\\group.json",
+    "sha256": "81990c4df39e00f3995fbc0191f01085b7ba36d607420d12c268882d97fe20ea"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-011\\replays.jsonl.gz",
+    "sha256": "06be7c37c05738484039843cfc056e1e467e0c8bc25a9acca94601375e3b160d"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-012\\group.json",
+    "sha256": "d6fafdd7b4145bbb14eb49f1afdcd268d61959b0d440de9542a05fecb51f9fc7"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-012\\replays.jsonl.gz",
+    "sha256": "39c376ab10f9469e45af5202d8bca2c6bf0f9b5d46b270f4aee5c00954012bdb"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-013\\group.json",
+    "sha256": "933f368cacc98f3c250ff2e74250e4ba7c0da4e4af8d577646295a308e4597f4"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-013\\replays.jsonl.gz",
+    "sha256": "4e9d1731a534342cc384757ccb18bee40aec24de2abbde3d3829376c3da283ef"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-014\\group.json",
+    "sha256": "bff4316b33f9add9fcbb371d3efd9170b28c4f992097157466b2bc06d10e5a26"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-014\\replays.jsonl.gz",
+    "sha256": "e057f09be6b9b60639fbb81ee8e900feb6886a77811d9b70d09198648d014d58"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-015\\group.json",
+    "sha256": "2f6fe8eca3f2c7f6738a071f056ff6da9fb51b68090cb09f46bfe1e98d47324f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-0-015\\replays.jsonl.gz",
+    "sha256": "83c33b569d8c048d26a97e8c3e783df0c67077a087889dc42cfb31c376974e64"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-000\\group.json",
+    "sha256": "b824f054183c413ff63993b26ed4305f79c6cd8182a6c17fb2df57be01205241"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-000\\replays.jsonl.gz",
+    "sha256": "b7b0f641a52b51049c0a6b68c1cefbb844d39d6363dca7e44ff069a74fd81958"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-001\\group.json",
+    "sha256": "50600c5ffd206c484bcc6295ac6b7d59976af45b762bf954c73c02e26bd44223"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-001\\replays.jsonl.gz",
+    "sha256": "74ffd2e30c7750b530144f00153ceca68b2f56e61d475d0832be57a38455ba8c"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-002\\group.json",
+    "sha256": "eededcf37d002be85038f186fcd1734b2a8a170fd5974030c002dd568fecb49b"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-002\\replays.jsonl.gz",
+    "sha256": "7121236bc560490ed4ccac3af5f9862a2ebe23116cf4f6b7a8a74e34e03fb776"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-003\\group.json",
+    "sha256": "796803fb5f50cb99dacbe0a551a8bdfd954613ad3700f469791239c0a37d6a92"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-003\\replays.jsonl.gz",
+    "sha256": "e737ed30b373d6a93d175d10712480c80943be9c055f8de5d7061e898888b5f2"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-004\\group.json",
+    "sha256": "35d1b5c728def247607207b661284b6680388e7ad4483157d8ddc499b4022da3"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-004\\replays.jsonl.gz",
+    "sha256": "dc67723bca5fc61c74302658c24ee9ee2eb5b025907617e0e8b7404d3fb0f845"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-005\\group.json",
+    "sha256": "0b0eba885003b2e8b39d9133c1f8bf3958bc09f77322c6d116893352a0608dd6"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-005\\replays.jsonl.gz",
+    "sha256": "7073b01cc1ff0759c42568054bd2fb5468dd918f370925e5f2dc857cd7962ccb"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-006\\group.json",
+    "sha256": "359d26098a545d2c11f0aa360a913587dd39def20278e6a46dc8e08fe5e8f1df"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-006\\replays.jsonl.gz",
+    "sha256": "5301191284b76d17aa32d21bcad6d1cde616460c6ee64d8fbf0540fb58301a9c"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-007\\group.json",
+    "sha256": "b034ad96b0e4e8810de7f0ff39ca71112970d247c3c101c30679aefbca9a38dc"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-007\\replays.jsonl.gz",
+    "sha256": "8e45da389e9b3e1fff66053c674cec4d495aad9ed09beb931da4d864ef2819eb"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-008\\group.json",
+    "sha256": "dcccd301948306b0a5f3b9d4a4d9561b4864abc93287503a14ee15a37e25f32c"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-008\\replays.jsonl.gz",
+    "sha256": "5f0e6b3a6cda2edead90f79f3989fa4146be273efabd9ca2bb09ed6672e39fdd"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-009\\group.json",
+    "sha256": "99a1c3b29c7b8d09c5768e2ac44aa8d6ba6e9ad0ed1baf6a2b76d0c749cd18a3"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-009\\replays.jsonl.gz",
+    "sha256": "b60ffc4b5944d928c11bad2431660b118f2cd33c8a450900cd800fc4e08f4b1e"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-010\\group.json",
+    "sha256": "06893caafb1e2c69fd7a05a28220ed3ab0c7701c65486f54889658597b926cb5"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-010\\replays.jsonl.gz",
+    "sha256": "e52a2b5da52cea35d3e019c14553a2b8e9bfc5666cbdf75ae549b94018f9e3b2"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-011\\group.json",
+    "sha256": "46e7ee5150b31b31fa7b271990642af3e7b56807d9407bfc2f35c4ac7579db12"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-011\\replays.jsonl.gz",
+    "sha256": "c3a93f2cebb6f9f8427d386339b5c870af4f655b8288937f80e231c6e0bc7666"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-012\\group.json",
+    "sha256": "2219e57ca7e84c840511d9c0606332cd97ccb613bb3b41056b29b4bceca428c3"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-012\\replays.jsonl.gz",
+    "sha256": "5ea67a560312eb191e098c8f3070a5f123fa1cf102c26ffd5af48b0254ca41e4"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-013\\group.json",
+    "sha256": "afd747521f7bc73275aee1c1ad7343e82d519de8362bfb1e2b2f1e4bdf580d53"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-013\\replays.jsonl.gz",
+    "sha256": "2fbf645c54be17cdc2cbc9be7a8b233d55f9c7a75d77193c4cfd555e2f65b903"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-014\\group.json",
+    "sha256": "5ffe7ba055dc118400de8c4efe574170e6a41aff04ca69cbf84f1d8d49258360"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-014\\replays.jsonl.gz",
+    "sha256": "1acf21d55e988280f8cf834869249fb55475076ae5d0d384f7e0b81be5be6566"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-015\\group.json",
+    "sha256": "989b4ea2f010aae65baa3ed9c633024c00b840d1ef6e1f97080dd94c5c9e8219"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\replication-1-015\\replays.jsonl.gz",
+    "sha256": "7ef3e5ba86b0c733ebd0efa5de8c3ec39396f1c2f4235939854764cfa1e1904f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-000\\group.json",
+    "sha256": "77284d9ccd8a9849e31b2de88bc7af7c5dcf5ff78639e9a351a3d7c57d2b388b"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-000\\replays.jsonl.gz",
+    "sha256": "38464cfbb5fdfcc8e6987b0f341f03877d1424f2f33ad05b42bda3b3aa639dd0"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-001\\group.json",
+    "sha256": "50863ee8a334413e1c63feee88cbdd057fd79dc7783f33283589d2e64994dee9"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-001\\replays.jsonl.gz",
+    "sha256": "30e2f0c2f9de835d8f99af6922daed73d6af56bb7160d4dee993478442850bce"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-002\\group.json",
+    "sha256": "e15c8fd9aaa121c396d5f769cd63576db144f0da219291e704a27855e94377c5"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-002\\replays.jsonl.gz",
+    "sha256": "969b6ee713150e35f593b2211df0380852a3bb9e35df12734e52d0505ece58b3"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-003\\group.json",
+    "sha256": "225292ab7f6b6cd5a615db72c4627a06f5d7a5fb47249f3ef7b5fc4adf03ca9f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-0-003\\replays.jsonl.gz",
+    "sha256": "9fc3d08a1e786abab4e48f4ecc57fbf854537ede6d9f80eb47df95586ec0bbb6"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-000\\group.json",
+    "sha256": "6edaef81134f43a441aacd01c9bb91ed0d7f89d9a2b7963bfd1656687b5e3ddf"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-000\\replays.jsonl.gz",
+    "sha256": "7f4cc04cb49500e7c7bae1f5743e274a7d0a7fea117d53b35fa69c5d5353e293"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-001\\group.json",
+    "sha256": "60ef19e2b916377d43bd47d803e5e02631934e9010eb03c57d27bb6cf18dc1c5"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-001\\replays.jsonl.gz",
+    "sha256": "0f852888b7e870b8e3d0b7476249e6cc9406b1e70b5f8622cfa8338464777340"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-002\\group.json",
+    "sha256": "f83e8cdaca6a4502fafbd129d66666b203e12a5d448c828a0bd2e89ccd40b44f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-002\\replays.jsonl.gz",
+    "sha256": "86ed3f8041e244661e64761b652d1a5d6bd882b05990f5e11746f9b5e167b466"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-003\\group.json",
+    "sha256": "a2ccd5f389e8cee90e66a3adc4974c82e7a41f2a66013f154aa2e9d40ae2dde7"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-1-003\\replays.jsonl.gz",
+    "sha256": "0b0d3793b29b170bd8c51d98a5af6440372adbd2a5f3bbcab7161fe2c10386e9"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-000\\group.json",
+    "sha256": "6a12ea863cbb0bbb4ab731d20b0a27707de4dff9dd722b84d80301eae11ed43d"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-000\\replays.jsonl.gz",
+    "sha256": "5ecaccaf428807c46f235dea879ad192adff9de3f1eeccb8b674094da4d1e2f2"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-001\\group.json",
+    "sha256": "817495923bb0dea43db861753f0c6b8acee8dd1d40533fa6fe8716aa57b1a943"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-001\\replays.jsonl.gz",
+    "sha256": "45c6c7e927adb8334bad7be04456e161bd8a6d5eee62cf6b523c41263f5b0cc3"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-002\\group.json",
+    "sha256": "95cfa65eef82909d261df6f07a76dca2f9faf7267bd742f1a23f6d8da5e67fc6"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-002\\replays.jsonl.gz",
+    "sha256": "73300cf35a3e1fe8d117f2ad331cf0c4defc4f8db3e145ce97063e483d8b5019"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-003\\group.json",
+    "sha256": "4469ce721a7dd0e2a76cc2786017ead85b1aa384c885da930e109e97f5b0d810"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-2-003\\replays.jsonl.gz",
+    "sha256": "462cd7f0aa6db5a9f949a4e7c5b2be70382760b8e74459e3a50e33aca9dd2de0"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-000\\group.json",
+    "sha256": "a29410992f2796591bb814225e9554f7a27a9cfbed1c76aba12cb13e0b8b2cff"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-000\\replays.jsonl.gz",
+    "sha256": "51a3ca1dd9fb886c5a593c28300f3ea4e589d0efdc4e148b0ea74fbf698b0a6f"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-001\\group.json",
+    "sha256": "494087336991c768611c3113208f80db8665d0a7a8d01da6a1741a166130211e"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-001\\replays.jsonl.gz",
+    "sha256": "71ef9eb28646691b783f82a6743a5dcd01468b69a65a3425c0243d54f6e505d9"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-002\\group.json",
+    "sha256": "584e8676aa6cba635ec2f55595b73b95954daa55041bd77b173e6cbd041ee9b6"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-002\\replays.jsonl.gz",
+    "sha256": "2b29d59dc148a3b1c8b39c08206ade74626f7fa769dc54a838a0c99561fe2d36"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-003\\group.json",
+    "sha256": "149bf9f66c7e1f69d2848d6c0fe0f40d582c71881af328f13d5458da22aeef47"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-3-003\\replays.jsonl.gz",
+    "sha256": "a1d1b1cf09539c5cba2b42145f17431044963ef26d486ec70344a95b84afd6b6"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-000\\group.json",
+    "sha256": "60cf70613232eede9379224be4eac9398deeb498116eec4f796641dedb2ba109"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-000\\replays.jsonl.gz",
+    "sha256": "3f431b0ae933227d633c04c488f0b00212d76e132452ff72a24dfe448cfded96"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-001\\group.json",
+    "sha256": "0b748f1da1fae104169b9fec0aa86a760fd383ec010dd773532817481abee807"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-001\\replays.jsonl.gz",
+    "sha256": "7d1fa3692f98a8d1d18102b9bebddf3b0e2cea7a0218a335d037f31b17fdd40a"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-002\\group.json",
+    "sha256": "e180d8dfaf65eeb0c77853ab8bcf2f2c6d3dd4ab4db48ac0d2d66546ef1b42aa"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-002\\replays.jsonl.gz",
+    "sha256": "80d974cb144707c5dd18ad1385d11d0aafa904ef6b40aa3730c0d5081cf93a62"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-003\\group.json",
+    "sha256": "9aa4492310bef4f04d43a3133ae1f886d9422a5871123394ad27eca6361ddbcc"
+  },
+  {
+    "path": "ai-runs\\reveal-generalization-20261020\\groups\\stress-4-003\\replays.jsonl.gz",
+    "sha256": "ac4df1afec4eb65258074ffd2663b54c724a262d14f65329b9299b7a06a2c711"
+  }
+]

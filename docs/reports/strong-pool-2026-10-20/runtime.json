@@ -1,0 +1,17 @@
+{
+  "platform": "win32",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalProcessors": 12,
+  "totalMemoryGiB": 15.733024597167969,
+  "trainingDevice": "cpu",
+  "torchThreads": 2,
+  "workerLimit": 4,
+  "runStartedAt": "2026-10-20T08:44:55.897Z",
+  "modelsFrozenAt": "2026-10-20T09:06:34.030Z",
+  "evaluationCompletedAt": "2026-10-20T09:14:00.066Z",
+  "testsLogSha256": "7b9ece982bbd52cef306e647f6abdd7b615a4eb44be0125d60c3c14faa43f62e",
+  "streamTestsLogSha256": "d729c1ef4850c7a1c1e5eb00c48871b546c7185d89f55693da2d70b4e5ee4a30",
+  "note": "Audit-only streaming extension after initial whole-string limit. No additional formal training or evaluation.",
+  "auditCompletedAt": "2026-10-20T09:38:43.502Z",
+  "auditSnapshots": 22
+}

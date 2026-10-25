@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-23T14:55:40.282Z",
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12450H",
+  "logicalProcessors": 12,
+  "totalMemoryGiB": 15.733024597167969,
+  "platform": "win32",
+  "node": "v24.16.0",
+  "concurrentLoad": "Formal four-worker wall-average collection; full regression tests overlapped part of benchmarking. Timings descriptive.",
+  "formalStudyBackendChanged": false,
+  "formalTrainingHandsAdded": 0,
+  "formalEvaluationGamesAdded": 0
+}

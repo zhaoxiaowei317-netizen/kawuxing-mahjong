@@ -1,0 +1,514 @@
+{
+  "version": "kwx-strong-pool-1",
+  "createdAt": "2026-10-20T08:44:55.897Z",
+  "baseline": {
+    "id": "H0",
+    "version": "h0-2026-10-17",
+    "rulesVersion": "xiaogan-1.0",
+    "description": "Frozen existing heuristic, observation adapter verified against botStep",
+    "deterministic": true,
+    "dependencies": {
+      "@kobalab/majiang-core": "1.4.1"
+    },
+    "sha256": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4"
+    }
+  },
+  "sources": {
+    "core": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+      "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+      "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+      "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+      "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+      "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+      "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+      "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+      "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+      "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+      "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+      "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+      "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+      "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+      "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+      "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+      "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+      "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+      "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+      "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+      "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+      "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+      "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+    },
+    "drivers": {
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+      "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+    }
+  },
+  "previous": {
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\reveal-generalization-20261020",
+    "planSha256": "d4d44564cbfee6e9118b50574b6e854213f8fce07161276faa10f3a92a6a21ad",
+    "summarySha256": "4769243e6d793312935e512ffdaad442ef73434dedd8570ca98f3e04dd7eb053",
+    "verificationSha256": "72ed0b147e5b93de8d1d3a3d5a1c3a368696ef13b932502212ef659fb6fc64f2"
+  },
+  "tables": [
+    [
+      "h0-never",
+      "h0-never",
+      "h0-never"
+    ],
+    [
+      "h0-never",
+      "H0",
+      "H0"
+    ],
+    [
+      "h0-never",
+      "h0-never",
+      "H0"
+    ],
+    [
+      "h0-never",
+      "greedy-speed-v1",
+      "H0"
+    ]
+  ],
+  "pairs": [
+    {
+      "id": "never+H0",
+      "policies": [
+        "h0-never",
+        "H0"
+      ]
+    },
+    {
+      "id": "never+never",
+      "policies": [
+        "h0-never",
+        "h0-never"
+      ]
+    },
+    {
+      "id": "never+greedy",
+      "policies": [
+        "h0-never",
+        "greedy-speed-v1"
+      ]
+    }
+  ],
+  "arms": [
+    "bc",
+    "offline"
+  ],
+  "incumbent": "h0-never",
+  "primaryArm": "offline",
+  "python": "python",
+  "budget": {
+    "trainingHands": 4800,
+    "validationHands": 576,
+    "bcEpochs": 12,
+    "offlineEpochs": 8,
+    "evaluationGroups": 8,
+    "sessionHands": 16,
+    "trainingSessionHands": 16,
+    "bootstrapSamples": 5000,
+    "workers": 4
+  },
+  "schema": {
+    "version": "kwx-tile-q-public-1",
+    "tiles": [
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5",
+      "p6",
+      "p7",
+      "p8",
+      "p9",
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "z5",
+      "z6",
+      "z7"
+    ],
+    "positions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      25,
+      28
+    ],
+    "length": 29,
+    "channels": 65,
+    "planes": [
+      {
+        "name": "own.count>=1",
+        "scale": 1
+      },
+      {
+        "name": "own.count>=2",
+        "scale": 1
+      },
+      {
+        "name": "own.count>=3",
+        "scale": 1
+      },
+      {
+        "name": "own.count>=4",
+        "scale": 1
+      },
+      {
+        "name": "own.draw",
+        "scale": 1
+      },
+      {
+        "name": "visible.count>=1",
+        "scale": 1
+      },
+      {
+        "name": "visible.count>=2",
+        "scale": 1
+      },
+      {
+        "name": "visible.count>=3",
+        "scale": 1
+      },
+      {
+        "name": "visible.count>=4",
+        "scale": 1
+      },
+      {
+        "name": "p0.revealed>=1",
+        "scale": 1
+      },
+      {
+        "name": "p0.revealed>=2",
+        "scale": 1
+      },
+      {
+        "name": "p0.revealed>=3",
+        "scale": 1
+      },
+      {
+        "name": "p0.revealed>=4",
+        "scale": 1
+      },
+      {
+        "name": "p0.riverCount",
+        "scale": 4
+      },
+      {
+        "name": "p0.meld.peng",
+        "scale": 1
+      },
+      {
+        "name": "p0.meld.ming",
+        "scale": 1
+      },
+      {
+        "name": "p0.meld.an",
+        "scale": 1
+      },
+      {
+        "name": "p0.meld.bu",
+        "scale": 1
+      },
+      {
+        "name": "p0.waits",
+        "scale": 1
+      },
+      {
+        "name": "p0.riverOrder.0",
+        "scale": 48
+      },
+      {
+        "name": "p0.riverOrder.1",
+        "scale": 48
+      },
+      {
+        "name": "p0.riverOrder.2",
+        "scale": 48
+      },
+      {
+        "name": "p0.riverOrder.3",
+        "scale": 48
+      },
+      {
+        "name": "p1.revealed>=1",
+        "scale": 1
+      },
+      {
+        "name": "p1.revealed>=2",
+        "scale": 1
+      },
+      {
+        "name": "p1.revealed>=3",
+        "scale": 1
+      },
+      {
+        "name": "p1.revealed>=4",
+        "scale": 1
+      },
+      {
+        "name": "p1.riverCount",
+        "scale": 4
+      },
+      {
+        "name": "p1.meld.peng",
+        "scale": 1
+      },
+      {
+        "name": "p1.meld.ming",
+        "scale": 1
+      },
+      {
+        "name": "p1.meld.an",
+        "scale": 1
+      },
+      {
+        "name": "p1.meld.bu",
+        "scale": 1
+      },
+      {
+        "name": "p1.waits",
+        "scale": 1
+      },
+      {
+        "name": "p1.riverOrder.0",
+        "scale": 48
+      },
+      {
+        "name": "p1.riverOrder.1",
+        "scale": 48
+      },
+      {
+        "name": "p1.riverOrder.2",
+        "scale": 48
+      },
+      {
+        "name": "p1.riverOrder.3",
+        "scale": 48
+      },
+      {
+        "name": "p2.revealed>=1",
+        "scale": 1
+      },
+      {
+        "name": "p2.revealed>=2",
+        "scale": 1
+      },
+      {
+        "name": "p2.revealed>=3",
+        "scale": 1
+      },
+      {
+        "name": "p2.revealed>=4",
+        "scale": 1
+      },
+      {
+        "name": "p2.riverCount",
+        "scale": 4
+      },
+      {
+        "name": "p2.meld.peng",
+        "scale": 1
+      },
+      {
+        "name": "p2.meld.ming",
+        "scale": 1
+      },
+      {
+        "name": "p2.meld.an",
+        "scale": 1
+      },
+      {
+        "name": "p2.meld.bu",
+        "scale": 1
+      },
+      {
+        "name": "p2.waits",
+        "scale": 1
+      },
+      {
+        "name": "p2.riverOrder.0",
+        "scale": 48
+      },
+      {
+        "name": "p2.riverOrder.1",
+        "scale": 48
+      },
+      {
+        "name": "p2.riverOrder.2",
+        "scale": 48
+      },
+      {
+        "name": "p2.riverOrder.3",
+        "scale": 48
+      },
+      {
+        "name": "own.passedHu",
+        "scale": 1
+      },
+      {
+        "name": "own.passedPeng",
+        "scale": 1
+      },
+      {
+        "name": "own.buOpportunities",
+        "scale": 1
+      },
+      {
+        "name": "own.reservedKongTiles",
+        "scale": 1
+      },
+      {
+        "name": "own.supplementForbidden",
+        "scale": 1
+      },
+      {
+        "name": "own.order.0",
+        "scale": 14
+      },
+      {
+        "name": "own.order.1",
+        "scale": 14
+      },
+      {
+        "name": "own.order.2",
+        "scale": 14
+      },
+      {
+        "name": "own.order.3",
+        "scale": 14
+      },
+      {
+        "name": "type.suited",
+        "scale": 1
+      },
+      {
+        "name": "type.honor",
+        "scale": 1
+      },
+      {
+        "name": "type.rank",
+        "scale": 9
+      },
+      {
+        "name": "pending.tile",
+        "scale": 1
+      },
+      {
+        "name": "last.tile",
+        "scale": 1
+      }
+    ],
+    "contextNames": [
+      "p0.liang",
+      "p0.size",
+      "p0.hidden",
+      "p0.riverSize",
+      "p0.meldSize",
+      "p0.total",
+      "p0.kongNet",
+      "p1.liang",
+      "p1.size",
+      "p1.hidden",
+      "p1.riverSize",
+      "p1.meldSize",
+      "p1.total",
+      "p1.kongNet",
+      "p2.liang",
+      "p2.size",
+      "p2.hidden",
+      "p2.riverSize",
+      "p2.meldSize",
+      "p2.total",
+      "p2.kongNet",
+      "wall",
+      "gangChain",
+      "round",
+      "dealer.0",
+      "dealer.1",
+      "dealer.2",
+      "turn.0",
+      "turn.1",
+      "turn.2",
+      "phase.discard",
+      "phase.react",
+      "pending.source.0",
+      "pending.source.1",
+      "pending.source.2",
+      "pending.discard",
+      "pending.robKong",
+      "pending.gangShot",
+      "pending.gangCount",
+      "last.source.0",
+      "last.source.1",
+      "last.source.2"
+    ],
+    "contextSize": 42,
+    "actions": 88,
+    "candidateSize": 34
+  },
+  "network": {
+    "channels": 24,
+    "blocks": 2,
+    "globalSize": 64,
+    "localSize": 32,
+    "useTiles": true
+  },
+  "optimizer": {
+    "learningRate": 0.001,
+    "batchSize": 256,
+    "maxGradNorm": 5,
+    "cqlWeight": 0.05,
+    "bcWeight": 0.1,
+    "auxWeight": 0.1
+  },
+  "epsilon": 0.05,
+  "seeds": {
+    "training": "6361b566d5e4e9940204f3233c3380623e1ad994ec801e636b8d37b218774c12",
+    "validation": "dfb778d0fcd344768f7eef87ca287977109ef54e79f971eaeb518880e28744e6",
+    "model": "9defc78e4f90032fb4f659326306dd219ca03ec0a0d5b8fc556a36ada711c8bc",
+    "evaluation": "c17153bc32a2e36a5cb6b95fb7a0ac9b5e4e86580bcaceb921dd7770540d48da"
+  },
+  "data": "Four session-fixed tables, rotated over seats; all seats contribute. Expected role fractions over a 12-session cycle: never 7/12, H0 4/12, greedy 1/12. Each seat has its own teacher and 5% uniform legal exploration. Validation is a fresh, equally scheduled set. Neither policy IDs nor private opponent tiles enter inputs.",
+  "selection": "BC minimum validation CE+rank loss, offline minimum validation composite loss; include epoch 0, earliest ties. Offline initializes selected BC. No choice based on games; both candidates are frozen before the first evaluation.",
+  "primary": "Prespecified offline network vs h0-never in three equally weighted opponent pairs on new continuous 16-hand sessions; positive only if full two-sided 95% paired-group interval is above zero.",
+  "secondary": "BC vs h0-never and all opponent subgroups are descriptive diagnostics without multiplicity correction. BC cannot replace the primary candidate after seeing scores.",
+  "pairing": "Both candidates use identical new openings and a separate h0-never control. Controls/openings are repeated across candidates, not independent strength evidence. Six seat permutations remain one group.",
+  "stopping": "Complete both fixed evaluation budgets, no tuning or extra games after results, no evaluation data in training, no automatic promotion. Production default remains H0."
+}

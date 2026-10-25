@@ -1,0 +1,14 @@
+Lookahead full-game fixture: 51 searches, 1505ms
+✔ two-draw probability matches independent copy enumeration without replacement (31.3318ms)
+✔ open melds and seven pairs counting a quad as two pairs match canonical exhaustive wins (14.1078ms)
+✔ known copies stay exhausted; a winning first draw ends the branch; empty pools are finite (1.6369ms)
+✔ search observes public information only and returns canonical actions deterministically (372.0494ms)
+✔ complete games preserve legality, H0 special actions, immediate ties and exact replay (1506.5968ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2127.8234

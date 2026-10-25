@@ -1,0 +1,23 @@
+Formal summary saved; starting complete audit
+Error: Cannot create a string longer than 0x1fffffe8 characters
+    at Buffer.toString (node:buffer:937:14)
+    at loadData (file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/tile-q/collect.mjs:79:36)
+    at load (file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/strong-pool/collect.mjs:55:11)
+    at verify (file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/strong-pool/verify.mjs:52:13)
+    at file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/ai/strong-pool/verify.mjs:85:144
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:633:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
+  code: 'ERR_STRING_TOO_LONG'
+}
+file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/.tmp/audit-strong-pool-when-ready.mjs:8
+child.on('error',fail);child.on('close',code=>code===0?done():fail(Error('Audit failed '+code)));});
+                                                                   ^
+
+Error: Audit failed 1
+    at ChildProcess.<anonymous> (file:///C:/Users/zhaox/Desktop/%E5%8D%A1%E4%BA%94%E6%98%9F/.tmp/audit-strong-pool-when-ready.mjs:8:68)
+    at ChildProcess.emit (node:events:509:28)
+    at maybeClose (node:internal/child_process:1124:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:306:5)
+
+Node.js v24.16.0

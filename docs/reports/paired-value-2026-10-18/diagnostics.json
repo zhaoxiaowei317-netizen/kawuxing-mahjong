@@ -1,0 +1,225 @@
+{
+  "trainingMeanGain": 0.25556544968833483,
+  "validationZeroMse": 20.90950226244344,
+  "validationTrainingMeanMse": 20.625581727102134,
+  "models": {
+    "ridge": {
+      "rows": 221,
+      "hands": 1200,
+      "mse": 21.282483011686704,
+      "conditionalChosenGain": 135,
+      "chosenGainPer100Hands": 11.25,
+      "proposalGainPer100Hands": 12.583333333333332,
+      "accepted": 145,
+      "predictedGainMin": -2.5269675490577805,
+      "predictedGainMax": 4.02949141740411
+    },
+    "mlp-0": {
+      "rows": 221,
+      "hands": 1200,
+      "mse": 20.539143318781573,
+      "conditionalChosenGain": 151,
+      "chosenGainPer100Hands": 12.583333333333332,
+      "proposalGainPer100Hands": 12.583333333333332,
+      "accepted": 221,
+      "predictedGainMin": 0.1589145857194709,
+      "predictedGainMax": 0.48861364075289465,
+      "epoch0": {
+        "epoch": 0,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 23.516473731077472,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 0
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.90950226244344,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 0
+        },
+        "update": null
+      },
+      "lastEpoch": {
+        "epoch": 20,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 22.54338290495616,
+          "conditionalChosenGain": 539,
+          "chosenGainPer100Hands": 8.983333333333334,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 735
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.804938132786948,
+          "conditionalChosenGain": 102,
+          "chosenGainPer100Hands": 8.5,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 150
+        },
+        "update": {
+          "loss": 0.04415178396251009,
+          "policyLoss": 0,
+          "valueLoss": 0.04415178396251009,
+          "entropy": 0,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.03201077910413792,
+          "clippedGradNorm": 0.03201077910413792,
+          "maxObservedGradNorm": 0.06599676840225213,
+          "updates": 9,
+          "samples": 1123,
+          "samplesSeen": 1123
+        }
+      }
+    },
+    "mlp-1": {
+      "rows": 221,
+      "hands": 1200,
+      "mse": 20.53974184808343,
+      "conditionalChosenGain": 151,
+      "chosenGainPer100Hands": 12.583333333333332,
+      "proposalGainPer100Hands": 12.583333333333332,
+      "accepted": 221,
+      "predictedGainMin": 0.18870522753414026,
+      "predictedGainMax": 0.5105847806588107,
+      "epoch0": {
+        "epoch": 0,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 23.516473731077472,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 0
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.90950226244344,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 0
+        },
+        "update": null
+      },
+      "lastEpoch": {
+        "epoch": 20,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 22.743776355657157,
+          "conditionalChosenGain": 529,
+          "chosenGainPer100Hands": 8.816666666666666,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 731
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.810641142339584,
+          "conditionalChosenGain": 106,
+          "chosenGainPer100Hands": 8.833333333333334,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 144
+        },
+        "update": {
+          "loss": 0.044617806199815306,
+          "policyLoss": 0,
+          "valueLoss": 0.044617806199815306,
+          "entropy": 0,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.03761794597050298,
+          "clippedGradNorm": 0.03761794597050298,
+          "maxObservedGradNorm": 0.07058806959605649,
+          "updates": 9,
+          "samples": 1123,
+          "samplesSeen": 1123
+        }
+      }
+    },
+    "mlp-2": {
+      "rows": 221,
+      "hands": 1200,
+      "mse": 20.57321827815561,
+      "conditionalChosenGain": 151,
+      "chosenGainPer100Hands": 12.583333333333332,
+      "proposalGainPer100Hands": 12.583333333333332,
+      "accepted": 221,
+      "predictedGainMin": 0.0637493854347349,
+      "predictedGainMax": 0.5063568383593392,
+      "epoch0": {
+        "epoch": 0,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 23.516473731077472,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 0
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.90950226244344,
+          "conditionalChosenGain": 0,
+          "chosenGainPer100Hands": 0,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 0
+        },
+        "update": null
+      },
+      "lastEpoch": {
+        "epoch": 20,
+        "training": {
+          "rows": 1123,
+          "hands": 6000,
+          "mse": 22.590108278488874,
+          "conditionalChosenGain": 504,
+          "chosenGainPer100Hands": 8.4,
+          "proposalGainPer100Hands": 4.783333333333333,
+          "accepted": 638
+        },
+        "validation": {
+          "rows": 221,
+          "hands": 1200,
+          "mse": 20.94947586098314,
+          "conditionalChosenGain": 138,
+          "chosenGainPer100Hands": 11.5,
+          "proposalGainPer100Hands": 12.583333333333332,
+          "accepted": 134
+        },
+        "update": {
+          "loss": 0.044247705462547436,
+          "policyLoss": 0,
+          "valueLoss": 0.044247705462547436,
+          "entropy": 0,
+          "approxKl": 0,
+          "clipFraction": 0,
+          "policySaturation": 0,
+          "gradNorm": 0.03536431582105729,
+          "clippedGradNorm": 0.03536431582105729,
+          "maxObservedGradNorm": 0.060871955713811814,
+          "updates": 9,
+          "samples": 1123,
+          "samplesSeen": 1123
+        }
+      }
+    }
+  }
+}

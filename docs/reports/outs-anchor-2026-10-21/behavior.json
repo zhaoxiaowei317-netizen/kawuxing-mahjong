@@ -1,0 +1,42 @@
+{
+  "anchor": {
+    "hands": 4608,
+    "score": 821,
+    "wins": 1668,
+    "dealIns": 195,
+    "revealHands": 0,
+    "huScore": 605,
+    "kongScore": 151,
+    "drawScore": 65
+  },
+  "plain": {
+    "hands": 4608,
+    "score": 1245,
+    "wins": 1745,
+    "dealIns": 170,
+    "revealHands": 0,
+    "huScore": 1087,
+    "kongScore": 90,
+    "drawScore": 68
+  },
+  "raw": {
+    "hands": 4608,
+    "score": 713,
+    "wins": 1622,
+    "dealIns": 181,
+    "revealHands": 25,
+    "huScore": 555,
+    "kongScore": 79,
+    "drawScore": 79
+  },
+  "reference": {
+    "hands": 4608,
+    "score": 997,
+    "wins": 1687,
+    "dealIns": 176,
+    "revealHands": 0,
+    "huScore": 755,
+    "kongScore": 178,
+    "drawScore": 64
+  }
+}

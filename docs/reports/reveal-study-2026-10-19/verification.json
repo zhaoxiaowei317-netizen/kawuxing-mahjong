@@ -1,0 +1,1982 @@
+{
+  "completedAt": "2026-10-18T23:25:19.826Z",
+  "planSha256": "655c453b61004bf5dcdb3b451a3ac45de5bbbe792342ce93cad52fb1f3d389dd",
+  "games": 9216,
+  "evaluation": {
+    "development-h0-never": {
+      "games": 768,
+      "allGamesRedealtAndPolicyRecomputed": true,
+      "behaviorFieldsRecomputed": [
+        "hands",
+        "score",
+        "wins",
+        "selfDraws",
+        "dealIns",
+        "draws",
+        "huScore",
+        "kongScore",
+        "drawScore",
+        "revealHands",
+        "revealedScore",
+        "largeLosses"
+      ],
+      "diagnostics": {
+        "decisions": 3680,
+        "opportunities": 1164,
+        "changed": 775,
+        "baseReveals": 775,
+        "chosenReveals": 0,
+        "huOffered": 180,
+        "huDeclined": 0
+      },
+      "firstChangedPublicCases": [
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 12,
+          "wall": 15,
+          "ownHand": [
+            "p2",
+            "p3",
+            "s2",
+            "s3",
+            "s3",
+            "s5",
+            "s5",
+            "s5",
+            "s6",
+            "s7",
+            "s8"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s2",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s2",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 13,
+          "wall": 12,
+          "ownHand": [
+            "p2",
+            "p3",
+            "s3",
+            "s3",
+            "s5",
+            "s5",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s6"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 1,
+          "decision": 23,
+          "wall": 26,
+          "ownHand": [
+            "p3",
+            "p3",
+            "p5",
+            "p8",
+            "p9",
+            "p9",
+            "s2",
+            "s2",
+            "s4",
+            "s4",
+            "s5",
+            "s9",
+            "s9",
+            "p5"
+          ],
+          "opponentReveals": [
+            true,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 1,
+          "decision": 25,
+          "wall": 23,
+          "ownHand": [
+            "p3",
+            "p3",
+            "p5",
+            "p5",
+            "p9",
+            "p9",
+            "s2",
+            "s2",
+            "s4",
+            "s4",
+            "s5",
+            "s9",
+            "s9",
+            "z7"
+          ],
+          "opponentReveals": [
+            true,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 3,
+          "decision": 39,
+          "wall": 24,
+          "ownHand": [
+            "p4",
+            "p5",
+            "p5",
+            "p6",
+            "p6",
+            "p7",
+            "p7",
+            "p8",
+            "p9",
+            "s3",
+            "s3",
+            "s8",
+            "s8",
+            "p9"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 3,
+          "decision": 40,
+          "wall": 21,
+          "ownHand": [
+            "p4",
+            "p5",
+            "p5",
+            "p6",
+            "p6",
+            "p7",
+            "p7",
+            "p9",
+            "p9",
+            "s3",
+            "s3",
+            "s8",
+            "s8",
+            "s4"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p4",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p4",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 4,
+          "decision": 47,
+          "wall": 33,
+          "ownHand": [
+            "p4",
+            "p6",
+            "p7",
+            "p8",
+            "p8",
+            "p9",
+            "s3",
+            "s4",
+            "s5",
+            "z7",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 4,
+          "decision": 48,
+          "wall": 30,
+          "ownHand": [
+            "p4",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s3",
+            "s4",
+            "s5",
+            "z7",
+            "z7",
+            "s3"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 4,
+          "decision": 49,
+          "wall": 27,
+          "ownHand": [
+            "p4",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s3",
+            "s4",
+            "s5",
+            "z7",
+            "z7",
+            "p8"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 6,
+          "decision": 65,
+          "wall": 28,
+          "ownHand": [
+            "p1",
+            "p3",
+            "p3",
+            "p4",
+            "p5",
+            "p6",
+            "s4",
+            "s5",
+            "s8",
+            "s8",
+            "s8"
+          ],
+          "opponentReveals": [
+            true,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p1",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p1",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 8,
+          "decision": 71,
+          "wall": 43,
+          "ownHand": [
+            "p3",
+            "p4",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z6",
+            "z7",
+            "z7"
+          ],
+          "opponentReveals": [
+            true,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 8,
+          "decision": 72,
+          "wall": 40,
+          "ownHand": [
+            "p3",
+            "p4",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z7",
+            "z7",
+            "p9"
+          ],
+          "opponentReveals": [
+            true,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": false
+          },
+          "margin": null
+        }
+      ],
+      "replaysSha256": "6378d20ac0de92397098fd3304294086212e21ad07c83250fc4b27541898e62a"
+    },
+    "development-h0-q-gate": {
+      "games": 768,
+      "allGamesRedealtAndPolicyRecomputed": true,
+      "behaviorFieldsRecomputed": [
+        "hands",
+        "score",
+        "wins",
+        "selfDraws",
+        "dealIns",
+        "draws",
+        "huScore",
+        "kongScore",
+        "drawScore",
+        "revealHands",
+        "revealedScore",
+        "largeLosses"
+      ],
+      "diagnostics": {
+        "decisions": 3021,
+        "opportunities": 724,
+        "changed": 260,
+        "baseReveals": 432,
+        "chosenReveals": 172,
+        "huOffered": 145,
+        "huDeclined": 0
+      },
+      "firstChangedPublicCases": [
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 13,
+          "decision": 101,
+          "wall": 41,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": false
+          },
+          "margin": -0.04716929209156495
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 13,
+          "decision": 102,
+          "wall": 38,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s4",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s4",
+            "reveal": false
+          },
+          "margin": -0.051046491997520205
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 13,
+          "decision": 103,
+          "wall": 35,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s6"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": false
+          },
+          "margin": -0.05492369190347546
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 14,
+          "decision": 114,
+          "wall": 36,
+          "ownHand": [
+            "p2",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "z7",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": -0.05363129193482341
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 14,
+          "decision": 115,
+          "wall": 33,
+          "ownHand": [
+            "p2",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "z7",
+            "z7",
+            "s4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s1",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s1",
+            "reveal": false
+          },
+          "margin": -0.14008541302139288
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 14,
+          "decision": 116,
+          "wall": 30,
+          "ownHand": [
+            "p2",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "s2",
+            "s3",
+            "s4",
+            "z7",
+            "z7",
+            "s5"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s2",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s2",
+            "reveal": false
+          },
+          "margin": -0.14396261292734813
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 15,
+          "decision": 126,
+          "wall": 38,
+          "ownHand": [
+            "p1",
+            "p2",
+            "p4",
+            "p5",
+            "p6",
+            "p8",
+            "s4",
+            "s5",
+            "s6",
+            "s8",
+            "s8"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p8",
+            "reveal": false
+          },
+          "margin": -0.05104649199752043
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 15,
+          "decision": 127,
+          "wall": 35,
+          "ownHand": [
+            "p1",
+            "p2",
+            "p4",
+            "p5",
+            "p6",
+            "s4",
+            "s5",
+            "s6",
+            "s8",
+            "s8",
+            "s3"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": -0.054923691903475125
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 13,
+          "decision": 235,
+          "wall": 41,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": false
+          },
+          "margin": -0.04716929209156495
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 13,
+          "decision": 236,
+          "wall": 38,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s4",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s4",
+            "reveal": false
+          },
+          "margin": -0.051046491997520205
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 13,
+          "decision": 237,
+          "wall": 35,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s6"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s3",
+            "reveal": false
+          },
+          "margin": -0.05492369190347546
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 14,
+          "decision": 248,
+          "wall": 36,
+          "ownHand": [
+            "p2",
+            "p4",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "z7",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": -0.05363129193482341
+        }
+      ],
+      "replaysSha256": "ed468c7e326b1e6f80beefb6e5fbf3aac68d7660cc6c781b9352be1c7106a3b5"
+    },
+    "development-q-h0-gate": {
+      "games": 768,
+      "allGamesRedealtAndPolicyRecomputed": true,
+      "behaviorFieldsRecomputed": [
+        "hands",
+        "score",
+        "wins",
+        "selfDraws",
+        "dealIns",
+        "draws",
+        "huScore",
+        "kongScore",
+        "drawScore",
+        "revealHands",
+        "revealedScore",
+        "largeLosses"
+      ],
+      "diagnostics": {
+        "decisions": 2826,
+        "opportunities": 467,
+        "changed": 91,
+        "baseReveals": 155,
+        "chosenReveals": 246,
+        "huOffered": 138,
+        "huDeclined": 0
+      },
+      "firstChangedPublicCases": [
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 10,
+          "decision": 97,
+          "wall": 23,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p4",
+            "p7",
+            "p7",
+            "p8",
+            "p9",
+            "p9",
+            "s3",
+            "s4",
+            "s5",
+            "s8",
+            "s8",
+            "p6"
+          ],
+          "opponentReveals": [
+            true,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 13,
+          "decision": 117,
+          "wall": 41,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 10,
+          "decision": 230,
+          "wall": 23,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p4",
+            "p7",
+            "p7",
+            "p8",
+            "p9",
+            "p9",
+            "s3",
+            "s4",
+            "s5",
+            "s8",
+            "s8",
+            "p6"
+          ],
+          "opponentReveals": [
+            true,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p9",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 1,
+          "hand": 13,
+          "decision": 250,
+          "wall": 41,
+          "ownHand": [
+            "p1",
+            "p2",
+            "s2",
+            "s2",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "z7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z7",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 2,
+          "hand": 1,
+          "decision": 285,
+          "wall": 41,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p7",
+            "s2",
+            "s2",
+            "s4",
+            "s5",
+            "s6",
+            "z6"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 2,
+          "hand": 4,
+          "decision": 304,
+          "wall": 39,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s7",
+            "s9",
+            "z6",
+            "z7",
+            "z7",
+            "p4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 2,
+          "hand": 6,
+          "decision": 316,
+          "wall": 38,
+          "ownHand": [
+            "p5",
+            "p5",
+            "s2",
+            "s3",
+            "s5",
+            "s6",
+            "s7",
+            "s7",
+            "s9",
+            "z6",
+            "s1"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 3,
+          "hand": 1,
+          "decision": 396,
+          "wall": 41,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p7",
+            "s2",
+            "s2",
+            "s4",
+            "s5",
+            "s6",
+            "z6"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 3,
+          "hand": 4,
+          "decision": 415,
+          "wall": 39,
+          "ownHand": [
+            "p2",
+            "p3",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s7",
+            "s9",
+            "z6",
+            "z7",
+            "z7",
+            "p4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 3,
+          "hand": 6,
+          "decision": 427,
+          "wall": 38,
+          "ownHand": [
+            "p5",
+            "p5",
+            "s2",
+            "s3",
+            "s5",
+            "s6",
+            "s7",
+            "s7",
+            "s9",
+            "z6",
+            "s1"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 4,
+          "hand": 0,
+          "decision": 495,
+          "wall": 31,
+          "ownHand": [
+            "p2",
+            "p2",
+            "p3",
+            "p3",
+            "p4",
+            "p6",
+            "p8",
+            "s7",
+            "s8",
+            "s9",
+            "p1"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": true
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 4,
+          "hand": 3,
+          "decision": 511,
+          "wall": 40,
+          "ownHand": [
+            "p1",
+            "p3",
+            "p6",
+            "p7",
+            "p9",
+            "s2",
+            "s3",
+            "s4",
+            "s6",
+            "s7",
+            "s7",
+            "s7",
+            "s8",
+            "p8"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": false
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": true
+          },
+          "margin": null
+        }
+      ],
+      "replaysSha256": "74e71e20e6cdee2e847adb46c1d77286f4dcad34937d49d7952082e434b7aab0"
+    },
+    "development-q-reference": {
+      "games": 768,
+      "allGamesRedealtAndPolicyRecomputed": true,
+      "behaviorFieldsRecomputed": [
+        "hands",
+        "score",
+        "wins",
+        "selfDraws",
+        "dealIns",
+        "draws",
+        "huScore",
+        "kongScore",
+        "drawScore",
+        "revealHands",
+        "revealedScore",
+        "largeLosses"
+      ],
+      "diagnostics": {
+        "decisions": 3219,
+        "opportunities": 758,
+        "changed": 0,
+        "baseReveals": 175,
+        "chosenReveals": 175,
+        "huOffered": 148,
+        "huDeclined": 0
+      },
+      "firstChangedPublicCases": [],
+      "replaysSha256": "b419938046598aa7e0ddd40162e432ec9fe110e1f8ba4b73eeab2ab793f5e32c"
+    },
+    "sealed": {
+      "games": 6144,
+      "allGamesRedealtAndPolicyRecomputed": true,
+      "behaviorFieldsRecomputed": [
+        "hands",
+        "score",
+        "wins",
+        "selfDraws",
+        "dealIns",
+        "draws",
+        "huScore",
+        "kongScore",
+        "drawScore",
+        "revealHands",
+        "revealedScore",
+        "largeLosses"
+      ],
+      "diagnostics": {
+        "decisions": 29837,
+        "opportunities": 9162,
+        "changed": 6095,
+        "baseReveals": 6095,
+        "chosenReveals": 0,
+        "huOffered": 1391,
+        "huDeclined": 0
+      },
+      "firstChangedPublicCases": [
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 4,
+          "wall": 35,
+          "ownHand": [
+            "p3",
+            "p3",
+            "p4",
+            "p6",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "s8",
+            "s7"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p3",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p3",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 5,
+          "wall": 32,
+          "ownHand": [
+            "p3",
+            "p4",
+            "p6",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "s7",
+            "s8",
+            "s7"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 6,
+          "wall": 29,
+          "ownHand": [
+            "p3",
+            "p4",
+            "p6",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "s7",
+            "s8",
+            "z6"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 0,
+          "decision": 7,
+          "wall": 25,
+          "ownHand": [
+            "p3",
+            "p4",
+            "p6",
+            "p6",
+            "p7",
+            "p8",
+            "p9",
+            "s1",
+            "s2",
+            "s3",
+            "s6",
+            "s7",
+            "s8",
+            "p9"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 1,
+          "decision": 13,
+          "wall": 32,
+          "ownHand": [
+            "p4",
+            "p5",
+            "s6",
+            "s6",
+            "s7",
+            "s8",
+            "s8",
+            "s8",
+            "z6",
+            "z6",
+            "z6",
+            "z7",
+            "z7",
+            "s5"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 1,
+          "decision": 14,
+          "wall": 29,
+          "ownHand": [
+            "p4",
+            "p5",
+            "s5",
+            "s6",
+            "s7",
+            "s8",
+            "s8",
+            "s8",
+            "z6",
+            "z6",
+            "z6",
+            "z7",
+            "z7",
+            "s4"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 1,
+          "decision": 15,
+          "wall": 26,
+          "ownHand": [
+            "p4",
+            "p5",
+            "s4",
+            "s5",
+            "s6",
+            "s8",
+            "s8",
+            "s8",
+            "z6",
+            "z6",
+            "z6",
+            "z7",
+            "z7",
+            "z5"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z5",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z5",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 4,
+          "decision": 30,
+          "wall": 35,
+          "ownHand": [
+            "p1",
+            "p3",
+            "p9",
+            "p9",
+            "p9",
+            "s3",
+            "s3",
+            "s6",
+            "s7",
+            "s7",
+            "s8",
+            "s9",
+            "z6",
+            "s5"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 8,
+          "decision": 63,
+          "wall": 32,
+          "ownHand": [
+            "p1",
+            "p2",
+            "p3",
+            "p4",
+            "p5",
+            "p5",
+            "p5",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s6",
+            "s7",
+            "p3"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 8,
+          "decision": 64,
+          "wall": 29,
+          "ownHand": [
+            "p1",
+            "p2",
+            "p3",
+            "p3",
+            "p4",
+            "p5",
+            "p5",
+            "p5",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "s7"
+          ],
+          "opponentReveals": [
+            false,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "s7",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 8,
+          "decision": 66,
+          "wall": 28,
+          "ownHand": [
+            "p1",
+            "p2",
+            "p3",
+            "p3",
+            "p4",
+            "p5",
+            "p5",
+            "p5",
+            "s3",
+            "s4",
+            "s5",
+            "s6",
+            "s7",
+            "z6"
+          ],
+          "opponentReveals": [
+            true,
+            false
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "z6",
+            "reveal": false
+          },
+          "margin": null
+        },
+        {
+          "group": 0,
+          "opponentPair": "H0+H0",
+          "permutation": 0,
+          "hand": 10,
+          "decision": 81,
+          "wall": 40,
+          "ownHand": [
+            "p1",
+            "p3",
+            "p3",
+            "p6",
+            "s2",
+            "s2",
+            "s5",
+            "s8",
+            "s8",
+            "s9",
+            "s9",
+            "z5",
+            "z5",
+            "p1"
+          ],
+          "opponentReveals": [
+            false,
+            true
+          ],
+          "base": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": true
+          },
+          "chosen": {
+            "type": "discard",
+            "tile": "p6",
+            "reveal": false
+          },
+          "margin": null
+        }
+      ],
+      "replaysSha256": "38b029684503259fc97d423aa6b757f2985bc7c61cb8490c8cc034ff71c46de6"
+    }
+  },
+  "sources": {
+    "core": {
+      "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+      "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+      "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+      "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+      "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+      "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+      "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+      "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+      "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+      "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+      "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+      "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+      "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+      "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+      "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+      "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+      "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+      "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+      "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+      "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+      "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+      "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+      "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+      "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+      "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+      "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+    },
+    "driver": {
+      "policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c",
+      "study.mjs": "55c11746da3e526baf2a5fab760bdc85bded12744a92752dd2cff7556bedd8c9",
+      "verify.mjs": "50b5eca83de1dadcba9d60636e00580e1f8264e178d0987943a3441fc5e4297e"
+    }
+  }
+}

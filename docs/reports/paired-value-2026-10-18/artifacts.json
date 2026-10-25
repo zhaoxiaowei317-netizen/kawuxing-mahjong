@@ -1,0 +1,62 @@
+[
+  {
+    "path": "ai-runs\\paired-value-20261018\\frozen-sources-final.tar.gz",
+    "sha256": "6e2bcbb44a61cb22c0b2f07d193cfe0c7ae01d778767dd85f1b4454821f147ec"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\training\\rows.jsonl.gz",
+    "sha256": "8119ea29638329699bc8b234d14090834702d21f7191e5391d2de13bd45e5a69"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\validation\\rows.jsonl.gz",
+    "sha256": "e6c9a260a795454b759f4050512703f92ea35b5fc9227776c609544dec86539c"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\model-ridge\\ridge.json",
+    "sha256": "11fd608399f98bf86fbfe41d6c7d001186b7b5441729e825a5ce0031ac698af2"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\model-mlp-0\\epoch-001.json",
+    "sha256": "c32586fa8df3818f5a343149e5ae98e07e37b1802d5f247b47cdbc57be191805"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\model-mlp-1\\epoch-001.json",
+    "sha256": "9d49fbfdbf313654dea68a8da2d90899075ebf393bced5b6a2ed782a5e92b2cf"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\model-mlp-2\\epoch-001.json",
+    "sha256": "1b020165ffb20de854062ae11e270a575a9c4902b9e7e0c09899ad150cfe290a"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-ridge\\replays.jsonl.gz",
+    "sha256": "e3f2d3658a537f788bb76a347612dcd5671c66ecc235843805484305207b4c3b"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-ridge\\decisions.jsonl.gz",
+    "sha256": "f7607889a63190f2a114eb9da7481ce8c4cca58ddc625d1ffc68a1728f81a044"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-0\\replays.jsonl.gz",
+    "sha256": "2c3d530befac822aecced8a2202ca1ec4eb0ef2a533d5641472e2e703af3f558"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-0\\decisions.jsonl.gz",
+    "sha256": "0fabad07fcdedbf628cd1d53cdf3c5d6800e040ea1857c8c8e4fbd1900ac55f6"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-1\\replays.jsonl.gz",
+    "sha256": "e9e65f0ed351b65c089395b86e847b156479dd947d6b000a97678b02d4f5485a"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-1\\decisions.jsonl.gz",
+    "sha256": "fa8c8972857640a77ac6c5e40a9e459a9341b8916b39d2f11dc52b9c41989912"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-2\\replays.jsonl.gz",
+    "sha256": "9628569e98da5edb272cf3ab362d8a31cf59cdb4cd51675bb79fe09773bc2ac2"
+  },
+  {
+    "path": "ai-runs\\paired-value-20261018\\development-mlp-2\\decisions.jsonl.gz",
+    "sha256": "5c99d27f9352b4f0e83b3f2f6727b756e97bd2748e0d7e2283158b6bd6c723c5"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "planSha256": "c32d42217af5f226264c43c53745fe20a53c76527cff69eb65bd912bd68733a3",
+  "models": {
+    "anchor": {
+      "samples": 5824,
+      "rawAgreement": 5286,
+      "correctedAgreement": 5108,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 176,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 4932,
+      "huOffered": 168,
+      "huDeclined": 2
+    },
+    "plain": {
+      "samples": 5824,
+      "rawAgreement": 5218,
+      "correctedAgreement": 5256,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 284,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 4972,
+      "huOffered": 168,
+      "huDeclined": 0
+    },
+    "raw": {
+      "samples": 5824,
+      "rawAgreement": 5824,
+      "correctedAgreement": 5246,
+      "changedSamples": 578,
+      "changedCorrectedAgreement": 0,
+      "unchangedSamples": 5246,
+      "unchangedRawAgreement": 5246,
+      "huOffered": 168,
+      "huDeclined": 2
+    }
+  },
+  "role": "Descriptive fixed validation decisions; no checkpoint selection based on these extra metrics."
+}

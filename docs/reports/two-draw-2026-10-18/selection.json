@@ -1,0 +1,67 @@
+{
+  "createdAt": "2026-10-18T11:51:57.856Z",
+  "selected": "same-shanten",
+  "rows": [
+    {
+      "mode": "ties",
+      "delta": -8.463541666666668,
+      "ci95": [
+        -34.375,
+        17.447916666666664
+      ],
+      "games": 1920,
+      "search": {
+        "decisions": 9015,
+        "searched": 2154,
+        "changed": 254,
+        "changedImmediateOuts": 0,
+        "searchDistanceCalls": 1939888,
+        "searchCandidateSum": 5406,
+        "byDistance": {
+          "1": 1206,
+          "2": 748,
+          "3": 194,
+          "4": 6
+        },
+        "fallbacks": {
+          "no-alternative": 2469,
+          "preserve-H0-special-action": 3816,
+          "preserve-H0-ready-hand": 503,
+          "fewer-than-two-normal-own-draws": 73
+        }
+      },
+      "seconds": 153.74576130000003
+    },
+    {
+      "mode": "same-shanten",
+      "delta": 13.151041666666666,
+      "ci95": [
+        -11.197916666666668,
+        37.77018229166653
+      ],
+      "games": 1920,
+      "search": {
+        "decisions": 9059,
+        "searched": 4616,
+        "changed": 471,
+        "changedImmediateOuts": 227,
+        "searchDistanceCalls": 5388603,
+        "searchCandidateSum": 23427,
+        "byDistance": {
+          "1": 2893,
+          "2": 1420,
+          "3": 294,
+          "4": 9
+        },
+        "fallbacks": {
+          "preserve-H0-special-action": 3811,
+          "preserve-H0-ready-hand": 503,
+          "fewer-than-two-normal-own-draws": 76,
+          "no-alternative": 53
+        }
+      },
+      "seconds": 241.48718319999998
+    }
+  ],
+  "planSha256": "71c13fbcc09ff21a360f94f8ab93b2aacaf0e4462311c1ddd5ae06352e620447"
+}

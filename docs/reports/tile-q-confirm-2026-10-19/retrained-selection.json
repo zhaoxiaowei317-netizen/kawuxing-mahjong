@@ -1,0 +1,9 @@
+{
+  "checkpoint": {
+    "epoch": 8,
+    "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-confirm-20261019\\model-offline\\epoch-008.json",
+    "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\tile-q-confirm-20261019\\model-offline\\epoch-008.pt",
+    "validationLoss": 0.3601851884757016
+  },
+  "criterion": "Both BC and offline checkpoints use their own minimum fixed validation loss, including epoch 0, earliest ties. No development tournament, no choice based on evaluation."
+}

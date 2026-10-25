@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-18T12:08:17.606Z",
+  "games": 10752,
+  "stages": [
+    {
+      "stage": "development-ties",
+      "games": 1920,
+      "decisions": 54533,
+      "replaySha256": "24b467dbb9336b9fac92480556ae02b1b9004c174e282718259aafc6d9aee235"
+    },
+    {
+      "stage": "development-same-shanten",
+      "games": 1920,
+      "decisions": 54536,
+      "replaySha256": "6a1d9f49c34dff0dbbb3844df840c72100384c1b734d4b27ec7bb2876f6b0e7a"
+    },
+    {
+      "stage": "sealed",
+      "games": 6912,
+      "decisions": 192033,
+      "replaySha256": "8cd487cfde57af434e7b7394a1dc65b1a78142b8be418f2d4a7439b4b189f686"
+    }
+  ],
+  "checks": [
+    "Source and plan hashes",
+    "Fixed budgets and development selection",
+    "Separate seeded dealing and real continuation",
+    "Every recorded action, conservation and settlement",
+    "Recomputed candidate scores and paired bootstrap"
+  ],
+  "verifierSha256": "04f53d5b4485e8876770ab4b1f79c3dcb2b7d242fc918f1c6352d64c018f786a"
+}

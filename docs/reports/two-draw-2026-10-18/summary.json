@@ -1,0 +1,200 @@
+{
+  "version": "kwx-two-draw-study-1",
+  "completedAt": "2026-10-18T12:01:45.076Z",
+  "selected": "same-shanten",
+  "development": [
+    {
+      "mode": "ties",
+      "delta": -8.463541666666668,
+      "ci95": [
+        -34.375,
+        17.447916666666664
+      ],
+      "games": 1920,
+      "search": {
+        "decisions": 9015,
+        "searched": 2154,
+        "changed": 254,
+        "changedImmediateOuts": 0,
+        "searchDistanceCalls": 1939888,
+        "searchCandidateSum": 5406,
+        "byDistance": {
+          "1": 1206,
+          "2": 748,
+          "3": 194,
+          "4": 6
+        },
+        "fallbacks": {
+          "no-alternative": 2469,
+          "preserve-H0-special-action": 3816,
+          "preserve-H0-ready-hand": 503,
+          "fewer-than-two-normal-own-draws": 73
+        }
+      },
+      "seconds": 153.74576130000003
+    },
+    {
+      "mode": "same-shanten",
+      "delta": 13.151041666666666,
+      "ci95": [
+        -11.197916666666668,
+        37.77018229166653
+      ],
+      "games": 1920,
+      "search": {
+        "decisions": 9059,
+        "searched": 4616,
+        "changed": 471,
+        "changedImmediateOuts": 227,
+        "searchDistanceCalls": 5388603,
+        "searchCandidateSum": 23427,
+        "byDistance": {
+          "1": 2893,
+          "2": 1420,
+          "3": 294,
+          "4": 9
+        },
+        "fallbacks": {
+          "preserve-H0-special-action": 3811,
+          "preserve-H0-ready-hand": 503,
+          "fewer-than-two-normal-own-draws": 76,
+          "no-alternative": 53
+        }
+      },
+      "seconds": 241.48718319999998
+    }
+  ],
+  "sealed": {
+    "primary": {
+      "groups": 32,
+      "hands": 3072,
+      "candidatePer100": 18.815104166666668,
+      "incumbentPer100": 17.578125,
+      "deltaPer100": 1.2369791666666687,
+      "ci95": [
+        -15.8203125,
+        18.132324218749993
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "independent": {
+      "groups": 64,
+      "hands": 384,
+      "candidatePer100": 34.11458333333333,
+      "incumbentPer100": 39.0625,
+      "deltaPer100": -4.947916666666664,
+      "ci95": [
+        -36.19791666666666,
+        25.26692708333325
+      ],
+      "bootstrapSamples": 5000,
+      "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+    },
+    "byOpponentPair": {
+      "H0+H0": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 17.317708333333336,
+        "incumbentPer100": 0,
+        "deltaPer100": 17.317708333333336,
+        "ci95": [
+          -12.5,
+          47.39583333333333
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      },
+      "H0+greedy-speed-v1": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 20.3125,
+        "incumbentPer100": 35.15625,
+        "deltaPer100": -14.843749999999998,
+        "ci95": [
+          -29.752604166666664,
+          1.5625
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Each opening-seed group has equal weight within its opponent pair."
+      }
+    },
+    "games": 6912,
+    "search": {
+      "decisions": 31862,
+      "searched": 16009,
+      "changed": 1694,
+      "changedImmediateOuts": 698,
+      "searchDistanceCalls": 19132418,
+      "searchCandidateSum": 83107,
+      "byDistance": {
+        "1": 9689,
+        "2": 5289,
+        "3": 994,
+        "4": 37
+      },
+      "fallbacks": {
+        "preserve-H0-special-action": 14067,
+        "preserve-H0-ready-hand": 1496,
+        "no-alternative": 150,
+        "fewer-than-two-normal-own-draws": 140
+      }
+    },
+    "latency": {
+      "H0": {
+        "decisions": 126256,
+        "meanMs": 1.3062920217650005,
+        "p50Ms": 1.5222000000067055,
+        "p95Ms": 2.570200000074692,
+        "maxMs": 8.878000000026077
+      },
+      "two-draw-same-shanten-v1": {
+        "decisions": 31862,
+        "meanMs": 7.507701343293008,
+        "p50Ms": 3.043500000028871,
+        "p95Ms": 32.19980000000214,
+        "maxMs": 213.920599999954
+      },
+      "greedy-speed-v1": {
+        "decisions": 33915,
+        "meanMs": 0.05123622880741398,
+        "p50Ms": 0.0537999999942258,
+        "p95Ms": 0.08889999997336417,
+        "maxMs": 1.8583000000216998
+      }
+    },
+    "seconds": 587.0369853000001,
+    "replayArtifact": {
+      "path": "ai-runs\\two-draw-20261018\\sealed\\replays.jsonl.gz",
+      "recorded": 6912,
+      "audited": 48,
+      "sha256": "8cd487cfde57af434e7b7394a1dc65b1a78142b8be418f2d4a7439b4b189f686"
+    }
+  },
+  "positiveSealedEvidence": false,
+  "games": 10752,
+  "trainingHands": 0,
+  "productionPolicy": "H0",
+  "sourceHashes": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai/lookahead/policy.mjs": "129cd0ca889453235bac9173f3f091ef6a01cddd4e62950c1e7c4615eeb0bc7b",
+    "ai/lookahead/study.mjs": "a3753ed8de47e8aaba243e360e24cf935da0570a84d9371135f215883cdaf343"
+  },
+  "planSha256": "71c13fbcc09ff21a360f94f8ab93b2aacaf0e4462311c1ddd5ae06352e620447",
+  "selectionSha256": "aa60e02ca071594946de0b57476aff791d92a3847bb1611672cc4d26744b8538"
+}

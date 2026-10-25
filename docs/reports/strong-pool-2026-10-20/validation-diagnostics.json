@@ -1,0 +1,103 @@
+{
+  "postHoc": true,
+  "use": "Validation behavior diagnosis only, no selection or training",
+  "validationSha256": "d430e4fe1d9f6e16182cc3e70b2282c0221c6c3856339e3f8fd463f8d56fe379",
+  "sourceSha256": "31cd77d27e88901ef19691683d2d027d2b25859532b39fa938c405b7b7514894",
+  "models": {
+    "bc": {
+      "counts": {
+        "rows": 15985,
+        "exact": 14059,
+        "teacherDiscards": 13075,
+        "sameDiscardTile": 11678,
+        "differentDiscardTile": 1397,
+        "onlyRevealDifference": 457,
+        "teacherHu": 571,
+        "teacherHuDeclined": 1,
+        "huOffered": 571,
+        "huDeclined": 1,
+        "modelReveals": 217,
+        "teacherReveals": 445
+      },
+      "teacherToChosenType": {
+        "discard -> discard": 13075,
+        "peng -> peng": 871,
+        "pass -> pass": 1029,
+        "bu -> bu": 64,
+        "ming -> ming": 209,
+        "an -> an": 95,
+        "hu -> hu": 570,
+        "peng -> pass": 6,
+        "pass -> peng": 64,
+        "hu -> ming": 1,
+        "bu -> discard": 1
+      },
+      "byTeacherRole": {
+        "h0-never": {
+          "rows": 10239,
+          "exact": 9471
+        },
+        "H0": {
+          "rows": 4237,
+          "exact": 3514
+        },
+        "greedy-speed-v1": {
+          "rows": 1509,
+          "exact": 1074
+        }
+      },
+      "checkpointSha256": "8295024c70fb9b73f802ac95e502aee0f298df13c7043ab36611b67217b77b6f"
+    },
+    "offline": {
+      "counts": {
+        "rows": 15985,
+        "exact": 11546,
+        "teacherDiscards": 13075,
+        "sameDiscardTile": 9163,
+        "differentDiscardTile": 3912,
+        "onlyRevealDifference": 412,
+        "teacherHu": 571,
+        "teacherHuDeclined": 0,
+        "huOffered": 571,
+        "huDeclined": 0,
+        "modelReveals": 20,
+        "teacherReveals": 445
+      },
+      "teacherToChosenType": {
+        "discard -> discard": 13075,
+        "peng -> peng": 877,
+        "pass -> pass": 1013,
+        "bu -> bu": 63,
+        "ming -> ming": 177,
+        "an -> an": 94,
+        "hu -> hu": 571,
+        "ming -> pass": 11,
+        "ming -> peng": 21,
+        "pass -> peng": 80,
+        "bu -> discard": 2,
+        "an -> discard": 1
+      },
+      "byTeacherRole": {
+        "h0-never": {
+          "rows": 10239,
+          "exact": 8045
+        },
+        "H0": {
+          "rows": 4237,
+          "exact": 2772
+        },
+        "greedy-speed-v1": {
+          "rows": 1509,
+          "exact": 729
+        }
+      },
+      "checkpointSha256": "e9374f999a3481c109a9605f3a59e1c18c5682cb6187ea38ece7105c917cac82"
+    }
+  },
+  "bcToOffline": {
+    "rows": 15985,
+    "changed": 3924,
+    "discardTileChanged": 3653,
+    "onlyRevealChanged": 214
+  }
+}

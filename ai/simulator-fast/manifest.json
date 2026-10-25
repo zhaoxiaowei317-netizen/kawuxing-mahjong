@@ -1,0 +1,47 @@
+{
+  "purpose": "Optional geometry memoization backend; not used in frozen experiments. Import-only mirrors preserve rules and algorithms.",
+  "mirrors": [
+    {
+      "reference": "ai/environment.mjs",
+      "referenceSha256": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+      "path": "ai/simulator-fast/environment.mjs",
+      "sha256": "ebd913f8ad1ad3b50da687cd9a65b8bfebdf2662c4e74d7115fea2dee85ca505"
+    },
+    {
+      "reference": "ai/policies/h0.mjs",
+      "referenceSha256": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+      "path": "ai/simulator-fast/h0.mjs",
+      "sha256": "543cae5bad879651656c3601e2ca772606bd3780d33d746f38b60ac4696ffc56"
+    },
+    {
+      "reference": "ai/policies/index.mjs",
+      "referenceSha256": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+      "path": "ai/simulator-fast/policies.mjs",
+      "sha256": "45f60aff8b903bd0bc460d4714dea6abdb134ce45f53feca46a286b3b348dfbe"
+    },
+    {
+      "reference": "ai/action-scorer/features.mjs",
+      "referenceSha256": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+      "path": "ai/simulator-fast/features.mjs",
+      "sha256": "a71e77feee415f8adb0dc27954e991c324d2a5cfe6c1e9b1b40f576375df1ccf"
+    },
+    {
+      "reference": "ai/tile-q/encoding.mjs",
+      "referenceSha256": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+      "path": "ai/simulator-fast/encoding.mjs",
+      "sha256": "2861b0ab97e2f2e7152ffcea3ea547e5b8f2673c5511c2698e3974848cc86206"
+    },
+    {
+      "reference": "ai/decision-components/policy.mjs",
+      "referenceSha256": "f14dad961b33c148996b89b1fbcd9854e74fb4b334e576450cf513adfa557a84",
+      "path": "ai/simulator-fast/components.mjs",
+      "sha256": "3ae12c7bc5ba552090b681ae755f5fc0ab5cc32cd34ed1ae0dbba241bf3ffaa9"
+    },
+    {
+      "reference": "ai/wall-average/collect.mjs",
+      "referenceSha256": "ef1e699ebdb0696c98f8dfba64912f892355add0e216754c11239096f79f8117",
+      "path": "ai/simulator-fast/collect.mjs",
+      "sha256": "305da40ee26dcf2411c21b88114d3f7f9299171234f5aa22c0528835ac041077"
+    }
+  ]
+}

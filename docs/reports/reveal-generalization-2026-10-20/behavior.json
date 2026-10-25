@@ -1,0 +1,160 @@
+{
+  "replication": {
+    "H0+H0": {
+      "candidate": {
+        "hands": 1536,
+        "score": 580,
+        "wins": 622,
+        "dealIns": 6,
+        "revealHands": 0,
+        "huScore": 510,
+        "kongScore": 54,
+        "drawScore": 16
+      },
+      "incumbent": {
+        "hands": 1536,
+        "score": 0,
+        "wins": 512,
+        "dealIns": 210,
+        "revealHands": 892,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0
+      }
+    },
+    "H0+greedy-speed-v1": {
+      "candidate": {
+        "hands": 1536,
+        "score": 978,
+        "wins": 747,
+        "dealIns": 26,
+        "revealHands": 0,
+        "huScore": 836,
+        "kongScore": 35,
+        "drawScore": 107
+      },
+      "incumbent": {
+        "hands": 1536,
+        "score": 408,
+        "wins": 545,
+        "dealIns": 233,
+        "revealHands": 1050,
+        "huScore": 389,
+        "kongScore": 51,
+        "drawScore": -32
+      }
+    }
+  },
+  "stress": {
+    "never+H0": {
+      "candidate": {
+        "hands": 384,
+        "score": 125,
+        "wins": 151,
+        "dealIns": 10,
+        "revealHands": 0,
+        "huScore": 104,
+        "kongScore": 19,
+        "drawScore": 2
+      },
+      "incumbent": {
+        "hands": 384,
+        "score": -63,
+        "wins": 103,
+        "dealIns": 64,
+        "revealHands": 249,
+        "huScore": -57,
+        "kongScore": 22,
+        "drawScore": -28
+      }
+    },
+    "never+greedy": {
+      "candidate": {
+        "hands": 384,
+        "score": 131,
+        "wins": 151,
+        "dealIns": 18,
+        "revealHands": 0,
+        "huScore": 87,
+        "kongScore": 35,
+        "drawScore": 9
+      },
+      "incumbent": {
+        "hands": 384,
+        "score": -89,
+        "wins": 99,
+        "dealIns": 107,
+        "revealHands": 305,
+        "huScore": -125,
+        "kongScore": 38,
+        "drawScore": -2
+      }
+    },
+    "never+never": {
+      "candidate": {
+        "hands": 384,
+        "score": 0,
+        "wins": 122,
+        "dealIns": 24,
+        "revealHands": 0,
+        "huScore": 0,
+        "kongScore": 0,
+        "drawScore": 0
+      },
+      "incumbent": {
+        "hands": 384,
+        "score": -290,
+        "wins": 74,
+        "dealIns": 124,
+        "revealHands": 310,
+        "huScore": -274,
+        "kongScore": 4,
+        "drawScore": -20
+      }
+    },
+    "selective+H0": {
+      "candidate": {
+        "hands": 384,
+        "score": 117,
+        "wins": 147,
+        "dealIns": 1,
+        "revealHands": 0,
+        "huScore": 49,
+        "kongScore": 32,
+        "drawScore": 36
+      },
+      "incumbent": {
+        "hands": 384,
+        "score": 58,
+        "wins": 124,
+        "dealIns": 53,
+        "revealHands": 233,
+        "huScore": 54,
+        "kongScore": 6,
+        "drawScore": -2
+      }
+    },
+    "neural+H0": {
+      "candidate": {
+        "hands": 384,
+        "score": 41,
+        "wins": 140,
+        "dealIns": 3,
+        "revealHands": 0,
+        "huScore": -13,
+        "kongScore": 15,
+        "drawScore": 39
+      },
+      "incumbent": {
+        "hands": 384,
+        "score": -131,
+        "wins": 113,
+        "dealIns": 66,
+        "revealHands": 247,
+        "huScore": -121,
+        "kongScore": -6,
+        "drawScore": -4
+      }
+    }
+  }
+}

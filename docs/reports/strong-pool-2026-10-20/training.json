@@ -1,0 +1,1328 @@
+{
+  "datasets": {
+    "training": {
+      "version": "kwx-tile-q-episodes-1",
+      "behaviorVersion": "kwx-strong-pool-1",
+      "schema": {
+        "version": "kwx-tile-q-public-1",
+        "tiles": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "z5",
+          "z6",
+          "z7"
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          22,
+          25,
+          28
+        ],
+        "length": 29,
+        "channels": 65,
+        "planes": [
+          {
+            "name": "own.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "own.draw",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p0.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p0.waits",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p1.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p1.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p1.waits",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p2.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p2.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p2.waits",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "own.passedHu",
+            "scale": 1
+          },
+          {
+            "name": "own.passedPeng",
+            "scale": 1
+          },
+          {
+            "name": "own.buOpportunities",
+            "scale": 1
+          },
+          {
+            "name": "own.reservedKongTiles",
+            "scale": 1
+          },
+          {
+            "name": "own.supplementForbidden",
+            "scale": 1
+          },
+          {
+            "name": "own.order.0",
+            "scale": 14
+          },
+          {
+            "name": "own.order.1",
+            "scale": 14
+          },
+          {
+            "name": "own.order.2",
+            "scale": 14
+          },
+          {
+            "name": "own.order.3",
+            "scale": 14
+          },
+          {
+            "name": "type.suited",
+            "scale": 1
+          },
+          {
+            "name": "type.honor",
+            "scale": 1
+          },
+          {
+            "name": "type.rank",
+            "scale": 9
+          },
+          {
+            "name": "pending.tile",
+            "scale": 1
+          },
+          {
+            "name": "last.tile",
+            "scale": 1
+          }
+        ],
+        "contextNames": [
+          "p0.liang",
+          "p0.size",
+          "p0.hidden",
+          "p0.riverSize",
+          "p0.meldSize",
+          "p0.total",
+          "p0.kongNet",
+          "p1.liang",
+          "p1.size",
+          "p1.hidden",
+          "p1.riverSize",
+          "p1.meldSize",
+          "p1.total",
+          "p1.kongNet",
+          "p2.liang",
+          "p2.size",
+          "p2.hidden",
+          "p2.riverSize",
+          "p2.meldSize",
+          "p2.total",
+          "p2.kongNet",
+          "wall",
+          "gangChain",
+          "round",
+          "dealer.0",
+          "dealer.1",
+          "dealer.2",
+          "turn.0",
+          "turn.1",
+          "turn.2",
+          "phase.discard",
+          "phase.react",
+          "pending.source.0",
+          "pending.source.1",
+          "pending.source.2",
+          "pending.discard",
+          "pending.robKong",
+          "pending.gangShot",
+          "pending.gangCount",
+          "last.source.0",
+          "last.source.1",
+          "last.source.2"
+        ],
+        "contextSize": 42,
+        "actions": 88,
+        "candidateSize": 34
+      },
+      "split": "training",
+      "seed": "6361b566d5e4e9940204f3233c3380623e1ad994ec801e636b8d37b218774c12",
+      "startHand": 0,
+      "hands": 4800,
+      "sessionHands": 16,
+      "epsilon": 0.05,
+      "samples": 132277,
+      "actions": 144141,
+      "huOffered": 4711,
+      "huMissed": 153,
+      "teachers": {
+        "h0-never": 83946,
+        "H0": 35530,
+        "greedy-speed-v1": 12801
+      },
+      "modelHashes": {},
+      "sources": {
+        "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+      },
+      "driverSources": {
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+      },
+      "sha256": "c3ac4e598b229f99fe1eac00b500f8e2d1de4ccde529b6573ffc1e565100e3f6",
+      "target": "Undiscounted terminal net less settled kong net /16; labels are each acting seat's fixed teacher, no policy IDs in network input",
+      "shards": 4
+    },
+    "validation": {
+      "version": "kwx-tile-q-episodes-1",
+      "behaviorVersion": "kwx-strong-pool-1",
+      "schema": {
+        "version": "kwx-tile-q-public-1",
+        "tiles": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8",
+          "p9",
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "z5",
+          "z6",
+          "z7"
+        ],
+        "positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          22,
+          25,
+          28
+        ],
+        "length": 29,
+        "channels": 65,
+        "planes": [
+          {
+            "name": "own.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "own.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "own.draw",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=1",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=2",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=3",
+            "scale": 1
+          },
+          {
+            "name": "visible.count>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p0.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p0.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p0.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p0.waits",
+            "scale": 1
+          },
+          {
+            "name": "p0.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p0.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p1.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p1.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p1.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p1.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p1.waits",
+            "scale": 1
+          },
+          {
+            "name": "p1.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p1.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "p2.revealed>=1",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=2",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=3",
+            "scale": 1
+          },
+          {
+            "name": "p2.revealed>=4",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverCount",
+            "scale": 4
+          },
+          {
+            "name": "p2.meld.peng",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.ming",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.an",
+            "scale": 1
+          },
+          {
+            "name": "p2.meld.bu",
+            "scale": 1
+          },
+          {
+            "name": "p2.waits",
+            "scale": 1
+          },
+          {
+            "name": "p2.riverOrder.0",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.1",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.2",
+            "scale": 48
+          },
+          {
+            "name": "p2.riverOrder.3",
+            "scale": 48
+          },
+          {
+            "name": "own.passedHu",
+            "scale": 1
+          },
+          {
+            "name": "own.passedPeng",
+            "scale": 1
+          },
+          {
+            "name": "own.buOpportunities",
+            "scale": 1
+          },
+          {
+            "name": "own.reservedKongTiles",
+            "scale": 1
+          },
+          {
+            "name": "own.supplementForbidden",
+            "scale": 1
+          },
+          {
+            "name": "own.order.0",
+            "scale": 14
+          },
+          {
+            "name": "own.order.1",
+            "scale": 14
+          },
+          {
+            "name": "own.order.2",
+            "scale": 14
+          },
+          {
+            "name": "own.order.3",
+            "scale": 14
+          },
+          {
+            "name": "type.suited",
+            "scale": 1
+          },
+          {
+            "name": "type.honor",
+            "scale": 1
+          },
+          {
+            "name": "type.rank",
+            "scale": 9
+          },
+          {
+            "name": "pending.tile",
+            "scale": 1
+          },
+          {
+            "name": "last.tile",
+            "scale": 1
+          }
+        ],
+        "contextNames": [
+          "p0.liang",
+          "p0.size",
+          "p0.hidden",
+          "p0.riverSize",
+          "p0.meldSize",
+          "p0.total",
+          "p0.kongNet",
+          "p1.liang",
+          "p1.size",
+          "p1.hidden",
+          "p1.riverSize",
+          "p1.meldSize",
+          "p1.total",
+          "p1.kongNet",
+          "p2.liang",
+          "p2.size",
+          "p2.hidden",
+          "p2.riverSize",
+          "p2.meldSize",
+          "p2.total",
+          "p2.kongNet",
+          "wall",
+          "gangChain",
+          "round",
+          "dealer.0",
+          "dealer.1",
+          "dealer.2",
+          "turn.0",
+          "turn.1",
+          "turn.2",
+          "phase.discard",
+          "phase.react",
+          "pending.source.0",
+          "pending.source.1",
+          "pending.source.2",
+          "pending.discard",
+          "pending.robKong",
+          "pending.gangShot",
+          "pending.gangCount",
+          "last.source.0",
+          "last.source.1",
+          "last.source.2"
+        ],
+        "contextSize": 42,
+        "actions": 88,
+        "candidateSize": 34
+      },
+      "split": "validation",
+      "seed": "dfb778d0fcd344768f7eef87ca287977109ef54e79f971eaeb518880e28744e6",
+      "startHand": 0,
+      "hands": 576,
+      "sessionHands": 16,
+      "epsilon": 0.05,
+      "samples": 15985,
+      "actions": 17472,
+      "huOffered": 571,
+      "huMissed": 18,
+      "teachers": {
+        "h0-never": 10239,
+        "H0": 4237,
+        "greedy-speed-v1": 1509
+      },
+      "modelHashes": {},
+      "sources": {
+        "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+        "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+        "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+        "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+        "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+        "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+        "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+        "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+        "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+        "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+        "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+        "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+        "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+        "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+        "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+        "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+        "ai/action-scorer/features.mjs": "86d81e4bd3414401b77e5c10eaa19fab610ee7c489d385ac805988dade1e5410",
+        "ai/tile-q/encoding.mjs": "ce5d417f1431016e8de1e646f40a42830ddb1a9d8a55630fdeaf2dad77eef3a5",
+        "ai/tile-q/sources.mjs": "4038a6f17c5b065e082c0262e61203db28e130170b8f41e16c22ca3588feb30c",
+        "ai/tile-q/model.mjs": "512d0eab4311bbc4847f76305c62b77d86782b334e67f39214c902a6f24fb8e2",
+        "ai/tile-q/collect.mjs": "acdf26c9e1c8e8a9500cbe94a0bc0806f502b6c412d309c66ecdb4ff4434b095",
+        "ai/tile-q/evaluate.mjs": "f928c524a6781c38222aac38cef0185dfbc21eadc97412551e0cd311693b611c",
+        "ai/tile-q/study.mjs": "e6143e2d370a4ccbcf56490e11561e471d4d16fe50a2e8f41b47e6fb5548a7fc",
+        "ai/tile-q/verify.mjs": "8c6878507df32c6e18cc71b113ee1dc625820475947f684ae413f30fbdf9af69",
+        "ai/tile-q/network.py": "3d8f59412f91562c1040a57c04db340101a0a18d34e8cc08dc73929079a62952",
+        "ai/tile-q/train.py": "97aa5045fac19e37cc0a371ef3e79bdbfe9109098e1930200ba2519f0f04fd93"
+      },
+      "driverSources": {
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\config.mjs": "188124ebbb480832cc91f7a46cd60e869900a1fb534f2678a4a33eaff74e6fbc",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\collect.mjs": "c80c144cf9b2aef67134c4fbb0b637901cdb0979ab41957f4e0e93353e16f9bc",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\evaluate.mjs": "8c39b6ac06f28c90d9304df419218cc31afd93a2cbdcd430d74403a77b741489",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\study.mjs": "4f42f7b266857ccda3a432df363a87614474ee6358ffb81aab61476f4edea2dd",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\strong-pool\\verify.mjs": "7fe1b8525f773e6eb2d08f791ea7ccb4e83781f519449bd1f4c98619672ed451",
+        "C:\\Users\\zhaox\\Desktop\\卡五星\\ai\\reveal-study\\policies.mjs": "97c50bc209462369de0f7c54594b518d5721e76caf9a4063ac36156d77f0dc8c"
+      },
+      "sha256": "d430e4fe1d9f6e16182cc3e70b2282c0221c6c3856339e3f8fd463f8d56fe379",
+      "target": "Undiscounted terminal net less settled kong net /16; labels are each acting seat's fixed teacher, no policy IDs in network input",
+      "shards": 1
+    }
+  },
+  "fitted": {
+    "bc": {
+      "selected": {
+        "epoch": 11,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-bc\\epoch-011.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-bc\\epoch-011.pt",
+        "validationLoss": 0.40433338341356473
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 2.159393153880616,
+            "mcHalfMse": 0.02973840247546767,
+            "cql": 2.04809620403166,
+            "bc": 2.0476435472292627,
+            "rank": 1.1174960700696888,
+            "teacherAgreement": 0.23305638925313385
+          },
+          "validation": {
+            "loss": 2.1404944099931003,
+            "mcHalfMse": 0.033164447568727544,
+            "cql": 2.0293882469852007,
+            "bc": 2.028842921856608,
+            "rank": 1.1165148130311864,
+            "teacherAgreement": 0.24522990302943348
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 0.8295299067765599,
+            "mcHalfMse": 10.4075827712737,
+            "cql": 0.9655623277203539,
+            "bc": 0.7693880977620666,
+            "rank": 0.6014180650383611,
+            "teacherAgreement": 0.7164662034701699
+          },
+          "validation": {
+            "loss": 0.8288165825323869,
+            "mcHalfMse": 10.107022774976455,
+            "cql": 0.9807729163839554,
+            "bc": 0.7696045727330074,
+            "rank": 0.5921201503832415,
+            "teacherAgreement": 0.7134188300302189
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 0.6851505847042549,
+            "mcHalfMse": 18.43781915919305,
+            "cql": 0.9070181331095274,
+            "bc": 0.6279037979913591,
+            "rank": 0.5724678687101354,
+            "teacherAgreement": 0.7747832200487664
+          },
+          "validation": {
+            "loss": 0.691537399720057,
+            "mcHalfMse": 17.86904256413197,
+            "cql": 0.9367244224232136,
+            "bc": 0.6353328301342046,
+            "rank": 0.5620456633043543,
+            "teacherAgreement": 0.7724116357334114
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.6022162834331629,
+            "mcHalfMse": 22.274861018896335,
+            "cql": 0.9008949929694194,
+            "bc": 0.5455887310402732,
+            "rank": 0.5662755352744476,
+            "teacherAgreement": 0.8085759428788477
+          },
+          "validation": {
+            "loss": 0.6093798897808553,
+            "mcHalfMse": 21.506964597561826,
+            "cql": 0.9387426571134555,
+            "bc": 0.5541198049107678,
+            "rank": 0.5526008054357712,
+            "teacherAgreement": 0.80262746322815
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.5442951997955094,
+            "mcHalfMse": 20.60326776800329,
+            "cql": 0.9146870258959763,
+            "bc": 0.48849014310602035,
+            "rank": 0.558050558711682,
+            "teacherAgreement": 0.8295546467082151
+          },
+          "validation": {
+            "loss": 0.554716970713988,
+            "mcHalfMse": 19.83971039119049,
+            "cql": 0.9613808574846546,
+            "bc": 0.5002684445913635,
+            "rank": 0.5444852681058552,
+            "teacherAgreement": 0.8237722867087794
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "loss": 0.501549253708279,
+            "mcHalfMse": 19.225907363472864,
+            "cql": 0.947895966258063,
+            "bc": 0.4466221536484748,
+            "rank": 0.5492710022532296,
+            "teacherAgreement": 0.8454228626161118
+          },
+          "validation": {
+            "loss": 0.5167425651791918,
+            "mcHalfMse": 18.66191336292008,
+            "cql": 1.0050220614789165,
+            "bc": 0.4630737611976758,
+            "rank": 0.5366880410922703,
+            "teacherAgreement": 0.8392868315946098
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "loss": 0.46966320627236424,
+            "mcHalfMse": 24.042208143497117,
+            "cql": 0.9997399198686037,
+            "bc": 0.4149830292475534,
+            "rank": 0.5468017630413625,
+            "teacherAgreement": 0.8571860565680288
+          },
+          "validation": {
+            "loss": 0.48574087402766136,
+            "mcHalfMse": 23.56669391528271,
+            "cql": 1.0630178750959605,
+            "bc": 0.43226631315268316,
+            "rank": 0.5347456200927505,
+            "teacherAgreement": 0.8502345949103767
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "loss": 0.4463114393138898,
+            "mcHalfMse": 31.553150258110815,
+            "cql": 1.0428547330326117,
+            "bc": 0.39193166263056084,
+            "rank": 0.5437977552634512,
+            "teacherAgreement": 0.8703931900341876
+          },
+          "validation": {
+            "loss": 0.46477088468836214,
+            "mcHalfMse": 31.234041164709623,
+            "cql": 1.1162052736380788,
+            "bc": 0.41153803539529676,
+            "rank": 0.532328481475823,
+            "teacherAgreement": 0.8620581794948476
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "loss": 0.4232626956320112,
+            "mcHalfMse": 42.04552004742981,
+            "cql": 1.1170802880331316,
+            "bc": 0.36902367206282627,
+            "rank": 0.5423902408146613,
+            "teacherAgreement": 0.8820581053746996
+          },
+          "validation": {
+            "loss": 0.44644388800529455,
+            "mcHalfMse": 41.65660663708546,
+            "cql": 1.2052757643370617,
+            "bc": 0.39309860362758997,
+            "rank": 0.5334528290371541,
+            "teacherAgreement": 0.8716922113997583
+          }
+        },
+        {
+          "epoch": 9,
+          "training": {
+            "loss": 0.40283244498491944,
+            "mcHalfMse": 51.03246376756088,
+            "cql": 1.1752007304236494,
+            "bc": 0.34909995597548715,
+            "rank": 0.5373248825962592,
+            "teacherAgreement": 0.8862311664015107
+          },
+          "validation": {
+            "loss": 0.425071221095978,
+            "mcHalfMse": 50.47656654928266,
+            "cql": 1.2639002058406827,
+            "bc": 0.37247074398354596,
+            "rank": 0.5260047812032296,
+            "teacherAgreement": 0.8740694401560254
+          }
+        },
+        {
+          "epoch": 10,
+          "training": {
+            "loss": 0.3897016764016528,
+            "mcHalfMse": 61.455320413055475,
+            "cql": 1.221281850431798,
+            "bc": 0.3362718445833216,
+            "rank": 0.5342982994789313,
+            "teacherAgreement": 0.8878263038948421
+          },
+          "validation": {
+            "loss": 0.4156763829269892,
+            "mcHalfMse": 61.220283755534226,
+            "cql": 1.3209402997157407,
+            "bc": 0.3631197413653929,
+            "rank": 0.5255664389469791,
+            "teacherAgreement": 0.8746324680729288
+          }
+        },
+        {
+          "epoch": 11,
+          "training": {
+            "loss": 0.376578842583702,
+            "mcHalfMse": 73.85660432755725,
+            "cql": 1.2789536248177917,
+            "bc": 0.3232376897436076,
+            "rank": 0.5334115187787282,
+            "teacherAgreement": 0.8935189034991137
+          },
+          "validation": {
+            "loss": 0.40433338341356473,
+            "mcHalfMse": 73.40922084804771,
+            "cql": 1.3854821516418212,
+            "bc": 0.3520712999783719,
+            "rank": 0.5226207944706973,
+            "teacherAgreement": 0.8795120425958127
+          }
+        },
+        {
+          "epoch": 12,
+          "training": {
+            "loss": 0.3775281162778788,
+            "mcHalfMse": 84.13393982265126,
+            "cql": 1.3705887493851132,
+            "bc": 0.32437327757623186,
+            "rank": 0.5315483938328797,
+            "teacherAgreement": 0.8969662148226271
+          },
+          "validation": {
+            "loss": 0.4116880497579691,
+            "mcHalfMse": 83.52508638135559,
+            "cql": 1.4925937621266092,
+            "bc": 0.3590739825031405,
+            "rank": 0.5261406310804566,
+            "teacherAgreement": 0.8823271817627046
+          }
+        }
+      ],
+      "trainingSamples": 132277,
+      "validationSamples": 15985,
+      "trainingHash": "c3ac4e598b229f99fe1eac00b500f8e2d1de4ccde529b6573ffc1e565100e3f6",
+      "validationHash": "d430e4fe1d9f6e16182cc3e70b2282c0221c6c3856339e3f8fd463f8d56fe379",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0.05,
+        "bcWeight": 0.1,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "bc",
+      "seed": "9defc78e4f90032fb4f659326306dd219ca03ec0a0d5b8fc556a36ada711c8bc",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    },
+    "offline": {
+      "selected": {
+        "epoch": 8,
+        "path": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.json",
+        "state": "C:\\Users\\zhaox\\Desktop\\卡五星\\ai-runs\\strong-pool-20261020\\model-offline\\epoch-008.pt",
+        "validationLoss": 0.337738166235371
+      },
+      "history": [
+        {
+          "epoch": 0,
+          "training": {
+            "loss": 74.00621658134051,
+            "mcHalfMse": 73.85660432755725,
+            "cql": 1.2789536248177917,
+            "bc": 0.3232376897436076,
+            "rank": 0.5334115187787282,
+            "teacherAgreement": 0.8935189034991137
+          },
+          "validation": {
+            "loss": 73.56596407110257,
+            "mcHalfMse": 73.40922084804771,
+            "cql": 1.3854821516418212,
+            "bc": 0.3520712999783719,
+            "rank": 0.5226207944706973,
+            "teacherAgreement": 0.8795120425958127
+          }
+        },
+        {
+          "epoch": 1,
+          "training": {
+            "loss": 0.35802099480489974,
+            "mcHalfMse": 0.06080918506628113,
+            "cql": 1.5954463728915582,
+            "bc": 1.5662633136206678,
+            "rank": 0.6081315524516699,
+            "teacherAgreement": 0.6987911730902657
+          },
+          "validation": {
+            "loss": 0.3577104636792806,
+            "mcHalfMse": 0.06517012321742989,
+            "cql": 1.5829214000314111,
+            "bc": 1.5518340898372993,
+            "rank": 0.5821085505460177,
+            "teacherAgreement": 0.7017203629818566
+          }
+        },
+        {
+          "epoch": 2,
+          "training": {
+            "loss": 0.34808249099934796,
+            "mcHalfMse": 0.0548651639676522,
+            "cql": 1.586795147300344,
+            "bc": 1.5572042670226107,
+            "rank": 0.5815713501619482,
+            "teacherAgreement": 0.704914686625804
+          },
+          "validation": {
+            "loss": 0.34855456451978917,
+            "mcHalfMse": 0.059718790545029536,
+            "cql": 1.5742767516844043,
+            "bc": 1.5427295052486922,
+            "rank": 0.558489788818404,
+            "teacherAgreement": 0.7062871443132778
+          }
+        },
+        {
+          "epoch": 3,
+          "training": {
+            "loss": 0.34345509130479956,
+            "mcHalfMse": 0.054098768058910236,
+            "cql": 1.5701232258576376,
+            "bc": 1.5392807543471954,
+            "rank": 0.5692208135573756,
+            "teacherAgreement": 0.719800116426862
+          },
+          "validation": {
+            "loss": 0.3444208274623697,
+            "mcHalfMse": 0.05912901779865712,
+            "cql": 1.5580034575389257,
+            "bc": 1.5251319831708539,
+            "rank": 0.548784307919706,
+            "teacherAgreement": 0.7189865499800133
+          }
+        },
+        {
+          "epoch": 4,
+          "training": {
+            "loss": 0.34018081206725365,
+            "mcHalfMse": 0.054988670794329834,
+            "cql": 1.5486096623625614,
+            "bc": 1.5161776580000688,
+            "rank": 0.5614388669867418,
+            "teacherAgreement": 0.7195657597531019
+          },
+          "validation": {
+            "loss": 0.3420798170462152,
+            "mcHalfMse": 0.06061732336216917,
+            "cql": 1.5368828433582398,
+            "bc": 1.5021175798938766,
+            "rank": 0.5440658713229791,
+            "teacherAgreement": 0.7180481701968124
+          }
+        },
+        {
+          "epoch": 5,
+          "training": {
+            "loss": 0.338256849531119,
+            "mcHalfMse": 0.05536156385012523,
+            "cql": 1.536207450801791,
+            "bc": 1.5028882302947155,
+            "rank": 0.5579608484155373,
+            "teacherAgreement": 0.7133515275142824
+          },
+          "validation": {
+            "loss": 0.34093984091397495,
+            "mcHalfMse": 0.06145289309199318,
+            "cql": 1.5251287956255695,
+            "bc": 1.4892325099274482,
+            "rank": 0.5430725691036614,
+            "teacherAgreement": 0.7115420708329669
+          }
+        },
+        {
+          "epoch": 6,
+          "training": {
+            "loss": 0.33781542615964155,
+            "mcHalfMse": 0.05414802561481806,
+            "cql": 1.5416396023139798,
+            "bc": 1.5089974491483613,
+            "rank": 0.556856695042462,
+            "teacherAgreement": 0.7070163369351807
+          },
+          "validation": {
+            "loss": 0.34042239351163706,
+            "mcHalfMse": 0.0602159905222046,
+            "cql": 1.530007719866813,
+            "bc": 1.4948474313752667,
+            "rank": 0.5422127035266726,
+            "teacherAgreement": 0.7100406632111675
+          }
+        },
+        {
+          "epoch": 7,
+          "training": {
+            "loss": 0.33605219584400214,
+            "mcHalfMse": 0.05346252641868362,
+            "cql": 1.5360931016620967,
+            "bc": 1.502943215322449,
+            "rank": 0.5549068725130865,
+            "teacherAgreement": 0.7260823877383146
+          },
+          "validation": {
+            "loss": 0.339034640082427,
+            "mcHalfMse": 0.0596444749199658,
+            "cql": 1.5252359878580606,
+            "bc": 1.489426485090879,
+            "rank": 0.5418571139578898,
+            "teacherAgreement": 0.7244291524981051
+          }
+        },
+        {
+          "epoch": 8,
+          "training": {
+            "loss": 0.33447305380190034,
+            "mcHalfMse": 0.054052113795072396,
+            "cql": 1.5226342694399986,
+            "bc": 1.4885997796405257,
+            "rank": 0.5542924441193009,
+            "teacherAgreement": 0.7224007196748007
+          },
+          "validation": {
+            "loss": 0.337738166235371,
+            "mcHalfMse": 0.060510329937362516,
+            "cql": 1.5119889915231846,
+            "bc": 1.475259138518361,
+            "rank": 0.5410246809963737,
+            "teacherAgreement": 0.7223021584150748
+          }
+        }
+      ],
+      "trainingSamples": 132277,
+      "validationSamples": 15985,
+      "trainingHash": "c3ac4e598b229f99fe1eac00b500f8e2d1de4ccde529b6573ffc1e565100e3f6",
+      "validationHash": "d430e4fe1d9f6e16182cc3e70b2282c0221c6c3856339e3f8fd463f8d56fe379",
+      "config": {
+        "learningRate": 0.001,
+        "batchSize": 256,
+        "maxGradNorm": 5,
+        "cqlWeight": 0.05,
+        "bcWeight": 0.1,
+        "auxWeight": 0.1
+      },
+      "network": {
+        "channels": 24,
+        "blocks": 2,
+        "globalSize": 64,
+        "localSize": 32,
+        "useTiles": true
+      },
+      "mode": "q",
+      "seed": "9defc78e4f90032fb4f659326306dd219ca03ec0a0d5b8fc556a36ada711c8bc",
+      "torch": "2.1.2+cpu",
+      "parameters": 21765
+    }
+  }
+}

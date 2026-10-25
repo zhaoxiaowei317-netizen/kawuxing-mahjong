@@ -1,0 +1,284 @@
+{
+  "version": "kwx-public-net-score-study-1",
+  "completedAt": "2026-10-18T13:10:23.780Z",
+  "selected": "ev-mixed",
+  "development": [
+    {
+      "arm": "proposal-once",
+      "delta": 6.77083333333333,
+      "ci95": [
+        -1.041666666666667,
+        14.583333333333329
+      ],
+      "games": 960,
+      "seconds": 60.559706899999995,
+      "search": {
+        "decisions": 4457,
+        "proposals": 94,
+        "searches": 0,
+        "changed": 94,
+        "hypotheticalGames": 0,
+        "hypotheticalDecisions": 0,
+        "fallbacks": {
+          "wall-outside-search-range": 673,
+          "no-structural-disagreement": 1317,
+          "revealed-reserved-triplet-unknown": 213,
+          "preserve-H0-special-action": 1643
+        },
+        "modeledOpponentWins": 0,
+        "modeledDraws": 0
+      }
+    },
+    {
+      "arm": "ev-H0",
+      "delta": 8.593749999999998,
+      "ci95": [
+        -7.8125,
+        24.999999999999996
+      ],
+      "games": 960,
+      "seconds": 322.9432874,
+      "search": {
+        "decisions": 4475,
+        "proposals": 93,
+        "searches": 93,
+        "changed": 52,
+        "hypotheticalGames": 2976,
+        "hypotheticalDecisions": 60584,
+        "fallbacks": {
+          "wall-outside-search-range": 678,
+          "no-structural-disagreement": 1321,
+          "revealed-reserved-triplet-unknown": 222,
+          "preserve-H0-special-action": 1639
+        },
+        "modeledOpponentWins": 1748,
+        "modeledDraws": 173
+      }
+    },
+    {
+      "arm": "ev-mixed",
+      "delta": 24.739583333333332,
+      "ci95": [
+        3.125,
+        46.354166666666664
+      ],
+      "games": 960,
+      "seconds": 202.60253350000008,
+      "search": {
+        "decisions": 4439,
+        "proposals": 95,
+        "searches": 95,
+        "changed": 54,
+        "hypotheticalGames": 3040,
+        "hypotheticalDecisions": 63250,
+        "fallbacks": {
+          "wall-outside-search-range": 676,
+          "no-structural-disagreement": 1298,
+          "revealed-reserved-triplet-unknown": 222,
+          "preserve-H0-special-action": 1642
+        },
+        "modeledOpponentWins": 1689,
+        "modeledDraws": 248
+      }
+    }
+  ],
+  "sealed": {
+    "H0": {
+      "primary": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 10.611979166666666,
+        "incumbentPer100": 12.044270833333332,
+        "deltaPer100": -1.4322916666666665,
+        "ci95": [
+          -13.997395833333332,
+          10.418294270833309
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "independent": {
+        "groups": 32,
+        "hands": 192,
+        "candidatePer100": 13.541666666666666,
+        "incumbentPer100": 14.58333333333333,
+        "deltaPer100": -1.0416666666666643,
+        "ci95": [
+          -28.645833333333332,
+          26.04166666666667
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 8,
+          "hands": 768,
+          "candidatePer100": -2.34375,
+          "incumbentPer100": 0,
+          "deltaPer100": -2.34375,
+          "ci95": [
+            -21.614583333333332,
+            14.583333333333336
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 8,
+          "hands": 768,
+          "candidatePer100": 23.567708333333332,
+          "incumbentPer100": 24.088541666666664,
+          "deltaPer100": -0.520833333333333,
+          "ci95": [
+            -17.451171875,
+            15.364583333333332
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      },
+      "games": 3456,
+      "seconds": 1130.0872487000001,
+      "search": {
+        "ev-mixed": {
+          "decisions": 16353,
+          "proposals": 347,
+          "searches": 347,
+          "changed": 165,
+          "hypotheticalGames": 11104,
+          "hypotheticalDecisions": 236128,
+          "fallbacks": {
+            "wall-outside-search-range": 2457,
+            "no-structural-disagreement": 4377,
+            "preserve-H0-special-action": 6315,
+            "revealed-reserved-triplet-unknown": 798
+          },
+          "modeledOpponentWins": 6335,
+          "modeledDraws": 878
+        }
+      }
+    },
+    "proposal-once": {
+      "primary": {
+        "groups": 16,
+        "hands": 1536,
+        "candidatePer100": 25.846354166666664,
+        "incumbentPer100": 22.916666666666664,
+        "deltaPer100": 2.9296875000000036,
+        "ci95": [
+          -5.8593749999999964,
+          11.329752604166647
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "independent": {
+        "groups": 32,
+        "hands": 192,
+        "candidatePer100": 9.375000000000005,
+        "incumbentPer100": 31.250000000000007,
+        "deltaPer100": -21.875,
+        "ci95": [
+          -71.88802083333333,
+          11.979166666666664
+        ],
+        "bootstrapSamples": 5000,
+        "weighting": "Opponent pairs have equal weight; opening-seed groups have equal weight within each pair."
+      },
+      "byOpponentPair": {
+        "H0+H0": {
+          "groups": 8,
+          "hands": 768,
+          "candidatePer100": 22.916666666666664,
+          "incumbentPer100": 28.385416666666664,
+          "deltaPer100": -5.468749999999998,
+          "ci95": [
+            -14.84375,
+            3.645833333333335
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        },
+        "H0+greedy-speed-v1": {
+          "groups": 8,
+          "hands": 768,
+          "candidatePer100": 28.776041666666668,
+          "incumbentPer100": 17.447916666666664,
+          "deltaPer100": 11.328125000000005,
+          "ci95": [
+            -2.9947916666666647,
+            25.654296874999957
+          ],
+          "bootstrapSamples": 5000,
+          "weighting": "Each opening-seed group has equal weight within its opponent pair."
+        }
+      },
+      "games": 3456,
+      "seconds": 1220.8358147,
+      "search": {
+        "ev-mixed": {
+          "decisions": 16210,
+          "proposals": 354,
+          "searches": 354,
+          "changed": 203,
+          "hypotheticalGames": 11328,
+          "hypotheticalDecisions": 242264,
+          "fallbacks": {
+            "wall-outside-search-range": 2469,
+            "no-structural-disagreement": 4543,
+            "preserve-H0-special-action": 6018,
+            "revealed-reserved-triplet-unknown": 783
+          },
+          "modeledOpponentWins": 6352,
+          "modeledDraws": 938
+        },
+        "proposal-once": {
+          "decisions": 16161,
+          "proposals": 351,
+          "searches": 0,
+          "changed": 351,
+          "hypotheticalGames": 0,
+          "hypotheticalDecisions": 0,
+          "fallbacks": {
+            "wall-outside-search-range": 2469,
+            "no-structural-disagreement": 4588,
+            "preserve-H0-special-action": 5972,
+            "revealed-reserved-triplet-unknown": 781
+          },
+          "modeledOpponentWins": 0,
+          "modeledDraws": 0
+        }
+      }
+    }
+  },
+  "games": 9792,
+  "trainingHands": 0,
+  "productionPolicy": "H0",
+  "sourceHashes": {
+    "src/engine.js": "a733202f6f0c5124ef4b3a3e53212a46bee3e12db7828165f9b22e57c622f43b",
+    "src/wall.js": "b30910b754f8119dd22a3875b39aa59f09e2ebc933b466382a2574334378c90a",
+    "package.json": "57e281181714a5a98cc9540e25ac4d525748a2bbaec8e86f0c1a3872ba8624b5",
+    "ai/environment.mjs": "dfbde244a56f4e0b95ead006673c7a5f5e2c1c544736d3ad85b2ca30cd2c5336",
+    "ai/random.mjs": "655df2239b7277aabf799607b7f580cdb73c173eb1b7353daef999b510b57f6f",
+    "ai/runner.mjs": "8c93e42c731c7c0624c24538374a3c58080615f8940c92df3e89a45826e346a8",
+    "ai/statistics.mjs": "de6b31e6f8b86eda3e8797a2836e29cc1b4d3c2fb96133270bcffed1e3c63757",
+    "ai/policies/h0.mjs": "b29c6990989a00dd9e05b1ebeed1ae1b198e466f455096d4b5d210734d711ef4",
+    "ai/policies/H0.manifest.json": "1f311cc591af91988e67a3d60f810cc2414b9b4b03d6eb6657cd61cdbb02c1d2",
+    "ai/policies/index.mjs": "9a85d52ffedea321d757be08f4a09718af6a81abce23ab375efce64a902027d5",
+    "ai/provenance.mjs": "a4eb5318c26b7b6fbcf2c6c6b12b88fd5d99c469ee776b93faea24a312b49196",
+    "ai/evaluate.mjs": "c8d09047843cf4c26a09dc3b14305f3a7bfaf832fb3dca2c512a48ea85ccb21d",
+    "ai/training/encoding.mjs": "3c34e3fd00e56667c52b4f4eb6c37ddc032b40ae4fe92ed63686734489074ca8",
+    "ai/training/network.mjs": "f0348695ea8601035648c029860517d3e3d91cd2e54c96655ad9a5ba243bf9e4",
+    "ai/training/policy.mjs": "3d0b17c4491480353beb808042331f3bdc492b66642675b0b68f966c6d2eef15",
+    "ai/training/checkpoint.mjs": "b38a98ddda81319486864b923f9451f042da667bc1b86f2f258759ce6996ea5d",
+    "ai/lookahead/policy.mjs": "129cd0ca889453235bac9173f3f091ef6a01cddd4e62950c1e7c4615eeb0bc7b",
+    "ai/public-rollout/sampler.mjs": "5299d114f0a4a949fe3d799891eed8b94c6f86fb314b342ab864396ff774ec9d",
+    "ai/public-rollout/policy.mjs": "6463f6f39de8f9c6911a32f1249dee87df6d342a5200cd999d77445032126c01",
+    "ai/public-rollout/study.mjs": "fb0b328c490f9a6c041fcf05e655a840982fea24c29a3620c002c285a842f485"
+  },
+  "planSha256": "8de58373842cdbed0e185eb49dbf964adef73d4a6e96c3437a0ada525f724922",
+  "selectionSha256": "944f0e0e0d3c021d6f90911c0149185bfaae4e9a1286e298c434fad1dd03a776",
+  "positiveSealedEvidence": false,
+  "positiveRolloutFilterEvidence": false
+}

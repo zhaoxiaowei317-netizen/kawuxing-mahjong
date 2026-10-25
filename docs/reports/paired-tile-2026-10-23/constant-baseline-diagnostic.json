@@ -1,0 +1,17 @@
+{
+  "kind": "posthoc-descriptive-prediction-diagnostic",
+  "createdAt": "2026-10-23T03:59:10.496Z",
+  "planSha256": "debaa1b3497ad038befaf390c357a7f63716ab8202ebf48f2d4506239ea76357",
+  "trainingSha256": "a0ff673726de4a89d69c9d3b55596c96306ad3cffb05754280f281aa409d3071",
+  "validationSha256": "60ab27f8024a355c97546b7516b9538871310d7070e50c4437b8197870896da8",
+  "trainingRoots": 2810,
+  "validationRoots": 419,
+  "trainingMeanNormalizedGain": -0.0032473309608540926,
+  "trainingMeanRawGain": -0.05195729537366548,
+  "validationZeroMse": 0.028695554892601432,
+  "validationTrainingMeanConstantMse": 0.028793289724740802,
+  "validationSelectedNetworkMse": 0.028322429247289397,
+  "networkRelativeMseReductionVsConstant": 0.016353132342735277,
+  "use": "Computed only after frozen evaluation. No model, epoch, threshold, sample-budget or primary-inference changes; not a new tested candidate or formal strength comparison.",
+  "sourceSha256": "bc035d1298173efbd1eec1e681ba6edd80bc58a758ef173e1cf7753cd3ed2c1e"
+}

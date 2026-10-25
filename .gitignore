@@ -1,0 +1,16 @@
+node_modules/
+ai-runs/
+data/
+.tmp/
+dist/
+__pycache__/
+*.pyc
+
+# Local credentials and profiling artifacts do not belong in the public repository.
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.cpuprofile
